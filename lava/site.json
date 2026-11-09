@@ -1,0 +1,63 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "Lava",
+  "ticker": "LAVA",
+  "template": "c51-flora-floor",
+  "domain": "lavaonelysium.lol",
+  "ca": "TBA",
+  "chain": "elysium",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "not_connected",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "lavaonelysium.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.lavaonelysium.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "The previous name of Elysium before it rebranded into Elysium was $Lava",
+  "x_url": "",
+  "tg_url": "",
+  "ref_x_url": "https://x.com/TheNFTBoi6/status/2119866339372224759",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "elysiumswap",
+  "dex_auto": true,
+  "dex_name": "ElysiumSwap",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [],
+  "characters": [],
+  "backgrounds": [],
+  "resolved": {
+    "dex_name": "ElysiumSwap",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://elysiumswap.finance/",
+    "chart_page": "https://dexscreener.com/elysium",
+    "chart_embed": "https://dexscreener.com/elysium?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Elysium"
+  },
+  "site_slug": "lava",
+  "project_id": "pmw9nb85wtogzw",
+  "exported_at": "2026-11-09T19:19:55.537Z"
+}
