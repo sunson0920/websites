@@ -4,7 +4,7 @@
   "ticker": "ETHEL",
   "template": "c56-heist-vault",
   "domain": "ethelelysium.lol",
-  "ca": "TBA",
+  "ca": "0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
   "chain": "elysium",
   "theme_mode": "original",
   "theme_preset": "",
@@ -52,12 +52,12 @@
     "dex_name": "ElysiumSwap",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://elysiumswap.finance/",
-    "chart_page": "https://dexscreener.com/elysium",
-    "chart_embed": "https://dexscreener.com/elysium?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://elysiumswap.finance/swap?out=0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
+    "chart_page": "https://dexscreener.com/elysium/0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
+    "chart_embed": "https://dexscreener.com/elysium/0x9e1efeb135bf73659d334f7e9b77d85b5af6c129?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Elysium"
   },
   "site_slug": "ethel11",
   "project_id": "pmw9gnrzy3dorw",
-  "exported_at": "2026-11-09T16:46:22.951Z"
+  "exported_at": "2026-11-09T17:18:29.614Z"
 }
