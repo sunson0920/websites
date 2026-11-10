@@ -45,9 +45,26 @@
   "vercel_cname": "",
   "logo": "assets/logo.webp",
   "banner": "assets/banner.webp",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp"
+  ],
   "resolved": {
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
