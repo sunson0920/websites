@@ -4,12 +4,12 @@
   "ticker": "DacityCoin",
   "template": "c33-cartoonmoney",
   "domain": "audacityeth.lol",
-  "ca": "TBA",
+  "ca": "0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
-  "theme_primary": "#fb0b9b",
-  "theme_secondary": "#f6f4f2",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
   "domain_status": "live",
   "dns_records": [
     {
@@ -44,7 +44,7 @@
   "vercel_a": "",
   "vercel_cname": "",
   "logo": "assets/logo.png",
-  "banner": "assets/banner.webp",
+  "banner": "assets/banner.png",
   "images": [
     "assets/meme1.webp",
     "assets/meme2.webp",
@@ -55,7 +55,8 @@
     "assets/meme7.webp",
     "assets/meme8.webp",
     "assets/meme9.webp",
-    "assets/meme10.webp"
+    "assets/meme10.webp",
+    "assets/gpt-banner.webp"
   ],
   "characters": [
     "assets/char1.webp",
@@ -66,21 +67,20 @@
     "assets/gpt-bg1.webp",
     "assets/gpt-bg2.webp",
     "assets/gpt-bg3.webp",
-    "assets/gpt-bg4.webp",
-    "assets/gpt-banner.webp"
+    "assets/gpt-bg4.webp"
   ],
   "resolved": {
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/",
-    "chart_page": "https://dexscreener.com/ethereum",
-    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
+    "chart_page": "https://dexscreener.com/ethereum/0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
+    "chart_embed": "https://dexscreener.com/ethereum/0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Ethereum"
   },
   "site_slug": "dacitycoin",
   "project_id": "pmwasm1gkdix6p",
-  "exported_at": "2026-11-10T14:49:52.459Z",
+  "exported_at": "2026-11-10T15:22:40.089Z",
   "copy_overrides": [
     {
       "find": "</head>",
