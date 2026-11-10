@@ -1268,7 +1268,7 @@ html[data-theme-mode="preset"],html[data-theme-mode="custom"]{--acc:var(--theme-
 <link rel="canonical" href="https://chilloneth.lol/">
 <meta property="og:url" content="https://chilloneth.lol/">
 <!-- chill-sol-theme -->
-<link rel="stylesheet" href="assets/chill-theme.css?v=80f8f80e">
+<link rel="stylesheet" href="assets/chill-theme.css?v=b552c4a4">
 <style id="chill-sol-theme">
 /* CHILL Sol/GTA meme theme — keeps c09 layout, restyles skin to match chillonsol.fun */
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700;800&display=swap");
@@ -1567,7 +1567,7 @@ html[data-theme-mode="preset"] body.a-c09-manifesting .hero {
   box-shadow: inset 0 -40px 80px rgba(20,10,22,.35);
 }
 
-/* GTA video loops */
+/* GTA video loops + middle-section layout */
 body.a-c09-manifesting .hero .bg {
   animation: none !important;
   overflow: hidden;
@@ -1592,8 +1592,124 @@ body.a-c09-manifesting .hero .bg::after {
 body.a-c09-manifesting .hero-stage,
 body.a-c09-manifesting .hero-scroll { position: relative; z-index: 2; }
 
+/* Channels: 6 visible tiles fit a 3x2 grid (empty X/TG links are hidden) */
+body.a-c09-manifesting .channel-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 16px !important;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 800px) {
+  body.a-c09-manifesting .channel-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+body.a-c09-manifesting .channel-grid a {
+  min-width: 0;
+}
+body.a-c09-manifesting .channel-grid a > span:first-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+/* Gallery: 9 cards (8 stills + pool video) fill a 3x3 grid on desktop */
+body.a-c09-manifesting .ck-gal {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 22px !important;
+  align-items: stretch;
+  justify-items: stretch;
+}
+@media (max-width: 700px) {
+  body.a-c09-manifesting .ck-gal {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 14px !important;
+  }
+  /* Odd last card stays the same size and is centered, not stretched */
+  body.a-c09-manifesting .ck-gal > :last-child {
+    grid-column: 1 / -1;
+    width: 100%;
+    max-width: calc((100% - 14px) / 2);
+    justify-self: center;
+  }
+}
+
+/* Image + video cards share one sticker frame and 1:1 ratio */
+body.a-c09-manifesting .ck-card,
+body.a-c09-manifesting .ck-vidcard {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  box-sizing: border-box;
+  border: 3px solid #140A16 !important;
+  border-radius: 14px !important;
+  box-shadow: 6px 6px 0 #140A16 !important;
+  background: #140A16 !important;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: 0;
+}
+body.a-c09-manifesting .ck-card:nth-child(odd),
+body.a-c09-manifesting .ck-vidcard:nth-child(odd) { transform: rotate(-1.15deg) !important; }
+body.a-c09-manifesting .ck-card:nth-child(even),
+body.a-c09-manifesting .ck-vidcard:nth-child(even) { transform: rotate(1.15deg) !important; }
+body.a-c09-manifesting .ck-card:hover,
+body.a-c09-manifesting .ck-vidcard:hover {
+  transform: translate(-2px, -2px) rotate(0) scale(1.02) !important;
+  box-shadow: 8px 8px 0 #140A16 !important;
+  z-index: 2;
+}
+body.a-c09-manifesting .ck-card img,
+body.a-c09-manifesting .ck-card img.gimg,
+body.a-c09-manifesting .ck-vidcard video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block;
+  background: #2A1631;
+  filter: none !important;
+  transform: none !important;
+}
+body.a-c09-manifesting .ck-card:hover img,
+body.a-c09-manifesting .ck-card:hover img.gimg { transform: none !important; }
+
+/* Same caption badge on stills and the pool video card */
+body.a-c09-manifesting .ck-card span,
+body.a-c09-manifesting .ck-vidcard span {
+  position: absolute !important;
+  left: 10px !important;
+  right: auto !important;
+  bottom: 10px !important;
+  display: inline-block !important;
+  width: auto !important;
+  max-width: calc(100% - 20px);
+  font-family: "Inter", system-ui, sans-serif !important;
+  font-weight: 800 !important;
+  font-size: 11px !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase !important;
+  color: #140A16 !important;
+  background: #FFC53D !important;
+  padding: 6px 9px !important;
+  border: 3px solid #140A16 !important;
+  border-radius: 8px !important;
+  line-height: 1.2;
+  box-sizing: border-box;
+}
+
+/* Join: featured cruise clip sits under the copy, above the CTAs */
+body.a-c09-manifesting .join .wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 body.a-c09-manifesting .join-vid {
-  margin: 0 auto 28px;
+  margin: 28px auto 6px;
+  width: 100%;
   max-width: min(720px, 100%);
   border: 3px solid #140A16;
   border-radius: 14px;
@@ -1607,43 +1723,13 @@ body.a-c09-manifesting .join-vid video {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  vertical-align: top;
 }
-
-body.a-c09-manifesting .ck-vidcard {
-  position: relative;
-  border: 3px solid #140A16;
-  border-radius: 14px 14px 16px 16px;
-  box-shadow: 6px 6px 0 #140A16;
-  background: #FFF3E3;
-  overflow: hidden;
-  aspect-ratio: 1;
-  transform: rotate(1.2deg);
-}
-body.a-c09-manifesting .ck-vidcard video {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  background: #2A1631;
-}
-body.a-c09-manifesting .ck-vidcard span {
-  display: block;
-  font-family: "Inter", system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 11px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  color: #140A16;
-  background: #FFC53D;
-  padding: 9px 10px 10px;
-  border-top: 3px solid #140A16;
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-}
+body.a-c09-manifesting .join .cta-row { margin-top: 22px; }
 
 @media (prefers-reduced-motion: reduce) {
   body.a-c09-manifesting .hero .bg .hero-vid { display: none; }
+  body.a-c09-manifesting .ck-card,
+  body.a-c09-manifesting .ck-vidcard { transform: none !important; }
 }
 
 </style>
@@ -1734,9 +1820,9 @@ body.a-c09-manifesting .ck-vidcard span {
 <section class="join">
   <div class="slot" data-bg="3" aria-hidden="true"></div>
   <div class="wrap reveal rv">
-    <div class="join-vid"><video autoplay muted loop playsinline preload="metadata" poster="assets/gpt-bg4.webp" width="848" height="480" aria-label="CHILL iguana driving a pink convertible through Vice City"><source src="assets/vid-cruise.mp4" type="video/mp4"></video></div>
     <h2 class="gold-grad">Join The $CHILL Crowd</h2>
     <div class="sub">Join the CHILL community. Buy $CHILL. Make memes. Never sell.</div>
+    <div class="join-vid"><video autoplay muted loop playsinline preload="metadata" poster="assets/gpt-bg4.webp" width="848" height="480" aria-label="CHILL iguana driving a pink convertible through Vice City"><source src="assets/vid-cruise.mp4" type="video/mp4"></video></div>
     <div class="cta-row" style="justify-content:center"><a class="btn-gold solid" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener"><img class="dexic" src="assets/dex.png?v=4247e573" alt="Uniswap V4"> Buy $CHILL <span class="arrow">↗</span> <span class="dexon">on Uniswap V4</span></a><a class="btn-gold" data-s href="">Join The Movement <span class="arrow">↗</span></a></div>
   </div>
 </section>
