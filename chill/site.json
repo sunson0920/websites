@@ -1,0 +1,63 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "CHILL",
+  "ticker": "CHILL",
+  "template": "c09-manifesting",
+  "domain": "chilloneth.lol",
+  "ca": "TBA",
+  "chain": "ethereum",
+  "theme_mode": "preset",
+  "theme_preset": "ethereum",
+  "theme_primary": "#627eea",
+  "theme_secondary": "#8fa4f3",
+  "domain_status": "not_connected",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "chilloneth.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.chilloneth.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "",
+  "x_url": "",
+  "tg_url": "",
+  "ref_x_url": "",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "uniswap-v4",
+  "dex_auto": false,
+  "dex_name": "Uniswap V4",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.webp",
+  "banner": "assets/banner.webp",
+  "images": [],
+  "characters": [],
+  "backgrounds": [],
+  "resolved": {
+    "dex_name": "Uniswap V4",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://app.uniswap.org/",
+    "chart_page": "https://dexscreener.com/ethereum",
+    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
+  },
+  "site_slug": "chill",
+  "project_id": "pmwaqw93xp2eh3",
+  "exported_at": "2026-11-10T13:48:01.561Z"
+}
