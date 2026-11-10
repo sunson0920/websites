@@ -1,0 +1,296 @@
+/* CHILL Sol/GTA meme theme — keeps c09 layout, restyles skin to match chillonsol.fun */
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700;800&display=swap");
+
+html[data-theme-mode="preset"],
+html[data-theme-mode="custom"],
+html {
+  --lime:#97F202;
+  --lime-d:#5E9A0C;
+  --lime-ink:#0B2A02;
+  --sky1:#C01D68;
+  --sky2:#EC2F58;
+  --sky3:#FC6639;
+  --sky4:#FD9222;
+  --sun:#FCEC60;
+  --amber:#FFC53D;
+  --teal:#19C3D9;
+  --violet:#5B2A86;
+  --ink:#140A16;
+  --plum:#3A0F2A;
+  --asphalt:#2B223A;
+  --panel:#4A2553;
+  --panel2:#5A3063;
+  --cream:#FFF3E3;
+  --muted:#D9C6D7;
+  --hard:6px 6px 0 var(--ink);
+  --hard-s:4px 4px 0 var(--ink);
+  --disp:"Russo One",system-ui,sans-serif;
+  --body:"Inter",system-ui,sans-serif;
+  --theme-1:#97F202;
+  --theme-2:#FC6639;
+  --theme-ink:#140A16;
+  --theme-glow:rgba(151,242,2,.28);
+  --theme-grad:linear-gradient(90deg,#97F202,#FCEC60 50%,#FC6639);
+  --gold:#FD9222;
+  --gold-bright:#FCEC60;
+  --gold-deep:#EC2F58;
+  --acc:#97F202;
+  --acc2:#FD9222;
+  --btnfg:#140A16;
+  --bg:#2A1631;
+  --fg:#FFF3E3;
+  --mut:#D9C6D7;
+  --card:#4A2553;
+  --line:#140A16;
+  --fd:"Russo One",system-ui,sans-serif;
+  --fb:"Inter",system-ui,sans-serif;
+  --fm:"Inter",system-ui,sans-serif;
+  --fbtn:"Inter",system-ui,sans-serif;
+  --black:#140A16;
+  --coal:#331B3B;
+  --hairline:#140A16;
+  --hairline-soft:rgba(20,10,22,.4);
+}
+
+html, body.a-c09-manifesting {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--body);
+}
+
+/* Type: Russo One display, Inter body — not Cinzel/Cormorant */
+body.a-c09-manifesting .wordmark,
+body.a-c09-manifesting .wordmark.gold-grad,
+body.a-c09-manifesting h1,
+body.a-c09-manifesting h2,
+body.a-c09-manifesting h3,
+body.a-c09-manifesting .ck-h2,
+body.a-c09-manifesting .sec-title,
+body.a-c09-manifesting .join h2,
+body.a-c09-manifesting .about h2,
+body.a-c09-manifesting .tok-cell .v,
+body.a-c09-manifesting .fb,
+body.a-c09-manifesting .nav .brand {
+  font-family: var(--disp) !important;
+  letter-spacing: -0.02em !important;
+  text-indent: 0 !important;
+  text-transform: none;
+}
+
+body.a-c09-manifesting,
+body.a-c09-manifesting p,
+body.a-c09-manifesting .about p,
+body.a-c09-manifesting .join .sub,
+body.a-c09-manifesting .eyebrow,
+body.a-c09-manifesting .ck-kick,
+body.a-c09-manifesting .channels-rule,
+body.a-c09-manifesting .hero-tagline,
+body.a-c09-manifesting .btn-gold,
+body.a-c09-manifesting .btn,
+body.a-c09-manifesting .tok-cell .k,
+body.a-c09-manifesting .step,
+body.a-c09-manifesting footer,
+body.a-c09-manifesting .mbar {
+  font-family: var(--body) !important;
+}
+
+/* Wordmark: GTA lime, hard ink shadow (no gold serif) */
+body.a-c09-manifesting .wordmark,
+body.a-c09-manifesting .wordmark.gold-grad {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #97F202 !important;
+  color: #97F202 !important;
+  animation: none !important;
+  text-shadow: 5px 5px 0 #140A16, -1px 0 0 #140A16, 1px 0 0 #140A16;
+  font-weight: 400;
+}
+
+body.a-c09-manifesting .gold-grad:not(.wordmark) {
+  background: none !important;
+  -webkit-background-clip: unset !important;
+  background-clip: unset !important;
+  -webkit-text-fill-color: #FFF3E3 !important;
+  color: #FFF3E3 !important;
+}
+
+body.a-c09-manifesting .hero-tagline {
+  color: #FFF3E3;
+  font-weight: 800;
+  letter-spacing: .14em !important;
+  text-transform: uppercase;
+}
+
+body.a-c09-manifesting .nav .brand {
+  color: #97F202 !important;
+  text-shadow: 2px 2px 0 #140A16;
+  font-size: 22px;
+}
+
+body.a-c09-manifesting .nav {
+  background: #140A16;
+  border-bottom: 3px solid #97F202;
+}
+
+body.a-c09-manifesting .eyebrow,
+body.a-c09-manifesting .ck-kick,
+body.a-c09-manifesting .channels-rule {
+  color: #97F202 !important;
+  letter-spacing: .18em !important;
+  font-weight: 800;
+}
+
+/* Lime hard-shadow buttons (chillonsol meme CTA) */
+body.a-c09-manifesting .btn-gold,
+body.a-c09-manifesting .btn-gold.solid,
+body.a-c09-manifesting a.btn-gold,
+body.a-c09-manifesting .btn.btn-main,
+body.a-c09-manifesting .mbar .btn-main,
+body.a-c09-manifesting .copy-btn,
+html[data-theme-mode="preset"] body.a-c09-manifesting .btn-gold,
+html[data-theme-mode="preset"] body.a-c09-manifesting .btn.btn-main,
+html[data-theme-mode="preset"] body.a-c09-manifesting a.btn[data-buy] {
+  background: #97F202 !important;
+  color: #140A16 !important;
+  border: 3px solid #140A16 !important;
+  border-radius: 12px !important;
+  box-shadow: 6px 6px 0 #140A16 !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase;
+  font-weight: 800 !important;
+}
+body.a-c09-manifesting .btn-gold:hover,
+body.a-c09-manifesting a.btn-gold:hover,
+body.a-c09-manifesting .btn.btn-main:hover,
+body.a-c09-manifesting .copy-btn:hover,
+html[data-theme-mode="preset"] body.a-c09-manifesting .btn-gold:hover {
+  background: #FCEC60 !important;
+  color: #140A16 !important;
+  border-color: #140A16 !important;
+  letter-spacing: .08em !important;
+  transform: translate(-2px,-2px);
+  box-shadow: 8px 8px 0 #140A16 !important;
+}
+
+/* Sticker / receipt frames for characters and gallery — not the logo */
+body.a-c09-manifesting .mani-figure img.gchar {
+  filter: drop-shadow(5px 6px 0 #140A16);
+  background: transparent;
+}
+body.a-c09-manifesting .about-card {
+  border: 3px solid #140A16 !important;
+  border-radius: 14px !important;
+  box-shadow: 8px 8px 0 #140A16 !important;
+  background: #4A2553 !important;
+  overflow: hidden;
+}
+body.a-c09-manifesting .about-card::after {
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  background: linear-gradient(180deg, transparent 60%, rgba(20,10,22,.35));
+}
+body.a-c09-manifesting .about-card .halo {
+  border: 3px solid #FCEC60 !important;
+  box-shadow: 0 0 28px #FD9222, inset 0 0 18px rgba(252,236,96,.35) !important;
+}
+body.a-c09-manifesting .about-card img.gchar {
+  object-fit: contain !important;
+  object-position: center 40% !important;
+  background: linear-gradient(180deg, #C01D68 0 20%, #EC2F58 20% 40%, #FC6639 40% 60%, #FD9222 60% 80%, #FCEC60 80%);
+}
+
+body.a-c09-manifesting .ck-card {
+  border: 3px solid #140A16 !important;
+  border-radius: 14px 14px 16px 16px !important;
+  box-shadow: 6px 6px 0 #140A16 !important;
+  background: #FFF3E3 !important;
+  overflow: hidden;
+}
+body.a-c09-manifesting .ck-card:nth-child(odd) { transform: rotate(-1.5deg) !important; }
+body.a-c09-manifesting .ck-card:nth-child(even) { transform: rotate(1.4deg) !important; }
+body.a-c09-manifesting .ck-card:hover {
+  transform: translate(-2px,-2px) rotate(0) scale(1.02) !important;
+  box-shadow: 8px 8px 0 #140A16 !important;
+}
+body.a-c09-manifesting .ck-card img.gimg {
+  background: #2A1631;
+  object-fit: cover;
+}
+body.a-c09-manifesting .ck-card span {
+  display: block;
+  font-family: var(--body) !important;
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #140A16;
+  background: #FFC53D;
+  padding: 9px 10px 10px;
+  border-top: 3px solid #140A16;
+}
+
+/* Panels, tokenomics, channels, steps — thick ink + hard shadow */
+body.a-c09-manifesting .tok-cell,
+body.a-c09-manifesting .channel-grid a,
+body.a-c09-manifesting .tok-ca,
+body.a-c09-manifesting .ca-box {
+  border: 3px solid #140A16 !important;
+  border-radius: 12px !important;
+  box-shadow: 4px 4px 0 #140A16;
+  background: #4A2553 !important;
+}
+body.a-c09-manifesting .channel-grid a:hover {
+  background: #5A3063 !important;
+  border-color: #140A16 !important;
+  transform: translate(-2px,-2px);
+  box-shadow: 6px 6px 0 #140A16;
+}
+body.a-c09-manifesting .tok-cell .v { color: #97F202 !important; }
+body.a-c09-manifesting .step {
+  border-top: 3px solid #140A16 !important;
+}
+body.a-c09-manifesting .step .num,
+body.a-c09-manifesting .step .n,
+html[data-theme-mode="preset"] body.a-c09-manifesting .step .n {
+  color: #97F202 !important;
+  border-color: #97F202 !important;
+  font-family: var(--disp) !important;
+}
+
+body.a-c09-manifesting .ck-sec,
+body.a-c09-manifesting footer,
+body.a-c09-manifesting .tokenomics-sec,
+body.a-c09-manifesting .buy,
+body.a-c09-manifesting .channels {
+  background: #2A1631;
+}
+body.a-c09-manifesting .ck-memes { border-top: 3px solid #140A16; }
+body.a-c09-manifesting footer {
+  border-top: 3px solid #97F202;
+  background: #140A16;
+}
+
+body.a-c09-manifesting .about p,
+body.a-c09-manifesting .join .sub {
+  color: #D9C6D7 !important;
+  font-style: normal !important;
+}
+
+/* Keep the real logo (footer, favicon, chart overlay) unstyled / unfiltered */
+body.a-c09-manifesting footer img,
+body.a-c09-manifesting .ck-chart .ov img,
+body.a-c09-manifesting img[src*="assets/logo."] {
+  filter: none !important;
+  box-shadow: none;
+}
+
+/* Hero background should read clearly (GTA keyart) */
+body.a-c09-manifesting .hero .bg { opacity: 1; }
+body.a-c09-manifesting .about .slot { opacity: .28; }
+body.a-c09-manifesting .join .slot { opacity: .6; }
+
+/* Dial back ethereum-preset indigo glows so sunset/keyart can show */
+html[data-theme-mode="preset"] body.a-c09-manifesting .hero {
+  box-shadow: inset 0 -40px 80px rgba(20,10,22,.35);
+}
