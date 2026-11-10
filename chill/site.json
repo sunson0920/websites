@@ -25,8 +25,8 @@
       "host": "www.chilloneth.lol"
     }
   ],
-  "tagline": "",
-  "about": "",
+  "tagline": "COLD BLOODED. CHAIN ON.",
+  "about": "CHILL ($CHILL) is the GTA iguana \u2014 the only animal with his own shot in the biggest game launch in history. Community-driven on Ethereum. No team allocation, no roadmap promises, just cold blood and a community that refuses to move.",
   "x_url": "",
   "tg_url": "",
   "ref_x_url": "",
@@ -60,11 +60,7 @@
     "assets/char2.webp",
     "assets/char3.webp"
   ],
-  "backgrounds": [
-    "assets/gpt-bg1.webp",
-    "assets/gpt-bg2.webp",
-    "assets/gpt-bg3.webp"
-  ],
+  "backgrounds": [],
   "resolved": {
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
@@ -76,5 +72,115 @@
   },
   "site_slug": "chill",
   "project_id": "pmwaqw93xp2eh3",
-  "exported_at": "2026-11-10T13:48:01.561Z"
+  "exported_at": "2026-11-10T13:48:01.561Z",
+  "copy_overrides": [
+    {
+      "find": "BELIEVE&nbsp;IT.</span><span>LIVE&nbsp;IT.",
+      "replace": "COLD&nbsp;BLOODED.</span><span>CHAIN&nbsp;ON."
+    },
+    {
+      "find": "The most memeable CHILL on Ethereum.",
+      "replace": "The iguana from the GTA trailer, now on Ethereum."
+    },
+    {
+      "find": "CHILL ($CHILL) is a community-driven meme coin on Ethereum. No team allocation, no roadmap promises, just vibes, memes and a community that refuses to sell.",
+      "replace": "CHILL ($CHILL) is the GTA iguana \u2014 the only animal with his own shot in the biggest game launch in history. Community-driven on Ethereum. No team allocation, no roadmap promises, just cold blood and a community that refuses to move."
+    },
+    {
+      "find": "Turning Desires<br>Into Reality",
+      "replace": "The Iguana<br>From The Trailer"
+    },
+    {
+      "find": "Visions, Made Real",
+      "replace": "Stills, Poses, Receipts"
+    },
+    {
+      "find": "Watch It Manifest",
+      "replace": "Watch The Chart"
+    },
+    {
+      "find": "Three Steps To The Other Side",
+      "replace": "Three Steps To Buy $CHILL"
+    },
+    {
+      "find": "The universe handles the rest.",
+      "replace": "Paste the CA and swap. Don't stand in the road."
+    },
+    {
+      "find": "Join The Frequency",
+      "replace": "Join The $CHILL Crowd"
+    },
+    {
+      "find": "alt=\"CHILL walking forward\"",
+      "replace": "alt=\"CHILL iguana standing tall\""
+    },
+    {
+      "find": "alt=\"CHILL with a golden halo, arms open, receiving\"",
+      "replace": "alt=\"CHILL iguana stare down\""
+    },
+    {
+      "find": "#01 manifest it",
+      "replace": "#01 trailer cut"
+    },
+    {
+      "find": "#02 live it",
+      "replace": "#02 ocean drive"
+    },
+    {
+      "find": "#03 high frequency",
+      "replace": "#03 crowned"
+    },
+    {
+      "find": "#04 aligned",
+      "replace": "#04 official stills"
+    },
+    {
+      "find": "#05 the universe provides",
+      "replace": "#05 coffee"
+    },
+    {
+      "find": "#06 believe",
+      "replace": "#06 towel"
+    },
+    {
+      "find": "#07 multiply",
+      "replace": "#07 pool float"
+    },
+    {
+      "find": "#08 the other side",
+      "replace": "#08 headphones"
+    },
+    {
+      "find": "alt=\"CHILL meme 1\"",
+      "replace": "alt=\"CHILL \u2014 GTA 6 launch trailer post, iguana at 0:21\""
+    },
+    {
+      "find": "alt=\"CHILL meme 2\"",
+      "replace": "alt=\"CHILL \u2014 first trailer, Ocean Drive, iguana on a shoulder\""
+    },
+    {
+      "find": "alt=\"CHILL meme 3\"",
+      "replace": "alt=\"CHILL \u2014 official still Cal Hampton 02, crowned iguana\""
+    },
+    {
+      "find": "alt=\"CHILL meme 4\"",
+      "replace": "alt=\"CHILL \u2014 official GTA screenshots gallery\""
+    },
+    {
+      "find": "alt=\"CHILL meme 5\"",
+      "replace": "alt=\"CHILL iguana with a coffee\""
+    },
+    {
+      "find": "alt=\"CHILL meme 6\"",
+      "replace": "alt=\"CHILL iguana in a towel\""
+    },
+    {
+      "find": "alt=\"CHILL meme 7\"",
+      "replace": "alt=\"CHILL iguana on a pool float\""
+    },
+    {
+      "find": "alt=\"CHILL meme 8\"",
+      "replace": "alt=\"CHILL iguana with headphones\""
+    }
+  ]
 }
