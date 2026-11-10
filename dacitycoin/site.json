@@ -8,8 +8,8 @@
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
-  "theme_primary": "#9945ff",
-  "theme_secondary": "#14f195",
+  "theme_primary": "#fb0b9b",
+  "theme_secondary": "#f6f4f2",
   "domain_status": "live",
   "dns_records": [
     {
@@ -25,8 +25,8 @@
       "host": "www.audacityeth.lol"
     }
   ],
-  "tagline": "",
-  "about": "",
+  "tagline": "The GTA 6 crypto cult with a coin, now on Ethereum.",
+  "about": "AudaCity is an extreme satirical take from Rockstar in GTA 6 of a cryptocurrency cult that does wild stunts to build hype for AudaCity and their token $DacityCoin (pronounced DASS-ih-tee coin). The cult is now live on Ethereum.",
   "x_url": "https://x.com/audacityeth_x",
   "tg_url": "https://t.me/audacity_tg",
   "ref_x_url": "https://x.com/RockstarGames/status/2120154484244381738",
@@ -44,7 +44,7 @@
   "vercel_a": "",
   "vercel_cname": "",
   "logo": "assets/logo.png",
-  "banner": "assets/banner.png",
+  "banner": "assets/banner.webp",
   "images": [
     "assets/meme1.webp",
     "assets/meme2.webp",
@@ -65,7 +65,9 @@
   "backgrounds": [
     "assets/gpt-bg1.webp",
     "assets/gpt-bg2.webp",
-    "assets/gpt-bg3.webp"
+    "assets/gpt-bg3.webp",
+    "assets/gpt-bg4.webp",
+    "assets/gpt-banner.webp"
   ],
   "resolved": {
     "dex_name": "Uniswap V4",
@@ -78,5 +80,155 @@
   },
   "site_slug": "dacitycoin",
   "project_id": "pmwasm1gkdix6p",
-  "exported_at": "2026-11-10T14:49:52.459Z"
+  "exported_at": "2026-11-10T14:49:52.459Z",
+  "copy_overrides": [
+    {
+      "find": "</head>",
+      "replace": "<style id=\"ac-theme\">@import url(\"https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75,700;0,85,800;0,100,900;1,85,800&family=Inter+Tight:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Roboto+Condensed:wght@400;600;700&family=Roboto:wght@500;700&display=swap\");\n\n:root{\n  --pink:#fb0b9b;\n  --pink-hot:#ff2eb6;\n  --plum:#090007;\n  --cream:#f6f4f2;\n  --fog:#ededea;\n  --ink:#110008;\n  --font-body:var(--font-inter),\"Inter\",Arial,Helvetica,sans-serif;\n  --font-ui:\"Roboto Condensed\",\"Arial Narrow\",Arial,sans-serif;\n  --font-copy:\"Inter Tight\",\"Inter\",Arial,sans-serif;\n  --font-proof:\"Archivo\",\"Arial Narrow\",Arial,sans-serif;\n  --font-button:\"Roboto\",Arial,sans-serif;\n  --ac-max:1240px;\n}\nhtml,body.a-c33-cartoonmoney{\n  background:#060004 !important;\n  color:var(--cream);\n  font-family:var(--font-copy);\n  overflow-x:hidden;\n}\nbody.a-c33-cartoonmoney{--bg:#060004;--fg:var(--cream);--acc:var(--pink);}\nbody.a-c33-cartoonmoney > canvas,\ncanvas.mx-gl,\n.mx-layer,\n.mx3d-root,\n[data-mx-gl] canvas{\n  pointer-events:none !important;\n  display:none !important;\n  opacity:0 !important;\n  visibility:hidden !important;\n}\n\n/* Header */\n.cm-head.world-header{\n  position:sticky;top:0;z-index:60;\n  background:var(--pink);\n  border-bottom:0;\n  color:var(--ink);\n  padding:0;\n  height:auto;\n  min-height:64px;\n  filter:none;\n}\n.cm-head .world-brand{\n  display:flex;align-items:center;gap:10px;\n  padding:8px 8px 8px 16px;\n  color:var(--ink)!important;text-decoration:none;\n  filter:none;\n  text-align:left;\n}\n.cm-head .cm-logo{\n  width:40px;height:40px;object-fit:cover;\n  background:#14010c;\n  border-radius:6px;\n  filter:none!important;\n  box-shadow:0 0 0 2px rgba(17,0,8,.25);\n}\n.cm-head .world-brand span{\n  font-family:var(--font-proof);\n  font-weight:800;letter-spacing:-.02em;\n  line-height:1.05;text-transform:none;\n  color:var(--ink)!important;\n  font-size:11px;\n}\n.cm-head .world-brand span b{\n  font-family:var(--font-proof);\n  font-weight:900;font-size:1.55em;letter-spacing:-.03em;\n  display:block;color:var(--ink)!important;\n}\n.cm-head .world-tools{\n  display:flex;align-items:center;gap:8px 16px;\n  padding:8px 16px 8px 0;\n  font-family:var(--font-ui);\n  text-transform:uppercase;letter-spacing:.12em;\n  font-size:12px;font-weight:700;\n}\n.cm-head .cm-tool{\n  color:var(--ink)!important;text-decoration:none;opacity:.92;\n}\n.cm-head .cm-tool[href=\"\"],.cm-head .cm-tool[href=\"#\"]{display:none!important;}\n.cm-head .wallet-connect{\n  background:var(--ink)!important;color:var(--cream)!important;\n  border:0!important;border-radius:999px;\n  padding:10px 18px;gap:8px;\n  font-family:var(--font-button);\n  font-weight:700;letter-spacing:.04em;\n  text-transform:uppercase;font-size:12px;\n  box-shadow:none;min-height:0;\n}\n.cm-head .wallet-connect svg,.cm-head .wallet-connect small{display:none;}\n.ac-nav{display:flex;gap:16px;align-items:center;margin-left:auto;margin-right:8px;}\n.ac-nav a{\n  color:var(--ink);text-decoration:none;\n  font-family:var(--font-ui);font-weight:700;\n  letter-spacing:.12em;text-transform:uppercase;font-size:12px;\n}\n@media(max-width:800px){\n  .ac-nav{display:none;}\n  .cm-head .world-brand span{font-size:10px;}\n  .cm-head.world-header{padding:0;}\n  .cm-head .world-tools{gap:8px;padding-right:10px;}\n}\n\n/* Cinematic stage */\n.ac-stage{\n  position:relative;\n  background:#090007;\n  color:var(--cream);\n  overflow:hidden;\n  padding:22px 0 0;\n}\n.ac-stage-bg{\n  position:absolute;inset:0;z-index:0;\n  pointer-events:none;\n  overflow:hidden;\n}\n.ac-stage-bg video,\n.ac-stage-vid{\n  position:absolute;inset:0;\n  width:100%;height:100%;\n  object-fit:cover;\n  filter:saturate(1.05) contrast(1.04);\n}\n.ac-stage-bg:after{\n  content:\"\";position:absolute;inset:0;\n  background:\n    linear-gradient(180deg,rgba(9,0,7,.28),rgba(9,0,7,.55) 70%, #090007),\n    radial-gradient(120% 80% at 80% 0%, rgba(251,11,155,.28), transparent 55%);\n}\n.ac-stage-in{\n  position:relative;z-index:2;\n  width:min(var(--ac-max), calc(100% - 40px));\n  margin:0 auto;\n  display:grid;\n  grid-template-columns:1.15fr .85fr;\n  gap:28px 40px;\n  align-items:start;\n  padding:8px 0 24px;\n}\n.ac-kicker{\n  margin:0 0 8px;\n  font-family:var(--font-proof);\n  font-weight:900;\n  font-stretch:100%;\n  font-size:clamp(28px,4.2vw,52px);\n  line-height:.9;\n  letter-spacing:-.04em;\n  text-transform:uppercase;\n  color:#fff;\n  text-shadow:0 3px 0 rgba(0,0,0,.45);\n  max-width:18ch;\n}\n.ac-kicker em{\n  font-style:normal;\n  color:var(--pink);\n}\n.ac-mission-sub{\n  margin:0 0 14px;\n  font-size:15px;font-weight:500;\n  color:var(--fog);opacity:.92;\n}\n.ac-nocuts{\n  display:inline-flex;align-items:center;gap:6px;\n  margin:0 0 12px;\n  font-family:var(--font-proof);font-weight:800;\n  font-size:18px;font-style:italic;\n  color:var(--pink);\n  text-transform:uppercase;\n  transform:rotate(-6deg);\n  transform-origin:left center;\n}\n.ac-player{position:relative;}\n.ac-frame{\n  position:relative;\n  padding:14px 14px 18px;\n  background:#f3efe8;\n  box-shadow:0 18px 40px rgba(0,0,0,.45);\n  clip-path:polygon(\n    0 8px, 6px 0, 22% 4px, 28% 0, 54% 6px, 62% 0, 86% 5px, 100% 0,\n    100% 100%, 78% calc(100% - 5px), 60% 100%, 40% calc(100% - 6px), 18% 100%, 0 calc(100% - 4px)\n  );\n}\n.ac-frame video{\n  display:block;width:100%;height:auto;\n  aspect-ratio:16/9;\n  background:#000;\n  border:0;\n}\n.ac-side{padding-top:4px;}\n.ac-headline{\n  margin:0 0 16px;\n  font-family:var(--font-proof);\n  font-weight:900;\n  font-size:clamp(32px,5vw,58px);\n  line-height:.88;\n  letter-spacing:-.045em;\n  text-transform:uppercase;\n  color:#fff;\n  text-shadow:0 3px 0 rgba(0,0,0,.4);\n}\n.ac-headline em{\n  font-style:italic;\n  font-stretch:85%;\n  color:var(--pink);\n  display:block;\n  font-size:1.15em;\n  letter-spacing:-.03em;\n  line-height:.8;\n  margin:.06em 0 .04em;\n}\n.ac-copy p{\n  margin:0 0 12px;\n  font-size:15px;line-height:1.45;\n  color:var(--fog);\n  max-width:42em;\n}\n.ac-copy p strong{color:#fff;font-weight:700;}\n.ac-copy .ac-note{\n  border-left:3px solid var(--pink);\n  padding-left:12px;\n  color:#d9d4cf;\n  font-size:13.5px;\n}\n.ac-hero-ca{\n  display:flex;align-items:center;flex-wrap:wrap;gap:10px;\n  margin:18px 0 14px;\n  font-family:var(--font-ui);\n  letter-spacing:.08em;text-transform:uppercase;\n  font-size:12px;\n}\n.ac-hero-ca code{\n  font-family:ui-monospace,Menlo,Consolas,monospace;\n  background:#000;color:var(--cream);\n  border:1px solid rgba(246,244,242,.18);\n  padding:6px 10px;border-radius:2px;\n  letter-spacing:0;font-size:12px;\n  max-width:100%;overflow-wrap:anywhere;\n}\n.ac-hero-ca button{\n  font-family:var(--font-button);\n  cursor:pointer;\n  background:transparent;color:var(--cream);\n  border:1px solid rgba(246,244,242,.35);\n  padding:6px 10px;text-transform:uppercase;\n  letter-spacing:.1em;font-size:11px;\n}\n.ac-hero-cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px;}\n.ac-btn{\n  display:inline-flex;align-items:center;justify-content:center;gap:8px;\n  text-decoration:none;border-radius:999px;\n  padding:12px 20px;\n  font-family:var(--font-button);\n  font-weight:700;letter-spacing:.06em;text-transform:uppercase;\n  font-size:13px;border:2px solid transparent;\n}\n.ac-btn-solid{background:var(--pink);color:var(--ink);border-color:var(--pink);}\n.ac-btn-solid:hover{background:var(--pink-hot);}\n.ac-btn-ghost{background:transparent;color:var(--cream);border-color:rgba(246,244,242,.35);}\n.ac-ticker{\n  position:relative;z-index:2;\n  background:var(--pink);\n  color:var(--ink);\n  overflow:hidden;\n  border-top:2px solid var(--ink);\n  margin-top:8px;\n}\n.ac-ticker-track{\n  display:flex;gap:28px;align-items:center;\n  padding:10px 0;\n  width:max-content;\n  animation:ac-marq 22s linear infinite;\n  font-family:var(--font-proof);\n  font-weight:800;font-size:18px;letter-spacing:.04em;\n}\n.ac-ticker-track img{\n  width:22px;height:22px;object-fit:cover;\n  border-radius:4px;\n  display:inline-block;\n}\n@keyframes ac-marq{to{transform:translateX(-50%);}}\n\n/* Site banner strip (protected gpt-banner) */\n.ac-banner-wrap{\n  position:relative;z-index:2;\n  background:#090007;\n  padding:0 0 8px;\n}\n.ac-banner-wrap img,\nimg.ac-banner{\n  display:block;\n  width:min(var(--ac-max), calc(100% - 40px));\n  height:auto;\n  margin:0 auto;\n  object-fit:cover;\n}\n@media(max-width:900px){\n  .ac-stage-in{grid-template-columns:1fr;width:min(100% - 28px, 640px);gap:18px;padding-top:6px;}\n  .ac-headline{font-size:clamp(30px,10vw,48px);}\n  .ac-frame{padding:10px 10px 14px;}\n  .ac-banner-wrap img,img.ac-banner{width:min(100% - 24px, 640px);}\n}\n\n/* Hide original cartoon hero */\n.welcome-screen.ac-legacy,\n.welcome-screen.hero.ac-legacy{display:none!important;}\n\n/* Reference X post */\n.ref-post{\n  background:#0c0807!important;\n  color:var(--cream);\n  padding:56px 20px 64px!important;\n}\n.ref-post-badge{\n  background:var(--pink)!important;\n  color:var(--ink)!important;\n}\n.ref-post-title{\n  font-family:var(--font-proof)!important;\n  font-weight:900!important;\n  color:#fff!important;\n  letter-spacing:-.03em!important;\n  text-transform:none!important;\n}\n.ref-post-wrap{max-width:640px;}\n.ref-post-btn{\n  background:var(--pink)!important;color:var(--ink)!important;\n  border-radius:999px!important;\n}\n\n/* World / about */\n.cm-world{\n  background:#0c0807;\n  color:var(--cream);\n  position:relative;\n}\n.cm-world .cm-room{opacity:.35;filter:saturate(1.1) contrast(1.05);}\n.cm-world-in{\n  width:min(var(--ac-max), calc(100% - 40px));\n  margin:0 auto;\n  padding:72px 0 80px;\n  display:grid;\n  grid-template-columns:1fr auto 1fr;\n  gap:28px;\n  align-items:center;\n}\n.cm-note,.cm-note2{\n  background:rgba(13,0,9,.72);\n  border:1px solid rgba(251,11,155,.35);\n  box-shadow:0 12px 0 rgba(0,0,0,.35);\n  color:var(--cream);\n  border-radius:0;\n  padding:28px 24px;\n}\n.cm-pin{display:none;}\n.cm-note h2,.cm-note h3,.cm-note2 h3{\n  font-family:var(--font-proof);\n  font-weight:800;letter-spacing:-.03em;\n  color:#fff;line-height:1.05;\n  text-transform:none;\n}\n.cm-note p,.cm-note2 li,.cm-note2 a{color:var(--fog);font-family:var(--font-copy);}\n.cm-note2 a{color:var(--pink);}\n.btn.cm-green,.btn.cm-green.cm-wide{\n  background:var(--pink)!important;color:var(--ink)!important;\n  border:0;border-radius:999px;\n  font-family:var(--font-button);font-weight:700;\n  letter-spacing:.06em;text-transform:uppercase;\n}\n.phone-shell,.cm-stage .phone-shell{\n  background:#1a1014;border:2px solid #2b0424;\n  box-shadow:0 20px 0 rgba(0,0,0,.4), 0 0 0 8px #110008;\n}\n.cm-banner{background:#110008;}\n.cm-banner b{color:#fff;-webkit-text-stroke:0;filter:none;font-family:var(--font-proof)!important;}\n.cm-row b,.cm-row strong{color:#fff;}\n.cm-ca code{color:var(--cream);}\n@media(max-width:980px){\n  .cm-world-in{grid-template-columns:1fr;width:min(100% - 28px, 640px);}\n}\n\n/* Pops / boards */\n.cm-pops{background:#090007;color:var(--cream);}\n.cm-pops-in{width:min(var(--ac-max), calc(100% - 40px));margin:0 auto;padding:64px 0 72px;}\n.cm-big{\n  font-family:var(--font-proof)!important;\n  font-weight:900;letter-spacing:-.04em;\n  color:#fff!important;text-transform:none!important;\n  -webkit-text-stroke:0!important;filter:none!important;\n}\n.cm-pop-grid{\n  display:grid!important;\n  grid-template-columns:repeat(4,minmax(0,1fr))!important;\n  gap:18px!important;\n}\n.cm-pop{\n  background:#14010c!important;border:1px solid rgba(251,11,155,.4)!important;\n  box-shadow:8px 8px 0 #000!important;color:var(--cream)!important;\n  border-radius:0!important;\n  animation:none!important;transform:none!important;\n}\n.cm-pop-art{border:0!important;border-radius:0!important;}\n.cm-pop-art:after{display:none!important;}\n.cm-pop h3{\n  font-family:var(--font-proof)!important;font-weight:800!important;\n  color:#fff!important;letter-spacing:-.03em!important;\n  -webkit-text-stroke:0!important;filter:none!important;\n}\n.cm-board{\n  background:var(--pink)!important;color:var(--ink)!important;\n  font-family:var(--font-proof)!important;font-weight:800;\n  box-shadow:8px 8px 0 #000;border-radius:0!important;\n}\n.cm-board i{display:none;}\n.cm-boards{\n  display:grid!important;\n  grid-template-columns:repeat(3,minmax(0,1fr))!important;\n  gap:16px!important;\n}\n@media(max-width:900px){\n  .cm-pop-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;}\n  .cm-boards{grid-template-columns:1fr!important;}\n  .cm-pops-in{width:min(100% - 28px, 640px);}\n}\n\n/* Memes / chart / footer */\n.ck-memes,.ck-chartsec{background:#0c0807;color:var(--cream);}\n.ck-w{width:min(var(--ac-max), calc(100% - 40px));margin:0 auto;}\n.ck-kick{color:var(--pink)!important;font-family:var(--font-ui)!important;}\n.ck-h2{\n  font-family:var(--font-proof)!important;\n  font-weight:900!important;color:#fff!important;\n  letter-spacing:-.04em!important;text-transform:none!important;\n}\n.ck-gal{\n  display:grid!important;\n  grid-template-columns:repeat(4,minmax(0,1fr))!important;\n  gap:16px!important;\n}\n.ck-card{\n  background:#110008;border:2px solid #2b0424;\n  box-shadow:6px 6px 0 #000;border-radius:0!important;\n  overflow:hidden;aspect-ratio:1;\n  padding:0!important;\n  position:relative;\n}\n.ck-card img,.ck-card video{width:100%;height:100%;object-fit:cover;display:block;}\n.ck-card span{\n  position:absolute;left:8px;bottom:8px;\n  background:var(--pink);color:var(--ink);\n  font-family:var(--font-ui);font-weight:700;\n  letter-spacing:.06em;text-transform:uppercase;\n  font-size:11px;padding:4px 8px;\n}\n.ac-vidrow{\n  margin-top:18px;\n  background:#110008;\n  border:2px solid #2b0424;\n  box-shadow:8px 8px 0 #000;\n  overflow:hidden;\n}\n.ac-vidrow video{\n  display:block;width:100%;height:auto;\n  aspect-ratio:16/9;\n  object-fit:cover;\n  background:#000;\n}\n@media(max-width:800px){\n  .ck-gal{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;}\n  .ck-w{width:min(100% - 28px, 640px);}\n}\n.ck-chart{border:2px solid rgba(251,11,155,.35);box-shadow:10px 10px 0 #000;}\n.xlinks a{\n  border-color:var(--pink)!important;\n  color:var(--cream)!important;\n  border-radius:999px;\n}\n.cm-foot{\n  background:var(--pink)!important;color:var(--ink)!important;\n  border-top:0;\n}\n.cm-foot a,.cm-foot span,.cm-foot b,.cm-foot p,.cm-foot code{color:var(--ink)!important;}\n.cm-foot .cm-logo{\n  filter:none!important;\n  width:40px;height:40px;object-fit:cover;\n  border-radius:6px;background:#14010c;\n}\n.mbar{\n  background:#110008!important;border-top:2px solid var(--pink);\n}\n.mbar .btn{background:var(--pink)!important;color:var(--ink)!important;border-radius:999px;}\n\nbutton[data-copy]{cursor:pointer;}\n\n@media (prefers-reduced-motion:reduce){\n  .ac-ticker-track{animation:none!important;}\n  .ac-stage-vid,.ac-stage-bg video,.ac-vidrow video,.ac-frame video{animation:none;}\n}\n</style>\n</head>"
+    },
+    {
+      "find": "</header>\n<section class=\"welcome-screen hero\" id=\"top\" data-time=\"day\">",
+      "replace": "</header>\n<section id=\"top\" class=\"ac-stage\">\n  <div class=\"ac-stage-bg\" aria-hidden=\"true\">\n    <video class=\"ac-stage-vid\" autoplay muted loop playsinline poster=\"assets/meme1.webp?v=2952670a\" src=\"assets/vid-hero.mp4?v=b3ec1956\"></video>\n  </div>\n  <div class=\"ac-stage-in\">\n    <div class=\"ac-mission\">\n      <h1 class=\"ac-kicker\">The full AudaCity <em>parachute</em> stunt mission</h1>\n      <p class=\"ac-mission-sub\">End to end. The entire mission. No cuts.</p>\n      <p class=\"ac-nocuts\">No cuts.</p>\n      <div class=\"ac-player\"><div class=\"ac-frame\">\n        <video id=\"ac-mission-vid\" autoplay muted loop playsinline preload=\"metadata\" poster=\"assets/meme1.webp?v=2952670a\" width=\"854\" height=\"480\" aria-label=\"The full AudaCity parachute stunt mission\"><source src=\"assets/vid-mission.mp4?v=71fa4e36\" type=\"video/mp4\"></video>\n      </div></div>\n    </div>\n    <aside class=\"ac-side\">\n      <h2 class=\"ac-headline\">The GTA 6 crypto <em>cult</em> with a coin.</h2>\n      <div class=\"ac-copy\">\n        <p>AudaCity is an extreme satirical take from Rockstar in GTA 6 of a cryptocurrency cult that does wild stunts to build hype for AudaCity and their token $DacityCoin (pronounced DASS-ih-tee coin).</p>\n        <p><strong>This video proves with 100% certainty that AudaCity is a real cryptocurrency cult behind DacityCoin.</strong></p>\n        <p>Think $PENGU and Pudgy Penguins or $PUMP and Pump Fun. That is the closest parallel. Now the cult is live on Ethereum.</p>\n        <p class=\"ac-note\">Not convinced? Search TikTok for GTA 6 Cyberleek parachute. Cross-check it for yourself—you don't have to take our word for it.</p>\n        <div class=\"ac-hero-ca\"><span>CA</span><code class=\"ca-text\">TBA</code><button type=\"button\" data-copy>Copy</button></div>\n        <div class=\"ac-hero-cta\">\n          <a class=\"ac-btn ac-btn-solid\" data-buy href=\"https://app.uniswap.org/\" target=\"_blank\" rel=\"noopener\">Join The Cult <span aria-hidden=\"true\">↗</span></a>\n          <a class=\"ac-btn ac-btn-ghost\" href=\"#memes\">Mission stills</a>\n        </div>\n      </div>\n    </aside>\n  </div>\n  <div class=\"ac-ticker\" aria-hidden=\"true\"><div class=\"ac-ticker-track\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"></div></div>\n  <div class=\"ac-banner-wrap\"><img class=\"ac-banner\" src=\"assets/gpt-banner.webp?v=2ed8ee06\" alt=\"AudaCity — $DacityCoin\" width=\"1280\" height=\"435\"></div>\n</section>\n<section class=\"welcome-screen hero ac-legacy\" id=\"top\" data-time=\"day\">"
+    },
+    {
+      "find": "</button></div></div></section>\n<section id=\"chart\"",
+      "replace": "</button></div><div class=\"ac-vidrow\"><video class=\"ac-gal-vid\" autoplay muted loop playsinline preload=\"metadata\" poster=\"assets/meme1.webp?v=2952670a\" src=\"assets/vid-hero.mp4?v=b3ec1956\" aria-label=\"AudaCity stunt loop\"></video></div></div></section>\n<section id=\"chart\""
+    },
+    {
+      "find": "</a>\n<div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityeth_x\"",
+      "replace": "</a>\n<nav class=\"ac-nav\" aria-label=\"Section\"><a href=\"#top\">Mission</a><a href=\"#memes\">Stills</a><a href=\"#chart\">Chart</a></nav>\n    <div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityeth_x\""
+    },
+    {
+      "find": "class=\"gchar moon-logo cm-logo\" width=\"40\" height=\"40\" alt=\"\" src=\"assets/char1.webp",
+      "replace": "class=\"gchar moon-logo cm-logo\" width=\"40\" height=\"40\" alt=\"AudaCity\" src=\"assets/logo.png"
+    },
+    {
+      "find": "class=\"gchar moon-logo cm-logo\" alt=\"\" src=\"assets/char2.webp",
+      "replace": "class=\"gchar moon-logo cm-logo\" alt=\"AudaCity\" src=\"assets/logo.png"
+    },
+    {
+      "find": "property=\"og:image\" content=\"assets/logo.png",
+      "replace": "property=\"og:image\" content=\"assets/gpt-banner.webp"
+    },
+    {
+      "find": "AudaCity ($DacityCoin) | The most memeable AudaCity on Ethereum.",
+      "replace": "AudaCity ($DacityCoin) | The GTA 6 crypto cult with a coin, now on Ethereum."
+    },
+    {
+      "find": "$DacityCoin · to the moon",
+      "replace": "The GTA 6 crypto cult with a coin"
+    },
+    {
+      "find": "$DacityCoin.<br>Good coins.<br>Brighter people.",
+      "replace": "$DacityCoin.<br>The cult.<br>On Ethereum."
+    },
+    {
+      "find": "AudaCity ($DacityCoin) is a community-driven meme coin on Ethereum. No team allocation, no roadmap promises, just vibes, memes and a community that refuses to sell.",
+      "replace": "AudaCity ($DacityCoin) is the GTA 6 crypto cult with a coin, now minted on Ethereum. Same name, same ticker, no team allocation and no roadmap promises — just the audacity."
+    },
+    {
+      "find": "The most memeable AudaCity on Ethereum.",
+      "replace": "The GTA 6 crypto cult with a coin."
+    },
+    {
+      "find": "<h3>Today’s notes</h3><ul><li>Set up MetaMask</li><li>Grab some ETH</li><li>Swap for $DacityCoin</li><li>Tell a friend 🚀</li></ul>",
+      "replace": "<h3>Boarding in four steps</h3><ul><li>Get a wallet</li><li>Load it with ETH</li><li>Open Uniswap V4</li><li>Paste the CA and board</li></ul>"
+    },
+    {
+      "find": "$DacityCoin money moves",
+      "replace": "Stunts the cult already pulled"
+    },
+    {
+      "find": "TRADE<br>CONFIRMED!",
+      "replace": "SMOKE<br>ON!"
+    },
+    {
+      "find": "COIN<br>LISTED!",
+      "replace": "CULT<br>LISTED!"
+    },
+    {
+      "find": "OFFER<br>ACCEPTED!",
+      "replace": "STUNT<br>CLEARED!"
+    },
+    {
+      "find": "GREAT<br>PURCHASE!",
+      "replace": "BOARDING<br>OPEN!"
+    },
+    {
+      "find": "TRADE<br>OWN<br>DEVELOP<br>EARN <i>♛</i>",
+      "replace": "QUIT YOUR<br>JOB"
+    },
+    {
+      "find": "TO THE<br>MOON <i>♛</i>",
+      "replace": "SELL YOUR<br>HOUSE"
+    },
+    {
+      "find": "DREAM<br>BUILD<br>EARN <i>♛</i>",
+      "replace": "MOVE TO<br>AUDACITY"
+    },
+    {
+      "find": "Collect them all",
+      "replace": "Section 03 // The stills"
+    },
+    {
+      "find": "$DacityCoin meme vault",
+      "replace": "Mission stills"
+    },
+    {
+      "find": "#01 trade confirmed!",
+      "replace": "#01 the drop"
+    },
+    {
+      "find": "#02 coin listed!",
+      "replace": "#02 over leonida"
+    },
+    {
+      "find": "#03 offer accepted!",
+      "replace": "#03 the slogan"
+    },
+    {
+      "find": "#04 great purchase!",
+      "replace": "#04 pink chute"
+    },
+    {
+      "find": "#05 to the moon",
+      "replace": "#05 wasted"
+    },
+    {
+      "find": "#06 dream. build. earn.",
+      "replace": "#06 landing"
+    },
+    {
+      "find": "#07 bigger dreams",
+      "replace": "#07 the cult"
+    },
+    {
+      "find": "#08 trading activated!",
+      "replace": "#08 the towers"
+    },
+    {
+      "find": "Live market",
+      "replace": "Live on Ethereum"
+    },
+    {
+      "find": "$DacityCoin chart",
+      "replace": "Watch The Chart"
+    },
+    {
+      "find": "Buy on Uniswap V4",
+      "replace": "Join The Cult"
+    },
+    {
+      "find": "Trade on Uniswap V4",
+      "replace": "Join The Cult"
+    },
+    {
+      "find": ">𝕏</a><a class=\"cm-tool\" href=\"https://t.me/audacity_tg\" target=\"_blank\" rel=\"noreferrer\">Telegram</a>",
+      "replace": ">Twitter</a><a class=\"cm-tool\" href=\"https://t.me/audacity_tg\" target=\"_blank\" rel=\"noreferrer\">Community</a>"
+    },
+    {
+      "find": "A community meme coin. Not financial advice.",
+      "replace": "A community meme coin on Ethereum. Not financial advice."
+    }
+  ]
 }
