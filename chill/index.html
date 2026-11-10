@@ -1268,7 +1268,7 @@ html[data-theme-mode="preset"],html[data-theme-mode="custom"]{--acc:var(--theme-
 <link rel="canonical" href="https://chilloneth.lol/">
 <meta property="og:url" content="https://chilloneth.lol/">
 <!-- chill-sol-theme -->
-<link rel="stylesheet" href="assets/chill-theme.css?v=98ade991">
+<link rel="stylesheet" href="assets/chill-theme.css?v=80f8f80e">
 <style id="chill-sol-theme">
 /* CHILL Sol/GTA meme theme — keeps c09 layout, restyles skin to match chillonsol.fun */
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700;800&display=swap");
@@ -1567,6 +1567,85 @@ html[data-theme-mode="preset"] body.a-c09-manifesting .hero {
   box-shadow: inset 0 -40px 80px rgba(20,10,22,.35);
 }
 
+/* GTA video loops */
+body.a-c09-manifesting .hero .bg {
+  animation: none !important;
+  overflow: hidden;
+}
+body.a-c09-manifesting .hero .bg .hero-vid {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 38%;
+  z-index: 0;
+  pointer-events: none;
+  background: transparent;
+}
+body.a-c09-manifesting .hero .bg::after {
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(20,10,22,0.72) 0%, rgba(20,10,22,0.12) 28%, rgba(20,10,22,0.08) 55%, rgba(20,10,22,0.82) 100%),
+    radial-gradient(ellipse at center 42%, rgba(20,10,22,0) 40%, rgba(20,10,22,0.4) 100%);
+}
+body.a-c09-manifesting .hero-stage,
+body.a-c09-manifesting .hero-scroll { position: relative; z-index: 2; }
+
+body.a-c09-manifesting .join-vid {
+  margin: 0 auto 28px;
+  max-width: min(720px, 100%);
+  border: 3px solid #140A16;
+  border-radius: 14px;
+  box-shadow: 8px 8px 0 #140A16;
+  overflow: hidden;
+  background: #140A16;
+  aspect-ratio: 16/9;
+}
+body.a-c09-manifesting .join-vid video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+body.a-c09-manifesting .ck-vidcard {
+  position: relative;
+  border: 3px solid #140A16;
+  border-radius: 14px 14px 16px 16px;
+  box-shadow: 6px 6px 0 #140A16;
+  background: #FFF3E3;
+  overflow: hidden;
+  aspect-ratio: 1;
+  transform: rotate(1.2deg);
+}
+body.a-c09-manifesting .ck-vidcard video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #2A1631;
+}
+body.a-c09-manifesting .ck-vidcard span {
+  display: block;
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #140A16;
+  background: #FFC53D;
+  padding: 9px 10px 10px;
+  border-top: 3px solid #140A16;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.a-c09-manifesting .hero .bg .hero-vid { display: none; }
+}
+
 </style>
 </head>
 <body class="a-c09-manifesting" data-ca="TBA" class="" data-mx-gl="helix@center" data-mx-gl-tone="dark" data-mx-3d="cards mascot rise">
@@ -1579,7 +1658,7 @@ html[data-theme-mode="preset"] body.a-c09-manifesting .hero {
 </nav>
 <main id="main">
 <header class="hero" id="top">
-  <div class="bg" data-bg="1"></div><div class="stars" aria-hidden="true"></div>
+  <div class="bg" data-bg="1"><video class="hero-vid" autoplay muted loop playsinline preload="metadata" poster="assets/gpt-bg1.webp" aria-hidden="true"><source src="assets/vid-hero.mp4" type="video/mp4"></video></div><div class="stars" aria-hidden="true"></div>
   <div class="hero-stage">
     <div class="wordmark-wrap">
       <h1 class="wordmark gold-grad" id="wm">CHILL</h1>
@@ -1648,13 +1727,14 @@ html[data-theme-mode="preset"] body.a-c09-manifesting .hero {
 
 <section id="memes" class="ck-sec ck-memes "><div class="ck-w">
 <p class="ck-kick rv">Section 03 // The Archive</p><h2 class="ck-h2 rv">Stills, Poses, Receipts</h2>
-<div class="ck-gal rv-stagger"><button class="ck-card" type="button" data-i="0"><img class="gimg" src="assets/meme1.webp?v=3440b0ec" alt="CHILL — GTA 6 launch trailer post, iguana at 0:21" loading="lazy" width="480" height="480"><span>#01 trailer cut</span></button><button class="ck-card" type="button" data-i="1"><img class="gimg" src="assets/meme2.webp?v=483cbf8b" alt="CHILL — first trailer, Ocean Drive, iguana on a shoulder" loading="lazy" width="480" height="480"><span>#02 ocean drive</span></button><button class="ck-card" type="button" data-i="2"><img class="gimg" src="assets/meme3.webp?v=61606682" alt="CHILL — official still Cal Hampton 02, crowned iguana" loading="lazy" width="480" height="480"><span>#03 crowned</span></button><button class="ck-card" type="button" data-i="3"><img class="gimg" src="assets/meme4.webp?v=e52822ab" alt="CHILL — official GTA screenshots gallery" loading="lazy" width="480" height="480"><span>#04 official stills</span></button><button class="ck-card" type="button" data-i="4"><img class="gimg" src="assets/meme5.webp?v=39d16711" alt="CHILL iguana with a coffee" loading="lazy" width="480" height="480"><span>#05 coffee</span></button><button class="ck-card" type="button" data-i="5"><img class="gimg" src="assets/meme6.webp?v=435be5a0" alt="CHILL iguana in a towel" loading="lazy" width="480" height="480"><span>#06 towel</span></button><button class="ck-card" type="button" data-i="6"><img class="gimg" src="assets/meme7.webp?v=dae1b016" alt="CHILL iguana on a pool float" loading="lazy" width="480" height="480"><span>#07 pool float</span></button><button class="ck-card" type="button" data-i="7"><img class="gimg" src="assets/meme8.webp?v=39d747e2" alt="CHILL iguana with headphones" loading="lazy" width="480" height="480"><span>#08 headphones</span></button></div></div></section>
+<div class="ck-gal rv-stagger"><button class="ck-card" type="button" data-i="0"><img class="gimg" src="assets/meme1.webp?v=3440b0ec" alt="CHILL — GTA 6 launch trailer post, iguana at 0:21" loading="lazy" width="480" height="480"><span>#01 trailer cut</span></button><button class="ck-card" type="button" data-i="1"><img class="gimg" src="assets/meme2.webp?v=483cbf8b" alt="CHILL — first trailer, Ocean Drive, iguana on a shoulder" loading="lazy" width="480" height="480"><span>#02 ocean drive</span></button><button class="ck-card" type="button" data-i="2"><img class="gimg" src="assets/meme3.webp?v=61606682" alt="CHILL — official still Cal Hampton 02, crowned iguana" loading="lazy" width="480" height="480"><span>#03 crowned</span></button><button class="ck-card" type="button" data-i="3"><img class="gimg" src="assets/meme4.webp?v=e52822ab" alt="CHILL — official GTA screenshots gallery" loading="lazy" width="480" height="480"><span>#04 official stills</span></button><button class="ck-card" type="button" data-i="4"><img class="gimg" src="assets/meme5.webp?v=39d16711" alt="CHILL iguana with a coffee" loading="lazy" width="480" height="480"><span>#05 coffee</span></button><button class="ck-card" type="button" data-i="5"><img class="gimg" src="assets/meme6.webp?v=435be5a0" alt="CHILL iguana in a towel" loading="lazy" width="480" height="480"><span>#06 towel</span></button><button class="ck-card" type="button" data-i="6"><img class="gimg" src="assets/meme7.webp?v=dae1b016" alt="CHILL iguana on a pool float" loading="lazy" width="480" height="480"><span>#07 pool float</span></button><button class="ck-card" type="button" data-i="7"><img class="gimg" src="assets/meme8.webp?v=39d747e2" alt="CHILL iguana with headphones" loading="lazy" width="480" height="480"><span>#08 headphones</span></button><div class="ck-vidcard"><video autoplay muted loop playsinline preload="metadata" poster="assets/gpt-bg5.webp" width="480" height="480" aria-label="CHILL iguana on a pool float with a cocktail"><source src="assets/vid-pool.mp4" type="video/mp4"></video><span>#09 pool party</span></div></div></div></section>
 <section id="chart" class="ck-sec ck-chartsec "><div class="ck-w">
 <p class="ck-kick rv">Section 04 // The Chart</p><h2 class="ck-h2 rv">Watch The Chart</h2>
 <div class="ck-chart rv"><iframe id="ckFrame" title="CHILL chart" loading="lazy" data-src="https://dexscreener.com/ethereum?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=1&amp;chartType=usd&amp;interval=15"></iframe><div class="ov" id="ckOv"><img src="assets/logo.webp?v=79230461" alt="" loading="lazy"><p>CHART ACTIVATES AT LAUNCH</p><a class="btn btn-ghost sm" href="https://dexscreener.com/ethereum" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2v16h16v2H3zm4 11l4-4 3 3 5-6 1.5 1.3L14 16l-3-3-2.6 2.6z"/></svg> DexScreener</a></div></div></div></section>
 <section class="join">
   <div class="slot" data-bg="3" aria-hidden="true"></div>
   <div class="wrap reveal rv">
+    <div class="join-vid"><video autoplay muted loop playsinline preload="metadata" poster="assets/gpt-bg4.webp" width="848" height="480" aria-label="CHILL iguana driving a pink convertible through Vice City"><source src="assets/vid-cruise.mp4" type="video/mp4"></video></div>
     <h2 class="gold-grad">Join The $CHILL Crowd</h2>
     <div class="sub">Join the CHILL community. Buy $CHILL. Make memes. Never sell.</div>
     <div class="cta-row" style="justify-content:center"><a class="btn-gold solid" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener"><img class="dexic" src="assets/dex.png?v=4247e573" alt="Uniswap V4"> Buy $CHILL <span class="arrow">↗</span> <span class="dexon">on Uniswap V4</span></a><a class="btn-gold" data-s href="">Join The Movement <span class="arrow">↗</span></a></div>
@@ -2632,5 +2712,6 @@ if(!window.__RM){var f=D.querySelector('.mani-figure');D.querySelector('.hero').
 
 
 </script>
+<script id="chill-vid-motion">(function(){try{if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelectorAll('video[autoplay]').forEach(function(v){v.removeAttribute('autoplay');v.pause();v.currentTime=0;});}}catch(e){}})();</script>
 </body>
 </html>
