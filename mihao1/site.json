@@ -2,14 +2,14 @@
   "format": "meme-site-studio/site@1",
   "name": "ni hao cat",
   "ticker": "mihao",
-  "template": "ut-hyperinu",
+  "template": "c49-sprotty",
   "domain": "mihaoeth.fun",
   "ca": "TBA",
   "chain": "ethereum",
-  "theme_mode": "original",
-  "theme_preset": "",
-  "theme_primary": "#9945ff",
-  "theme_secondary": "#14f195",
+  "theme_mode": "preset",
+  "theme_preset": "ethereum",
+  "theme_primary": "#627eea",
+  "theme_secondary": "#8fa4f3",
   "domain_status": "not_connected",
   "dns_records": [
     {
@@ -77,5 +77,5 @@
   },
   "site_slug": "mihao1",
   "project_id": "pmwc8yuo1gamjm",
-  "exported_at": "2026-11-11T15:12:44.318Z"
+  "exported_at": "2026-11-11T15:19:15.452Z"
 }
