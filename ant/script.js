@@ -6,10 +6,10 @@
    are PLACEHOLDERS in index.html (#supply .count data-to) — confirm at launch.
    ========================================================= */
 const CONFIG = {
-  CA: '0x60d1f3ea966a358cff9af0e3caef883634c43f71',
+  CA: '0xa9015c7c7ede536e94679eee43fa2c837d90ca95',
   CHAIN: 'ethereum',
-  PAIR: '0x97a0584ba25813f12fec4b359f1a0046d719bc5c4b8babf9263310639b151ccf',
-  BUY: 'https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x60d1f3ea966a358cff9af0e3caef883634c43f71',
+  PAIR: '',
+  BUY: 'https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xa9015c7c7ede536e94679eee43fa2c837d90ca95',
   X: 'https://x.com/anthropicaieth',
   TG: 'https://t.me/anthropicaieth',
   NAME: 'Anthropic',
