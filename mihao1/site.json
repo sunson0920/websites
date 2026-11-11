@@ -3,7 +3,7 @@
   "name": "ni hao cat",
   "ticker": "mihao",
   "template": "ut-hyperinu",
-  "domain": "mihaosol.fun",
+  "domain": "mihaoeth.fun",
   "ca": "TBA",
   "chain": "ethereum",
   "theme_mode": "original",
@@ -16,13 +16,13 @@
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "mihaosol.fun"
+      "host": "mihaoeth.fun"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.mihaosol.fun"
+      "host": "www.mihaoeth.fun"
     }
   ],
   "tagline": "",
@@ -77,5 +77,5 @@
   },
   "site_slug": "mihao1",
   "project_id": "pmwc8yuo1gamjm",
-  "exported_at": "2026-11-11T15:01:42.172Z"
+  "exported_at": "2026-11-11T15:12:44.318Z"
 }
