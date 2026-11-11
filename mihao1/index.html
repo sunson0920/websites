@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <!-- archetype: c49-sprotty | placeholders: ni hao cat mihao assets/logo.png?v=1af2fea8 TBA ethereum   https://app.uniswap.org/ https://dexscreener.com/ethereum?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=1&amp;chartType=usd&amp;interval=15 (+ optional The most memeable ni hao cat on Ethereum. ni hao cat ($mihao) is a community-driven meme coin on Ethereum. No team allocation, no roadmap promises, just vibes, memes and a community that refuses to sell. 1,000,000,000 0/0 Uniswap V4 ETH MetaMask https://dexscreener.com/ethereum Ethereum <img class="dexic" src="assets/dex.png?v=4247e573" alt="Uniswap V4">=raw html) -->
-<title>ni hao cat ($mihao) | The most memeable ni hao cat on Ethereum.</title>
-<meta name="description" content="ni hao cat ($mihao) is a community-driven meme coin on Ethereum. No team allocation, no roadmap promises, just vibes, memes and a community that refuses to sell.">
+<title>MIHAO — Ni Hao Cat ($MIHAO) on Ethereum</title>
+<meta name="description" content="Ni Hao Cat ($MIHAO) on Ethereum. A cat, a chain, infinite possibilities. Explore the memes, find your PFP and copy the contract.">
 <meta property="og:title" content="ni hao cat ($mihao)"><meta property="og:description" content="The most memeable ni hao cat on Ethereum."><meta property="og:image" content="assets/logo.png?v=1af2fea8"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/logo.png?v=1af2fea8">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -673,14 +673,218 @@ html[data-theme-mode="preset"],html[data-theme-mode="custom"]{--acc:var(--theme-
 </style>
 <link rel="canonical" href="https://mihaoeth.fun/">
 <meta property="og:url" content="https://mihaoeth.fun/">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style id="mh-theme">:root{--mh-bg:#07071a;--mh-bg2:#0d0c2b;--mh-deep:#12103a;--mh-eth:#627eea;--mh-lav:#a9b6f5;--mh-vio:#8c6cf0;--mh-sil:#d9def0;--mh-ink:#eef0ff;--mh-mut:#9aa1cc;--mh-line:rgba(169,182,245,.22);--mh-serif:'Playfair Display',Georgia,serif;--mh-sans:'DM Sans',Arial,sans-serif;--mh-mono:'JetBrains Mono',ui-monospace,monospace}
+html,body{background:var(--mh-bg)!important;color:var(--mh-ink)}
+body.a-c49-sprotty{font-family:var(--mh-sans)!important;background:var(--mh-bg)!important;overflow-x:hidden}
+/* hide the old template layout; the MIHAO layout replaces it */
+body>header.sp-nav,body>section.sp-hero,body>#vault,body>#how,body>#pillars,body>section.sp-film,body>section.sp-why,body>#chart,body>section.ck-memes,body>section.sp-last,body>.sp-foot,body>.mbar,body>.sp-mq,body>.sp-foot+.mbar{display:none!important}
+.mh{position:relative;overflow:hidden;font-family:var(--mh-sans);color:var(--mh-ink);background:var(--mh-bg)}
+.mh *{box-sizing:border-box}.mh a{color:inherit;text-decoration:none}:where(.mh) button,:where(.mh) a{font:inherit}.mh img{display:block;max-width:100%}
+.mh-eth{display:inline-block;width:.7em;height:1.1em;vertical-align:-.15em}
+/* header */
+.mh-head{position:absolute;top:0;left:0;right:0;z-index:20;height:86px;display:flex;align-items:center;justify-content:space-between;padding:0 5.3%;border-bottom:1px solid var(--mh-line);background:linear-gradient(180deg,rgba(7,7,26,.72),rgba(7,7,26,0))}
+.mh-brand{display:flex;align-items:center;gap:12px;font:900 22px/0.9 var(--mh-serif);letter-spacing:.035em}
+.mh-brand small{display:block;font:700 7px var(--mh-sans);letter-spacing:.22em;margin-top:7px;color:var(--mh-lav)}
+.mh-brand .dot{color:var(--mh-eth)}
+.mh-brand img{width:42px;height:42px;border-radius:50%;object-fit:cover;border:1px solid var(--mh-lav);box-shadow:0 0 0 4px rgba(98,126,234,.12),0 0 22px rgba(98,126,234,.45)}
+.mh-nav{display:flex;gap:36px;font-size:11px;font-weight:700;letter-spacing:.08em}
+.mh-nav a{color:#c7ccef;transition:color .2s}.mh-nav a:hover{color:#fff}
+.mh-acts{display:flex;gap:18px;align-items:center}
+.mh-soc{width:38px;height:38px;display:grid;place-items:center;border:1px solid var(--mh-line);border-radius:50%;color:var(--mh-sil);transition:.2s}
+.mh-soc:hover{border-color:var(--mh-lav);color:#fff;transform:translateY(-2px)}.mh-soc svg{width:15px;height:15px}
+.mh-pill{border:1px solid var(--mh-lav);border-radius:2px;display:inline-flex;align-items:center;justify-content:space-between;gap:30px;padding:15px 20px;font:700 10px var(--mh-sans);letter-spacing:.14em;transition:background .2s,color .2s,transform .2s,box-shadow .2s;cursor:pointer;background:transparent;color:var(--mh-ink)}
+.mh-pill:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(98,126,234,.35)}
+.mh-pill.pri{background:linear-gradient(135deg,#c9d2ff,#8fa4f3 55%,#627eea);color:#0b0a2a;border-color:#b9c4fb;min-width:190px}
+.mh-pill.pri:hover{background:linear-gradient(135deg,#e2e7ff,#a9b6f5 55%,#7b93f0)}
+.mh-tl{font-size:11px;font-weight:700;letter-spacing:.12em;color:#d6dbf7}.mh-tl span{margin-left:8px}.mh-tl:hover{color:#fff}
+/* hero */
+.mh-hero{position:relative;min-height:780px;height:min(920px,100svh);padding:110px 5.3% 30px;display:flex;flex-direction:column;isolation:isolate;background:radial-gradient(ellipse at 55% 46%,#2a2a86 0%,#17145a 34%,#0a0927 78%)}
+.mh-hero-bg{position:absolute;inset:0;z-index:-3;background:url(assets/tpl/bg1.webp) center 70%/cover no-repeat;opacity:.55;mix-blend-mode:screen;filter:saturate(1.3) hue-rotate(20deg);mask-image:linear-gradient(180deg,transparent 0,#000 30%,#000 70%,transparent)}
+.mh-hero:before{content:"";position:absolute;inset:0;z-index:-2;pointer-events:none;opacity:.16;background-image:repeating-linear-gradient(90deg,transparent 0 119px,#a9b6f5 120px,transparent 121px),repeating-linear-gradient(0deg,transparent 0 119px,#a9b6f5 120px,transparent 121px);mask-image:linear-gradient(to bottom,transparent,#000)}
+.mh-hero:after{content:"";position:absolute;left:-10%;right:-10%;bottom:0;height:38%;z-index:-2;pointer-events:none;background:linear-gradient(rgba(140,108,240,.55) 1px,transparent 1px) 0 0/100% 34px,linear-gradient(90deg,rgba(140,108,240,.45) 1px,transparent 1px) 0 0/68px 100%;transform:perspective(420px) rotateX(62deg);transform-origin:bottom;mask-image:linear-gradient(transparent,#000 70%);animation:mhGrid 6s linear infinite}
+@keyframes mhGrid{to{background-position:0 34px,0 0}}
+.mh-stars{position:absolute;inset:0;z-index:-1;width:100%;height:100%;pointer-events:none}
+.mh-hero-body{flex:1;display:grid;grid-template-columns:1.05fr 1.3fr .14fr;align-items:center;position:relative}
+.mh-hero-copy{position:relative;z-index:3;padding-bottom:24px;align-self:end}
+.mh-eyebrow{font-size:10px;font-weight:700;letter-spacing:.24em;color:var(--mh-lav)}
+.mh h1,.mh h2{font-family:var(--mh-serif);font-weight:700;letter-spacing:-.05em;line-height:.98;margin:26px 0}
+.mh h1{font-size:clamp(76px,8.1vw,132px);white-space:nowrap;background:linear-gradient(180deg,#fff 0%,#d9def0 45%,#8fa4f3 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 6px 30px rgba(98,126,234,.45))}
+.mh h2{font-size:clamp(50px,6vw,90px)}
+.mh h2 em,.mh h1 em{font-weight:500;color:var(--mh-lav);font-style:italic}
+.mh-hero-copy p{color:#c9cdee;font-size:16px;line-height:1.8;margin:0;max-width:430px}
+.mh-btns{display:flex;align-items:center;gap:28px;margin-top:34px;flex-wrap:wrap}
+.mh-art{position:relative;height:100%;min-height:520px;display:grid;place-items:center;z-index:2}
+.mh-octa{position:absolute;left:50%;top:50%;width:min(52vw,760px);height:min(52vw,760px);transform:translate(-50%,-52%);pointer-events:none}
+.mh-halo{position:absolute;left:50%;top:50%;width:min(36vw,520px);aspect-ratio:1;border-radius:50%;transform:translate(-50%,-52%);border:1px solid rgba(169,182,245,.5);box-shadow:0 0 0 20px rgba(98,126,234,.05),0 0 0 21px rgba(169,182,245,.25),0 0 0 40px rgba(98,126,234,.04),0 0 120px rgba(98,126,234,.35) inset}
+.mh-cat{position:relative;width:min(30vw,430px);aspect-ratio:3/4;transform-style:preserve-3d;animation:mhFloat 6s ease-in-out infinite;will-change:transform}
+.mh-cat img{width:100%;height:100%;object-fit:cover;-webkit-mask-image:radial-gradient(ellipse 50% 52% at 50% 46%,#000 58%,transparent 100%);mask-image:radial-gradient(ellipse 50% 52% at 50% 46%,#000 58%,transparent 100%);filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+@keyframes mhFloat{0%,100%{transform:translateY(0) rotate(-.6deg)}50%{transform:translateY(-16px) rotate(.6deg)}}
+.mh-orb{position:absolute;color:var(--mh-lav);opacity:.85;animation:mhSpin 14s linear infinite}
+.mh-orb.a{left:6%;top:22%;width:30px}.mh-orb.b{right:4%;bottom:26%;width:20px;animation-duration:10s;animation-direction:reverse}
+@keyframes mhSpin{to{transform:rotateY(360deg)}}
+.mh-vert{writing-mode:vertical-rl;justify-self:end;font-family:serif;font-size:14px;letter-spacing:.35em;color:var(--mh-lav);opacity:.85;z-index:3}
+.mh-row{display:flex;justify-content:space-between;align-items:center;font-size:9px;font-weight:700;letter-spacing:.18em;gap:16px}
+.mh-hero-bottom{position:relative;z-index:3;color:#b9c1ee}
+/* divider */
+.mh-div{display:flex;justify-content:space-around;align-items:center;gap:20px;padding:26px 5%;background:linear-gradient(90deg,#141347,#232074 50%,#141347);border-top:1px solid var(--mh-line);border-bottom:1px solid var(--mh-line);font-size:10px;font-weight:700;letter-spacing:.24em;color:var(--mh-sil);white-space:nowrap;overflow:hidden}
+.mh-div i{color:var(--mh-eth);font-style:normal}
+/* sections */
+.mh-sec{padding:100px 7%;position:relative}
+.mh-kick{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:9px;font-weight:700;letter-spacing:.18em;padding-bottom:20px;border-bottom:1px solid currentColor;opacity:.62}
+.mh-memes{background:linear-gradient(180deg,#0b0a24,#0f0d33);color:var(--mh-ink)}
+.mh-shead{display:flex;justify-content:space-between;align-items:end;gap:40px;padding:70px 0 50px}.mh-shead h2{margin-bottom:0}
+.mh-intro{width:330px;color:var(--mh-mut);font-size:14px;line-height:1.8}.mh-intro p{margin:0}
+.mh-count{display:flex;align-items:center;gap:13px;margin-top:22px}.mh-count span{font:50px var(--mh-serif);color:var(--mh-lav)}.mh-count small{font-size:9px;font-weight:700;letter-spacing:.16em;line-height:1.5;color:var(--mh-sil)}
+.mh-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;perspective:1200px}
+.mh-card{position:relative;padding:0;border:1px solid var(--mh-line);background:#11103a;cursor:zoom-in;overflow:hidden;aspect-ratio:1;transform-style:preserve-3d;transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s,border-color .35s}
+.mh-card img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.mh-card:hover{border-color:var(--mh-lav);box-shadow:0 24px 60px rgba(40,40,140,.55),0 0 0 1px rgba(169,182,245,.4)}
+.mh-card:hover img{transform:scale(1.05)}
+.mh-card:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 30%,rgba(217,222,240,.22) 50%,transparent 70%);transform:translateX(-120%);transition:transform .8s;pointer-events:none}
+.mh-card:hover:after{transform:translateX(120%)}
+.mh-card b{position:absolute;left:12px;bottom:10px;font:700 9px var(--mh-sans);letter-spacing:.16em;color:#fff;background:rgba(7,7,26,.7);border:1px solid var(--mh-line);padding:6px 9px}
+.mh-card.more{display:none}.mh-grid.open .mh-card.more{display:block}
+.mh-gbot{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:40px;font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--mh-mut)}
+/* chart band */
+.mh-band{position:relative;padding:62px 7%;background:linear-gradient(100deg,#17165a,#2b2690 55%,#3b2f9e);overflow:hidden;border-top:1px solid var(--mh-line);border-bottom:1px solid var(--mh-line)}
+.mh-band:before{content:"";position:absolute;right:-60px;top:-80px;width:340px;height:420px;background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 52'><g fill='none' stroke='%23c9d2ff' stroke-width='.4' opacity='.5'><path d='M16 1 3 26l13 8 13-8z'/><path d='M3 29l13 22 13-22-13 8z'/><path d='M16 1v33M3 26l13-6 13 6'/></g></svg>") center/contain no-repeat;opacity:.55;animation:mhSpin 18s linear infinite}
+.mh-band-in{position:relative;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.mh-band small{font-size:9px;font-weight:700;letter-spacing:.2em;color:var(--mh-lav)}
+.mh-band h2{font-size:clamp(34px,3.6vw,52px);margin:10px 0 8px;letter-spacing:-.03em}
+.mh-band p{margin:0;color:#c9cdee;font-size:14px}
+/* pfp */
+.mh-pfp{background:radial-gradient(ellipse at 70% 50%,#1d1a5e 0%,#0d0c2b 70%)}
+.mh-pfp-lay{display:grid;grid-template-columns:1fr 1fr;gap:6%;align-items:center;padding-top:70px}
+.mh-pfp-copy p{color:var(--mh-mut);font-size:15px;line-height:1.8;max-width:420px;margin:0 0 34px}
+.mh-hint{margin-top:22px;font-size:9px;font-weight:700;letter-spacing:.18em;color:var(--mh-mut)}
+.mh-orc{position:relative;display:grid;place-items:center;min-height:520px;perspective:1000px}
+.mh-ring{position:absolute;border-radius:50%;border:1px solid rgba(169,182,245,.35)}
+.mh-ring.a{width:460px;height:460px;animation:mhSpin2 40s linear infinite;border-style:dashed}
+.mh-ring.b{width:360px;height:360px;border-color:rgba(98,126,234,.55);box-shadow:0 0 80px rgba(98,126,234,.25)}
+@keyframes mhSpin2{to{transform:rotate(360deg)}}
+.mh-ocard{position:relative;width:300px;background:linear-gradient(160deg,#1c1b52,#0f0e33);border:1px solid var(--mh-lav);padding:14px;box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 6px rgba(98,126,234,.08);transform:rotateY(-10deg) rotateX(6deg);transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.mh-ocard:hover{transform:rotateY(0) rotateX(0)}
+.mh-ocard.flip{animation:mhFlip .7s ease}
+@keyframes mhFlip{0%{transform:rotateY(-10deg)}50%{transform:rotateY(80deg) scale(.96)}100%{transform:rotateY(-10deg)}}
+.mh-olab{display:flex;justify-content:space-between;font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--mh-lav);margin-bottom:12px}
+.mh-oimg{aspect-ratio:1;background:#0a0927;overflow:hidden;border:1px solid var(--mh-line)}.mh-oimg img{width:100%;height:100%;object-fit:cover}
+.mh-obot{display:flex;justify-content:space-between;margin-top:12px;font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--mh-sil)}
+.mh-obot a{color:var(--mh-lav)}
+.mh-seal{position:absolute;right:13%;bottom:16%;width:56px;height:56px;display:grid;place-items:center;background:linear-gradient(135deg,#8fa4f3,#627eea);color:#0b0a2a;font:700 24px serif;transform:rotate(8deg);box-shadow:0 10px 30px rgba(98,126,234,.5)}
+.mh-star{position:absolute;color:var(--mh-lav);font-size:26px;animation:mhTw 3s ease-in-out infinite}.mh-star.a{left:10%;top:18%}.mh-star.b{right:8%;top:30%;font-size:18px;animation-delay:1.2s}
+@keyframes mhTw{50%{opacity:.25;transform:scale(.7)}}
+/* contract */
+.mh-ca-sec{background:radial-gradient(ellipse at 30% 40%,#3a2f9e 0%,#1d1a66 45%,#0b0a27 100%)}
+.mh-ca-sec:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.12;background-image:repeating-linear-gradient(90deg,transparent 0 119px,#c9d2ff 120px,transparent 121px),repeating-linear-gradient(0deg,transparent 0 119px,#c9d2ff 120px,transparent 121px);mask-image:linear-gradient(to bottom,transparent,#000)}
+.mh-ca-in{position:relative;display:grid;grid-template-columns:1.2fr .8fr;gap:6%;align-items:center;padding-top:70px}
+.mh-ca-in p{color:#c9cdee;font-size:15px;line-height:1.8;max-width:480px}
+.mh-cabox{display:flex;align-items:stretch;max-width:620px;margin:28px 0 18px;border:1px solid var(--mh-lav);background:rgba(7,7,26,.55);backdrop-filter:blur(6px)}
+.mh-cabox>div{flex:1;min-width:0;padding:14px 18px}
+.mh-cabox small{display:block;font-size:8px;font-weight:700;letter-spacing:.2em;color:var(--mh-lav);margin-bottom:6px}
+.mh-cabox code{display:block;font:500 13px var(--mh-mono);color:#fff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mh-cabox button{border:0;border-left:1px solid var(--mh-lav);background:linear-gradient(135deg,#c9d2ff,#8fa4f3);color:#0b0a2a;padding:0 24px;font:700 10px var(--mh-sans);letter-spacing:.14em;cursor:pointer}
+.mh-chips{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 30px}
+.mh-chips span{font-size:9px;font-weight:700;letter-spacing:.16em;padding:9px 12px;border:1px solid var(--mh-line);color:var(--mh-sil);background:rgba(98,126,234,.08)}
+.mh-close{display:flex;flex-direction:column;align-items:center;gap:20px}
+.mh-tiles{display:flex;gap:14px;perspective:600px}
+.mh-tiles span{width:84px;height:96px;display:grid;place-items:center;font:700 42px serif;color:#e6eaff;border:1px solid var(--mh-lav);background:linear-gradient(160deg,rgba(201,210,255,.16),rgba(98,126,234,.06));box-shadow:inset 0 0 30px rgba(98,126,234,.25),0 14px 30px rgba(0,0,0,.35);animation:mhTile 5s ease-in-out infinite}
+.mh-tiles span:nth-child(2){animation-delay:.4s}.mh-tiles span:nth-child(3){animation-delay:.8s}
+@keyframes mhTile{0%,100%{transform:rotateY(0) translateY(0)}50%{transform:rotateY(18deg) translateY(-8px)}}
+.mh-close div{text-align:center;font-size:9px;font-weight:700;letter-spacing:.22em;line-height:1.7;color:var(--mh-lav)}
+.mh-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:30px 5.3%;border-top:1px solid var(--mh-line);background:#07071a;font-size:9px;font-weight:700;letter-spacing:.16em;color:var(--mh-mut)}
+.mh-foot .mh-fb{font:900 22px var(--mh-serif);letter-spacing:.03em;color:#fff}.mh-foot .mh-fb span{color:var(--mh-eth)}
+.mh-dis{padding:0 5.3% 34px;background:#07071a;color:#6f76a6;font-size:11px;line-height:1.7;margin:0}
+.mh-dlg{border:1px solid var(--mh-lav);background:#0d0c2b;padding:14px;max-width:min(92vw,680px);color:var(--mh-ink)}
+.mh-dlg::backdrop{background:rgba(5,5,20,.82);backdrop-filter:blur(4px)}
+.mh-dlg img{width:100%;max-height:76vh;object-fit:contain}
+.mh-dlg .mh-row{margin-top:12px;color:var(--mh-lav)}
+.mh-dlg-x{position:absolute;right:8px;top:6px;border:0;background:none;color:#fff;font-size:28px;cursor:pointer}
+.mh-rv{opacity:0;transform:translateY(34px);transition:opacity .9s ease,transform .9s cubic-bezier(.2,.7,.2,1)}.mh-rv.in{opacity:1;transform:none}
+@media (max-width:980px){
+.mh-nav{display:none}.mh-head{height:72px}.mh-head .mh-pill{padding:11px 13px;gap:10px;font-size:9px}
+.mh-hero{height:auto;min-height:0;padding:96px 6% 26px}
+.mh-hero-body{grid-template-columns:1fr;gap:0}
+.mh-art{order:1;min-height:0;height:auto;padding:10px 0 0}
+.mh-hero-copy{order:2;padding-bottom:20px}
+.mh-vert{display:none}
+.mh-octa{width:118vw;height:118vw;transform:translate(-50%,-50%)}
+.mh-halo{width:80vw;transform:translate(-50%,-50%)}
+.mh-cat{width:min(70vw,360px)}
+.mh h1{font-size:clamp(64px,19vw,110px);margin:18px 0}
+.mh h2{font-size:clamp(42px,12vw,70px)}
+.mh-sec{padding:70px 6%}
+.mh-shead{flex-direction:column;align-items:start;padding:46px 0 34px;gap:10px}.mh-intro{width:auto}
+.mh-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+.mh-grid .mh-card:first-child{grid-column:span 2}
+.mh-band-in{flex-direction:column;align-items:start}
+.mh-pfp-lay,.mh-ca-in{grid-template-columns:1fr;padding-top:46px;gap:40px}
+.mh-orc{min-height:420px}.mh-ring.a{width:340px;height:340px}.mh-ring.b{width:270px;height:270px}.mh-ocard{width:250px}.mh-seal{display:none}
+.mh-div{justify-content:center}.mh-div span:not(:nth-child(2)){display:none}
+.mh-kick span:last-child{display:none}
+.mh-hero-bottom span:last-child{display:none}
+.mh-gbot,.mh-foot{flex-direction:column;align-items:start}
+.mh-tiles span{width:70px;height:80px;font-size:34px}
+}
+@media (max-width:420px){.mh-acts{gap:10px}.mh-brand{font-size:19px}.mh-brand img{width:36px;height:36px}.mh-cabox{flex-direction:column}.mh-cabox button{border-left:0;border-top:1px solid var(--mh-lav);padding:14px}}
+@media (prefers-reduced-motion:reduce){.mh *{animation:none!important;transition:none!important}.mh-rv{opacity:1;transform:none}}
+</style>
 </head>
-<body class="a-c49-sprotty" data-ca="TBA" class="" data-mx-gl="warp@right" data-mx-gl-tone="dark" data-mx-3d="cards mascot rise">
+<body class="a-c49-sprotty" data-ca="TBA" class="" data-mx-gl="" data-mx-gl-tone="dark" data-mx-3d="cards">
 
 <header class="sp-nav"><div class="sp-w sp-nw"><a class="sp-lg" href="#top"><img src="assets/logo.png?v=1af2fea8" alt="ni hao cat"><span><b>ni hao cat</b><small>$mihao</small></span></a>
 <nav class="sp-links"><a href="#how">How it works</a><a href="#vault">Vault</a><a href="#pillars">Pillars</a><a href="#memes">Memes</a></nav>
 <div class="sp-wid"><small>Supply</small><b>1B</b><svg class="sp-spk" viewBox="0 0 60 18" preserveAspectRatio="none"><path d="M0 12 L8 10 L16 13 L24 6 L32 9 L40 4 L48 8 L60 2"/></svg></div><div class="sp-wid"><small>Tax · LP</small><b>0/0</b><svg class="sp-spk" viewBox="0 0 60 18" preserveAspectRatio="none"><path d="M0 12 L8 10 L16 13 L24 6 L32 9 L40 4 L48 8 L60 2"/></svg></div>
 <a class="sp-ic" data-s="x" href="" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="sp-ic" href="https://dexscreener.com/ethereum" target="_blank" rel="noopener" aria-label="Chart"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M3 17l6-6 4 4 8-8"/></svg></a><a class="sp-lime" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener">Trade $mihao</a></div></header>
-<section class="sp-hero" id="top" data-bg="1"><div class="sp-sky"><i class="sp-st" style="left:0%;top:0%;--d:0.0s"></i><i class="sp-st" style="left:37%;top:53%;--d:0.5s"></i><i class="sp-st" style="left:74%;top:36%;--d:1.0s"></i><i class="sp-st" style="left:11%;top:19%;--d:1.5s"></i><i class="sp-st" style="left:48%;top:2%;--d:2.0s"></i><i class="sp-st" style="left:85%;top:55%;--d:2.5s"></i><i class="sp-st" style="left:22%;top:38%;--d:3.0s"></i><i class="sp-st" style="left:59%;top:21%;--d:0.0s"></i><i class="sp-st" style="left:96%;top:4%;--d:0.5s"></i><i class="sp-st" style="left:33%;top:57%;--d:1.0s"></i><i class="sp-st" style="left:70%;top:40%;--d:1.5s"></i><i class="sp-st" style="left:7%;top:23%;--d:2.0s"></i><i class="sp-st" style="left:44%;top:6%;--d:2.5s"></i><i class="sp-st" style="left:81%;top:59%;--d:3.0s"></i><i class="sp-st" style="left:18%;top:42%;--d:0.0s"></i><i class="sp-st" style="left:55%;top:25%;--d:0.5s"></i><i class="sp-st" style="left:92%;top:8%;--d:1.0s"></i><i class="sp-st" style="left:29%;top:61%;--d:1.5s"></i><i class="sp-st" style="left:66%;top:44%;--d:2.0s"></i><i class="sp-st" style="left:3%;top:27%;--d:2.5s"></i><i class="sp-st" style="left:40%;top:10%;--d:3.0s"></i><i class="sp-st" style="left:77%;top:63%;--d:0.0s"></i><i class="sp-st" style="left:14%;top:46%;--d:0.5s"></i><i class="sp-st" style="left:51%;top:29%;--d:1.0s"></i><i class="sp-st" style="left:88%;top:12%;--d:1.5s"></i><i class="sp-st" style="left:25%;top:65%;--d:2.0s"></i><i class="sp-st" style="left:62%;top:48%;--d:2.5s"></i><i class="sp-st" style="left:99%;top:31%;--d:3.0s"></i><i class="sp-st" style="left:36%;top:14%;--d:0.0s"></i><i class="sp-st" style="left:73%;top:67%;--d:0.5s"></i><i class="sp-st" style="left:10%;top:50%;--d:1.0s"></i><i class="sp-st" style="left:47%;top:33%;--d:1.5s"></i><i class="sp-st" style="left:84%;top:16%;--d:2.0s"></i><i class="sp-st" style="left:21%;top:69%;--d:2.5s"></i><img class="sp-moon" src="assets/tpl/moon.webp?v=1248ee8e" alt=""></div><div class="sp-w sp-hw"><div class="sp-hl">
+<div class="mh" id="mh-top">
+<header class="mh-head"><a class="mh-brand" href="#mh-top" aria-label="MIHAO home"><img src="assets/logo.png" alt="Ni Hao Cat logo"><span>MIHAO<span class="dot">.</span><small>NI HAO CAT · ETHEREUM</small></span></a>
+<nav class="mh-nav" aria-label="Main navigation"><a href="#mh-memes">MEMES</a><a href="#mh-pfp">PFP</a><a href="#mh-chart">CHART</a><a href="#mh-ca">$MIHAO</a></nav>
+<div class="mh-acts"><a class="mh-soc" data-mh="x" href="#" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="mh-soc" data-mh="tg" href="#" target="_blank" rel="noopener" aria-label="Telegram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></a><a class="mh-pill" data-mh="buy" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener">BUY $MIHAO <span>↗</span></a></div></header>
+<section class="mh-hero" aria-labelledby="mh-title"><div class="mh-hero-bg" aria-hidden="true"></div><canvas class="mh-stars" aria-hidden="true"></canvas>
+<div class="mh-hero-body">
+<div class="mh-hero-copy mh-rv"><div class="mh-eyebrow">你好 &nbsp;·&nbsp; NI HAO CAT &nbsp;·&nbsp; ON ETHEREUM</div><h1 id="mh-title">$MIHAO</h1><p>A cat. A chain. Infinite possibilities. Ni Hao Cat has arrived on Ethereum.</p><div class="mh-btns"><a class="mh-pill pri" href="#mh-memes">EXPLORE MEMES <span>↘</span></a><a class="mh-tl" href="#mh-pfp">FIND YOUR PFP <span>↘</span></a></div></div>
+<div class="mh-art"><canvas class="mh-octa" aria-hidden="true"></canvas><div class="mh-halo" aria-hidden="true"></div><svg class="mh-orb a" viewBox="0 0 32 52" aria-hidden="true"><path d="M16 1 3 26l13 8 13-8z" fill="currentColor" opacity=".9"/><path d="M3 29l13 22 13-22-13 8z" fill="currentColor" opacity=".55"/></svg><svg class="mh-orb b" viewBox="0 0 32 52" aria-hidden="true"><path d="M16 1 3 26l13 8 13-8z" fill="currentColor" opacity=".9"/><path d="M3 29l13 22 13-22-13 8z" fill="currentColor" opacity=".55"/></svg><div class="mh-cat" id="mh-cat"><img src="assets/char7.webp" alt="Ni Hao Cat meditating in an Ethereum glow"></div></div>
+<div class="mh-vert" aria-hidden="true">以太坊 · 你好猫 · Ξ</div>
+</div>
+<div class="mh-row mh-hero-bottom"><span>THE CAT IS ON ETHEREUM &nbsp;·&nbsp; 你好</span><span>SCROLL TO ENTER ↓</span></div>
+</section>
+<div class="mh-div"><span>你好，朋友</span><span><i>Ξ</i> &nbsp; THE WORLD OF NI HAO CAT ON ETHEREUM &nbsp; <i>Ξ</i></span><span>好運常伴</span></div>
+<section class="mh-sec mh-memes" id="mh-memes"><div class="mh-kick"><span>01 / THE MEME DEPOT</span><span>收藏快乐 &nbsp;✦&nbsp; MINTED IN MEMES</span></div>
+<div class="mh-shead"><div class="mh-rv"><div class="mh-eyebrow">A COLLECTION OF CATS</div><h2>THE MEME<br><em>COLLECTION.</em></h2></div><div class="mh-intro mh-rv"><p>A cat for every mood, from diamond paws to moon missions. Tap any card to open it and take your favourites with you.</p><div class="mh-count"><span>15</span><small>CATS IN<br>THE COLLECTION</small></div></div></div>
+<div class="mh-grid" id="mh-grid">
+<button class="mh-card" type="button"><img src="assets/meme1.webp" alt="$MIHAO meme 1" loading="lazy"><b>#01</b></button>
+<button class="mh-card" type="button"><img src="assets/meme2.webp" alt="$MIHAO meme 2" loading="lazy"><b>#02</b></button>
+<button class="mh-card" type="button"><img src="assets/meme3.webp" alt="$MIHAO meme 3" loading="lazy"><b>#03</b></button>
+<button class="mh-card" type="button"><img src="assets/meme4.webp" alt="$MIHAO meme 4" loading="lazy"><b>#04</b></button>
+<button class="mh-card" type="button"><img src="assets/meme5.webp" alt="$MIHAO meme 5" loading="lazy"><b>#05</b></button>
+<button class="mh-card" type="button"><img src="assets/meme6.webp" alt="$MIHAO meme 6" loading="lazy"><b>#06</b></button>
+<button class="mh-card" type="button"><img src="assets/meme7.webp" alt="$MIHAO meme 7" loading="lazy"><b>#07</b></button>
+<button class="mh-card" type="button"><img src="assets/meme8.webp" alt="$MIHAO meme 8" loading="lazy"><b>#08</b></button>
+<button class="mh-card" type="button"><img src="assets/meme9.webp" alt="$MIHAO meme 9" loading="lazy"><b>#09</b></button>
+<button class="mh-card more" type="button"><img src="assets/meme10.webp" alt="$MIHAO meme 10" loading="lazy"><b>#10</b></button>
+<button class="mh-card more" type="button"><img src="assets/char1.webp" alt="Ni Hao Cat 1" loading="lazy"><b>#11</b></button>
+<button class="mh-card more" type="button"><img src="assets/char2.webp" alt="Ni Hao Cat 2" loading="lazy"><b>#12</b></button>
+<button class="mh-card more" type="button"><img src="assets/char3.webp" alt="Ni Hao Cat 3" loading="lazy"><b>#13</b></button>
+<button class="mh-card more" type="button"><img src="assets/char4.webp" alt="Ni Hao Cat 4" loading="lazy"><b>#14</b></button>
+<button class="mh-card more" type="button"><img src="assets/char5.webp" alt="Ni Hao Cat 5" loading="lazy"><b>#15</b></button>
+</div>
+<div class="mh-gbot"><span id="mh-gcount">SHOWING 9 OF 15 CATS</span><button class="mh-pill" id="mh-more" type="button">VIEW ALL CATS <span>↗</span></button></div></section>
+<section class="mh-band" id="mh-chart" aria-labelledby="mh-chart-t"><div class="mh-band-in"><div class="mh-rv"><small>THE WORLD OF $MIHAO &nbsp;·&nbsp; 以太坊</small><h2 id="mh-chart-t">THE CHART</h2><p>Follow $MIHAO live on Ethereum. Candles, holders and volume in one place.</p></div><a class="mh-pill" data-mh="chart" href="https://dexscreener.com/ethereum" target="_blank" rel="noopener">OPEN DEXSCREENER <span>↗</span></a></div></section>
+<section class="mh-sec mh-pfp" id="mh-pfp"><div class="mh-kick"><span>02 / THE PFP ORACLE</span><span>你的命中注定 &nbsp;✦&nbsp; YOUR TURN</span></div>
+<div class="mh-pfp-lay"><div class="mh-pfp-copy mh-rv"><div class="mh-eyebrow">FIND YOUR ALTER EGO</div><h2>FIND YOUR<br><em>MIHAO.</em></h2><p>A new face for every mood. Let the oracle pick your next profile picture, then wear it proudly across Ethereum.</p><button id="mh-roll" class="mh-pill pri" type="button">FIND MY PFP <span>✳</span></button><div class="mh-hint">18 POSSIBLE CATS &nbsp;/&nbsp; ZERO BAD ROLLS</div></div>
+<div class="mh-orc"><div class="mh-ring a"></div><div class="mh-ring b"></div><span class="mh-star a">✦</span><span class="mh-star b">✧</span><div class="mh-ocard" id="mh-ocard"><div class="mh-olab"><span>THE PFP ORACLE</span><span>Ξ</span></div><div class="mh-oimg"><img id="mh-pfp-img" src="assets/char8.webp" alt="Your Ni Hao Cat profile picture"></div><div class="mh-obot"><span id="mh-pfp-n">PRESS FOR CAT</span><a id="mh-pfp-dl" href="assets/char8.webp" download>DOWNLOAD ↓</a></div></div><div class="mh-seal" aria-hidden="true">猫</div></div></div></section>
+<section class="mh-sec mh-ca-sec" id="mh-ca"><div class="mh-kick"><span>03 / FIND THE CAT</span><span>好運隨行 &nbsp;✦&nbsp; ON ETHEREUM</span></div>
+<div class="mh-ca-in"><div class="mh-rv"><div class="mh-eyebrow">FIND $MIHAO</div><h2>THE CAT<br><em>IS ONCHAIN.</em></h2><p>Find $MIHAO on Ethereum. Copy the contract address below, then swap ETH for $MIHAO on Uniswap.</p>
+<div class="mh-cabox"><div><small>CONTRACT ADDRESS · ETHEREUM</small><code class="mh-ca-txt">TBA</code></div><button type="button" data-copy aria-label="Copy contract address">COPY <span>↗</span></button></div>
+<div class="mh-chips"><span>CHAIN · ETHEREUM</span><span>DEX · UNISWAP</span><span>TAX · 0/0</span><span>TICKER · $MIHAO</span></div>
+<div class="mh-btns"><a class="mh-pill pri" data-mh="buy" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener">BUY $MIHAO <span>↗</span></a><a class="mh-tl" data-mh="x" href="#" target="_blank" rel="noopener">FOLLOW THE CAT ↗</a><a class="mh-tl" data-mh="tg" href="#" target="_blank" rel="noopener">JOIN TELEGRAM ↗</a></div></div>
+<div class="mh-close mh-rv"><div class="mh-tiles"><span>招</span><span>財</span><span>猫</span></div><div>GOOD CAT<br>GOOD FORTUNE · Ξ</div></div></div></section>
+<footer class="mh-foot"><a class="mh-fb" href="#mh-top">MIHAO<span>.</span></a><span>MADE FOR THE CAT &amp; THE CULTURE &nbsp;✳&nbsp; ETHEREUM &nbsp;✳&nbsp; 你好</span><a href="#mh-top">BACK TO TOP ↑</a></footer>
+<p class="mh-dis">$MIHAO is a meme coin on Ethereum with no intrinsic value or expectation of financial return. Not financial advice. Do your own research.</p>
+<dialog class="mh-dlg" id="mh-dlg" aria-label="Meme preview"><button class="mh-dlg-x" type="button" aria-label="Close preview">×</button><img id="mh-dlg-img" alt="Selected $MIHAO meme"><div class="mh-row"><span>FROM THE MIHAO DEPOT</span><a id="mh-dlg-dl" download>DOWNLOAD ↓</a></div></dialog>
+</div>
+
+<section class="sp-hero" id="sp-old-top" data-bg="1"><div class="sp-sky"><i class="sp-st" style="left:0%;top:0%;--d:0.0s"></i><i class="sp-st" style="left:37%;top:53%;--d:0.5s"></i><i class="sp-st" style="left:74%;top:36%;--d:1.0s"></i><i class="sp-st" style="left:11%;top:19%;--d:1.5s"></i><i class="sp-st" style="left:48%;top:2%;--d:2.0s"></i><i class="sp-st" style="left:85%;top:55%;--d:2.5s"></i><i class="sp-st" style="left:22%;top:38%;--d:3.0s"></i><i class="sp-st" style="left:59%;top:21%;--d:0.0s"></i><i class="sp-st" style="left:96%;top:4%;--d:0.5s"></i><i class="sp-st" style="left:33%;top:57%;--d:1.0s"></i><i class="sp-st" style="left:70%;top:40%;--d:1.5s"></i><i class="sp-st" style="left:7%;top:23%;--d:2.0s"></i><i class="sp-st" style="left:44%;top:6%;--d:2.5s"></i><i class="sp-st" style="left:81%;top:59%;--d:3.0s"></i><i class="sp-st" style="left:18%;top:42%;--d:0.0s"></i><i class="sp-st" style="left:55%;top:25%;--d:0.5s"></i><i class="sp-st" style="left:92%;top:8%;--d:1.0s"></i><i class="sp-st" style="left:29%;top:61%;--d:1.5s"></i><i class="sp-st" style="left:66%;top:44%;--d:2.0s"></i><i class="sp-st" style="left:3%;top:27%;--d:2.5s"></i><i class="sp-st" style="left:40%;top:10%;--d:3.0s"></i><i class="sp-st" style="left:77%;top:63%;--d:0.0s"></i><i class="sp-st" style="left:14%;top:46%;--d:0.5s"></i><i class="sp-st" style="left:51%;top:29%;--d:1.0s"></i><i class="sp-st" style="left:88%;top:12%;--d:1.5s"></i><i class="sp-st" style="left:25%;top:65%;--d:2.0s"></i><i class="sp-st" style="left:62%;top:48%;--d:2.5s"></i><i class="sp-st" style="left:99%;top:31%;--d:3.0s"></i><i class="sp-st" style="left:36%;top:14%;--d:0.0s"></i><i class="sp-st" style="left:73%;top:67%;--d:0.5s"></i><i class="sp-st" style="left:10%;top:50%;--d:1.0s"></i><i class="sp-st" style="left:47%;top:33%;--d:1.5s"></i><i class="sp-st" style="left:84%;top:16%;--d:2.0s"></i><i class="sp-st" style="left:21%;top:69%;--d:2.5s"></i><img class="sp-moon" src="assets/tpl/moon.webp?v=1248ee8e" alt=""></div><div class="sp-w sp-hw"><div class="sp-hl">
 <div class="sp-pills"><span>Ethereum</span><span>Paired with ETH</span><a class="sp-lime sm" data-buy href="https://app.uniswap.org/" target="_blank" rel="noopener">Trade $mihao</a></div>
 <div class="sp-hbox"><h1 class="sp-h1" id="spName"><span>THE ON-CHAIN</span><br><span class="sv">ni hao cat</span><br><span>COMMUNITY.</span></h1></div>
 <p class="sp-lead">$mihao lives on Ethereum. Every trade feeds the vibe &amp; every holder grows the silver cache.</p></div>
@@ -720,6 +924,58 @@ html[data-theme-mode="preset"],html[data-theme-mode="custom"]{--acc:var(--theme-
 <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Meme viewer" hidden><button class="lb-close" type="button" aria-label="Close">&times;</button><button class="lb-nav prev" type="button" aria-label="Previous">&lsaquo;</button><img id="lbImg" alt=""><button class="lb-nav next" type="button" aria-label="Next">&rsaquo;</button></div>
 
 <div id="toast" role="status" aria-live="polite"></div>
+<script id="mh-js">(function(){var D=document,B=D.body,R=D.querySelector('.mh');if(!R)return;
+var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function src(sel){var a=D.querySelector(sel);return a?(a.getAttribute('href')||''):''}
+var buy=src('body>header.sp-nav a[data-buy]')||src('.sp-foot a[data-buy]')||src('.mbar a[data-buy]');
+var chart=src('.sp-foot a[href*="dexscreener"]')||src('body>header.sp-nav a[href*="dexscreener"]');
+var X=src('.sp-foot a[data-s="x"]'),TG=src('.sp-foot a[data-s="tg"]');
+var map={buy:buy,chart:chart,x:X,tg:TG};
+R.querySelectorAll('[data-mh]').forEach(function(a){var k=a.getAttribute('data-mh'),h=map[k];if(h&&h!=='#'&&h.indexOf('{{')<0){a.href=h}else if(k==='x'||k==='tg'){a.style.display='none'}});
+var ca=(B.getAttribute('data-ca')||'').trim();var tba=!ca||/^tba$/i.test(ca)||ca.indexOf('{{')===0;
+R.querySelectorAll('.mh-ca-txt').forEach(function(c){c.textContent=tba?'TBA · launching soon on Ethereum':ca});
+/* reveal */
+var rv=R.querySelectorAll('.mh-rv');if('IntersectionObserver' in window&&!reduce){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});rv.forEach(function(x){io.observe(x)})}else rv.forEach(function(x){x.classList.add('in')});
+/* gallery */
+var grid=D.getElementById('mh-grid'),more=D.getElementById('mh-more'),gc=D.getElementById('mh-gcount'),dlg=D.getElementById('mh-dlg'),di=D.getElementById('mh-dlg-img'),dd=D.getElementById('mh-dlg-dl');
+var total=grid?grid.querySelectorAll('.mh-card').length:0;
+if(more)more.addEventListener('click',function(){var o=grid.classList.toggle('open');more.firstChild.nodeValue=o?'SHOW FEWER ':'VIEW ALL CATS ';gc.textContent=o?'SHOWING ALL '+total+' CATS':'SHOWING 9 OF '+total+' CATS'});
+if(gc)gc.textContent='SHOWING 9 OF '+total+' CATS';
+if(grid)grid.querySelectorAll('.mh-card').forEach(function(c){var im=c.querySelector('img');
+c.addEventListener('click',function(){if(!dlg||!dlg.showModal){window.open(im.src,'_blank');return}di.src=im.src;dd.href=im.src;dlg.showModal()});
+if(!reduce&&matchMedia('(pointer:fine)').matches){c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform='rotateX('+(-y*12)+'deg) rotateY('+(x*14)+'deg) translateZ(14px)'});c.addEventListener('pointerleave',function(){c.style.transform=''})}});
+if(dlg){dlg.querySelector('.mh-dlg-x').addEventListener('click',function(){dlg.close()});dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()})}
+/* pfp oracle */
+var pool=[];R.querySelectorAll('.mh-card img').forEach(function(i){pool.push(i.getAttribute('src'))});['assets/char6.webp','assets/char7.webp','assets/char8.webp'].forEach(function(s){if(pool.indexOf(s)<0)pool.push(s)});
+var roll=D.getElementById('mh-roll'),pi=D.getElementById('mh-pfp-img'),pn=D.getElementById('mh-pfp-n'),pd=D.getElementById('mh-pfp-dl'),oc=D.getElementById('mh-ocard'),last=-1;
+if(roll)roll.addEventListener('click',function(){var i;do{i=Math.floor(Math.random()*pool.length)}while(i===last&&pool.length>1);last=i;oc.classList.remove('flip');void oc.offsetWidth;oc.classList.add('flip');setTimeout(function(){pi.src=pool[i];pd.href=pool[i];pn.textContent='CAT #'+String(i+1).padStart(2,'0')+' OF '+pool.length},320)});
+/* 3D: ETH octahedron + starfield */
+var M={x:0,y:0};window.addEventListener('pointermove',function(e){M.x=e.clientX/innerWidth*2-1;M.y=e.clientY/innerHeight*2-1},{passive:true});
+var cat=D.getElementById('mh-cat');
+function fit(c){var r=c.getBoundingClientRect(),d=Math.min(2,window.devicePixelRatio||1);c.width=Math.max(1,r.width*d);c.height=Math.max(1,r.height*d);return d}
+var oc2=R.querySelector('.mh-octa'),st=R.querySelector('.mh-stars');
+var V=[[0,1.62,0],[1,0,0],[0,0,1],[-1,0,0],[0,0,-1],[0,-1.62,0],[0,.18,0]];
+var E=[[0,1],[0,2],[0,3],[0,4],[5,1],[5,2],[5,3],[5,4],[1,2],[2,3],[3,4],[4,1],[6,1],[6,2],[6,3],[6,4]];
+var F=[[0,1,2],[0,2,3],[0,3,4],[0,4,1],[5,2,1],[5,3,2],[5,4,3],[5,1,4]];
+var stars=[];for(var i=0;i<(innerWidth<700?70:160);i++)stars.push([Math.random(),Math.random(),Math.random()*1.4+.3,Math.random()*6.28]);
+var dust=[];for(i=0;i<40;i++)dust.push([Math.random()*2-1,Math.random()*2-1,Math.random()*2-1]);
+var vis=true;if('IntersectionObserver' in window){new IntersectionObserver(function(es){vis=es[0].isIntersecting}).observe(R.querySelector('.mh-hero'))}
+function rot(p,a,b){var x=p[0],y=p[1],z=p[2],c=Math.cos(a),s=Math.sin(a);var x1=x*c+z*s,z1=-x*s+z*c;c=Math.cos(b);s=Math.sin(b);return[x1,y*c-z1*s,y*s+z1*c]}
+var t0=performance.now();
+function frame(now){var t=(now-t0)/1000;if(vis){
+if(oc2){var d=fit(oc2),x=oc2.getContext('2d'),w=oc2.width,h=oc2.height,S=Math.min(w,h)*.27,cx=w/2,cy=h/2;x.clearRect(0,0,w,h);
+var a=t*.45+M.x*.5,b=-.18+M.y*.25;function P(v,k){var r=rot([v[0]*k,v[1]*k,v[2]*k],a,b),f=3.6/(3.6+r[2]);return[cx+r[0]*S*f,cy-r[1]*S*f,r[2]]}
+[[1.0,1],[0.62,.55]].forEach(function(L,li){var k=L[0],p=V.map(function(v){return P(v,k)});
+F.forEach(function(f,fi){var z=(p[f[0]][2]+p[f[1]][2]+p[f[2]][2])/3;x.beginPath();x.moveTo(p[f[0]][0],p[f[0]][1]);x.lineTo(p[f[1]][0],p[f[1]][1]);x.lineTo(p[f[2]][0],p[f[2]][1]);x.closePath();var g=fi<4?'rgba(169,182,245,':'rgba(98,126,234,';x.fillStyle=g+(li?.07:.05+(z<0?.06:0))+')';x.fill()});
+x.lineWidth=(li?1.2:1.8)*d;x.shadowBlur=18*d;x.shadowColor='rgba(120,140,255,.9)';
+E.forEach(function(e,ei){if(ei>11&&li)return;var A=p[e[0]],C=p[e[1]],z=(A[2]+C[2])/2;x.strokeStyle='rgba('+(ei>11?'140,108,240,':'201,210,255,')+(L[1]*(z<0?.95:.4))+')';x.beginPath();x.moveTo(A[0],A[1]);x.lineTo(C[0],C[1]);x.stroke()});x.shadowBlur=0});
+dust.forEach(function(q,i){var r=rot([q[0]*2.3,q[1]*1.9,q[2]*2.3],a*.6,b),f=3.6/(3.6+r[2]);x.fillStyle='rgba(217,222,240,'+(.35+.4*Math.sin(t*2+i))+')';x.beginPath();x.arc(cx+r[0]*S*f,cy-r[1]*S*f,1.6*d*f,0,6.28);x.fill()})}
+if(st){var d2=fit(st),y=st.getContext('2d'),W=st.width,H=st.height;y.clearRect(0,0,W,H);stars.forEach(function(s){var o=.3+.7*Math.abs(Math.sin(t*.8+s[3]));y.fillStyle='rgba(201,210,255,'+o+')';y.beginPath();y.arc((s[0]*W+M.x*8*s[2]*d2+W)%W,s[1]*H*.75+M.y*6*s[2]*d2,s[2]*d2,0,6.28);y.fill()})}
+if(cat&&!reduce)cat.style.translate=(M.x*12)+'px '+(M.y*8)+'px';}
+if(!reduce)requestAnimationFrame(frame)}
+requestAnimationFrame(frame);
+})();
+</script>
 <script>
 (function(){
 var CA="TBA";
