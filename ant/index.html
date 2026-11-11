@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>$ANT — The Network Mind · Community meme token on Ethereum</title>
+<meta name="description" content="$ANT is an independent community meme token on Ethereum, launching on Uniswap. Not affiliated with Anthropic PBC or Claude.">
+<meta name="theme-color" content="#141413">
+<meta property="og:title" content="$ANT — The Network Mind">
+<meta property="og:image" content="assets/img/banner.png">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch.png">
+<link rel="preload" href="assets/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/inter-tight-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"./assets/vendor/three.module.min.js","three/addons/":"./assets/vendor/jsm/"}}</script>
+</head> 
+<body class="is-loading">
+
+<!-- LOADER -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <div class="loader__mark"><img src="assets/img/logo.png" alt="" width="392" height="396"></div>
+    <div class="loader__meta"><span class="mono">Assembling the colony</span><span class="mono loader__pct" id="loaderPct">00</span></div>
+    <div class="loader__bar"><i id="loaderBar"></i></div>
+  </div>
+</div> 
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#top" class="nav__brand" aria-label="$ANT home">
+    <span class="nav__logo"><img src="assets/img/logo.png" alt="" width="40" height="40"></span>
+    <span class="nav__name">$ANT</span>
+  </a>
+  <nav class="nav__links" aria-label="Sections">
+    <a href="#manifesto">Manifesto</a><a href="#ipo">IPO</a><a href="#supply">Supply</a><a href="#buy">How to buy</a><a href="#chart">Chart</a><a href="#colony">Colony</a>
+  </nav>
+  <a class="btn btn--buy magnetic js-buy" href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x60d1f3ea966a358cff9af0e3caef883634c43f71" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h15a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7Zm0 0 2.5-3H16v3M16.5 13.5h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="js-buy-label">Buy Now</span>
+  </a>
+</header>
+
+<!-- PROGRESS RAIL -->
+<aside class="rail" aria-hidden="true">
+  <div class="rail__line"><i id="railFill"></i></div>
+  <ol class="rail__nodes" id="railNodes"></ol>
+  <div class="rail__label mono" id="railLabel">Node 00 / Genesis</div>
+</aside>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero" id="hero" data-node="Node 00 / Genesis">
+  <canvas id="gl" class="hero__gl"></canvas>
+  <div class="hero__grain"></div>
+  <img class="hero__head" src="assets/img/head-inv.webp" alt="Hand-drawn line-art head with a glowing node network" width="251" height="361">
+  <div class="hero__inner wrap">
+    <div class="hero__top">
+      <span class="label mono"><i class="dot"></i>Node 00 / Genesis</span>
+      <span class="label mono hero__chain">Ethereum · Uniswap</span>
+    </div>
+    <h1 class="hero__word" aria-label="$ANT">
+      <span class="hw"><span>$</span></span><span class="hw"><span>A</span></span><span class="hw"><span>N</span></span><span class="hw"><span>T</span></span>
+    </h1>
+    <div class="hero__bottom">
+      <p class="hero__tag"><em>One thought is a spark.</em> A billion of them, wired together, is a mind. Join the colony of thought.</p>
+      <div class="hero__actions">
+        <button class="ca js-ca" type="button" aria-label="Copy contract address">
+          <span class="ca__k mono">CA</span><span class="ca__v mono js-ca-text">0x60d1f3ea966a358cff9af0e3caef883634c43f71</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+        </button>
+        <div class="hero__btns">
+          <a class="btn btn--accent magnetic js-buy" href="https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x60d1f3ea966a358cff9af0e3caef883634c43f71" target="_blank" rel="noopener"><span class="js-buy-label">Buy Now</span></a>
+          <a class="btn btn--ghost magnetic js-chart" href="https://dexscreener.com/ethereum/0x97a0584ba25813f12fec4b359f1a0046d719bc5c4b8babf9263310639b151ccf" target="_blank" rel="noopener"><span class="js-chart-label">Chart</span></a>
+        </div>
+        <a class="scan js-scan" href="https://etherscan.io/token/0x60d1f3ea966a358cff9af0e3caef883634c43f71" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16 16 4.5 4.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="js-scan-label">Etherscan</span></a>
+        <p class="disclaimer">$ANT is an independent community meme token. Not affiliated with, endorsed by, or connected to Anthropic PBC or Claude.</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero__scroll mono">Scroll to connect<i></i></div>
+</section>
+
+<div class="inkwrap">
+<svg class="ink" id="ink" aria-hidden="true"><path id="inkPath" d=""/><circle id="inkHead" r="7"/></svg>
+
+<!-- MANIFESTO -->
+<section class="manifesto light" id="manifesto" data-node="Node 01 / Synapse">
+  <div class="manifesto__pin">
+    <div class="wrap manifesto__grid">
+      <div class="manifesto__side">
+        <span class="label mono"><i class="dot"></i>Node 01 / Synapse</span>
+        <img class="manifesto__emblem" src="assets/img/logo.png" alt="" width="392" height="396" loading="lazy">
+        <p class="mono small">Manifesto, v1<br>Written by no one. Signed by everyone.</p>
+      </div>
+      <p class="manifesto__text" id="manifestoText">No single ant knows the plan. No single neuron holds the thought. Intelligence lives in the connections, in a million small signals passing hand to hand. $ANT is a meme built the same way: no roadmap from above, no oracle, just a colony of holders wiring a strange new mind together, one node at a time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TAPE -->
+<div class="tape" aria-hidden="true">
+  <div class="tape__band tape__band--a"><div class="tape__track" data-speed="1"></div></div>
+  <div class="tape__band tape__band--b"><div class="tape__track" data-speed="-1"></div></div>
+</div>
+
+<!-- IPO -->
+<section class="ipo dark" id="ipo" data-node="Node 02 / Listing">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label mono"><i class="dot"></i>Node 02 / Listing · early November 2026</span>
+      <h2 class="h2">Listing as <em>ANT.</em></h2>
+      <p class="lede">Anthropic filed its Form S-1, the official IPO prospectus, with the U.S. Securities and Exchange Commission on October 26, 2026, and updated it on November 2 with third-quarter results. The company plans to list on the Nasdaq under the ticker ANT. Trading is expected to begin in mid-to-late November 2026, around the week of November 16, before the U.S. Thanksgiving holiday. Exact pricing and timing are still not finalized.</p>
+    </div>
+    <ol class="ipo-track">
+      <li class="ipo-step is-done"><span class="mono">October 26</span><h3>S-1 filed</h3><p>The prospectus is with the SEC. The company has officially started the process of going public.</p></li>
+      <li class="ipo-step is-done"><span class="mono">November 2</span><h3>Q3 update</h3><p>The filing was updated with third-quarter results. The financial details are now public.</p></li>
+      <li class="ipo-step is-done"><span class="mono">Nasdaq</span><h3>Ticker ANT</h3><p>The planned listing venue is the Nasdaq. The symbol is ANT.</p></li>
+      <li class="ipo-step is-now"><span class="mono">Week of Nov 16</span><h3>Expected open</h3><p>Mid-to-late November, before Thanksgiving. Pricing and the exact day are still open.</p></li>
+    </ol>
+    <div class="ledger">
+      <div class="ledger__head mono"><span>Key numbers</span><span class="ledger__live"><i></i>S-1 · updated Nov 2</span></div>
+      <div class="ledger__row"><div><span class="mono">Last private valuation</span><p>Series H, May 2026.</p></div><b>$965B</b></div>
+      <div class="ledger__row"><div><span class="mono">Reported IPO valuation talk</span><p>The range discussed around the offering.</p></div><b>$1.5–2T</b></div>
+      <div class="ledger__row"><div><span class="mono">Potential raise</span><p>Up to about $75–100 billion. Could be one of the largest IPOs ever.</p></div><b>$75–100B</b></div>
+      <div class="ledger__row"><div><span class="mono">H1 2026 revenue</span><p>About $16.3 billion, up more than 1,200% year-over-year.</p></div><b>$16.3B</b></div>
+      <div class="ledger__row"><div><span class="mono">Q3 2026 revenue</span><p>About $17 billion, reported with the November 2 update.</p></div><b>~$17B</b></div>
+      <div class="ledger__row"><div><span class="mono">Net losses</span><p>Very large on paper. About $80 billion or more in H1 2026, mostly from non-cash accounting charges on convertible notes as the private valuation rose.</p></div><b>~$80B+</b></div>
+      <div class="ledger__row"><div><span class="mono">Operating performance</span><p>Improving. The company reported its first operating profit in Q2 2026.</p></div><b>Q2<em> ’26</em></b></div>
+    </div>
+    <div class="notable">
+      <div class="notable__intro">
+        <span class="label mono"><i class="dot"></i>On the prospectus</span>
+        <h3>What makes this IPO <em>notable.</em></h3>
+      </div>
+      <ol class="notable__list">
+        <li class="n-item"><span class="mono">01</span><div><h4>Company background</h4><p>Anthropic was founded in 2021 by a group of former OpenAI researchers, including CEO Dario Amodei, who left over concerns about AI safety and governance. It is structured as a Public Benefit Corporation (PBC).</p></div></li>
+        <li class="n-item"><span class="mono">02</span><div><h4>Founder control</h4><p>The co-founders keep control through a special share that carries 50.1% of the voting power, even after the IPO.</p></div></li>
+        <li class="n-item"><span class="mono">03</span><div><h4>Major backers</h4><p>Amazon and Google are among the largest strategic investors.</p></div></li>
+        <li class="n-item"><span class="mono">04</span><div><h4>Risks in the filing</h4><p>Explosive growth and high demand for Claude sit alongside very high compute costs, customer concentration, and competition. The prospectus also warns explicitly about AI safety risks, including the possibility of models behaving in ways that could be seen as deceptive or resistant to shutdown, and broader “catastrophic or existential” risks.</p></div></li>
+        <li class="n-item"><span class="mono">05</span><div><h4>Market context</h4><p>This is widely seen as a major test of public-market appetite for the AI boom, coming after SpaceX’s large IPO earlier in 2026.</p></div></li>
+      </ol>
+    </div>
+    <aside class="clarify">
+      <h3>Important <em>clarification.</em></h3>
+      <div>
+        <p>This is the IPO of the company Anthropic itself, turning it from a private company into a public one. It is not the launch of a specific project or product. Anthropic’s main product is the Claude family of AI models, which have already been widely available and used for some time.</p>
+        <p>In short: Anthropic has officially started the process of going public on Nasdaq as ANT. The filing is done, the financial details are public, and the actual listing is expected later in November 2026 at a potentially record-breaking valuation.</p>
+        <p class="fine">$ANT on this site is an independent community meme token. Not affiliated with, endorsed by, or connected to Anthropic PBC or Claude.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- SUPPLY -->
+<section class="supply dark" id="supply" data-node="Node 03 / Supply">
+  <div class="wrap supply__grid">
+    <div>
+      <span class="label mono"><i class="dot"></i>Node 03 / Supply</span>
+      <h2 class="h2">Simple <em>wiring.</em><br>Nothing hidden.</h2>
+      <div class="stats">
+        <div class="stat"><span class="mono">Total supply</span><b><span class="count" data-to="1000000000">0</span></b><small>$ANT, fixed</small></div>
+        <div class="stat"><span class="mono">Buy / sell tax</span><b><span class="count" data-to="0">0</span>%</b><small>0% buy / 0% sell</small></div>
+        <div class="stat"><span class="mono">Liquidity</span><b><span class="count" data-to="100">0</span>%</b><small>LP locked / burned</small></div>
+      </div>
+      <p class="mono small faint">Figures shown are launch placeholders (supply, 0/0 tax, LP lock/burn), confirmed on-chain at listing.</p>
+    </div>
+    <div class="coinwrap" id="coinwrap">
+      <svg class="ring" viewBox="0 0 400 400" aria-hidden="true"><defs><path id="circ" d="M200,200 m-168,0 a168,168 0 1,1 336,0 a168,168 0 1,1 -336,0"/></defs><text><textPath href="#circ">THE NETWORK MIND · $ANT · COLONY OF THOUGHT · ONE NODE AT A TIME · </textPath></text></svg>
+      <div class="coin" id="coin">
+        <div class="coin__face coin__front"><img src="assets/img/logo.png" alt="" width="392" height="396" loading="lazy"></div>
+        <div class="coin__face coin__back"><svg class="coin__eth" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 5.5 12.3 12 16l6.5-3.7L12 2Z" fill="currentColor"/><path d="M12 17.3 5.5 13.6 12 22l6.5-8.4-6.5 3.7Z" fill="currentColor" opacity=".65"/></svg><span>$ANT</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO BUY -->
+<section class="buy light" id="buy" data-node="Node 04 / Pathway">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label mono"><i class="dot"></i>Node 04 / Pathway</span>
+      <h2 class="h2">Four signals to <em>join</em> the colony.</h2>
+    </div>
+    <ol class="steps">
+      <li class="step"><div class="step__icon"><svg viewBox="0 0 24 24"><path d="M3 7h15a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V7Zm0 0 2.5-3H16v3M16.5 13.5h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="mono">01</span><h3>Get a wallet</h3><p>Install MetaMask or Rabby. Back up your recovery phrase offline and never share it.</p></li>
+      <li class="step"><div class="step__icon"><svg viewBox="0 0 24 24"><path d="M12 2 5.5 12.3 12 16l6.5-3.7L12 2Z" fill="currentColor" opacity=".9"/><path d="M12 17.3 5.5 13.6 12 22l6.5-8.4-6.5 3.7Z" fill="currentColor" opacity=".6"/></svg></div><span class="mono">02</span><h3>Get ETH</h3><p>Buy ETH on an exchange or in-wallet and send it to your Ethereum address. Keep some for gas.</p></li>
+      <li class="step"><div class="step__icon"><svg viewBox="0 0 24 24"><path d="M4 9a8 8 0 0 1 14.5-3.5M20 4v4h-4M20 15a8 8 0 0 1-14.5 3.5M4 20v-4h4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="mono">03</span><h3>Go to Uniswap</h3><p>Open Uniswap on Ethereum mainnet and connect your wallet. Use the Buy button here so the CA is correct.</p></li>
+      <li class="step"><div class="step__icon"><svg viewBox="0 0 24 24"><path d="M6 3 2.5 8.5 6 10.5l3.5-2L6 3Z" fill="currentColor"/><path d="M11 7.5h5m0 0-2-2m2 2-2 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><g stroke="currentColor" stroke-width="1.5"><path d="M17 17l0-5M17 17l4 2M17 17l-4 2"/></g><circle cx="17" cy="17" r="2.4" fill="currentColor"/><circle cx="17" cy="11.5" r="1.3" fill="currentColor"/><circle cx="21.2" cy="19.2" r="1.3" fill="currentColor"/><circle cx="12.8" cy="19.2" r="1.3" fill="currentColor"/></svg></div><span class="mono">04</span><h3>Swap ETH for $ANT</h3><p>Paste the official CA, set your amount, confirm the swap, and you are a node.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- CHART -->
+<section class="chart dark" id="chart" data-node="Node 05 / Signal">
+  <div class="wrap">
+    <div class="sec-head sec-head--row">
+      <div><span class="label mono"><i class="dot"></i>Node 05 / Signal</span>
+      <h2 class="h2">Read the <em>signal.</em></h2></div>
+      <div class="hero__btns"><a class="btn btn--ghost magnetic js-scan" href="https://etherscan.io/token/0x60d1f3ea966a358cff9af0e3caef883634c43f71" target="_blank" rel="noopener"><span class="js-scan-label">Etherscan</span></a><a class="btn btn--ghost magnetic js-chart" href="https://dexscreener.com/ethereum/0x97a0584ba25813f12fec4b359f1a0046d719bc5c4b8babf9263310639b151ccf" target="_blank" rel="noopener"><span class="js-chart-label">Chart</span></a></div>
+    </div>
+    <div class="chart__frame" id="chartFrame">
+      <div class="chart__ph" id="chartPh">
+        <svg class="chart__line" viewBox="0 0 800 260" preserveAspectRatio="none" aria-hidden="true"><path d="M0,220 C60,215 90,200 130,205 S210,170 250,180 S330,120 380,140 S460,90 510,105 S600,40 650,60 S750,20 800,10"/></svg>
+        <div class="chart__msg"><span class="mono">Live chart</span><p>Loading the DexScreener feed for $ANT.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY -->
+<section class="colony light" id="colony" data-node="Node 06 / Colony">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label mono"><i class="dot"></i>Node 06 / Colony</span>
+      <h2 class="h2">A mind is only as big as its <em>connections.</em></h2>
+    </div>
+    <div class="socials">
+      <a class="social js-x" href="https://x.com/anthropicaieth" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.4L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.9L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.5l11.2 14.5Z" fill="currentColor"/></svg><span class="social__name">X / Twitter</span><span class="social__state mono js-x-state">Follow</span></a>
+      <a class="social js-tg" href="https://t.me/anthropicaieth" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M21.5 3.6 2.9 10.8c-1.3.5-1.3 1.2-.2 1.6l4.8 1.5 1.8 5.6c.2.6.4.8.9.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.4-1.5ZM9 13.5l9.4-5.9c.5-.3.9-.1.5.2l-8 7.3-.3 3.4L9 13.5Z" fill="currentColor"/></svg><span class="social__name">Telegram</span><span class="social__state mono js-tg-state">Join</span></a>
+    </div>
+  </div>
+</section>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="wrap">
+    <div class="footer__art"><img src="assets/img/banner.png" alt="$ANT banner art: line-art head with node network" width="857" height="482" loading="lazy"></div>
+    <div class="footer__big" aria-hidden="true"><em>$</em>ANT</div>
+    <div class="footer__grid">
+      <div class="footer__brand"><img src="assets/img/logo.png" alt="" width="56" height="56" loading="lazy"><span>$ANT<br><small class="mono">The Network Mind</small></span></div>
+      <div class="footer__legal">
+        <p class="disclaimer disclaimer--dark">$ANT is an independent community meme token. Not affiliated with, endorsed by, or connected to Anthropic PBC or Claude.</p>
+        <p class="risk">Risk note: $ANT is a memecoin with no intrinsic value and no expectation of financial return. It is not an investment, security or share of anything. Crypto is volatile; only use what you can afford to lose and always verify the CA.</p>
+      </div>
+      <div class="footer__links mono"><a class="js-scan" href="https://etherscan.io/token/0x60d1f3ea966a358cff9af0e3caef883634c43f71" target="_blank" rel="noopener"><span class="js-scan-label">Etherscan</span></a><a href="#top">Back to top ↑</a><span>© 2026 $ANT community</span></div>
+    </div>
+  </div>
+</footer>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+
+<script src="assets/vendor/gsap.min.js"></script>
+<script src="assets/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis.min.js"></script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
