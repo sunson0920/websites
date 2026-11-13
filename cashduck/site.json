@@ -4,13 +4,13 @@
   "ticker": "cashduck",
   "template": "c33-cartoonmoney",
   "domain": "cashducksol.lol",
-  "ca": "TBA",
+  "ca": "FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWE",
   "chain": "solana",
   "theme_mode": "original",
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "Make sure you follow official #IRS social media accounts and subscribe to e-news services for reliable tax news and resources\n",
-  "x_url": "",
+  "x_url": "https://x.com/cashduck_x",
   "tg_url": "",
   "ref_x_url": "https://x.com/IRStaxsecurity/status/2121241923272798461",
   "socials": [],
@@ -52,14 +52,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWE",
+    "chart_page": "https://dexscreener.com/solana/FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWE",
+    "chart_embed": "https://dexscreener.com/solana/FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWE?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "cashduck",
   "project_id": "pmwf9w2rjy3bii",
-  "exported_at": "2026-11-13T17:52:32.728Z",
+  "exported_at": "2026-11-13T18:04:41.192Z",
   "make_videos": false,
   "videos": []
 }
