@@ -4,7 +4,7 @@
   "ticker": "C@T",
   "template": "c56-heist-vault",
   "domain": "",
-  "ca": "TBA",
+  "ca": "Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
@@ -39,14 +39,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump",
+    "chart_page": "https://dexscreener.com/solana/Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump",
+    "chart_embed": "https://dexscreener.com/solana/Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "c-t",
   "project_id": "pmwfcs4x5bm57f",
-  "exported_at": "2026-11-13T19:23:27.126Z",
+  "exported_at": "2026-11-13T19:24:11.893Z",
   "make_videos": false,
   "videos": []
 }
