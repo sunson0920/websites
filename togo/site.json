@@ -76,5 +76,28 @@
   "project_id": "pmwfelitf18bl7",
   "exported_at": "2026-11-13T20:05:53.314Z",
   "make_videos": true,
-  "videos": []
+  "videos": [
+    {
+      "slot": "selector",
+      "selector": "img.flora-mascot",
+      "src": "assets/vid-hero.mp4",
+      "poster": "assets/vid-hero.webp"
+    },
+    {
+      "slot": "gallery",
+      "src": "assets/vid-2.mp4",
+      "poster": "assets/vid-2.webp"
+    },
+    {
+      "slot": "gallery",
+      "src": "assets/vid-3.mp4",
+      "poster": "assets/vid-3.webp"
+    }
+  ],
+  "copy_overrides": [
+    {
+      "find": "<style id=\"mss-vid-css\">",
+      "replace": "<style id=\"mss-vid-css\">.flora-stage>.mss-vid-wrap{position:relative;z-index:3;width:min(400px,72vw);max-width:none;margin:0 auto;border-radius:28px;animation:harvest-bob 4.8s ease-in-out infinite;box-shadow:0 18px 60px var(--glow,rgba(153,69,255,.35))}@media (prefers-reduced-motion:reduce){.flora-stage>.mss-vid-wrap{animation:none}}"
+    }
+  ]
 }
