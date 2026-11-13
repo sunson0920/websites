@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "cashduck",
   "ticker": "cashduck",
-  "template": "c33-cartoonmoney",
+  "template": "c64-bro-console",
   "domain": "cashducksol.lol",
   "ca": "FgGY3F2H38NzqcFHfHdrWXabMPN8yHaWE",
   "chain": "solana",
@@ -59,7 +59,7 @@
   },
   "site_slug": "cashduck",
   "project_id": "pmwf9w2rjy3bii",
-  "exported_at": "2026-11-13T18:04:41.192Z",
+  "exported_at": "2026-11-13T18:09:19.777Z",
   "make_videos": false,
   "videos": []
 }
