@@ -31,6 +31,19 @@
 			}
 	*/
     </style>
+    <script>
+      (function () {
+        function show() {
+          document.documentElement.classList.add("loaded");
+        }
+        if (document.readyState === "complete") show();
+        else {
+          document.addEventListener("DOMContentLoaded", show);
+          window.addEventListener("load", show);
+          setTimeout(show, 1200);
+        }
+      })();
+    </script>
     <link rel="stylesheet" href="css/style.min.css?_v=20241208091659" />
     <link rel="icon" href="/assets/logo.png" />
     <meta name="robots" content="index, follow" />
@@ -258,6 +271,8 @@
                     autoplay
                     muted
                     loop
+                    playsinline
+                    preload="metadata"
                     src="/video.mp4"
                     style="height: 100%"
                   ></video>
