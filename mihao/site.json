@@ -4,7 +4,7 @@
   "ticker": "mihao",
   "template": "c45-goodcoin",
   "domain": "mihaorobin.lol",
-  "ca": "TBA",
+  "ca": "0x3b2484b62c00c2809a69ac466c02894b028cf29f",
   "chain": "robinhood",
   "theme_mode": "preset",
   "theme_preset": "cyber-lime",
@@ -82,14 +82,14 @@
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/",
-    "chart_page": "https://dexscreener.com/robinhood",
-    "chart_embed": "https://dexscreener.com/robinhood?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=robinhood&inputCurrency=NATIVE&outputCurrency=0x3b2484b62c00c2809a69ac466c02894b028cf29f",
+    "chart_page": "https://dexscreener.com/robinhood/0x3b2484b62c00c2809a69ac466c02894b028cf29f",
+    "chart_embed": "https://dexscreener.com/robinhood/0x3b2484b62c00c2809a69ac466c02894b028cf29f?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Robinhood"
   },
   "site_slug": "mihao",
   "project_id": "pmwgls9ctyelh9",
-  "exported_at": "2026-11-14T16:14:03.629Z",
+  "exported_at": "2026-11-14T16:42:00.853Z",
   "make_videos": true,
   "videos": [
     {
