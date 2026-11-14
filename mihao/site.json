@@ -10,7 +10,7 @@
   "theme_preset": "cyber-lime",
   "theme_primary": "#c8ff00",
   "theme_secondary": "#7cff00",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "mihao",
   "project_id": "pmwgls9ctyelh9",
-  "exported_at": "2026-11-14T16:11:34.231Z",
-  "make_videos": false,
+  "exported_at": "2026-11-14T16:14:03.629Z",
+  "make_videos": true,
   "videos": []
 }
