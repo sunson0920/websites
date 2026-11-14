@@ -1,0 +1,74 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "ETHEL",
+  "ticker": "ETHEL",
+  "template": "c56-heist-vault",
+  "domain": "ethelelysium.lol",
+  "ca": "0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
+  "chain": "elysium",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "live",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "ethelelysium.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.ethelelysium.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "No rush, no fear, only vibes",
+  "x_url": "https://x.com/ethelonelysium",
+  "tg_url": "https://t.me/ethelelysium_tg",
+  "ref_x_url": "https://x.com/0xomnia/status/2056997399269179499",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "elysiumswap",
+  "dex_auto": true,
+  "dex_name": "ElysiumSwap",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp"
+  ],
+  "backgrounds": [],
+  "resolved": {
+    "dex_name": "ElysiumSwap",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://elysiumswap.finance/swap?out=0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
+    "chart_page": "https://dexscreener.com/elysium/0x9e1efeb135bf73659d334f7e9b77d85b5af6c129",
+    "chart_embed": "https://dexscreener.com/elysium/0x9e1efeb135bf73659d334f7e9b77d85b5af6c129?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Elysium"
+  },
+  "site_slug": "ethel11",
+  "project_id": "pmw9gnrzy3dorw",
+  "exported_at": "2026-11-09T20:57:50.780Z"
+}
