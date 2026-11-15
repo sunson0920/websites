@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "GTA Season",
   "ticker": "GTASZN",
-  "template": "c19-floki",
+  "template": "c67-maya-samoyed",
   "domain": "gtaseason.fun",
   "ca": "↕GWfkt89PP92cA1eg4NMRE2FqftZPwLgFyY2YRNLwpump",
   "chain": "solana",
@@ -83,7 +83,7 @@
   },
   "site_slug": "gtaszn",
   "project_id": "pmwh4yd5fs154a",
-  "exported_at": "2026-11-15T01:17:02.651Z",
+  "exported_at": "2026-11-15T01:22:10.070Z",
   "make_videos": false,
   "videos": []
 }
