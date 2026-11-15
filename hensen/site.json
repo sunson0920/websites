@@ -4,13 +4,13 @@
   "ticker": "HENSEN",
   "template": "c55-gigahug-diefloor",
   "domain": "hensen.lol",
-  "ca": "TBA",
+  "ca": "FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -67,14 +67,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump",
+    "chart_page": "https://dexscreener.com/solana/FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump",
+    "chart_embed": "https://dexscreener.com/solana/FfXDcTtDk5tzETc9QGRsy8ZSV2TGm4DXXpHXpjVVpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "hensen",
   "project_id": "pmwia7m0s7xd62",
-  "exported_at": "2026-11-15T20:23:07.408Z",
+  "exported_at": "2026-11-15T20:33:16.019Z",
   "make_videos": false,
   "videos": []
 }
