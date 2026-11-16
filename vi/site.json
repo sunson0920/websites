@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Vice Inu",
   "ticker": "VI",
-  "template": "c07-agentcity",
+  "template": "c50-maxbnb",
   "domain": "viceinu.lol",
   "ca": "3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump",
   "chain": "solana",
@@ -70,7 +70,7 @@
   },
   "site_slug": "vi",
   "project_id": "pmwjp71ws2hofo",
-  "exported_at": "2026-11-16T20:22:21.412Z",
+  "exported_at": "2026-11-16T20:48:38.186Z",
   "make_videos": false,
   "videos": []
 }
