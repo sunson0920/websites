@@ -10,7 +10,7 @@
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "So a yesterday VI also known as Vice Inu got launched\n",
-  "x_url": "",
+  "x_url": "https://x.com/viceinu_x",
   "tg_url": "",
   "ref_x_url": "https://x.com/Dev_tillyoumake/status/2121944672490680773",
   "socials": [],
@@ -59,7 +59,7 @@
   },
   "site_slug": "vi",
   "project_id": "pmwjp71ws2hofo",
-  "exported_at": "2026-11-16T20:10:21.755Z",
+  "exported_at": "2026-11-16T20:14:08.930Z",
   "make_videos": false,
   "videos": []
 }
