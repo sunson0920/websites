@@ -4,7 +4,7 @@
   "ticker": "VI",
   "template": "c07-agentcity",
   "domain": "viceinu.lol",
-  "ca": "TBA",
+  "ca": "3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump",
   "chain": "solana",
   "theme_mode": "original",
   "theme_preset": "",
@@ -63,14 +63,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump",
+    "chart_page": "https://dexscreener.com/solana/3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump",
+    "chart_embed": "https://dexscreener.com/solana/3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "vi",
   "project_id": "pmwjp71ws2hofo",
-  "exported_at": "2026-11-16T20:14:08.930Z",
+  "exported_at": "2026-11-16T20:22:21.412Z",
   "make_videos": false,
   "videos": []
 }
