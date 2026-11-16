@@ -4,13 +4,13 @@
   "ticker": "CHOP",
   "template": "c18-insertcult",
   "domain": "gtachop.lol",
-  "ca": "TBA",
+  "ca": "7XpsCaMBnWrYuKmdN4qRVYcJcnwRcNTErgMkFrtPpump",
   "chain": "solana",
   "theme_mode": "original",
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "Meet CHOP, the Rottweiler, and his crew in GTA VI-inspired adventures.\n",
-  "x_url": "",
+  "x_url": "https://x.com/gtachop_x",
   "tg_url": "",
   "ref_x_url": "",
   "socials": [],
@@ -52,14 +52,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/7XpsCaMBnWrYuKmdN4qRVYcJcnwRcNTErgMkFrtPpump",
+    "chart_page": "https://dexscreener.com/solana/7XpsCaMBnWrYuKmdN4qRVYcJcnwRcNTErgMkFrtPpump",
+    "chart_embed": "https://dexscreener.com/solana/7XpsCaMBnWrYuKmdN4qRVYcJcnwRcNTErgMkFrtPpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "chop",
   "project_id": "pmwjrr5fl98x43",
-  "exported_at": "2026-11-16T21:21:58.706Z",
+  "exported_at": "2026-11-16T21:28:03.699Z",
   "make_videos": false,
   "videos": []
 }
