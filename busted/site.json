@@ -1,33 +1,33 @@
 {
   "format": "meme-site-studio/site@1",
-  "name": "BUSTED",
+  "name": "Busted",
   "ticker": "BUSTED",
-  "template": "c14-thegme",
-  "domain": "bustedgta.fun",
-  "ca": "8p11yHxwiKtcFy1QZ68iec2xcFzpXJeMExXLFz8Hpump",
-  "chain": "solana",
-  "theme_mode": "preset",
-  "theme_preset": "solana",
+  "template": "c41-gmegreatest",
+  "domain": "bustedeth.lol",
+  "ca": "TBA",
+  "chain": "ethereum",
+  "theme_mode": "original",
+  "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "live",
+  "domain_status": "not_connected",
   "dns_records": [
     {
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "bustedgta.fun"
+      "host": "bustedeth.lol"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.bustedgta.fun"
+      "host": "www.bustedeth.lol"
     }
   ],
   "tagline": "",
-  "about": "Go follow @Bustedbaddies. your future wife might be posted there.",
-  "x_url": "https://x.com/bustedgtasol",
+  "about": "New GTA is super realistic they caught me on camera stealing a bag of chips",
+  "x_url": "",
   "tg_url": "",
   "ref_x_url": "",
   "socials": [],
@@ -36,9 +36,9 @@
   "supply": "",
   "tax": "",
   "lp": "",
-  "dex": "pumpfun",
+  "dex": "uniswap-v4",
   "dex_auto": false,
-  "dex_name": "Pump.fun",
+  "dex_name": "Uniswap V4",
   "native": "",
   "wallet": "",
   "vercel_a": "",
@@ -75,17 +75,17 @@
     "assets/gpt-bg3.webp"
   ],
   "resolved": {
-    "dex_name": "Pump.fun",
+    "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/8p11yHxwiKtcFy1QZ68iec2xcFzpXJeMExXLFz8Hpump",
-    "chart_page": "https://dexscreener.com/solana/8p11yHxwiKtcFy1QZ68iec2xcFzpXJeMExXLFz8Hpump",
-    "chart_embed": "https://dexscreener.com/solana/8p11yHxwiKtcFy1QZ68iec2xcFzpXJeMExXLFz8Hpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
-    "chain_name": "Solana"
+    "buy_url": "https://app.uniswap.org/",
+    "chart_page": "https://dexscreener.com/ethereum",
+    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
   },
   "site_slug": "busted",
-  "project_id": "pmwh3zdoqnzxzx",
-  "exported_at": "2026-11-15T00:49:39.834Z",
+  "project_id": "pmwj9ufwefrllb",
+  "exported_at": "2026-11-16T13:00:46.779Z",
   "make_videos": false,
   "videos": []
 }
