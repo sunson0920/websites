@@ -45,9 +45,20 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.webp",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "images": [
+    "assets/meme1.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp",
+    "assets/char4.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp"
+  ],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
