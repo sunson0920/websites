@@ -6,11 +6,11 @@
   "domain": "cybersi.lol",
   "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "original",
-  "theme_preset": "",
+  "theme_mode": "preset",
+  "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "csi11",
   "project_id": "pmwl225gfck38o",
-  "exported_at": "2026-11-17T18:58:14.305Z",
+  "exported_at": "2026-11-17T19:02:10.255Z",
   "make_videos": false,
   "videos": []
 }
