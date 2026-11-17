@@ -4,13 +4,13 @@
   "ticker": "GTAPEPE",
   "template": "c33-cartoonmoney",
   "domain": "gtapepe.lol",
-  "ca": "TBA",
+  "ca": "0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -71,14 +71,14 @@
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/",
-    "chart_page": "https://dexscreener.com/ethereum",
-    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
+    "chart_page": "https://dexscreener.com/ethereum/0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
+    "chart_embed": "https://dexscreener.com/ethereum/0xeE2e865260FBB1B41a4741878FCC60BF2BBca886?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Ethereum"
   },
   "site_slug": "gtapepe",
   "project_id": "pmwk7k2vnacc1r",
-  "exported_at": "2026-11-17T04:44:22.691Z",
+  "exported_at": "2026-11-17T06:18:59.221Z",
   "make_videos": false,
   "videos": [
     {
