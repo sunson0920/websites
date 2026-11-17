@@ -794,6 +794,23 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
 </style>
 <link rel="canonical" href="https://cyberleeketh.lol/">
 <meta property="og:url" content="https://cyberleeketh.lol/">
+<style id="cl-gta-bg">
+/* Official GTA VI screenshot backgrounds. Persisted via site.json copy_overrides. */
+.hero-pin,.drive-pin,.gallery,.community,.about{isolation:isolate}
+.hero-pin::before,.drive-pin::before,.gallery::before,.community::before,.about::before{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-position:center;background-size:cover;background-repeat:no-repeat}
+.hero-pin::after,.drive-pin::after,.gallery::after,.community::after,.about::after{
+  content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:linear-gradient(180deg,rgba(2,6,10,.38),rgba(2,6,10,.62))}
+.hero-pin::before{background-image:url("assets/gpt-bg1.webp?v=03417fff")}
+.drive-pin::before{background-image:url("assets/gpt-bg2.webp?v=12dc96b5")}
+.gallery::before{background-image:url("assets/gpt-bg3.webp?v=f6ea4f3b")}
+.community::before,.about::before{background-image:url("assets/gpt-bg4.webp?v=e7b7f6fd")}
+.portal,.speedlines,.drive-tunnel,.drive-ring,.speed-zip{opacity:.16!important}
+.hero-word{opacity:.2}
+.hero-ghost{opacity:.04}
+</style>
 </head>
 <body class="a-ut-hyperinu" data-cursor-hi data-mx-gl="warp@mascot" data-mx-gl-tone="dark" data-mx-3d="cards mascot rise">
 
@@ -828,11 +845,11 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
     <div class="speedlines" aria-hidden="true"></div>
     <div class="stage layer" data-depth="0.5">
       <div class="portal" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-      <div class="dog-wrap"><img class="gchar hero-dog" src="assets/char1.webp?v=ef4aeddb" alt="CyberLeek flying through the ring portal" width="900" height="900" fetchpriority="high"></div>
+      <div class="dog-wrap"><img class="gchar hero-dog" src="assets/char1.webp?v=c7376824" alt="CyberLeek flying through the ring portal" width="900" height="900" fetchpriority="high"></div>
       <div class="orbit" aria-hidden="true"><b></b></div><div class="orbit o2" aria-hidden="true"><b></b></div>
     </div>
-    <div class="side-l layer" data-depth="0.9"><img class="gchar hero-side" src="assets/char2.webp?v=ad4175b3" alt="" aria-hidden="true"><span class="side-tag">GM</span></div>
-    <div class="side-r layer" data-depth="1.2"><img class="gchar hero-side" src="assets/char3.webp?v=fb4b2c48" alt="" aria-hidden="true"><span class="side-tag">$CYBERLEEK</span></div>
+    <div class="side-l layer" data-depth="0.9"><img class="gchar hero-side" src="assets/char2.webp?v=b9fe5f78" alt="" aria-hidden="true"><span class="side-tag">GM</span></div>
+    <div class="side-r layer" data-depth="1.2"><img class="gchar hero-side" src="assets/char3.webp?v=510fc34c" alt="" aria-hidden="true"><span class="side-tag">$CYBERLEEK</span></div>
     <div class="hero-copy">
       <p class="kicker mono">Ethereum // TICKER $CYBERLEEK // WARP READY</p>
       <h1 class="title" id="heroTitle" data-name="CyberLeek" data-ticker="CYBERLEEK">CyberLeek</h1>
@@ -854,9 +871,9 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
     <div class="drive-tunnel" aria-hidden="true"></div>
     <div class="drive-ring" aria-hidden="true"><i></i><i></i><i></i></div>
     <div class="speed-zip" aria-hidden="true"><i></i><i></i><i></i></div>
-    <img class="gchar dpose p1" src="assets/char4.webp?v=5c6347b6" alt="CyberLeek engines idle" loading="lazy">
-    <img class="gchar dpose p2" src="assets/char5.webp?v=b065fdf5" alt="CyberLeek accelerating" loading="lazy">
-    <img class="gchar dpose p3" src="assets/char6.webp?v=81eaf1da" alt="CyberLeek through the portal" loading="lazy">
+    <img class="gchar dpose p1" src="assets/char4.webp?v=c2e2c01f" alt="CyberLeek engines idle" loading="lazy">
+    <img class="gchar dpose p2" src="assets/char5.webp?v=2e212f15" alt="CyberLeek accelerating" loading="lazy">
+    <img class="gchar dpose p3" src="assets/char6.webp?v=e460f74d" alt="CyberLeek through the portal" loading="lazy">
     <div class="meter">
       <p class="mono">SPEED</p>
       <div class="meter-val" id="meterVal">0</div>
@@ -875,7 +892,7 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
   <h2 class="h2 words">The leek that went full cyber. Shades on, armor up, patrolling the neon streets of Ethereum.</h2>
   <div class="about-grid">
     <div class="glass"><div class="g-ic g-ring" aria-hidden="true"><i></i><i></i><i></i></div><h3>Ring Portal</h3><p>Every candle passes through the ring. Every ring makes $CYBERLEEK go faster.</p></div>
-    <div class="glass"><div class="g-ic"><img class="gchar" src="assets/char7.webp?v=b62f9b4b" alt="" loading="lazy" width="110" height="110"></div><h3>Community Fueled</h3><p>No VC rockets. The pack is the fuel and the pack sets the pace.</p></div>
+    <div class="glass"><div class="g-ic"><img class="gchar" src="assets/char7.webp?v=953dfb1c" alt="" loading="lazy" width="110" height="110"></div><h3>Community Fueled</h3><p>No VC rockets. The pack is the fuel and the pack sets the pace.</p></div>
     <div class="glass"><div class="g-ic g-wag"><img src="assets/logo.png?v=9c94cac4" alt="" loading="lazy" width="110" height="110"></div><h3>Always Wagging</h3><p>Pure meme energy on Ethereum. Tail up, vibes maxed, no brakes.</p></div>
   </div>
 </section>
@@ -886,14 +903,14 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
     <div class="gal-speed" aria-hidden="true"></div>
     <div class="gal-viewport">
       <div class="gal-track" id="galTrack">
-        <button class="card" type="button" data-i="0"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme1.webp?v=90d16e52" alt="CyberLeek meme 1" loading="lazy" width="480" height="480"></span><span class="tag">#01 $CYBERLEEK to the moon</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="1"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme2.webp?v=6cb4c400" alt="CyberLeek meme 2" loading="lazy" width="480" height="480"></span><span class="tag">#02 Bears left in the dust</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="2"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme3.webp?v=106abe46" alt="CyberLeek meme 3" loading="lazy" width="480" height="480"></span><span class="tag">#03 Green candles only</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="3"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme4.webp?v=446ddb4d" alt="CyberLeek meme 4" loading="lazy" width="480" height="480"></span><span class="tag">#04 Winning the race</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="4"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme5.webp?v=fc0d6c67" alt="CyberLeek meme 5" loading="lazy" width="480" height="480"></span><span class="tag">#05 gm from hyper space</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="5"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme6.webp?v=0dddde71" alt="CyberLeek meme 6" loading="lazy" width="480" height="480"></span><span class="tag">#06 Diamond paws</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="6"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme7.webp?v=a8018ea7" alt="CyberLeek meme 7" loading="lazy" width="480" height="480"></span><span class="tag">#07 Surfing the pump</span><span class="shadow"></span></button>
-        <button class="card" type="button" data-i="7"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme8.webp?v=9b504510" alt="CyberLeek meme 8" loading="lazy" width="480" height="480"></span><span class="tag">#08 $CYBERLEEK flag planted</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="0"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme1.webp?v=193a06e5" alt="CyberLeek meme 1" loading="lazy" width="480" height="480"></span><span class="tag">#01 $CYBERLEEK to the moon</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="1"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme2.webp?v=5743a483" alt="CyberLeek meme 2" loading="lazy" width="480" height="480"></span><span class="tag">#02 Bears left in the dust</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="2"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme3.webp?v=7fc5b964" alt="CyberLeek meme 3" loading="lazy" width="480" height="480"></span><span class="tag">#03 Green candles only</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="3"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme4.webp?v=d90721e6" alt="CyberLeek meme 4" loading="lazy" width="480" height="480"></span><span class="tag">#04 Winning the race</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="4"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme5.webp?v=df111c58" alt="CyberLeek meme 5" loading="lazy" width="480" height="480"></span><span class="tag">#05 gm from hyper space</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="5"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme6.webp?v=9b7a1172" alt="CyberLeek meme 6" loading="lazy" width="480" height="480"></span><span class="tag">#06 Diamond paws</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="6"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme7.webp?v=8659f641" alt="CyberLeek meme 7" loading="lazy" width="480" height="480"></span><span class="tag">#07 Surfing the pump</span><span class="shadow"></span></button>
+        <button class="card" type="button" data-i="7"><span class="blur"></span><span class="inner"><img class="gimg" src="assets/meme8.webp?v=f80b7a3a" alt="CyberLeek meme 8" loading="lazy" width="480" height="480"></span><span class="tag">#08 $CYBERLEEK flag planted</span><span class="shadow"></span></button>
       </div>
     </div>
     <div class="race">
@@ -947,7 +964,7 @@ html.reduced-motion .grain,html.reduced-motion .speedlines{animation:none}
 </section>
 
 <section id="community" class="community wrap">
-  <div class="comm-wrap"><img class="gchar comm-dog" src="assets/char8.webp?v=9f67aaec" alt="CyberLeek waving" loading="lazy"></div>
+  <div class="comm-wrap"><img class="gchar comm-dog" src="assets/char8.webp?v=de03b230" alt="CyberLeek waving" loading="lazy"></div>
   <div>
     <h2 class="h2">Join the <em>pack</em></h2>
     <p class="sub">Join the CyberLeek community. Buy $CYBERLEEK. Make memes. Never sell.</p>

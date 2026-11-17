@@ -65,7 +65,12 @@
     "assets/char7.webp",
     "assets/char8.webp"
   ],
-  "backgrounds": [],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp",
+    "assets/gpt-bg4.webp"
+  ],
   "resolved": {
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
@@ -79,5 +84,11 @@
   "project_id": "pmwkrumk59im7g",
   "exported_at": "2026-11-17T14:24:28.533Z",
   "make_videos": false,
-  "videos": []
+  "videos": [],
+  "copy_overrides": [
+    {
+      "find": "</head>",
+      "replace": "<style id=\"cl-gta-bg\">\n/* Official GTA VI screenshot backgrounds. Persisted via site.json copy_overrides. */\n.hero-pin,.drive-pin,.gallery,.community,.about{isolation:isolate}\n.hero-pin::before,.drive-pin::before,.gallery::before,.community::before,.about::before{\n  content:\"\";position:absolute;inset:0;z-index:0;pointer-events:none;\n  background-position:center;background-size:cover;background-repeat:no-repeat}\n.hero-pin::after,.drive-pin::after,.gallery::after,.community::after,.about::after{\n  content:\"\";position:absolute;inset:0;z-index:0;pointer-events:none;\n  background:linear-gradient(180deg,rgba(2,6,10,.38),rgba(2,6,10,.62))}\n.hero-pin::before{background-image:url(\"assets/gpt-bg1.webp\")}\n.drive-pin::before{background-image:url(\"assets/gpt-bg2.webp\")}\n.gallery::before{background-image:url(\"assets/gpt-bg3.webp\")}\n.community::before,.about::before{background-image:url(\"assets/gpt-bg4.webp\")}\n.portal,.speedlines,.drive-tunnel,.drive-ring,.speed-zip{opacity:.16!important}\n.hero-word{opacity:.2}\n.hero-ghost{opacity:.04}\n</style>\n</head>"
+    }
+  ]
 }
