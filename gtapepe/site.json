@@ -80,5 +80,24 @@
   "project_id": "pmwk7k2vnacc1r",
   "exported_at": "2026-11-17T04:44:22.691Z",
   "make_videos": false,
-  "videos": []
+  "videos": [
+    {
+      "slot": "bg",
+      "selector": ".welcome-backdrop",
+      "src": "assets/vid-bg1.mp4",
+      "poster": "assets/vid-bg1.webp"
+    },
+    {
+      "slot": "bg",
+      "selector": ".cm-room",
+      "src": "assets/vid-bg2.mp4",
+      "poster": "assets/vid-bg2.webp"
+    }
+  ],
+  "copy_overrides": [
+    {
+      "find": "<style id=\"mss-vid-css\">",
+      "replace": "<style id=\"mss-vid-css\">.welcome-backdrop.mss-bg-host,.cm-room.mss-bg-host{background-image:none !important;animation:none !important;overflow:hidden;}.welcome-backdrop.mss-bg-host>.mss-bgvid-overlay{background:linear-gradient(180deg,rgba(6,20,66,.18) 0%,rgba(6,20,66,.42) 100%)}.cm-room.mss-bg-host>.mss-bgvid-overlay{background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.50))}@media (max-width:760px){.welcome-backdrop.mss-bg-host>.mss-bgvid-overlay{background:rgba(6,20,66,.35)}}"
+    }
+  ]
 }
