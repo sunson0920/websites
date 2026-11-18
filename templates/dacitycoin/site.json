@@ -3,8 +3,8 @@
   "name": "AudaCity",
   "ticker": "DacityCoin",
   "template": "c33-cartoonmoney",
-  "domain": "audacityeth.lol",
-  "ca": "0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
+  "domain": "audacityoneth.lol",
+  "ca": "0xff70cccc8355479e7bf87b8f9f2e018a8e828b2a",
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
@@ -16,18 +16,18 @@
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "audacityeth.lol"
+      "host": "audacityoneth.lol"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.audacityeth.lol"
+      "host": "www.audacityoneth.lol"
     }
   ],
   "tagline": "The GTA 6 crypto cult with a coin, now on Ethereum.",
   "about": "AudaCity is an extreme satirical take from Rockstar in GTA 6 of a cryptocurrency cult that does wild stunts to build hype for AudaCity and their token $DacityCoin (pronounced DASS-ih-tee coin). The cult is now live on Ethereum.",
-  "x_url": "https://x.com/audacityeth_x",
+  "x_url": "https://x.com/audacityoneth_x",
   "tg_url": "https://t.me/audacity_tg",
   "ref_x_url": "https://x.com/RockstarGames/status/2120154484244381738",
   "socials": [],
@@ -77,9 +77,9 @@
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
-    "chart_page": "https://dexscreener.com/ethereum/0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2",
-    "chart_embed": "https://dexscreener.com/ethereum/0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xff70cccc8355479e7bf87b8f9f2e018a8e828b2a",
+    "chart_page": "https://dexscreener.com/ethereum/0xff70cccc8355479e7bf87b8f9f2e018a8e828b2a",
+    "chart_embed": "https://dexscreener.com/ethereum/0xff70cccc8355479e7bf87b8f9f2e018a8e828b2a?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Ethereum"
   },
   "site_slug": "dacitycoin",
@@ -92,15 +92,15 @@
     },
     {
       "find": "</header>\n<section class=\"welcome-screen hero\" id=\"top\" data-time=\"day\">",
-      "replace": "</header>\n<section id=\"top\" class=\"ac-stage\">\n  <div class=\"ac-stage-bg\" aria-hidden=\"true\">\n    <video class=\"ac-stage-vid\" autoplay muted loop playsinline poster=\"assets/meme1.webp?v=2952670a\" src=\"assets/vid-hero.mp4?v=b3ec1956\"></video>\n  </div>\n  <div class=\"ac-stage-in\">\n    <div class=\"ac-mission\">\n      <h1 class=\"ac-kicker\">The full AudaCity <em>parachute</em> stunt mission</h1>\n      <p class=\"ac-mission-sub\">End to end. The entire mission. No cuts.</p>\n      <p class=\"ac-nocuts\">No cuts.</p>\n      <div class=\"ac-player\"><div class=\"ac-frame\">\n        <video id=\"ac-mission-vid\" autoplay muted loop playsinline preload=\"metadata\" poster=\"assets/meme1.webp?v=2952670a\" width=\"854\" height=\"480\" aria-label=\"The full AudaCity parachute stunt mission\"><source src=\"assets/vid-mission.mp4?v=71fa4e36\" type=\"video/mp4\"></video>\n      </div></div>\n    </div>\n    <aside class=\"ac-side\">\n      <h2 class=\"ac-headline\">The GTA 6 crypto <em>cult</em> with a coin.</h2>\n      <div class=\"ac-copy\">\n        <p>AudaCity is an extreme satirical take from Rockstar in GTA 6 of a cryptocurrency cult that does wild stunts to build hype for AudaCity and their token $DacityCoin (pronounced DASS-ih-tee coin).</p>\n        <p><strong>This video proves with 100% certainty that AudaCity is a real cryptocurrency cult behind DacityCoin.</strong></p>\n        <p>Think $PENGU and Pudgy Penguins or $PUMP and Pump Fun. That is the closest parallel. Now the cult is live on Ethereum.</p>\n        <p class=\"ac-note\">Not convinced? Search TikTok for GTA 6 Cyberleek parachute. Cross-check it for yourself—you don't have to take our word for it.</p>\n        <div class=\"ac-hero-ca\"><span>CA</span><code class=\"ca-text\">0xc4700ae5a5e6cd6b70e7190a0458e568089e98e2</code><button type=\"button\" data-copy>Copy</button></div>\n        <div class=\"ac-hero-cta\">\n          <a class=\"ac-btn ac-btn-solid\" data-buy href=\"https://app.uniswap.org/\" target=\"_blank\" rel=\"noopener\">Join The Cult <span aria-hidden=\"true\">↗</span></a>\n          <a class=\"ac-btn ac-btn-ghost\" href=\"#memes\">Mission stills</a>\n        </div>\n      </div>\n    </aside>\n  </div>\n  <div class=\"ac-ticker\" aria-hidden=\"true\"><div class=\"ac-ticker-track\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"></div></div>\n  <div class=\"ac-banner-wrap\"><img class=\"ac-banner\" src=\"assets/gpt-banner.webp?v=2ed8ee06\" alt=\"AudaCity — $DacityCoin\" width=\"1280\" height=\"435\"></div>\n</section>\n<section class=\"welcome-screen hero ac-legacy\" id=\"top\" data-time=\"day\">"
+      "replace": "</header>\n<section id=\"top\" class=\"ac-stage\">\n  <div class=\"ac-stage-bg\" aria-hidden=\"true\">\n    <video class=\"ac-stage-vid\" autoplay muted loop playsinline poster=\"assets/meme1.webp?v=2952670a\" src=\"assets/vid-hero.mp4?v=b3ec1956\"></video>\n  </div>\n  <div class=\"ac-stage-in\">\n    <div class=\"ac-mission\">\n      <h1 class=\"ac-kicker\">The full AudaCity <em>parachute</em> stunt mission</h1>\n      <p class=\"ac-mission-sub\">End to end. The entire mission. No cuts.</p>\n      <p class=\"ac-nocuts\">No cuts.</p>\n      <div class=\"ac-player\"><div class=\"ac-frame\">\n        <video id=\"ac-mission-vid\" autoplay muted loop playsinline preload=\"metadata\" poster=\"assets/meme1.webp?v=2952670a\" width=\"854\" height=\"480\" aria-label=\"The full AudaCity parachute stunt mission\"><source src=\"assets/vid-mission.mp4?v=71fa4e36\" type=\"video/mp4\"></video>\n      </div></div>\n    </div>\n    <aside class=\"ac-side\">\n      <h2 class=\"ac-headline\">The GTA 6 crypto <em>cult</em> with a coin.</h2>\n      <div class=\"ac-copy\">\n        <p>AudaCity is an extreme satirical take from Rockstar in GTA 6 of a cryptocurrency cult that does wild stunts to build hype for AudaCity and their token $DacityCoin (pronounced DASS-ih-tee coin).</p>\n        <p><strong>This video proves with 100% certainty that AudaCity is a real cryptocurrency cult behind DacityCoin.</strong></p>\n        <p>Think $PENGU and Pudgy Penguins or $PUMP and Pump Fun. That is the closest parallel. Now the cult is live on Ethereum.</p>\n        <p class=\"ac-note\">Not convinced? Search TikTok for GTA 6 Cyberleek parachute. Cross-check it for yourself—you don't have to take our word for it.</p>\n        <div class=\"ac-hero-ca\"><span>CA</span><code class=\"ca-text\">0xff70cccc8355479e7bf87b8f9f2e018a8e828b2a</code><button type=\"button\" data-copy>Copy</button></div>\n        <div class=\"ac-hero-cta\">\n          <a class=\"ac-btn ac-btn-solid\" data-buy href=\"https://app.uniswap.org/\" target=\"_blank\" rel=\"noopener\">Join The Cult <span aria-hidden=\"true\">↗</span></a>\n          <a class=\"ac-btn ac-btn-ghost\" href=\"#memes\">Mission stills</a>\n        </div>\n      </div>\n    </aside>\n  </div>\n  <div class=\"ac-ticker\" aria-hidden=\"true\"><div class=\"ac-ticker-track\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"><span>$DacityCoin</span><img src=\"assets/logo.png?v=0a896305\" alt=\"\"></div></div>\n  <div class=\"ac-banner-wrap\"><img class=\"ac-banner\" src=\"assets/gpt-banner.webp?v=2ed8ee06\" alt=\"AudaCity — $DacityCoin\" width=\"1280\" height=\"435\"></div>\n</section>\n<section class=\"welcome-screen hero ac-legacy\" id=\"top\" data-time=\"day\">"
     },
     {
       "find": "</button></div></div></section>\n<section id=\"chart\"",
       "replace": "</button></div><div class=\"ac-vidrow\"><video class=\"ac-gal-vid\" autoplay muted loop playsinline preload=\"metadata\" poster=\"assets/meme1.webp?v=2952670a\" src=\"assets/vid-hero.mp4?v=b3ec1956\" aria-label=\"AudaCity stunt loop\"></video></div></div></section>\n<section id=\"chart\""
     },
     {
-      "find": "</a>\n<div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityeth_x\"",
-      "replace": "</a>\n<nav class=\"ac-nav\" aria-label=\"Section\"><a href=\"#top\">Mission</a><a href=\"#memes\">Stills</a><a href=\"#chart\">Chart</a></nav>\n    <div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityeth_x\""
+      "find": "</a>\n<div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityoneth_x\"",
+      "replace": "</a>\n<nav class=\"ac-nav\" aria-label=\"Section\"><a href=\"#top\">Mission</a><a href=\"#memes\">Stills</a><a href=\"#chart\">Chart</a></nav>\n    <div class=\"world-tools\"><a class=\"cm-tool\" href=\"https://x.com/audacityoneth_x\""
     },
     {
       "find": "class=\"gchar moon-logo cm-logo\" width=\"40\" height=\"40\" alt=\"\" src=\"assets/char1.webp",

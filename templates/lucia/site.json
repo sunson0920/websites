@@ -1,0 +1,85 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "Lucia Caminos",
+  "ticker": "Lucia",
+  "template": "c37-macca",
+  "domain": "luciaongta.lol",
+  "ca": "0xF94565Cdd4ffb3E1110C4B2164d64b514342c199",
+  "chain": "ethereum",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "live",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "luciaongta.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.luciaongta.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "This is the oldest Lucia Caminos coin on pumpfun",
+  "x_url": "https://x.com/luciaongta",
+  "tg_url": "",
+  "ref_x_url": "",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "uniswap-v4",
+  "dex_auto": false,
+  "dex_name": "Uniswap V4",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp",
+    "assets/meme9.webp",
+    "assets/meme10.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp",
+    "assets/char4.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp"
+  ],
+  "resolved": {
+    "dex_name": "Uniswap V4",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xF94565Cdd4ffb3E1110C4B2164d64b514342c199",
+    "chart_page": "https://dexscreener.com/ethereum/0xF94565Cdd4ffb3E1110C4B2164d64b514342c199",
+    "chart_embed": "https://dexscreener.com/ethereum/0xF94565Cdd4ffb3E1110C4B2164d64b514342c199?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
+  },
+  "site_slug": "lucia",
+  "project_id": "pmwjftaimavfy9",
+  "exported_at": "2026-11-16T16:34:26.105Z",
+  "make_videos": false,
+  "videos": []
+}

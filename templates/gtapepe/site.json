@@ -1,0 +1,103 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "GTA PEPE ",
+  "ticker": "GTAPEPE",
+  "template": "c33-cartoonmoney",
+  "domain": "gtapepe.lol",
+  "ca": "0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
+  "chain": "ethereum",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "live",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "gtapepe.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.gtapepe.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "Blue tracksuit. Zero fear. One suspicious syringe.\n",
+  "x_url": "",
+  "tg_url": "",
+  "ref_x_url": "",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "uniswap-v4",
+  "dex_auto": false,
+  "dex_name": "Uniswap V4",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp",
+    "assets/meme9.webp",
+    "assets/meme10.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp"
+  ],
+  "resolved": {
+    "dex_name": "Uniswap V4",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
+    "chart_page": "https://dexscreener.com/ethereum/0xeE2e865260FBB1B41a4741878FCC60BF2BBca886",
+    "chart_embed": "https://dexscreener.com/ethereum/0xeE2e865260FBB1B41a4741878FCC60BF2BBca886?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
+  },
+  "site_slug": "gtapepe",
+  "project_id": "pmwk7k2vnacc1r",
+  "exported_at": "2026-11-17T06:18:59.221Z",
+  "make_videos": false,
+  "videos": [
+    {
+      "slot": "bg",
+      "selector": ".welcome-backdrop",
+      "src": "assets/vid-bg1.mp4",
+      "poster": "assets/vid-bg1.webp"
+    },
+    {
+      "slot": "bg",
+      "selector": ".cm-room",
+      "src": "assets/vid-bg2.mp4",
+      "poster": "assets/vid-bg2.webp"
+    }
+  ],
+  "copy_overrides": [
+    {
+      "find": "<style id=\"mss-vid-css\">",
+      "replace": "<style id=\"mss-vid-css\">.welcome-backdrop.mss-bg-host,.cm-room.mss-bg-host{background-image:none !important;animation:none !important;overflow:hidden;}.welcome-backdrop.mss-bg-host>.mss-bgvid-overlay{background:linear-gradient(180deg,rgba(6,20,66,.18) 0%,rgba(6,20,66,.42) 100%)}.cm-room.mss-bg-host>.mss-bgvid-overlay{background:linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.50))}@media (max-width:760px){.welcome-backdrop.mss-bg-host>.mss-bgvid-overlay{background:rgba(6,20,66,.35)}}"
+    }
+  ]
+}
