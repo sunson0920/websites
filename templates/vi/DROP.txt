@@ -1,0 +1,6 @@
+This folder is a complete static site drop.
+Keep index.html together with every CSS file, JS file, assets/, img/, fonts/, and video.
+Serve the folder as the site root (Vercel root directory = this folder).
+ES modules need a static server; opening index.html as a file will not run them.
+Do not upload HTML and CSS alone. Images, fonts, and vendor JS are required.
+Twitter embed widgets stay on platform.twitter.com. Everything else the page paints with is local.

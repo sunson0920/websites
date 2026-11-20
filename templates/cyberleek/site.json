@@ -1,0 +1,94 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "CyberLeek",
+  "ticker": "CYBERLEEK",
+  "template": "ut-hyperinu",
+  "domain": "cyberleeketh.lol",
+  "ca": "0x2ca5b158ba3f73e9a176294cd87124ead71a5201",
+  "chain": "ethereum",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "live",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "cyberleeketh.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.cyberleeketh.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "The leek that went full cyber. Shades on, armor up, patrolling the neon streets of Ethereum.\n",
+  "x_url": "https://x.com/cyberleeketh",
+  "tg_url": "",
+  "ref_x_url": "",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "uniswap-v4",
+  "dex_auto": false,
+  "dex_name": "Uniswap V4",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp",
+    "assets/char4.webp",
+    "assets/char5.webp",
+    "assets/char6.webp",
+    "assets/char7.webp",
+    "assets/char8.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp",
+    "assets/gpt-bg4.webp"
+  ],
+  "resolved": {
+    "dex_name": "Uniswap V4",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x2ca5b158ba3f73e9a176294cd87124ead71a5201",
+    "chart_page": "https://dexscreener.com/ethereum/0x2ca5b158ba3f73e9a176294cd87124ead71a5201",
+    "chart_embed": "https://dexscreener.com/ethereum/0x2ca5b158ba3f73e9a176294cd87124ead71a5201?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
+  },
+  "site_slug": "cyberleek",
+  "project_id": "pmwkrumk59im7g",
+  "exported_at": "2026-11-17T14:24:28.533Z",
+  "make_videos": false,
+  "videos": [],
+  "copy_overrides": [
+    {
+      "find": "</head>",
+      "replace": "<style id=\"cl-gta-bg\">\n/* Official GTA VI screenshot backgrounds. Persisted via site.json copy_overrides. */\n.hero-pin,.drive-pin,.gallery,.community,.about{isolation:isolate}\n.hero-pin::before,.drive-pin::before,.gallery::before,.community::before,.about::before{\n  content:\"\";position:absolute;inset:0;z-index:0;pointer-events:none;\n  background-position:center;background-size:cover;background-repeat:no-repeat}\n.hero-pin::after,.drive-pin::after,.gallery::after,.community::after,.about::after{\n  content:\"\";position:absolute;inset:0;z-index:0;pointer-events:none;\n  background:linear-gradient(180deg,rgba(2,6,10,.38),rgba(2,6,10,.62))}\n.hero-pin::before{background-image:url(\"assets/gpt-bg1.webp\")}\n.drive-pin::before{background-image:url(\"assets/gpt-bg2.webp\")}\n.gallery::before{background-image:url(\"assets/gpt-bg3.webp\")}\n.community::before,.about::before{background-image:url(\"assets/gpt-bg4.webp\")}\n.portal,.speedlines,.drive-tunnel,.drive-ring,.speed-zip{opacity:.16!important}\n.hero-word{opacity:.2}\n.hero-ghost{opacity:.04}\n</style>\n</head>"
+    }
+  ]
+}
