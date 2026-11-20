@@ -830,7 +830,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                        return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -856,7 +856,7 @@
                         (0, A.jsxs)("div", {
                           className: "section-1-left-bottom",
                           onClick: function () {
-                            return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                            return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                           },
                           children: [
                             (0, A.jsx)("span", {
@@ -871,6 +871,7 @@
                             }),
                           ],
                         }),
+                        (0, A.jsxs)("div", { className: "var-ca", title: "Click to copy", onClick: function (e) { e.stopPropagation(); try { navigator.clipboard.writeText("0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95"); } catch (x) {} var t = e.currentTarget.querySelector(".var-ca-copy"); if (t) { t.textContent = "Copied!"; setTimeout(function () { t.textContent = "Copy"; }, 1500); } }, children: [ (0, A.jsx)("span", { className: "var-ca-label", children: "CA" }), (0, A.jsx)("span", { className: "var-ca-addr", children: "0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95" }), (0, A.jsx)("span", { className: "var-ca-copy", children: "Copy" }) ] }),
                       ],
                     }),
                   }),
@@ -1295,7 +1296,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1329,7 +1330,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1997,7 +1998,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                        return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -2027,13 +2028,14 @@
                               (0, A.jsx)("span", {
                                 className: "section-1-left-launch color-light",
                                 onClick: function () {
-                                  return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                                  return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                                 },
                                 children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                               }),
                               (0, A.jsx)("img", { src: I, alt: "" }),
                             ],
                           }),
+                          (0, A.jsxs)("div", { className: "var-ca", title: "Click to copy", onClick: function (e) { e.stopPropagation(); try { navigator.clipboard.writeText("0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95"); } catch (x) {} var t = e.currentTarget.querySelector(".var-ca-copy"); if (t) { t.textContent = "Copied!"; setTimeout(function () { t.textContent = "Copy"; }, 1500); } }, children: [ (0, A.jsx)("span", { className: "var-ca-label", children: "CA" }), (0, A.jsx)("span", { className: "var-ca-addr", children: "0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95" }), (0, A.jsx)("span", { className: "var-ca-copy", children: "Copy" }) ] }),
                         ],
                       }),
                       (0, A.jsx)("div", {
@@ -2590,7 +2592,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -2624,7 +2626,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                             },
                             children: [
                               (0, A.jsx)("span", {

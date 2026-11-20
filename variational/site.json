@@ -4,7 +4,7 @@
   "ticker": "VAR",
   "template": "static-lnfi-network",
   "domain": "variational.link",
-  "ca": "",
+  "ca": "0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95",
   "chain": "ethereum",
   "domain_status": "pending",
   "x_url": "https://x.com/variational_x",
