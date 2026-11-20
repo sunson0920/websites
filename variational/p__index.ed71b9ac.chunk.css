@@ -73,7 +73,7 @@
   gap: 140px;
 }
 .landing-head-mobile .landing-head-left .logo {
-  width: 82px;
+  width: auto;
   height: 28px;
   margin-left: 10px;
 }
@@ -944,8 +944,8 @@
 }
 .landing-container-mobile .section-10 .section-10-content-head .s10-btn {
   margin-top: 15px;
-  width: 118px;
-  height: 48px;
+  width: auto;
+  height: 46px;
 }
 .landing-container-mobile .section-10 .section-10-content {
   width: var(--max-width);
@@ -1331,7 +1331,8 @@
 }
 .landing-head .landing-head-left .logo {
   margin-left: 60px;
-  width: 117px;
+  width: auto;
+  height: 40px;
 }
 .landing-head .landing-head-left .landing-head-left-routes {
   display: flex;
@@ -2570,7 +2571,8 @@
   .section-10-content
   .section-10-content-item
   .s10-btn {
-  width: 170px;
+  width: auto;
+  height: 66px;
   position: absolute;
   top: 50%;
   left: 50%;
