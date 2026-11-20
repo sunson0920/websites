@@ -1738,7 +1738,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/varoneth");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -1789,19 +1789,12 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/varoneth");
                           },
                           alt: "",
                         }),
 
-                        (0, A.jsx)("img", {
-                          src: a0,
-                          onClick: function () {
-                            return window.open("https://docs.aifioft.pro");
-                          },
-                          alt: "",
-                        }),
-                      ],
+                        ],
                     }),
                   ],
                 }),
@@ -1993,15 +1986,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
-                          },
-                          alt: "",
-                        }),
-
-                        (0, A.jsx)("img", {
-                          src: a0,
-                          onClick: function () {
-                            return window.open("https://docs.aifioft.pro");
+                            return window.open("https://x.com/varoneth");
                           },
                           alt: "",
                         }),
@@ -3044,7 +3029,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/varoneth");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -3095,19 +3080,12 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/varoneth");
                           },
                           alt: "",
                         }),
 
-                        (0, A.jsx)("img", {
-                          src: a0,
-                          onClick: function () {
-                            return window.open("https://docs.aifioft.pro");
-                          },
-                          alt: "",
-                        }),
-                      ],
+                        ],
                     }),
                   ],
                 }),
