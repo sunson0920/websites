@@ -518,12 +518,12 @@
             e
           ),
           React.createElement("path", {
-            d: "M17.617.057 3.447 18.084h14.425L3.192 36.87h9.893L0 53l27.765-21.57H16.021l12.734-13.494L45 0 17.617.057Z",
+            d: "M22.5 0 27.6 21.2 45 26.5 27.6 31.8 22.5 53 17.4 31.8 0 26.5 17.4 21.2Z",
             fill: "#F3E93B",
           })
         );
       var W0 =
-          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3LjYxNy4wNTcgMy40NDcgMTguMDg0aDE0LjQyNUwzLjE5MiAzNi44N2g5Ljg5M0wwIDUzbDI3Ljc2NS0yMS41N0gxNi4wMjFsMTIuNzM0LTEzLjQ5NEw0NSAwIDE3LjYxNy4wNTdaIiBmaWxsPSIjRjNFOTNCIi8+PC9zdmc+",
+          "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDUiIGhlaWdodD0iNTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIyLjUgMCAyNy42IDIxLjIgNDUgMjYuNSAyNy42IDMxLjggMjIuNSA1MyAxNy40IDMxLjggMCAyNi41IDE3LjQgMjEuMloiIGZpbGw9IiNGM0U5M0IiLz48L3N2Zz4=",
         J0 = n.p + "static/s6.f7206caf.png",
         K0 = n.p + "static/s9-1.6d6dd80e.png",
         q0 = n.p + "static/s9-2.93c3272c.png",
@@ -920,12 +920,12 @@
                                     spinning: m,
                                     children: (0, A.jsx)("div", {
                                       className: "number",
-                                      children: l ? kA(l, 2) : "--",
+                                      children: "Uniswap",
                                     }),
                                   }),
                                   (0, A.jsx)("div", {
                                     className: "unit",
-                                    children: "USDT",
+                                    children: "DEX",
                                   }),
                                 ],
                               }),
@@ -945,13 +945,10 @@
                                   (0, A.jsxs)("div", {
                                     className: "number-box",
                                     children: [
-                                      (0, A.jsx)("div", {
-                                        className: "number",
-                                        ref: M,
-                                      }),
+                                      (0, A.jsx)("div", { className: "number", ref: M, style: { display: "none" } }), (0, A.jsx)("div", { className: "number", children: "Ethereum" }),
                                       (0, A.jsx)("div", {
                                         className: "unit",
-                                        children: "BTC",
+                                        children: "L1",
                                       }),
                                     ],
                                   }),
@@ -967,10 +964,7 @@
                                   }),
                                   (0, A.jsx)("div", {
                                     className: "number-box",
-                                    children: (0, A.jsx)("div", {
-                                      className: "number",
-                                      ref: z,
-                                    }),
+                                    children: [(0, A.jsx)("div", { className: "number", ref: z, style: { display: "none" } }), (0, A.jsx)("div", { className: "number", children: "0" })],
                                   }),
                                 ],
                               }),
@@ -1330,7 +1324,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
+                              return window.open("https://x.com/variational_x");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1394,11 +1388,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2025",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q3/Q4",
+                                  children: "01",
                                 }),
                               ],
                             }),
@@ -1445,11 +1439,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q1",
+                                  children: "02",
                                 }),
                               ],
                             }),
@@ -1488,11 +1482,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q2",
+                                  children: "03",
                                 }),
                               ],
                             }),
@@ -1509,7 +1503,7 @@
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
-                                  children: (0, A.jsx)(i.cC, { id: "CnyR5l" }),
+                                  children: (0, A.jsx)(i.cC, { id: "Glc1vS" }),
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
@@ -1527,11 +1521,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q3/Q4",
+                                  children: "04",
                                 }),
                               ],
                             }),
@@ -1544,7 +1538,7 @@
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
-                                  children: (0, A.jsx)(i.cC, { id: "nVAErA" }),
+                                  children: (0, A.jsx)(i.cC, { id: "wnvanp" }),
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
@@ -1778,7 +1772,7 @@
                         " ",
                         (0, A.jsx)("span", {
                           onClick: function () {
-                            return window.open("https://docs.aifioft.pro");
+                            return window.alert("$VAR is a community meme token on Ethereum. It has no intrinsic value and no expectation of financial return. Nothing on this site is financial advice. DYOR.");
                           },
                           children: (0, A.jsx)(i.cC, { id: "iDGO1l" }),
                         }),
@@ -2075,7 +2069,7 @@
                                   ? "vector vector-3 cur"
                                   : "vector vector-3",
                               onClick: function () {
-                                return window.open("https://www.ln.exchange/");
+                                return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
                               },
                               onMouseEnter: function () {
                                 return c(3);
@@ -2209,12 +2203,12 @@
                                     spinning: m,
                                     children: (0, A.jsx)("div", {
                                       className: "number",
-                                      children: l ? kA(l, 2) : "--",
+                                      children: "Uniswap",
                                     }),
                                   }),
                                   (0, A.jsx)("div", {
                                     className: "unit",
-                                    children: "USDT",
+                                    children: "DEX",
                                   }),
                                 ],
                               }),
@@ -2234,13 +2228,10 @@
                                   (0, A.jsxs)("div", {
                                     className: "number-box",
                                     children: [
-                                      (0, A.jsx)("div", {
-                                        className: "number",
-                                        ref: M,
-                                      }),
+                                      (0, A.jsx)("div", { className: "number", ref: M, style: { display: "none" } }), (0, A.jsx)("div", { className: "number", children: "Ethereum" }),
                                       (0, A.jsx)("div", {
                                         className: "unit",
-                                        children: "BTC",
+                                        children: "L1",
                                       }),
                                     ],
                                   }),
@@ -2256,10 +2247,7 @@
                                   }),
                                   (0, A.jsx)("div", {
                                     className: "number-box",
-                                    children: (0, A.jsx)("div", {
-                                      className: "number",
-                                      ref: z,
-                                    }),
+                                    children: [(0, A.jsx)("div", { className: "number", ref: z, style: { display: "none" } }), (0, A.jsx)("div", { className: "number", children: "0" })],
                                   }),
                                 ],
                               }),
@@ -2626,7 +2614,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95");
+                              return window.open("https://x.com/variational_x");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -2700,11 +2688,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2025",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q3/Q4",
+                                  children: "01",
                                 }),
                               ],
                             }),
@@ -2751,11 +2739,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q1",
+                                  children: "02",
                                 }),
                               ],
                             }),
@@ -2794,11 +2782,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q2",
+                                  children: "03",
                                 }),
                               ],
                             }),
@@ -2815,7 +2803,7 @@
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
-                                  children: (0, A.jsx)(i.cC, { id: "CnyR5l" }),
+                                  children: (0, A.jsx)(i.cC, { id: "Glc1vS" }),
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
@@ -2833,11 +2821,11 @@
                               children: [
                                 (0, A.jsx)("div", {
                                   className: "year",
-                                  children: "2026",
+                                  children: "Phase",
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "number",
-                                  children: "Q3/Q4",
+                                  children: "04",
                                 }),
                               ],
                             }),
@@ -2850,7 +2838,7 @@
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
-                                  children: (0, A.jsx)(i.cC, { id: "nVAErA" }),
+                                  children: (0, A.jsx)(i.cC, { id: "wnvanp" }),
                                 }),
                                 (0, A.jsx)("div", {
                                   className: "bot-item",
@@ -3070,7 +3058,7 @@
                         " ",
                         (0, A.jsx)("span", {
                           onClick: function () {
-                            return window.open("https://docs.aifioft.pro");
+                            return window.alert("$VAR is a community meme token on Ethereum. It has no intrinsic value and no expectation of financial return. Nothing on this site is financial advice. DYOR.");
                           },
                           children: (0, A.jsx)(i.cC, { id: "iDGO1l" }),
                         }),
