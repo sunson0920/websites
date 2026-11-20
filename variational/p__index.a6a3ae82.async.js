@@ -1738,7 +1738,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/varoneth");
+                            return window.open("https://x.com/variational_x");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -1789,7 +1789,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/varoneth");
+                            return window.open("https://x.com/variational_x");
                           },
                           alt: "",
                         }),
@@ -1986,7 +1986,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/varoneth");
+                            return window.open("https://x.com/variational_x");
                           },
                           alt: "",
                         }),
@@ -3029,7 +3029,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/varoneth");
+                            return window.open("https://x.com/variational_x");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -3080,7 +3080,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/varoneth");
+                            return window.open("https://x.com/variational_x");
                           },
                           alt: "",
                         }),
