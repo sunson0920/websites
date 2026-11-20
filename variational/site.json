@@ -1,0 +1,16 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "Variational",
+  "ticker": "VAR",
+  "template": "static-lnfi-network",
+  "domain": "variationaleth.vip",
+  "ca": "",
+  "chain": "ethereum",
+  "domain_status": "pending",
+  "x_url": "https://x.com/variational_x",
+  "tg_url": "",
+  "logo": "static/logo.png",
+  "banner": "static/banner_getstarted.2205d13a.png",
+  "site_slug": "variational",
+  "note": "Static Umi build of lnfi.network template (AIFI skin). Only name, ticker and X link changed. Edit JS bundles directly; not generated from a MemeSiteStudio template."
+}
