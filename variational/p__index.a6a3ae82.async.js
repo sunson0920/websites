@@ -830,7 +830,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return window.open("https://app.aifioft.pro");
+                        return window.open("https://app.uniswap.org/swap?chain=mainnet");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -856,7 +856,7 @@
                         (0, A.jsxs)("div", {
                           className: "section-1-left-bottom",
                           onClick: function () {
-                            return window.open("https://app.aifioft.pro");
+                            return window.open("https://app.uniswap.org/swap?chain=mainnet");
                           },
                           children: [
                             (0, A.jsx)("span", {
@@ -1295,7 +1295,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.aifioft.pro");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1329,7 +1329,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.aifioft.pro");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1738,7 +1738,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://t.me/AifiOFTOfficial");
+                            return window.open("https://x.com/variational_x");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -1794,13 +1794,6 @@
                           alt: "",
                         }),
 
-                        (0, A.jsx)("img", {
-                          src: U,
-                          onClick: function () {
-                            return window.open("https://t.me/AifiOFTOfficial");
-                          },
-                          alt: "",
-                        }),
                         (0, A.jsx)("img", {
                           src: a0,
                           onClick: function () {
@@ -2006,13 +1999,6 @@
                         }),
 
                         (0, A.jsx)("img", {
-                          src: U,
-                          onClick: function () {
-                            return window.open("https://t.me/AifiOFTOfficial");
-                          },
-                          alt: "",
-                        }),
-                        (0, A.jsx)("img", {
                           src: a0,
                           onClick: function () {
                             return window.open("https://docs.aifioft.pro");
@@ -2026,7 +2012,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return window.open("https://app.aifioft.pro");
+                        return window.open("https://app.uniswap.org/swap?chain=mainnet");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -2056,7 +2042,7 @@
                               (0, A.jsx)("span", {
                                 className: "section-1-left-launch color-light",
                                 onClick: function () {
-                                  return window.open("https://app.aifioft.pro");
+                                  return window.open("https://app.uniswap.org/swap?chain=mainnet");
                                 },
                                 children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                               }),
@@ -2619,7 +2605,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.aifioft.pro");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -2653,7 +2639,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://app.aifioft.pro");
+                              return window.open("https://app.uniswap.org/swap?chain=mainnet");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -3058,7 +3044,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://t.me/AifiOFTOfficial");
+                            return window.open("https://x.com/variational_x");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -3114,13 +3100,6 @@
                           alt: "",
                         }),
 
-                        (0, A.jsx)("img", {
-                          src: U,
-                          onClick: function () {
-                            return window.open("https://t.me/AifiOFTOfficial");
-                          },
-                          alt: "",
-                        }),
                         (0, A.jsx)("img", {
                           src: a0,
                           onClick: function () {
