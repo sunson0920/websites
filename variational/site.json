@@ -3,7 +3,7 @@
   "name": "Variational",
   "ticker": "VAR",
   "template": "static-lnfi-network",
-  "domain": "variationaleth.vip",
+  "domain": "variational.link",
   "ca": "",
   "chain": "ethereum",
   "domain_status": "pending",
