@@ -702,7 +702,6 @@ h2 {
   transform: translateX(-50%);
   object-fit: contain;
 }
-.comm-art.telegram img { top: 4px; width: 200px; height: 200px; }
 .comm-art.twitter img { top: 18px; width: 240px; height: 240px; }
 .comm-copy { padding: 20px 16px 24px; }
 .comm-copy h3 {
@@ -850,7 +849,6 @@ h2 {
   .community h2 { font-size: 40px; line-height: 40px; }
   .comm-card { height: 336px; }
   .comm-art { height: 210px; }
-  .comm-art.telegram img { top: -16px; width: 380px; height: 380px; }
   .comm-art.twitter img { top: 8px; width: 460px; height: 460px; }
   .comm-copy h3 { font-size: 24px; line-height: 28px; }
   .comm-copy p { font-size: 16px; line-height: 24px; }

@@ -316,7 +316,6 @@ function moreMenu() {
     ["https://docs.varprotocol.org", "Docs", true],
     ["https://arbdata.com/variational", "Stats", true],
     ["https://x.com/variationalonx", "X", true],
-    ["https://t.me/variationaleth", "telegram", true],
     ["https://variational.link/", "Variational Website", true],
     ["https://docs.varprotocol.org/legal/privacy-policy", "Privacy Policy", true],
     ["https://docs.varprotocol.org/legal/terms-of-service", "Terms of Service", true],
