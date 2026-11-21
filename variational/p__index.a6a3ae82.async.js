@@ -830,7 +830,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return (window.location.href = "/app");
+                        return (window.location.href = "/dapp");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -856,7 +856,7 @@
                         (0, A.jsxs)("div", {
                           className: "section-1-left-bottom",
                           onClick: function () {
-                            return (window.location.href = "/app");
+                            return (window.location.href = "/dapp");
                           },
                           children: [
                             (0, A.jsx)("span", {
@@ -1992,7 +1992,7 @@
                     (0, A.jsx)("div", {
                       className: "landing-head-right-launch",
                       onClick: function () {
-                        return (window.location.href = "/app");
+                        return (window.location.href = "/dapp");
                       },
                       children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                     }),
@@ -2022,7 +2022,7 @@
                               (0, A.jsx)("span", {
                                 className: "section-1-left-launch color-light",
                                 onClick: function () {
-                                  return (window.location.href = "/app");
+                                  return (window.location.href = "/dapp");
                                 },
                                 children: (0, A.jsx)(i.cC, { id: "ydwred" }),
                               }),

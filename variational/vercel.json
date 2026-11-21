@@ -6,6 +6,14 @@
   "outputDirectory": ".",
   "rewrites": [
     {
+      "source": "/dapp",
+      "destination": "/dapp/index.html"
+    },
+    {
+      "source": "/dapp/",
+      "destination": "/dapp/index.html"
+    },
+    {
       "source": "/app",
       "destination": "/app/index.html"
     },
@@ -18,7 +26,7 @@
       "destination": "/app/index.html"
     },
     {
-      "source": "/((?!static/|app/|.*\\.[a-z0-9]+$).*)",
+      "source": "/((?!static/|app/|dapp/|.*\\.[a-z0-9]+$).*)",
       "destination": "/index.html"
     }
   ]
