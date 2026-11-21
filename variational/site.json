@@ -2,15 +2,15 @@
   "format": "meme-site-studio/site@1",
   "name": "Variational",
   "ticker": "VAR",
-  "template": "static-lnfi-network",
+  "template": "static-variational1",
   "domain": "variational.link",
   "ca": "0x3a050fd9cc79d0d9f22eb0da381dcd6f1e238f95",
   "chain": "ethereum",
   "domain_status": "live",
-  "x_url": "https://x.com/variational_x",
+  "x_url": "https://x.com/variationalonx",
   "tg_url": "",
-  "logo": "static/logo.png",
+  "logo": "logo.png",
   "banner": "static/og-banner.png",
   "site_slug": "variational",
-  "note": "Static Umi build. Copy rewritten for DEX/DeFi/derivatives positioning (2026-11-19). Edit JS bundles directly; not generated from a MemeSiteStudio template."
+  "note": "Static site from Alita's local E:\\pack\\Ethereum\\Variational\\Variational1 (2026-11-21); /dapp and /app kept."
 }
