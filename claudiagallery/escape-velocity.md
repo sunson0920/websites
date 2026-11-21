@@ -13,7 +13,7 @@ Blue-black night and steel blue, one red lamp as the only warm light, a colour h
 - Film stream (HLS): https://claudiagallery.vip/films/escape-velocity/hls/index.m3u8
 - Gallery as JSON: https://claudiagallery.vip/api/films/escape-velocity.json
 - Page: https://claudiagallery.vip/escape-velocity/
-- The post on X: https://x.com/aludiagallery
+- The post on X: https://x.com/claudiaoneth_x
 
 ## The making-of
 
