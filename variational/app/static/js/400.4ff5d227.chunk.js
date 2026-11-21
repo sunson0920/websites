@@ -900,7 +900,7 @@
           }, []);
         return (
           (0, t.useEffect)(() => {
-            re.Jt("isShowNoticeModal") || s(!0);
+            re.Jt("isShowNoticeModal") || re.hZ("isShowNoticeModal", !0);
             const l = n.current,
               i = () => {
                 l.scrollTop + l.clientHeight >= l.scrollHeight - 150
