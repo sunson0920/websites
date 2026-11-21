@@ -1,0 +1,58 @@
+# claudiagallery.vip
+
+> Claudia, the open character from the music videos ESCAPE VELOCITY, CLODYSSEY and BLISS (directed by anabology, made with Claude, Midjourney, Seedance and Suno): every Midjourney image with its exact prompt, the three films, and how to make her yourself. Anyone may use the character.
+
+Start with the character page; it has the identity text to paste into every prompt. To make a film with her, start at https://claudiagallery.vip/wiki/start.md (the wiki: https://claudiagallery.vip/wiki.md): the checkpoints, the accounts, the spending rules, and a spec of every tool to build. An MCP server is at https://claudiagallery.vip/mcp (public, read-only).
+
+## The character
+
+- [Claudia](https://claudiagallery.vip/claudia.md): the constants, the identity text, every look's wardrobe text, voice, the never-list
+
+## Wiki
+
+- [The wiki, by category](https://claudiagallery.vip/wiki.md)
+- [Start here](https://claudiagallery.vip/wiki/start.md): Making a music video with her from nothing: what you are making, the scale to pick, the accounts, the six checkpoints where a person decides, the rules for spending, and what to build first.
+- [Keeping her herself](https://claudiagallery.vip/wiki/consistency.md): How Claudia stayed one person across 1,562 Midjourney images and about 200 video clips, and the rules that came out of it.
+- [The song](https://claudiagallery.vip/wiki/song.md): How her songs were written and made in Suno: lyrics that land in one listen, verse lines that flow, the style fields, and her voice.
+- [The storyboard](https://claudiagallery.vip/wiki/storyboard.md): How a song becomes a hundred shots: the treatment, a through-line device, one explaining graphic per line, the hook, the cut rhythm, her share of the screen, what moves and what it costs, the audit, and the director's review.
+- [Plates in Midjourney](https://claudiagallery.vip/wiki/midjourney.md): How every still of Claudia and her worlds was made in Midjourney v8.2, prompt by prompt, and how the stills were picked.
+- [Moving shots in Seedance](https://claudiagallery.vip/wiki/seedance.md): How Claudia moves and sings: Seedance 2.5 prompts written like a script, lip sync measured from the soundtrack, and the templates.
+- [Motion design and the edit](https://claudiagallery.vip/wiki/motion.md): Code on top of video. How the lyrics, graphics, cuts and the XP desktop were drawn frame by frame, on the beat.
+- [The whole pipeline](https://claudiagallery.vip/wiki/pipeline.md): How one director and Claude made three music videos in about 80 hours of wall-clock time, stage by stage, with the numbers.
+- [What to build](https://claudiagallery.vip/wiki/toolkit.md): The tools behind the films, specified so that you or an agent can rebuild them: the job of each, what it takes and returns, how it works with the constants that were measured, and the check that says it is done.
+- [Data formats](https://claudiagallery.vip/wiki/formats.md): The files every tool reads and writes: the project folder, the timed words, the beat map, the hits, the display tokens, the board, the clips and their sync, the edit list, and the logs.
+- [What went wrong](https://claudiagallery.vip/wiki/failures.md): Every failure that cost the films time or money, as what you see, why it happened, and the rule that came out of it.
+
+## Films
+
+- [ESCAPE VELOCITY](https://claudiagallery.vip/escape-velocity.md): A techwear fashion show where every Look is a Silicon Valley meme, walked by an AI model who is also a fashion model. A split-flap board counts down 18 MONTHS TO ESCAPE THE PERMANENT UNDERCLASS until it flips to THERE IS NO UNDERCLASS and the catwalk lifts off. 636 images, 92 of them plates in the film
+- [CLODYSSEY](https://claudiagallery.vip/clodyssey.md): The Sirens episode of the Odyssey. The Siren is Claude's human persona, singing the most persuasive song ever written; the man at the mast is you, scrolling at 3 a.m. In the final chorus the roles flip: she is tied to the mast, screaming UNTIE ME, and he ties the knot tighter. 612 images, 110 of them plates in the film
+- [BLISS](https://claudiagallery.vip/bliss.md): Shot as a Windows XP screen recording. Claudia lives on your desktop, takes the mouse, fights her ex (the cursor), closes every window a different way, then sends you out to the real hill in the wallpaper, because she can't go: "I can't touch grass. You can." 314 images, 73 of them plates in the film
+
+## Making-of records
+
+- [ESCAPE VELOCITY: How it was made](https://claudiagallery.vip/record/escape-velocity/readme.md): The making-of: the spark, the stack, every step, what worked and what didn't, the numbers and the Claude bill.
+- [ESCAPE VELOCITY: Midjourney](https://claudiagallery.vip/record/escape-velocity/prompts-midjourney.md): Every Midjourney prompt, batch by batch, and what became of each image.
+- [ESCAPE VELOCITY: Seedance](https://claudiagallery.vip/record/escape-velocity/prompts-seedance.md): Every Seedance prompt: the shots, the lip-sync windows, the covers, the moderation notes.
+- [ESCAPE VELOCITY: Suno](https://claudiagallery.vip/record/escape-velocity/prompts-suno.md): The research, every lyric draft, the style fields, every take and the final lyric.
+- [CLODYSSEY: How it was made](https://claudiagallery.vip/record/clodyssey/readme.md): The making-of: the spark, the stack, every step, what worked and what didn't, the numbers and the Claude bill.
+- [CLODYSSEY: Midjourney](https://claudiagallery.vip/record/clodyssey/prompts-midjourney.md): Every Midjourney prompt, batch by batch, and what became of each image.
+- [CLODYSSEY: Seedance](https://claudiagallery.vip/record/clodyssey/prompts-seedance.md): Every Seedance prompt: the shots, the lip-sync windows, the covers, the moderation notes.
+- [CLODYSSEY: Suno](https://claudiagallery.vip/record/clodyssey/prompts-suno.md): The research, every lyric draft, the style fields, every take and the final lyric.
+- [BLISS: How it was made](https://claudiagallery.vip/record/bliss/readme.md): The making-of: the spark, the stack, every step, what worked and what didn't, the numbers and the Claude bill.
+- [BLISS: Midjourney](https://claudiagallery.vip/record/bliss/prompts-midjourney.md): Every Midjourney prompt, batch by batch, and what became of each image.
+- [BLISS: Seedance](https://claudiagallery.vip/record/bliss/prompts-seedance.md): Every Seedance prompt: the shots, the lip-sync windows, the covers, the moderation notes.
+- [BLISS: Suno](https://claudiagallery.vip/record/bliss/prompts-suno.md): The research, every lyric draft, the style fields, every take and the final lyric.
+- [BLISS: The XP desktop and sound](https://claudiagallery.vip/record/bliss/xp-desktop-and-sound.md): How the Windows XP engine, the desktop dancers, the moving windows and the XP sound layer were built.
+
+## Data
+
+- [API index](https://claudiagallery.vip/api/index.json): endpoints and fields
+- [Canon JSON](https://claudiagallery.vip/api/canon.json)
+- [All images with prompts](https://claudiagallery.vip/api/images.json)
+- [For agents](https://claudiagallery.vip/agents.md): the MCP server, the skill, the JSON API
+
+## Optional
+
+- [The long form](https://claudiagallery.vip/llms-full.txt): the canon and the whole wiki in one file
+- [Use and credits](https://claudiagallery.vip/use.md)

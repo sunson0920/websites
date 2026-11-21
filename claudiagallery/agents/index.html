@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>For agents · claudiagallery.vip</title>
+<meta name="description" content="claudiagallery.vip for agents: an MCP server, a skill, llms.txt and a JSON API.">
+<link rel="canonical" href="https://claudiagallery.vip/agents/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="claudiagallery.vip">
+<meta property="og:title" content="For agents · claudiagallery.vip">
+<meta property="og:description" content="claudiagallery.vip for agents: an MCP server, a skill, llms.txt and a JSON API.">
+<meta property="og:url" content="https://claudiagallery.vip/agents/">
+<meta property="og:image" content="https://claudiagallery.vip/og/agents.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://claudiagallery.vip/og/agents.jpg">
+<meta name="theme-color" content="#0a0b0d">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="text/markdown" href="/agents.md" title="Markdown"><link rel="preload" href="/static/fonts/heros-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/dinishcn-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/plexmono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/css/site.css?v=1026372912">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-h">
+  <a class="brand" href="/" aria-label="Claudia, home"><span class="streak"></span>Claudia<small>.gallery</small></a>
+  <button class="menu-b" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav class="nav" id="nav" aria-label="Site">
+<a href="/claudia/">Claudia</a><a href="/escape-velocity/">Escape Velocity</a><a href="/clodyssey/">Clodyssey</a><a href="/bliss/">Bliss</a><a href="/wiki/">Wiki</a><a href="/agents/" aria-current="page">Agents</a><a class="nav-buy" href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Buy</a>  </nav>
+</header>
+<main id="main" >
+<header class="doc-h">
+  <div class="crumbs lab"><a href="/">claudiagallery.vip</a> / agents</div>
+  <h1>For agents</h1>
+<p class="dek">The same gallery, for agents: an MCP server at /mcp, an installable skill, llms.txt, Markdown twins of every page and a JSON API. Public, read-only, no keys.</p></header>
+<div class="doc-body">
+  <nav class="toc" aria-label="On this page"><span class="lab">On this page</span><a class="h2" href="#the-mcp-server">The MCP server</a><a class="h3" href="#connect">Connect</a><a class="h3" href="#tools">Tools</a><a class="h3" href="#claudia-canon">claudia_canon</a><a class="h3" href="#list-films">list_films</a><a class="h3" href="#browse-images">browse_images</a><a class="h3" href="#search-images">search_images</a><a class="h3" href="#get-image">get_image</a><a class="h3" href="#get-guide">get_guide</a><a class="h3" href="#plan-film">plan_film</a><a class="h3" href="#get-record">get_record</a><a class="h3" href="#build-prompt">build_prompt</a><a class="h3" href="#get-skill">get_skill</a><a class="h3" href="#resources-and-prompts">Resources and prompts</a><a class="h2" href="#the-skill">The skill</a><a class="h2" href="#llmstxt-and-markdown">llms.txt and Markdown</a><a class="h2" href="#json">JSON</a><a class="h2" href="#use">Use</a></nav>
+  <article class="prose"><h2 id="the-mcp-server">The MCP server</h2>
+<p><code>https://claudiagallery.vip/mcp</code> speaks the Model Context Protocol over Streamable HTTP. It is public and read-only: no account, no key, no state.</p>
+<h3 id="connect">Connect</h3>
+<p>Claude Code:</p>
+<div class="codeblock"><button class="copy">Copy</button><pre><code>claude mcp add --transport http claudia https://claudiagallery.vip/mcp</code></pre></div>
+<p>Claude (web and desktop): Settings → Connectors → Add custom connector, and paste <code>https://claudiagallery.vip/mcp</code>.</p>
+<p>Cursor, Windsurf and other clients that take a JSON config:</p>
+<div class="codeblock"><button class="copy">Copy</button><pre><code>{
+  &quot;mcpServers&quot;: {
+    &quot;claudia&quot;: {
+      &quot;url&quot;: &quot;https://claudiagallery.vip/mcp&quot;
+    }
+  }
+}</code></pre></div>
+<p>Codex CLI (<code>~/.codex/config.toml</code>):</p>
+<div class="codeblock"><button class="copy">Copy</button><pre><code>[mcp_servers.claudia]
+url = &quot;https://claudiagallery.vip/mcp&quot;</code></pre></div>
+<p>Clients that only speak stdio can bridge with <code>npx mcp-remote https://claudiagallery.vip/mcp</code>.</p>
+<h3 id="tools">Tools</h3>
+<h3 id="claudia-canon"><code>claudia_canon</code></h3>
+<p>Who Claudia is, in one call: the constants that never change (hair, the single clay streak, the star clip, the headset mic, face, age), the identity text to paste into every image prompt (a full form for close and medium shots, a short form for full length and wider), every look's wardrobe text across the three films, her voice and manner, the never-list, and the norms for releasing songs with her (your own artist name, her credit in the description, an AI label only if AI made it). Call this first before making anything with her.</p>
+<p>Arguments: <code>include_images</code>.</p>
+<h3 id="list-films"><code>list_films</code></h3>
+<p>The three music videos Claudia stars in (ESCAPE VELOCITY, CLODYSSEY, BLISS): loglines, the world of each, measured numbers (length, shots, Midjourney prompts and images, Seedance clips), image counts in this gallery, links to the film pages and streams, and the list of each film's making-of documents.</p>
+<p>Arguments: none.</p>
+<h3 id="browse-images"><code>browse_images</code></h3>
+<p>Page through the gallery's Midjourney images. Filter by film, by set (in_film: plates used in the finished film; her: any image with Claudia; all), by batch, look or framing. Returns compact entries: id, film, batch, job, variant, flags, size, image URLs and the start of the prompt. Use get_image for the full prompt.</p>
+<p>Arguments: <code>film</code>, <code>set</code>, <code>batch</code>, <code>look</code>, <code>framing</code>, <code>offset</code>, <code>limit</code>.</p>
+<h3 id="search-images"><code>search_images</code></h3>
+<p>Full-text search over every prompt in the gallery (1,562 Midjourney images), plus ids, batches and looks. All words must match (falls back to any word). Plates used in the film and the director's picks rank first on ties. Example queries: 'chroma-key green', 'porcelain mask', 'robotaxi night', 'sky gown hill'.</p>
+<p>Arguments: <code>query</code>, <code>film</code>, <code>set</code>, <code>limit</code>.</p>
+<h3 id="get-image"><code>get_image</code></h3>
+<p>One Midjourney image by id (e.g. 'sp-02-open.siren-mcu.2'): the exact prompt and parameters it ran with, whether it is a plate in the finished film, the director's verdict if any, its sibling variants, the batch note and URLs at three sizes. Set include_image to receive the picture itself so you can look at her.</p>
+<p>Arguments: <code>id</code>, <code>include_image</code>, <code>size</code>.</p>
+<h3 id="get-guide"><code>get_guide</code></h3>
+<p>An article of the Claudia wiki (claudiagallery.vip/wiki) as Markdown, distilled from the three productions. start: making a film of your own (the six checkpoints where a person decides, the accounts, the spending rules, the first conversation, what to build first). consistency: keeping Claudia herself across thousands of images and clips. song: Suno, lyrics that land, scansion and assonance, her voice. storyboard: shots, one explaining graphic per line, the hook, cut rhythm, the audit, the director's review. midjourney: writing and picking plates. seedance: moving shots, structured prompts, measured lip sync. motion: motion design and the edit in code. pipeline: the whole production and its numbers. toolkit: the spec of every tool behind the films (the lyric scorer, alignment and the ear check, the beat map, hits, the board audit, the clean vocal window, the spectrogram sync check, covers, the edit list, the renderer, the lyric gate, the flash and history checks, the reviewer, encoding), with constants and acceptance checks, so they can be rebuilt. formats: the data files the tools share. failures: what went wrong and the rule each failure left. Long guides can be read one section at a time with section.</p>
+<p>Arguments: <code>topic</code>, <code>section</code>.</p>
+<h3 id="plan-film"><code>plan_film</code></h3>
+<p>Turn a scale, a song length and the accounts someone has into a stage-by-stage plan for a Claudia music video, the way the films were made: the recommended scale (quick, studio or full) and why, estimates (shots, clip seconds, Seedance cost at 2x, Midjourney jobs), what is missing, the first-conversation questions with defaults, the stages with the six checkpoints where the director decides, and the tools to build in order with links to their specs.</p>
+<p>Arguments: <code>scale</code>, <code>song_seconds</code>, <code>has</code>, <code>budget_usd</code>.</p>
+<h3 id="get-record"><code>get_record</code></h3>
+<p>A film's making-of document as Markdown: readme (the story, the stack, every step, the numbers), prompts-midjourney, prompts-seedance, prompts-suno, and for bliss also xp-desktop-and-sound (how the XP desktop engine and its sound layer were built). They are long (up to about 150 KB): read in pages with offset and max_chars; the reply says where the next page starts.</p>
+<p>Arguments: <code>film</code>, <code>doc</code>, <code>offset</code>, <code>max_chars</code>.</p>
+<h3 id="build-prompt"><code>build_prompt</code></h3>
+<p>Compose a Midjourney v8.2 prompt for Claudia from the canon, the way the films did: framing first, her identity text (the full form for close and medium shots, the short form for full length and wider), a look's wardrobe (or your own), your scene, then one of the films' style families, ending 'no text, no letters, no logos'. Returns the prompt, the parameters and a checklist for the result.</p>
+<p>Arguments: <code>scene</code>, <code>framing</code>, <code>look</code>, <code>wardrobe</code>, <code>style</code>, <code>light</code>, <code>aspect</code>.</p>
+<h3 id="get-skill"><code>get_skill</code></h3>
+<p>How to install the Claudia agent skill (the canon, every guide from Start here to the toolkit spec, the films' prompt records and a stdlib-only fetch script, as a zip), and the site's other machine-readable endpoints (llms.txt, the JSON API, Markdown versions of every page).</p>
+<p>Arguments: none.</p>
+<h3 id="resources-and-prompts">Resources and prompts</h3>
+<p>Resources: <code>claudia://canon</code>, <code>claudia://wiki</code> (every article by category), <code>claudia://use</code> (what you may do, and the norms for releasing songs with her), <code>claudia://guide/{topic}</code>, <code>claudia://record/{film}/{doc}</code> and <code>claudia://llms</code>, all Markdown. Prompts: <code>claudia_film</code> (start a music video with her: the first conversation, the plan, the checkpoints), <code>claudia_still</code> (a Midjourney prompt for a new scene) and <code>claudia_shot</code> (a structured Seedance prompt for a moving shot).</p>
+<p>A first session might go: <code>claudia_canon</code> → <code>search_images(&quot;chroma-key green&quot;)</code> → <code>get_image(id, include_image=true)</code> → <code>build_prompt(scene=…, look=&quot;cyber-trench&quot;, style=&quot;bliss&quot;)</code> → <code>get_guide(&quot;seedance&quot;)</code>.</p>
+<p>Making a whole film: the <code>claudia_film</code> prompt, or <code>get_guide(&quot;start&quot;)</code> → <code>plan_film(scale=&quot;studio&quot;, song_seconds=200, has=[&quot;suno&quot;, &quot;midjourney&quot;, &quot;openrouter&quot;])</code> → <code>get_guide(&quot;toolkit&quot;, section=&quot;sync check&quot;)</code> for the spec of each tool you need to build.</p>
+<h2 id="the-skill">The skill</h2>
+<p>The same knowledge as files, for agents that load skills (Claude Code, the Claude apps, others that read <code>SKILL.md</code>): the canon and the rules in <code>SKILL.md</code>, the whole wiki (from Start here to the toolkit spec) and every film's making-of in <code>references/</code>, and a script that searches the gallery and downloads images (Python standard library only).</p>
+<div class="codeblock"><button class="copy">Copy</button><pre><code>curl -sL https://claudiagallery.vip/skill/claudia-skill.zip -o claudia-skill.zip
+unzip -o claudia-skill.zip -d ~/.claude/skills/</code></pre></div>
+<p>Or read it first: <a href="https://claudiagallery.vip/skill/SKILL.md" rel="noopener" target="_blank">https://claudiagallery.vip/skill/SKILL.md</a>.</p>
+<h2 id="llmstxt-and-markdown">llms.txt and Markdown</h2>
+<p><a href="https://claudiagallery.vip/llms.txt" rel="noopener" target="_blank">https://claudiagallery.vip/llms.txt</a> indexes the site for language models; <a href="https://claudiagallery.vip/llms-full.txt" rel="noopener" target="_blank">llms-full.txt</a> is the canon and the whole wiki in one file. Every page has a Markdown twin: add <code>.md</code> to its path without the trailing slash (<code>/claudia.md</code>, <code>/wiki/seedance.md</code>, <code>/record/bliss/prompts-midjourney.md</code>).</p>
+<h2 id="json">JSON</h2>
+<table>
+<thead>
+<tr>
+<th>Endpoint</th>
+<th>What</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/api/index.json</code></td>
+<td>the site, the endpoints and the item fields</td>
+</tr>
+<tr>
+<td><code>/api/canon.json</code></td>
+<td>the character as data</td>
+</tr>
+<tr>
+<td><code>/api/films.json</code></td>
+<td>the three films, their numbers and documents</td>
+</tr>
+<tr>
+<td><code>/api/films/{film}.json</code></td>
+<td>one film's batches and every image with its prompt</td>
+</tr>
+<tr>
+<td><code>/api/images.json</code></td>
+<td>all 1,562 images with prompts (about 1.5 MB)</td>
+</tr>
+<tr>
+<td><code>/api/images/{id}.json</code></td>
+<td>one image</td>
+</tr>
+<tr>
+<td><code>/api/guides.json</code>, <code>/api/records.json</code></td>
+<td>the guides and the making-of documents</td>
+</tr>
+</tbody>
+</table>
+<p>Image files: <code>/img/{batch}/{job}-{n}.s.webp</code> (fits 720 px), <code>.m.webp</code> (fits 1800 px), <code>.full.jpg</code> (native, up to 2944 px). Everything is served with <code>Access-Control-Allow-Origin: *</code>.</p>
+<h2 id="use">Use</h2>
+<p>Claudia is an open character; see <a href="/use/">Use her</a>. Please keep agents polite: cache what you fetch, and prefer the small images unless you need the full ones.</p>
+</article>
+</div>
+</main>
+<footer class="site-f">
+  <p class="safe">It's now safe to turn off your computer.</p>
+  <div class="cm">
+  <div class="cm-row">
+    <span class="cm-k">Community token</span>
+    <p><svg class="eth-diamond" viewBox="0 0 32 32" aria-hidden="true" width="12" height="12"><g fill="#627EEA"><polygon points="16,2 6,16 16,12"/><polygon points="16,2 26,16 16,12" fill="#8aa2f2"/><polygon points="16,30 6,16.5 16,20.5"/><polygon points="16,30 26,16.5 16,20.5" fill="#8aa2f2"/></g></svg><b>$CLAUDIA</b> on Ethereum · ERC-20 · made by fans · its trading fees fund the films</p>
+    <span class="cm-ca"><code>0x892befe20d34919d44febfb6227071fe54276820</code><button class="copy" data-text="0x892befe20d34919d44febfb6227071fe54276820">Copy</button>
+      <span class="cm-links"><a href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Buy on Uniswap</a><a href="https://etherscan.io/token/0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Etherscan</a></span>
+    </span>
+  </div>
+  <div class="cm-row">
+    <span class="cm-k">Fan accounts</span>
+    <p class="cm-fans"><span><a href="https://x.com/aludiagallery" rel="noopener" target="_blank"><i>@</i>aludiagallery</a></span></p>
+  </div>
+</div>
+  <div class="f-cols">
+    <div>
+      <h4>claudiagallery.vip</h4>
+      <p>Claudia is an open character from three music videos directed by anabology and made with Claude, Midjourney, Seedance and Suno. Use her.</p>
+      <p>Fan work about Claude. Not affiliated with Anthropic.</p>
+    </div>
+    <div><h4>Films</h4><a href="/escape-velocity/">ESCAPE VELOCITY</a><a href="/clodyssey/">CLODYSSEY</a><a href="/bliss/">BLISS</a></div>
+    <div><h4>Wiki</h4><a href="/wiki/start/">Start here</a><a href="/claudia/">The character</a><a href="/wiki/consistency/">Consistency</a><a href="/wiki/song/">Song</a><a href="/wiki/storyboard/">Storyboard</a><a href="/wiki/seedance/">Seedance</a><a href="/wiki/toolkit/">What to build</a><a href="/wiki/">The whole wiki</a></div>
+    <div><h4>Agents</h4><a href="/agents/">MCP server</a><a href="/skill/claudia-skill.zip">The skill (zip)</a><a href="/llms.txt">llms.txt</a><a href="/api/index.json">JSON API</a><a href="/use/">Use and credits</a></div>
+    <div><h4>Social</h4><a href="https://t.me/claudiaaiagent" rel="noopener" target="_blank">Telegram</a><a href="https://x.com/aludiagallery" rel="noopener" target="_blank">X</a><a href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Uniswap</a><a href="https://etherscan.io/token/0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Etherscan</a></div>
+  </div>
+</footer>
+<script src="/static/js/site.js?v=43e748dbe6" defer></script>
+</body>
+</html>

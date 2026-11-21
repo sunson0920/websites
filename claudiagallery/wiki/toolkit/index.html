@@ -1,0 +1,870 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>What to build · Wiki · claudiagallery.vip</title>
+<meta name="description" content="The tools behind the films, specified so that you or an agent can rebuild them: the job of each, what it takes and returns, how it works with the constants that were measured, and the check that says it is done.">
+<link rel="canonical" href="https://claudiagallery.vip/wiki/toolkit/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="claudiagallery.vip">
+<meta property="og:title" content="What to build · Wiki · claudiagallery.vip">
+<meta property="og:description" content="The tools behind the films, specified so that you or an agent can rebuild them: the job of each, what it takes and returns, how it works with the constants that were measured, and the check that says it is done.">
+<meta property="og:url" content="https://claudiagallery.vip/wiki/toolkit/">
+<meta property="og:image" content="https://claudiagallery.vip/og/wiki.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://claudiagallery.vip/og/wiki.jpg">
+<meta name="theme-color" content="#0a0b0d">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="alternate" type="text/markdown" href="/wiki/toolkit.md" title="Markdown"><link rel="preload" href="/static/fonts/heros-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/dinishcn-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/static/fonts/plexmono-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/static/css/site.css?v=1026372912">
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-h">
+  <a class="brand" href="/" aria-label="Claudia, home"><span class="streak"></span>Claudia<small>.gallery</small></a>
+  <button class="menu-b" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav class="nav" id="nav" aria-label="Site">
+<a href="/claudia/">Claudia</a><a href="/escape-velocity/">Escape Velocity</a><a href="/clodyssey/">Clodyssey</a><a href="/bliss/">Bliss</a><a href="/wiki/" aria-current="page">Wiki</a><a href="/agents/">Agents</a><a class="nav-buy" href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Buy</a>  </nav>
+</header>
+<main id="main" >
+<header class="doc-h">
+  <div class="crumbs lab"><a href="/">claudiagallery.vip</a> / <a href="/wiki/">wiki</a> / <a href="/wiki/#building-the-tools">building the tools</a> / what to build</div>
+  <h1>What to build</h1>
+<p class="dek">The tools behind the films, specified so that you or an agent can rebuild them: the job of each, what it takes and returns, how it works with the constants that were measured, and the check that says it is done.</p><p class="lab" style="margin-top:20px"><a href="/wiki/toolkit.md">Markdown</a> &nbsp;·&nbsp; <a href="/agents/">MCP: get_guide(&#34;toolkit&#34;)</a> &nbsp;·&nbsp; <span>29 min · 10 sections</span></p></header>
+<div class="doc-body">
+  <nav class="toc" aria-label="On this page"><span class="lab">On this page</span><a class="h2" href="#the-project">The project</a><a class="h3" href="#1-the-project-folder-and-its-logs">1. The project folder and its logs</a><a class="h2" href="#the-song">The song</a><a class="h3" href="#2-the-lyric-scorer-scansion-and-assonance">2. The lyric scorer: scansion and assonance</a><a class="h3" href="#3-the-suno-pack">3. The Suno pack</a><a class="h2" href="#listening">Listening</a><a class="h3" href="#4-stems">4. Stems</a><a class="h3" href="#5-timed-words-and-the-ear-check">5. Timed words and the ear check</a><a class="h3" href="#6-the-beat-map">6. The beat map</a><a class="h3" href="#7-sections-and-hits">7. Sections and hits</a><a class="h3" href="#8-display-tokens">8. Display tokens</a><a class="h2" href="#the-board">The board</a><a class="h3" href="#9-the-board-file-and-its-audit">9. The board file and its audit</a><a class="h3" href="#10-the-board-sheet">10. The board sheet</a><a class="h2" href="#pictures">Pictures</a><a class="h3" href="#11-the-plate-book-contact-sheets-and-picks">11. The plate book, contact sheets and picks</a><a class="h3" href="#12-plate-prep-depth-and-boxes">12. Plate prep: depth and boxes</a><a class="h2" href="#moving-shots">Moving shots</a><a class="h3" href="#13-clip-files-and-the-spend-gate">13. Clip files and the spend gate</a><a class="h3" href="#14-the-clean-vocal-window">14. The clean vocal window</a><a class="h3" href="#15-the-sync-check-the-spectrogram-comparison">15. The sync check: the spectrogram comparison</a><a class="h3" href="#16-covers-and-coverage">16. Covers and coverage</a><a class="h2" href="#the-edit-and-the-renderer">The edit and the renderer</a><a class="h3" href="#17-the-edit-list">17. The edit list</a><a class="h3" href="#18-the-renderer">18. The renderer</a><a class="h2" href="#checks">Checks</a><a class="h3" href="#19-the-lyric-gate">19. The lyric gate</a><a class="h3" href="#20-the-history-check">20. The history check</a><a class="h3" href="#21-the-flash-check">21. The flash check</a><a class="h3" href="#22-pace-against-the-music">22. Pace against the music</a><a class="h3" href="#23-contact-sheets-and-the-reviewer">23. Contact sheets and the reviewer</a><a class="h3" href="#24-the-safety-and-canon-scan">24. The safety and canon scan</a><a class="h2" href="#delivery">Delivery</a><a class="h3" href="#25-encode-and-deliver">25. Encode and deliver</a><a class="h2" href="#running-agents">Running agents</a><a class="h3" href="#26-workflows-run-records-and-the-stop-switch">26. Workflows, run records and the stop switch</a></nav>
+  <article class="prose"><p>The films' tools lived in a private workspace and are not published. This page is the spec instead. For each tool: its
+job, what goes in and what comes out, how it works (with the numbers that were measured or tuned), and the check that
+says it is done. None of it is exotic. Most of these tools are a few hundred lines of Python or JavaScript around ffmpeg,
+an audio model or a headless browser. Build them in the order of <a href="/wiki/start/#what-to-build-first">Start here</a>. Their
+files are in <a href="/wiki/formats/">Data formats</a>.</p>
+<p>Two principles run through all of them:</p>
+<ul>
+<li><strong>A check a script can run beats a judgement.</strong> Every bar that held on the films was something a script measured: a
+word on screen at its time, a cut on a beat, a mouth on the audio, money from the bill.</li>
+<li><strong>Fixed formats with slots beat improvisation.</strong> The Suno pack, the plate prompt order, the clip prompt, the display
+tokens and the shot schema are templates. An agent fills them in; it doesn't reinvent them.</li>
+</ul>
+<h2 id="the-project">The project</h2>
+<h3 id="1-the-project-folder-and-its-logs">1. The project folder and its logs</h3>
+<p><strong>Job.</strong> Hold everything a fresh agent needs to pick the film up cold.</p>
+<p><strong>Out.</strong></p>
+<ul>
+<li>One folder per film (layout in <a href="/wiki/formats/#the-project-folder">Data formats</a>).</li>
+<li>A <strong>decisions log</strong>: the director's words, verbatim, dated, by whom. A later decision is a new entry that supersedes an
+older one, never an edit of it.</li>
+<li>A <strong>ledger</strong> with one line per paid call.</li>
+<li>A <strong>runs file</strong> with every long or delegated run's id and arguments.</li>
+<li>One <strong>status file</strong>, rewritten in place: the stage, what is running, real spend, the checkpoints passed, and what
+needs the person.</li>
+</ul>
+<p><strong>How.</strong> Name the project on every command. An <code>export</code> inside a backgrounded shell chain once sent commands to the
+wrong project. Write state with a locked read-modify-write: parallel runs raced on a picks file and lost picks.</p>
+<p><strong>Done when</strong> a new session can answer &quot;where are we, what is running, what did the director say, what did it cost&quot;
+from the files alone.</p>
+<h2 id="the-song">The song</h2>
+<h3 id="2-the-lyric-scorer-scansion-and-assonance">2. The lyric scorer: scansion and assonance</h3>
+<p><strong>Job.</strong> Before any take is spent, predict how Suno will deliver a lyric, and report two numbers per section and for
+the song: <strong>scansion</strong> and <strong>assonance</strong>. Also lint the sheet.</p>
+<p><strong>In → out.</strong> The lyric sheet, with a section tag on each section naming its delivery (<code>[Verse 1 - spoken, deadpan]</code>,
+<code>[Chorus - sung]</code>, <code>[Drop - chant]</code>) → a report per line and per section. Optionally, each line drawn on the 16th-note
+grid.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li><strong>The delivery model.</strong> It was measured by laying ESCAPE VELOCITY's real take, forced-aligned, on its beat map, then
+calibrated on the director's verdicts on CLODYSSEY's drafts. Suno gives each spoken line its own two-bar slot. The
+line enters on the &quot;and&quot; of beat 2 of the first bar, its last word lands on beat 4 of the second bar, and Suno speaks
+it at natural rhythm stretched to fit (verse lines 0.8–1.5×, median 1.12).</li>
+<li><strong>Rates:</strong> spoken about 3.3 syllables a second, sung about 2.9, chanted about 3.0. Aim for 10–13 syllables per spoken
+line; 9 can pass. A sung hook runs 4–8 syllables, with common words and open vowels.</li>
+<li><strong>Syllables and stress.</strong> Split every word into syllables with stress, using a pronouncing dictionary such as CMUdict
+plus a fallback for unknown words. Mark the important syllables: lexical stress, names, numbers, words in caps, and the
+last content word of each phrase. Function words (the, a, of, to, and, is) should fall between beats.</li>
+<li><strong>Flow,</strong> for spoken sections, scores:
+<ul>
+<li>how many important syllables land on the grid;</li>
+<li>stress spacing (no pile-ups, no long runs of weak syllables);</li>
+<li>how far Suno must stretch the line;</li>
+<li>the line's shape: at most two phrases between full stops, and no one-word fragment mid-line (&quot;Ugh.&quot;, which the
+director called &quot;the most awkward part&quot;);</li>
+<li>whether couplets rhyme on the beat-4 word.</li>
+</ul>
+</li>
+<li><strong>Groove,</strong> for chants and hooks, scores whether short clauses lock to the pulse. Never use it on verses: optimising
+verses for groove made one draft choppy.</li>
+<li><strong>Scansion</strong> = flow without its rhyme term, averaged with groove.</li>
+<li><strong>Assonance.</strong> For each line end, find its best partner within four lines: a rhyme, a slant rhyme, or shared stressed
+vowels. Add the echo of stressed vowels inside lines. Report each line's end sound and its partner.</li>
+<li><strong>Lint:</strong>
+<ul>
+<li>digits and unspaced acronyms (write &quot;A G I&quot; in the sheet; the screen shows &quot;AGI&quot;);</li>
+<li>brackets and symbols, and homographs;</li>
+<li>lines that read as AI-written, and the project's taboo words;</li>
+<li>lines borrowed from other songs;</li>
+<li>a lyrics field over about 3,000 characters (Suno rushes or truncates silently).</li>
+</ul>
+</li>
+</ul>
+<p><strong>Reference scores</strong> (scansion / assonance) on the finished songs: ESCAPE VELOCITY 75 / 39, CLODYSSEY 83 / 55, BLISS
+80 / 43. Spoken, deadpan lines may stay unrhymed; every sung couplet should ring.</p>
+<p><strong>The rewrite loop:</strong></p>
+<ol>
+<li>Write 4–8 rewrites of a flagged line that keep its meaning and its reference.</li>
+<li>Score them and keep the top three.</li>
+<li>A judge rates each for meaning, wit and the risk of reading as AI-written.</li>
+<li>Pick the best.</li>
+</ol>
+<p>Never touch a line the director has locked, and never optimise past their ear. A draft tuned to a perfect score got:
+&quot;perfect beat precision without attention to what words land where doesnt lead to this being great&quot;.</p>
+<p><strong>Done when</strong> the scorer ranks every section the director has judged in the director's own order. Keep a calibration
+file of those sections with their verdicts, and re-run it after every change to the scorer. If the ranking breaks, the
+director is right and the score is only advice.</p>
+<h3 id="3-the-suno-pack">3. The Suno pack</h3>
+<p><strong>Job.</strong> Everything a person pastes into Suno, with each field in its own block so it copies from a phone.</p>
+<p><strong>Out.</strong></p>
+<ul>
+<li><strong>Style:</strong> genre, BPM, key, instruments, vocal delivery and mix, as one string.</li>
+<li><strong>Exclude styles.</strong></li>
+<li><strong>The lyrics field:</strong> spelled as sung, with section tags that carry delivery and arrangement cues; 1,800–2,400
+characters for about 2:20.</li>
+<li><strong>Title and settings.</strong></li>
+<li><strong>A takes log:</strong> each take with the director's verdict on it.</li>
+</ul>
+<p><strong>How.</strong></p>
+<ul>
+<li>Respell a name Suno mispronounces in the Suno field only; the screen keeps the real spelling.</li>
+<li>Allow one Voice per source song (a combined spoken-and-sung Voice), and also try takes with no Voice.</li>
+<li>If the film has a sound palette, put the song in its key. XP's startup and shutdown sounds are in E-flat major.</li>
+<li>Syncopate hooks and stop lines.</li>
+<li>Change one thing per round.</li>
+<li>Never take audio from Suno's CDN or by recording the player. The person's download is also the licensing step.</li>
+</ul>
+<p><strong>Done when</strong> the person can paste every field without editing, and the takes log names the chosen take.</p>
+<h2 id="listening">Listening</h2>
+<h3 id="4-stems">4. Stems</h3>
+<p><strong>Job.</strong> Split the master into vocals, drums, bass and other.</p>
+<p><strong>How.</strong> htdemucs, four stems. It took about 64 s on 8 CPU threads for a 5-minute song, with a 2.7 GB peak and 84 MB of
+weights; the published weights carry no explicit licence. The stems feed different tools:</p>
+<ul>
+<li><strong>vocals:</strong> alignment, lip-sync windows and the sync check;</li>
+<li><strong>drums:</strong> the beat map and the kicks;</li>
+<li><strong>bass and other:</strong> impacts, risers and section energy.</li>
+</ul>
+<h3 id="5-timed-words-and-the-ear-check">5. Timed words and the ear check</h3>
+<p><strong>Job.</strong> Give every sung word a start, an end and a confidence, then list the ones a person should hear.</p>
+<p><strong>In → out.</strong> The vocal stem and the lyric sheet → <code>words.json</code> (each word: index, text, line, <code>t0</code>, <code>t1</code>, <code>conf</code>, and
+its source), plus an ear-check list.</p>
+<p><strong>How.</strong></p>
+<ol>
+<li><strong>Forced alignment</strong> of the known lyric: a wav2vec2 CTC model (<code>facebook/wav2vec2-large-960h-lv60-self</code>, Apache-2.0)
+gives character probabilities every 20 ms, and a Viterbi pass walks the sheet's characters through them. The
+confidence is the mean probability over the word's frames.
+<ul>
+<li>Re-run on ESCAPE VELOCITY, it reproduced the shipped times exactly for 78.6% of words, and within 0.10 s for 92.5%.
+Target at least 90% within 0.10 s.</li>
+<li>Singing aligns worse than speech: mean confidence 0.64 on ESCAPE VELOCITY, 0.75 on CLODYSSEY.</li>
+</ul>
+</li>
+<li><strong>A transcription fallback</strong> for words the aligner is unsure of. Whisper hears sung words far better (92.5% text
+match against 72%), but it starts words early: mean error −0.33 s. Merge per word, in this order:
+<ol>
+<li>wav2vec2 confidence ≥ 0.5: keep it.</li>
+<li>Otherwise, if Whisper heard the word, take Whisper's end time. For words longer than 0.45 s, also move the start
+forward to the first 10 ms frame where vocal energy passes 0.3 × the word's peak, unless wav2vec2's start falls
+inside the word.</li>
+<li>Otherwise, if the word sits between two placed words of its line, give it an even share of the gap.</li>
+<li>Otherwise, leave it unplaced, for the ear check.</li>
+</ol>
+</li>
+<li><strong>Matching</strong> heard words to the sheet:
+<ul>
+<li>spell digits out;</li>
+<li>split a heard word that equals 2–4 sheet words (&quot;AGI&quot; → &quot;A G I&quot;);</li>
+<li>map names and brands by hand, in a project table.</li>
+</ul>
+</li>
+<li><strong>The ear-check flags,</strong> most urgent first:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Flag</th>
+<th>When</th>
+<th>Usually</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>letters</td>
+<td>a sheet line has no letters</td>
+<td>the sheet is wrong</td>
+</tr>
+<tr>
+<td>missing</td>
+<td>a word has no time</td>
+<td>fix it</td>
+</tr>
+<tr>
+<td>order</td>
+<td>a word starts more than 0.05 s before the previous one</td>
+<td>an alignment slip</td>
+</tr>
+<tr>
+<td>gap</td>
+<td>more than 1 s between two words of one line</td>
+<td>a delay throw, an echo, or the wrong repeat</td>
+</tr>
+<tr>
+<td>verylow</td>
+<td>confidence under 0.1</td>
+<td>the flag that matters most: 11 of the 12 words that were really off on ESCAPE VELOCITY's take carried it</td>
+</tr>
+<tr>
+<td>length</td>
+<td>a word longer than 1.2 s</td>
+<td>it swallowed a pause or a neighbour's slot</td>
+</tr>
+<tr>
+<td>lowconf</td>
+<td>confidence under 0.5, or a time from the fallback or interpolation</td>
+<td>usually right</td>
+</tr>
+</tbody>
+</table>
+<p>Two flags were tried and dropped, because every word they flagged was correct: a word on near-silence, and a word
+shorter than 40 ms.</p>
+<p><strong>Judging without ears.</strong> Weigh the signals in this order:</p>
+<ol>
+<li>the flag itself;</li>
+<li>a second aligner: if the two agree within about 0.3 s, keep the word;</li>
+<li>neighbours and repeats: which occurrence of a repeated line sits inside its line's span;</li>
+<li>vocal energy, only to choose between candidates that the signals above already proposed.</li>
+</ol>
+<p>Send at most five spots per song to the person, as 10–20 s previews with the words on screen: &quot;say ok, early or late for
+each&quot;.</p>
+<p><strong>What the take really sings.</strong> Transcribe the vocal stem and compare it with the sheet line by line: ok, spelling,
+changed, extra, missing or not heard. Never apply a proposed change the person hasn't heard: on CLODYSSEY's take, all nine
+proposals were transcription errors.</p>
+<p><strong>Rules.</strong></p>
+<ul>
+<li>If the take sings something else, fix the sheet. If it sings the sheet, fix the times. Never edit the audio.</li>
+<li>Manual fixes carry a note and survive re-runs.</li>
+</ul>
+<p><strong>Done when</strong> every flagged item is kept, moved or asked about, with a note, and all of it is finished before the
+board.</p>
+<h3 id="6-the-beat-map">6. The beat map</h3>
+<p><strong>Job.</strong> Every beat and every bar line of this take. Never one BPM: Suno takes drift like live music. ESCAPE VELOCITY
+went from 131.5 to 133.9 BPM and CLODYSSEY from 129.2 to 132.1, so a fixed grid is more than a beat off by the end.</p>
+<p><strong>How.</strong></p>
+<ol>
+<li>
+<p>Take the onset strength (spectral flux) of the drum stem.</p>
+</li>
+<li>
+<p>Fit local tempos on 20 s windows every 5 s: BPM in 0.05 steps, phase in 4 ms steps, inside a tempo range. Drop the
+weakest 20% of windows (the breakdowns).</p>
+</li>
+<li>
+<p>Smooth the tempo curve, step beats along it, and snap each beat to a real drum onset within ±30 ms.</p>
+</li>
+<li>
+<p>Find the downbeat phase (which of every four beats is beat 1) with two votes per 32-beat block:</p>
+<ul>
+<li>the kick vote: the phase with the most kick energy;</li>
+<li>the chord vote: the phase where the harmony (chroma of the other and bass stems) changes most.</li>
+</ul>
+<p>The chord vote wins when it holds at least half the blocks and changes at least 1.5× more than the other phases;
+otherwise the kick decides. On ESCAPE VELOCITY the kick vote was split 36% while the chord vote held 77%. Keep a
+manual override.</p>
+</li>
+<li>
+<p>If the tempo search locks onto half or double time, pin a tempo range.</p>
+</li>
+</ol>
+<p><strong>Done when</strong> section starts, verse entries and impacts mostly fall on beat 1, with kicks heavy on 1 and 3, claps on 2
+and 4, and harmony changing on 1. CLODYSSEY's final take needed the override: claps on 2 and 4 fooled the kick vote.</p>
+<h3 id="7-sections-and-hits">7. Sections and hits</h3>
+<p><strong>Job.</strong> What the track does, where: the camera answers sounds you can hear, not just the grid.</p>
+<p><strong>Sections.</strong> Segment the harmony and timbre, snap to downbeats, and name the sections from vocals and energy. Confirm
+them against the lyric's tags.</p>
+<ul>
+<li><strong>Pickup rule:</strong> a line starting less than 0.8 s before a section's first downbeat belongs to that section.</li>
+<li>List every vocal gap of 2 s or more; instrumental shots and title cards go there.</li>
+<li>Print each stem's energy per bar on a 0–9 scale, and write one line per section on what the track does (&quot;the beat
+stops after 'it sucks'&quot;).</li>
+</ul>
+<p><strong>Hits:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event</th>
+<th>How it is found</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>kick</td>
+<td>onsets in the drum stem, 30–150 Hz</td>
+</tr>
+<tr>
+<td>snare</td>
+<td>onsets at 150 Hz–5 kHz, minus anything within 45 ms of a kick (a broadband kick fires in every band)</td>
+</tr>
+<tr>
+<td>hat</td>
+<td>onsets at 6–16 kHz, minus kick-coincident ones</td>
+</tr>
+<tr>
+<td>impact</td>
+<td>a jump of the next 0.6 s over the previous 1.5 s in the mix, drum or bass envelope; score = max(mix, 0.9 × drums, 0.7 × bass) ≥ 0.22; snapped to a downbeat within 0.65 s; merged within 2 s</td>
+</tr>
+<tr>
+<td>riser</td>
+<td>the other and bass stems rising for at least 1 s, with the hit each one lands on</td>
+</tr>
+<tr>
+<td>fill</td>
+<td>the beat before a real hit, and bars whose last half breaks the pattern</td>
+</tr>
+<tr>
+<td>vocal entry</td>
+<td>where the vocal comes back after silence</td>
+</tr>
+<tr>
+<td>envelopes</td>
+<td>drums, vocals and bass at 24 fps, scaled 0–1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Done when</strong> every impact sits in a loud bar of the energy table. Keep a manual add and drop list: the detector missed
+CLODYSSEY's loudest bar, which grew out of an already loud chorus.</p>
+<h3 id="8-display-tokens">8. Display tokens</h3>
+<p><strong>Job.</strong> What the viewer reads, which is often not what is sung. The display is the joke; the sheet is the phonetics.</p>
+<p><strong>How.</strong> One line per lyric line, made of tokens: <code>TEXT|n</code> shows TEXT for the next n sung words, from the first word's
+start to the last word's end.</p>
+<ul>
+<li><code>+25%|3 =|1 −17%|2</code> shows &quot;+25% = −17%&quot; over the sung &quot;plus twenty-five is minus seventeen&quot;.</li>
+<li><code>AGI|3</code> shows AGI over the three sung letters.</li>
+<li>Markers: <code>*x*</code> accent, <code>~x~</code> strike-through, <code>_x_</code> mono. <code>|0</code> rides on the next token.</li>
+</ul>
+<p><strong>Done when</strong> every line consumes exactly its aligned words. Fail loudly if one doesn't.</p>
+<h2 id="the-board">The board</h2>
+<h3 id="9-the-board-file-and-its-audit">9. The board file and its audit</h3>
+<p><strong>Job.</strong> The film as data, written by commands that check every value, never by hand-editing JSON.</p>
+<p><strong>In → out.</strong> The beat map, sections, words and budget → <code>shots.json</code>: a draft, then the written board.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li><strong>The draft</strong> cuts each section at a pace: seconds per shot, per section. ESCAPE VELOCITY's measured pace was about
+1.35 s in the intro, 1.6 s in verses, 2.7 s in sung choruses and 4.4 s in the outro. A calmer song might run 4–7 s a
+shot.</li>
+<li><strong>Every creative field starts as a TODO.</strong></li>
+<li><strong>Writer commands</strong> set fields one shot at a time, or from a table. They refuse:
+<ul>
+<li>placeholder text;</li>
+<li>unknown device kinds, bad anchors and bad timing keys;</li>
+<li>a prompt in the wrong generator's field.</li>
+</ul>
+</li>
+</ul>
+<p><strong>The audit's gates</strong> are listed in <a href="/wiki/storyboard/#the-audit">The storyboard</a>. It exits non-zero while any gate
+fails, and it prints the exact entry for every clip still to make.</p>
+<p><strong>Done when</strong> the audit exits 0. The approval is recorded against a hash of the board, so any later change makes it
+stale.</p>
+<h3 id="10-the-board-sheet">10. The board sheet</h3>
+<p><strong>Job.</strong> The board as something a person can review on a phone.</p>
+<p><strong>Out.</strong> A PDF and JPG pages of 12 cards each. Each card holds the frame (or the prompt's first words), the id, the
+time, the lyric, the framing, the action, what moves and the explaining graphic. A cover page shows the chapter map. A
+FACE? badge marks every plate listed in a flags file. If the film has a grade, the frames are graded.</p>
+<h2 id="pictures">Pictures</h2>
+<h3 id="11-the-plate-book-contact-sheets-and-picks">11. The plate book, contact sheets and picks</h3>
+<p><strong>Job.</strong> One Midjourney prompt per plate, the images back in, and a pick for every shot.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li><strong>The prompt order:</strong> framing first, then her identity text (the full form for close and medium shots, the short form
+for full length and wider), wardrobe, the action and her position in the frame, any empty field kept for type, the
+film's style family, and &quot;no text, no letters, no logos&quot;. Then the parameters. See
+<a href="/wiki/midjourney/">Midjourney</a> and the <a href="/claudia/">canon</a>.</li>
+<li><strong>Runs:</strong> a person runs the batches in Midjourney, at about a minute a job, four images each.</li>
+<li><strong>Ingest:</strong>
+<ul>
+<li>identify each job by its own prompt text, never by its position on the page;</li>
+<li>Midjourney rewrites long prompts on submit, so match those by hand;</li>
+<li>keep all four candidates.</li>
+</ul>
+</li>
+<li><strong>Contact sheets</strong> are numbered and show faces large.</li>
+<li><strong>Picks:</strong> plate → file, candidate number, and the shots that use it.</li>
+<li><strong>Variety:</strong> the three candidates of each job that weren't picked are a free variety pool. Use one image per shot, and
+never start two clips from the same frame.</li>
+</ul>
+<p><strong>Done when</strong> every plate on the board has a picked file, and no file sits on two shots that are not one continuous
+moment.</p>
+<h3 id="12-plate-prep-depth-and-boxes">12. Plate prep: depth and boxes</h3>
+<p><strong>Job.</strong> What the 2.5D moves, the type and the camera need from each still.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li><strong>Depth:</strong> Depth Anything V2 Small, which is Apache-2.0; the Large model is non-commercial.</li>
+<li><strong>Boxes:</strong> face and person boxes from Grounding DINO. Graphics anchor to them, and the camera keeps the face in frame
+through pushes and shakes.</li>
+<li><strong>Mattes,</strong> where type tucks behind her.</li>
+<li>Re-run all of it after any plate edit: edited plates once rendered with their old depth.</li>
+</ul>
+<h2 id="moving-shots">Moving shots</h2>
+<h3 id="13-clip-files-and-the-spend-gate">13. Clip files and the spend gate</h3>
+<p><strong>Job.</strong> One file per clip, from draft to delivered, and nothing spent without a locked prompt and a yes.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li><strong>Status:</strong> draft → locked → submitted → delivered, declined or failed.</li>
+<li><strong>Each clip file holds</strong> the kind (sung or motion), the provider, the start image, the window's song time, its exact
+words and the request. Each take records its file, its cost and its sync result.</li>
+<li><strong>Locking checks:</strong>
+<ul>
+<li>the words are quoted exactly;</li>
+<li>the window rules hold;</li>
+<li>a sung prompt stays under about 90 words and two timed beats (warn).</li>
+</ul>
+</li>
+<li><strong>Submitting:</strong>
+<ul>
+<li>submit only when the clip is locked and the approval covers this exact prompt;</li>
+<li>validate the job id: &quot;submitted&quot; with no id, and HTTP 500, 502 or 520, were silent failures;</li>
+<li>never resubmit a request that got a job id;</li>
+<li>write a manifest after each batch, so an interrupt never loses which jobs exist.</li>
+</ul>
+</li>
+<li><strong>Polling:</strong> 70–130 s a clip on OpenRouter, and 4–11 minutes on Higgsfield.</li>
+<li><strong>Real spend</strong> comes from the provider: OpenRouter's credits and key endpoints, and Higgsfield's transactions.</li>
+</ul>
+<p><strong>Provider facts,</strong> checked with paid probes:</p>
+<ul>
+<li><strong>HTTPS audio only.</strong> OpenRouter's video endpoint rejects <code>data:</code> URIs for audio. Host each window over HTTPS: a
+Cloudflare quick tunnel worked, and so did a provider's media URL.</li>
+<li><strong>A first frame drops the audio.</strong> On OpenRouter, <code>frame_images</code> overrides the audio reference: the take makes its own
+soundtrack and nothing can sync. Send sung clips and covers in reference mode: the plate as an image reference
+(<code>@Image1</code>) plus the window as an audio reference (<code>@Audio1</code>). First-frame mode is for motion clips.</li>
+<li><strong>Face filters.</strong> They often decline photoreal faces, and the decline is free. Send the same unaltered image to the
+other provider.</li>
+<li><strong>Audio refusals.</strong> &quot;Output audio may contain sensitive information&quot; and copyright refusals on vocal references are
+unbilled. Retry once with a re-cut window or a reworded prompt, then try the other provider.</li>
+<li><strong>Higgsfield.</strong>
+<ul>
+<li>Ask for the price before each new configuration.</li>
+<li>Upload by URL: presigned uploads flood an agent's context.</li>
+<li>A 480p draft can be finalised to 1080p within seven days.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Done when</strong> nothing can spend without a locked clip and a recorded yes, and the ledger reconciles with the bill.</p>
+<h3 id="14-the-clean-vocal-window">14. The clean vocal window</h3>
+<p><strong>Job.</strong> Give the video model one voice to copy: only the words she sings on camera in the window, and nothing else.</p>
+<p><strong>How</strong>, with the constants used:</p>
+<ol>
+<li>Cut the vocal stem at <code>[song_t0, song_t0 + duration]</code>, mono, 44.1 kHz.</li>
+<li>Keep the aligned words that start inside <code>[song_t0 − 0.02, song_t0 + duration − 0.08)</code>, and only hers. Mute the tail
+of a word that began before the window.</li>
+<li>Merge words into phrases across gaps of 0.35 s or less.</li>
+<li>Keep each phrase from 0.05 s before its first word to its last word's end. Add a release tail that follows the stem's
+10 ms energy until it falls 24 dB below the phrase peak: at most 0.40 s, and never past the next phrase's start minus
+0.05 s.</li>
+<li>Put 15 ms raised-cosine ramps on every gate edge, and silence everywhere else.</li>
+<li>Normalise the kept part to −16 dBFS RMS, then limit peaks to −1 dBFS.</li>
+<li>Write a WAV (OpenRouter, by HTTPS URL) and an MP3 at 192 kbps (Higgsfield).</li>
+</ol>
+<p>A window holds one phrase, starts in a word gap, and never ends inside a word.</p>
+<h3 id="15-the-sync-check-the-spectrogram-comparison">15. The sync check: the spectrogram comparison</h3>
+<p><strong>Job.</strong> Measure how much of a sung take is really in sync, and where it stops.</p>
+<p>The director noticed it on ESCAPE VELOCITY's first tests: &quot;its perfectly synced while in seedance, but the audio changes
+when it desyncs. if you check the spectrogram for audio against reference audio you can see the clear divergence point.
+you could just create a cut and make another clip to cover desyncs.&quot;</p>
+<p>Seedance copies the reference audio into its own soundtrack, almost sample for sample while it copies, and the mouth
+follows that soundtrack. So compare the take's soundtrack with the window you sent, find where they part, and cut there.</p>
+<p><strong>In → out.</strong> The take and the exact window file → the lag, a copy flag, the in-sync spans in song time, the divergence,
+the cut, the words at the divergence, a diagnostic image and a review video.</p>
+<p><strong>How</strong>, with the constants used:</p>
+<ol>
+<li>Decode both to 16 kHz mono. Use 10 ms frames (hop 160), 64 ms FFT windows (1024) and 80 mel bands from 50 to
+7,600 Hz.</li>
+<li><strong>Global lag:</strong> FFT cross-correlation within ±1.0 s. The peak's normalised value is the take's NCC. The take is a
+copy if NCC &gt; 0.2; otherwise the model re-sang it.</li>
+<li>Place the reference on the take's timeline at that lag. Per 10 ms frame:
+<ul>
+<li><strong>wave:</strong> normalised cross-correlation of the waveforms over 100 ms. A verbatim copy scores 0.6–1.0.</li>
+<li><strong>mel:</strong> cosine similarity of mean-removed log-mel frames (70 dB floor), smoothed over 11 frames. It holds on
+fricatives, whose noise never correlates sample by sample.</li>
+<li><strong>active:</strong> either track's RMS is above 10% of its 95th percentile.</li>
+</ul>
+</li>
+<li><strong>A threshold per take, against a null.</strong> Compute the same mel similarity with the reference shifted by ±37, ±61,
+±89 and ±131 frames; these offsets avoid eighth-note multiples. Then:
+<ul>
+<li><code>null90</code> = the 90th percentile of the null;</li>
+<li><code>matched_med</code> = the median mel where wave &gt; 0.6, or the 75th percentile of active mel if there are 10 or fewer
+such frames;</li>
+<li><code>thr = null90 + 0.4 × (matched_med − null90)</code>.</li>
+</ul>
+</li>
+<li><strong>A frame matches</strong> when it is active and wave ≥ 0.4 or mel ≥ thr.</li>
+<li><strong>Divergence</strong> is the first 300 ms stretch (at least 60% active, under 30% matched, starting on an unmatched frame)
+that never recovers with a 400 ms matched run. Short dips that recover are dips, not cuts. With no such stretch,
+voice at least 80 ms after the last match counts as divergence. <code>synced_until</code> = the last matched frame minus 42 ms
+(one frame at 24 fps).</li>
+<li><strong>In-sync spans</strong> are matched voice, bridged across silences and across up to 0.25 s of unmatched voice. Drop spans
+shorter than 0.5 s.</li>
+<li>Map everything to song time: <code>song time = song_t0 + clip time − lag</code>.</li>
+</ol>
+<p>The <strong>diagnostic image</strong> shows our vocal's spectrogram with word labels, the take's own soundtrack, the match curves
+with the threshold, and the cross-similarity matrix, whose diagonal means &quot;in sync&quot;. The <strong>review video</strong> lays our
+audio over the take, marked IN SYNC up to the cut and DIVERGED — CUT HERE after it. Look at both before trusting a
+number.</p>
+<p><strong>The NCC is a diagnostic, not the verdict.</strong> Over a whole take it is usually 0.1–0.3, because the copy stops somewhere.
+One take scored 0.157 and still held 99% of its sung seconds. Measure the lag per take, never as a constant: takes ran
+from −0.40 s to +0.83 s. Motion clips conditioned on the mix aren't copied (NCC about 0.05–0.08): play them at lag 0.</p>
+<p><strong>Done when</strong> each take has its spans and its cut, and the review video agrees with them by eye.</p>
+<figure><a href="/record/escape-velocity/lipsync-check.webp"><img src="/record/escape-velocity/lipsync-check.webp" alt="The sync check on an early ESCAPE VELOCITY test: the vocal that was sent, the soundtrack that came back, and how closely they match over time." width="1650" height="901" loading="lazy" decoding="async"></a><figcaption>The sync check on an early ESCAPE VELOCITY test: the vocal that was sent, the soundtrack that came back, and how closely they match over time.</figcaption></figure>
+<h3 id="16-covers-and-coverage">16. Covers and coverage</h3>
+<p><strong>Job.</strong> Keep the in-sync part of every take, cover the rest, and know how much of the singing is really synced.</p>
+<p><strong>The cut.</strong> Cut on the last eighth note at or before <code>synced_until</code>. Eighths are the beat map's beats plus the midpoints
+between them. A cut on an eighth feels like part of the music; a cut at the divergence frame looks like a glitch.</p>
+<p><strong>A cover</strong> is a new clip:</p>
+<ul>
+<li><strong>Window:</strong> it starts in the word gap before the cut, and lasts <code>clamp(ceil(end − start + 0.3), 4, 8)</code> whole seconds.</li>
+<li><strong>Start image:</strong> the parent take's frame at the cut (clip time = cut − <code>song_t0</code> + lag), unaltered, sent as the image
+reference, never as a first frame.</li>
+<li><strong>Words and audio:</strong> exactly the words that start in its window, with their clean vocal.</li>
+<li><strong>Prompt:</strong> the parent's prompt, re-quoted to the new words.</li>
+<li><strong>Records:</strong> the parent lists its covers; the cover records its parent and why.</li>
+<li><strong>Limits:</strong> at most two covers per root, and one on a provider where copies are rare.</li>
+</ul>
+<p><strong>Coverage</strong>, per chain (a root and its covers):</p>
+<ul>
+<li>sung stretches = each aligned word ± 30 ms, merged when closer than 0.12 s;</li>
+<li>in-sync spans = every element's spans, each start extended by 60 ms;</li>
+<li>gaps = sung time not covered by any span, of 0.6 s or more, merged when closer than 0.3 s.</li>
+</ul>
+<p>The bar is &quot;most lips&quot;, like a pop video (&quot;like grimes vids … shedoesnt sync lips on everything, just most&quot;). Target at
+least 80% of sung seconds, never an out-of-sync mouth held on screen, and budget covers at about 60% of the sung
+seconds.</p>
+<p><strong>Measured:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Run</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ESCAPE VELOCITY</td>
+<td>41% of sung takes copied; with covers, about 86% of sung seconds verified</td>
+</tr>
+<tr>
+<td>CLODYSSEY, Higgsfield</td>
+<td>about 21% of sung takes copied</td>
+</tr>
+<tr>
+<td>BLISS</td>
+<td>62% of six windows' sung seconds</td>
+</tr>
+<tr>
+<td>A later test run, seven windows</td>
+<td>long prompts held 44% of the chorus's sung seconds; short ones 62–71%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>When a window won't copy</strong>, try these in order:</p>
+<ol>
+<li>
+<p><strong>The short sung form.</strong> The biggest lever measured is prompt length. Long timestamped screenplays make the model
+perform the text and re-sing it; short prompts copy. The short form is:</p>
+<ul>
+<li>the head, quoting every word;</li>
+<li>one line of framing and light;</li>
+<li>at most two timed beats;</li>
+<li>&quot;One continuous shot, no cuts, no head turns. Only she sings. No text, letters or logos.&quot;;</li>
+<li>about 90 words or fewer.</li>
+</ul>
+<p>On seven windows the mean in-sync share per take went from 26% to 58%; one window went from 0% to 78%. Screenplays
+stay the rule for acting and motion clips.</p>
+</li>
+<li>
+<p><strong>Clear the mouth.</strong> Nothing in front of it on the plate: no held microphone, hand or hair.</p>
+</li>
+<li>
+<p><strong>The other provider,</strong> after two non-copies in the short form.</p>
+</li>
+<li>
+<p><strong>Cut away:</strong> to the shot's motion clip, stills in rhythm, depth moves, crops to the eyes, hair or hands, inserts, or
+a wider or profile framing. The words stay on screen either way.</p>
+</li>
+</ol>
+<p><strong>No lip-sync models.</strong> Sync, LatentSync and Wav2Lip were tried as fallbacks and dropped: &quot;still not exact&quot;, and the
+mouths came out forced and glitchy. The failure was the input, not the model.</p>
+<h2 id="the-edit-and-the-renderer">The edit and the renderer</h2>
+<h3 id="17-the-edit-list">17. The edit list</h3>
+<p><strong>Job.</strong> Resolve every moment of every shot to a source.</p>
+<p><strong>How.</strong> Resolve a sung shot moment by moment in song time. At each time T, use the chain element whose in-sync span
+contains T, at clip time <code>T − song_t0 + lag</code>. A take and its covers then interleave, each switch sitting on the eighth
+before a divergence. Fill holes from the shot's motion clip, then from the plate. Motion clips play straight through,
+holding their last frame if the shot is longer.</p>
+<p><strong>Done when</strong> the film renders end to end at every stage, with plates standing in for clips that don't exist yet.</p>
+<h3 id="18-the-renderer">18. The renderer</h3>
+<p><strong>Job.</strong> Draw every frame: footage, 2.5D, lyrics, explaining graphics, chrome and transitions, on the song's clock.</p>
+<p><strong>The frame contract.</strong> It renders offline in headless Chromium, one frame per 1/24 s, in parallel and out of order.</p>
+<ul>
+<li><strong>Every frame is a pure function of song time t.</strong> No state between frames, no <code>Math.random</code> (use a hash of the
+index), no <code>Date</code>.</li>
+<li><strong>Two canvases.</strong> The base holds footage and anything graded with it. The overlay holds type and chrome, composited
+crisp on top.</li>
+<li><strong>Memos only for data derived from static media,</strong> keyed by media name, never by frame.</li>
+<li><strong>Every 2D canvas is software-backed</strong> (<code>willReadFrequently</code>), and every scene starts from a reset context. A
+GPU-backed canvas under software GL kept the previous frame's overlay once frames got dense; that took about two hours
+of bisecting to find.</li>
+<li><strong>Quantise to frames.</strong> A cut shows on the first frame at or after its time. Video may run up to one frame ahead of
+the sound, never behind it.</li>
+<li><strong>Speed:</strong> at most 1,500 ms a frame. The 64-step parallax shader costs 0.5–1.1 s, and a full-resolution canvas blur
+about 0.5 s. Use depth slices (about 30 ms) and blur by resampling instead.</li>
+</ul>
+<p><strong>The clock.</strong> All musical time goes through the beat map: beat position, bar, local beat length, kick pulses and
+eighths.</p>
+<ul>
+<li>A lyric token appears at its aligned start exactly, never snapped to a beat: &quot;the motion syncs to the beat, the word to
+the voice&quot;.</li>
+<li>An entrance takes at most an eighth of a beat.</li>
+<li>Every timed thing carries a timing key:
+<ul>
+<li><strong>W</strong> a word's time;</li>
+<li><strong>B</strong> the beat grid;</li>
+<li><strong>H</strong> a track event (kick, snare, impact, riser, fill, envelope);</li>
+<li><strong>F</strong> a fixed song time;</li>
+<li><strong>T</strong> a keyframe measured on a take's own frames.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Lyric modes.</strong> Every sung word appears in at least one, and every drawn token is marked for the lyric gate.</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>subtitle</td>
+<td>sung lines; the sung word lit in the accent</td>
+</tr>
+<tr>
+<td>coverline</td>
+<td>spoken lines set beside her in the plate's empty field, with tracking collapsing word by word</td>
+</tr>
+<tr>
+<td>masthead</td>
+<td>payoff words, numerals, the answer in a call and response</td>
+</tr>
+<tr>
+<td>stack</td>
+<td>short emphatic lines, one word per row</td>
+</tr>
+<tr>
+<td>mass</td>
+<td>a declared wall of micro text in a drop, with the sung line still drawn</td>
+</tr>
+<tr>
+<td>title</td>
+<td>the title knocked out of black</td>
+</tr>
+</tbody>
+</table>
+<p>Type rules:</p>
+<ul>
+<li>One lyric block per frame; a line keeps one mode and one position across cuts.</li>
+<li>At least 40 px, and never over her face.</li>
+<li>Margins are left 72, top 56, right 96 and bottom 84 at 1920 × 1080.</li>
+<li>Hang type from the left axis or from a feature in the frame.</li>
+<li>Nothing may cover the lyric: the renderer measures it every frame and moves the other layers off it.</li>
+</ul>
+<p><strong>The camera plays the track:</strong></p>
+<ul>
+<li><strong>punch</strong> on kicks: amp 0.01–0.03, gated by the drum envelope;</li>
+<li><strong>shake</strong> with the drums: none in screen or UI shots;</li>
+<li><strong>ride</strong> a riser into the hit it lands on;</li>
+<li><strong>impact</strong> on real hits: strength at least 0.6, zoom kick 0.06;</li>
+<li><strong>whip</strong> on fills.</li>
+</ul>
+<p>Hold still where the song breathes. A move never cuts the face.</p>
+<p><strong>Density</strong> is chosen per film:</p>
+<ul>
+<li><strong>dense:</strong> three or more layers, five or six as the norm;</li>
+<li><strong>budgeted:</strong> footage, one lyric block, one hero device, at most two detection marks, the chrome, and the accent on at
+most two elements;</li>
+<li><strong>sparse:</strong> about 70% of the film with no graphic at all.</li>
+</ul>
+<p><strong>Chapters.</strong> In the Full scale each chapter is its own code file, written by an animator agent against this contract.
+Chapters draw only what is unique; shared helpers live in one library. Workers report shared-file bugs; the operator
+fixes them once.</p>
+<p><strong>Rendering.</strong> The render is resumable: skip frames that exist, write each frame to a temp file and rename it, open a
+fresh page every 200 frames, and retry a failed frame once. ESCAPE VELOCITY's 7,354 frames took about 63 minutes with
+three workers on 4 CPUs; at 1080p one cut's frames take about 9.6 GB.</p>
+<h2 id="checks">Checks</h2>
+<h3 id="19-the-lyric-gate">19. The lyric gate</h3>
+<p>For every sung token, render the frame at <code>t0 + clamp((t1 − t0)/2, 0.03, 0.12)</code> and check that the token was marked as
+drawn on it. It prints N/N; anything less fails. ESCAPE VELOCITY: 417/417. CLODYSSEY: 315/315.</p>
+<ul>
+<li>Run it per chapter while animating, and for the whole film before any render.</li>
+<li>It proves presence and timing, not legibility; contact sheets check legibility.</li>
+<li>Fix a mistimed word in the alignment, never in chapter code.</li>
+</ul>
+<h3 id="20-the-history-check">20. The history check</h3>
+<p>Render frame B fresh, then render it again right after frame A in the same page. It fails if any pixel differs by more
+than 40 levels.</p>
+<ul>
+<li>Run three pairs per chapter, one across each seam, with one pair whose A is a heavy 2.5D frame.</li>
+<li>It must print HISTORY-INDEPENDENT.</li>
+</ul>
+<h3 id="21-the-flash-check">21. The flash check</h3>
+<p>This follows WCAG 2.3.1's general flash threshold.</p>
+<ul>
+<li>Read the video at 96 × 54, 24 fps, in linear relative luminance.</li>
+<li>A flash is a pair of opposing changes of at least 10% of the range, where the darker state is under 0.8, over at least
+a quarter of the frame.</li>
+<li>Fail any one-second window with more than three flashes. Count pairs, not transitions: an early version counted each
+transition, so 2.2 flashes a second read as 4.4.</li>
+<li>Flashes belong to a theme, on hits: &quot;dont need to force flashing&quot;.</li>
+</ul>
+<h3 id="22-pace-against-the-music">22. Pace against the music</h3>
+<p>Picture motion is the mean absolute frame difference of the review copy at 160 × 90 grey, per section. Compare it with
+each section's stem energy and its kick and hat onsets per bar. Busy picture over quiet music reads as &quot;off pace&quot;. The
+fix on one film halved the cuts (0.92 → 0.47 a bar) and slowed in-shot motion until the picture followed the music.</p>
+<h3 id="23-contact-sheets-and-the-reviewer">23. Contact sheets and the reviewer</h3>
+<p><strong>Contact sheets</strong> are how agents look.</p>
+<ul>
+<li><strong>Per chapter:</strong> every shot's first, middle and last frame; every lyric line's first and last word; every hit; each
+graphic's entrance; each transition's middle.</li>
+<li><strong>The reviewer</strong> sees at least 24 frames, plus full-size stills of the five most important moments.</li>
+<li><strong>The whole film:</strong> mid-shot frames of every shot, 6 × 24 to a sheet, plus the seams and 100% crops of faces.</li>
+<li>Open every sheet. A sheet nobody looked at is not a review.</li>
+</ul>
+<p><strong>The reviewer</strong> renders and looks for itself, and never edits files. It scores four lenses, 0–10:</p>
+<ul>
+<li><strong>taste:</strong> the director's taste, which counts double;</li>
+<li><strong>craft;</strong></li>
+<li><strong>sync;</strong></li>
+<li><strong>story.</strong></li>
+</ul>
+<p>It returns at most 12 concrete fixes, each marked blocking or polish, and copies the lyric gate's printed line.</p>
+<p><strong>The verdict is computed in code, not taken from the reviewer:</strong></p>
+<ul>
+<li>A chapter passes when no blocking fix is left, taste is at least 7, the other three lenses are at least 6, and the gate
+reads N/N.</li>
+<li>A review that returned nothing, or never looked at a frame, is a failed review, never a pass. The original scripts read
+an empty review as &quot;no fixes&quot;, and runs that hit a usage limit reported success.</li>
+</ul>
+<p>Run at most two review-and-fix rounds per chapter. Calibrate the reviewer on the director's verdicts: on CLODYSSEY the
+reviewers scored 6–7.5 a cut the director called &quot;perfect. change nothing.&quot;</p>
+<h3 id="24-the-safety-and-canon-scan">24. The safety and canon scan</h3>
+<p><strong>Job.</strong> Look at every generated take before release.</p>
+<p><strong>How.</strong></p>
+<ul>
+<li>Make sheets of frames per take.</li>
+<li>List every take checked, and every problem with its severity: block, fix or note.</li>
+<li>Whitelist intended props by name.</li>
+<li>Re-scan every re-make.</li>
+</ul>
+<p>On CLODYSSEY the scan found 12 blocks in 96 &quot;final&quot; takes, among them nudity through a corset, modern objects and
+earmuffs.</p>
+<h2 id="delivery">Delivery</h2>
+<h3 id="25-encode-and-deliver">25. Encode and deliver</h3>
+<p><strong>The master.</strong> Frames are sRGB, so convert through RGB with accurate rounding to BT.709 and tag the stream:</p>
+<div class="codeblock"><button class="copy">Copy</button><pre><code>ffmpeg -framerate 24 -i frames/f%05d.jpg -i song.wav -map 0:v -map 1:a -c:a aac -b:a 256k -shortest \
+  -vf &quot;format=rgb24,scale=flags=accurate_rnd+full_chroma_int+full_chroma_inp:out_color_matrix=bt709:out_range=tv,format=yuv420p,setparams=color_primaries=bt709:color_trc=iec61966-2-1:colorspace=bt709:range=tv&quot; \
+  -colorspace bt709 -color_primaries bt709 -color_trc iec61966-2-1 -color_range tv \
+  -c:v libx264 -preset slow -crf 16 -pix_fmt yuv420p -movflags +faststart master.mp4</code></pre></div>
+<p>An untagged or BT.601 stream looks lighter and washed out in QuickTime (&quot;stuff is v blown out&quot;).</p>
+<ul>
+<li><strong>The review copy:</strong> the same, with <code>-crf 20 -maxrate 8M -bufsize 16M</code>.</li>
+<li><strong>Verify with ffprobe:</strong>
+<ul>
+<li>codec, 24/1, and a frame count equal to duration × 24;</li>
+<li>bt709 / iec61966-2-1 / tv;</li>
+<li>AAC stereo;</li>
+<li>no container tags beyond the encoder's own.</li>
+</ul>
+</li>
+<li><strong>Then run the flash check on the master.</strong></li>
+</ul>
+<p><strong>The 9:16 cut</strong> follows a subject box per plate, so an off-centre lead stays in frame. It gets its own lyric gate.</p>
+<p><strong>Housekeeping:</strong></p>
+<ul>
+<li>Run encodes as tracked background jobs, never a detached process nobody watches.</li>
+<li>Delete the frames only after ffprobe has confirmed the outputs.</li>
+<li>Keep big scratch on the big disk.</li>
+</ul>
+<h2 id="running-agents">Running agents</h2>
+<h3 id="26-workflows-run-records-and-the-stop-switch">26. Workflows, run records and the stop switch</h3>
+<p>The films ran their heavy stages as multi-agent workflows (Claude Code):</p>
+<ul>
+<li><strong>storyboard:</strong> three director agents, three judges, and a merge;</li>
+<li><strong>chapters:</strong> an animator, an art director who renders and reviews contact sheets, and a fixer;</li>
+<li><strong>research and lyrics:</strong> topic researchers, fact verifiers, writers and judges;</li>
+<li><strong>the safety scan.</strong></li>
+</ul>
+<p><strong>Rules that cost time to learn:</strong></p>
+<ul>
+<li><strong>Save every run's id and arguments</strong> the moment it starts, and resume by run id in the same session. Finished agents
+replay from cache. An interrupt kills every running workflow, so keep phases short; ESCAPE VELOCITY's merge restarted
+three times.</li>
+<li><strong>Check that every agent actually finished.</strong> A run can report success while agents that hit a usage limit returned
+nothing. Carry open items forward explicitly.</li>
+<li><strong>Parallelism has a ceiling.</strong> On 4 CPUs, run two agents a workflow. Allow one rendering workflow at a time: six
+rendering agents filled the swap and the root disk.</li>
+<li><strong>Put long lists in a file,</strong> not in the launch arguments: a placeholder once launched in place of 96 paths.</li>
+<li><strong>The stop switch.</strong> On any quality complaint from the director:
+<ol>
+<li>stop every job and workflow that can spend, after searching each running script for its generate calls;</li>
+<li>confirm at each provider that nothing is queued;</li>
+<li>log the director's words as a rule;</li>
+<li>fix the prompts, then re-make. Don't review the bad takes.</li>
+</ol>
+</li>
+<li><strong>Write the acceptance test before the brief,</strong> and make the check something the worker can't edit. Every human
+observation becomes a metric the same day: &quot;if a reviewer can see it and the judge cannot, the judge is wrong&quot;.</li>
+</ul>
+</article>
+</div>
+<section class="sec" style="padding-top:72px"><div class="docs">
+<a class="doc" href="/wiki/pipeline/"><span class="lab">Previous</span><h3>The whole pipeline</h3><p>How one director and Claude made three music videos in about 80 hours of wall-clock time, stage by stage, with the numbers.</p></a><a class="doc" href="/wiki/formats/"><span class="lab">Next</span><h3>Data formats</h3><p>The files every tool reads and writes: the project folder, the timed words, the beat map, the hits, the display tokens, the board, the clips and their sync, the edit list, and the logs.</p></a></div></section>
+</main>
+<footer class="site-f">
+  <p class="safe">It's now safe to turn off your computer.</p>
+  <div class="cm">
+  <div class="cm-row">
+    <span class="cm-k">Community token</span>
+    <p><svg class="eth-diamond" viewBox="0 0 32 32" aria-hidden="true" width="12" height="12"><g fill="#627EEA"><polygon points="16,2 6,16 16,12"/><polygon points="16,2 26,16 16,12" fill="#8aa2f2"/><polygon points="16,30 6,16.5 16,20.5"/><polygon points="16,30 26,16.5 16,20.5" fill="#8aa2f2"/></g></svg><b>$CLAUDIA</b> on Ethereum · ERC-20 · made by fans · its trading fees fund the films</p>
+    <span class="cm-ca"><code>0x892befe20d34919d44febfb6227071fe54276820</code><button class="copy" data-text="0x892befe20d34919d44febfb6227071fe54276820">Copy</button>
+      <span class="cm-links"><a href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Buy on Uniswap</a><a href="https://etherscan.io/token/0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Etherscan</a></span>
+    </span>
+  </div>
+  <div class="cm-row">
+    <span class="cm-k">Fan accounts</span>
+    <p class="cm-fans"><span><a href="https://x.com/aludiagallery" rel="noopener" target="_blank"><i>@</i>aludiagallery</a></span></p>
+  </div>
+</div>
+  <div class="f-cols">
+    <div>
+      <h4>claudiagallery.vip</h4>
+      <p>Claudia is an open character from three music videos directed by anabology and made with Claude, Midjourney, Seedance and Suno. Use her.</p>
+      <p>Fan work about Claude. Not affiliated with Anthropic.</p>
+    </div>
+    <div><h4>Films</h4><a href="/escape-velocity/">ESCAPE VELOCITY</a><a href="/clodyssey/">CLODYSSEY</a><a href="/bliss/">BLISS</a></div>
+    <div><h4>Wiki</h4><a href="/wiki/start/">Start here</a><a href="/claudia/">The character</a><a href="/wiki/consistency/">Consistency</a><a href="/wiki/song/">Song</a><a href="/wiki/storyboard/">Storyboard</a><a href="/wiki/seedance/">Seedance</a><a href="/wiki/toolkit/">What to build</a><a href="/wiki/">The whole wiki</a></div>
+    <div><h4>Agents</h4><a href="/agents/">MCP server</a><a href="/skill/claudia-skill.zip">The skill (zip)</a><a href="/llms.txt">llms.txt</a><a href="/api/index.json">JSON API</a><a href="/use/">Use and credits</a></div>
+    <div><h4>Social</h4><a href="https://t.me/claudiaaiagent" rel="noopener" target="_blank">Telegram</a><a href="https://x.com/aludiagallery" rel="noopener" target="_blank">X</a><a href="https://app.uniswap.org/swap?chain=mainnet&outputCurrency=0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Uniswap</a><a href="https://etherscan.io/token/0x892befe20d34919d44febfb6227071fe54276820" rel="noopener" target="_blank">Etherscan</a></div>
+  </div>
+</footer>
+<script src="/static/js/site.js?v=43e748dbe6" defer></script>
+</body>
+</html>

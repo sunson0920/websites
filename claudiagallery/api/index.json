@@ -1,0 +1,59 @@
+{
+    "site": "https://claudiagallery.vip",
+    "name": "claudiagallery.vip",
+    "about": "Claudia, the open character from the music videos ESCAPE VELOCITY, CLODYSSEY and BLISS: every Midjourney image and prompt, the films, and how to make her yourself, for people and agents.",
+    "credit": "Directed by anabology; made with Claude, Midjourney, Seedance and Suno. Fan work about Claude; not affiliated with Anthropic.",
+    "use": "Claudia is an open character: anyone may make work with her. A credit ('Claudia by anabology') is appreciated, not required. See /use/.",
+    "images": 1562,
+    "per_film": {
+        "escape-velocity": {
+            "all": 636,
+            "film": 92,
+            "her": 472
+        },
+        "clodyssey": {
+            "all": 612,
+            "film": 110,
+            "her": 248
+        },
+        "bliss": {
+            "all": 314,
+            "film": 73,
+            "her": 150
+        }
+    },
+    "endpoints": {
+        "mcp": "https://claudiagallery.vip/mcp",
+        "canon": "/api/canon.json",
+        "films": "/api/films.json",
+        "film_gallery": "/api/films/{film}.json",
+        "images": "/api/images.json",
+        "image": "/api/images/{id}.json",
+        "guides": "/api/guides.json",
+        "records": "/api/records.json",
+        "llms": "/llms.txt",
+        "llms_full": "/llms-full.txt",
+        "skill": "/skill/claudia-skill.zip",
+        "image_files": "/img/{batch}/{job}-{n}.s.webp (fits 720 px) · .m.webp (fits 1800 px) · .full.jpg (native)",
+        "image_page": "/i/{id}/",
+        "wiki": "/wiki/",
+        "markdown_twins": "/claudia.md, /{film}.md, /wiki.md, /wiki/{topic}.md, /record/{film}/{doc}.md, /agents.md, /use.md"
+    },
+    "item_fields": {
+        "id": "batch.job.variant",
+        "film": "escape-velocity | clodyssey | bliss",
+        "prompt": "the Midjourney prompt as it ran",
+        "params": "parameters as they ran, without the director's personal profile",
+        "profile": "true if it ran with the director's personal profile",
+        "plate": "true if this image is a plate in the finished film (EV: recovered by matching the cut)",
+        "cut": "picked but its shot was cut",
+        "edited": "the plate was corrected with an image-edit model",
+        "verdict": "the director's verdict in CLODYSSEY's storyboard review: pick | reject | comment",
+        "her": "Claudia appears",
+        "look": "look id (see /api/canon.json)",
+        "framing": "ECU, CU, MCU, MS, MWS, full, WS, EWS, aerial, macro, sheet",
+        "w,h": "native pixel size",
+        "url": "s, m and full image files",
+        "page": "the image's page"
+    }
+}
