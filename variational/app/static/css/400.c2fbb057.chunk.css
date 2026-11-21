@@ -98,7 +98,7 @@
 }
 .account .account-table-box .account-tokenList-title__reload {
   align-items: center;
-  background: #fffce41a;
+  background: #e6efff1a;
   border-radius: 50%;
   color: var(--color-green-light);
   cursor: pointer;
@@ -341,7 +341,7 @@
   }
   .account .account-table-box .account-tokenList-title__reload {
     align-items: center;
-    background: #fffce41a;
+    background: #e6efff1a;
     border-radius: 50%;
     color: var(--color-green-light);
     cursor: pointer;
