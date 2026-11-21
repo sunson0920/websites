@@ -2128,7 +2128,7 @@
               }),
             }),
           },
-        ];
+        ].filter((x) => x.key !== "lnExchange");
         return (0, R.jsx)("div", {
           className: "nostr-assets-header-link-container",
           children: (0, R.jsx)(u.A, {
