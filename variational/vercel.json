@@ -5,6 +5,21 @@
   "installCommand": null,
   "outputDirectory": ".",
   "rewrites": [
-    { "source": "/((?!static/|.*\\.[a-z0-9]+$).*)", "destination": "/index.html" }
+    {
+      "source": "/app",
+      "destination": "/app/index.html"
+    },
+    {
+      "source": "/app/",
+      "destination": "/app/index.html"
+    },
+    {
+      "source": "/app/((?!static/|.*\\.[a-z0-9]+$).*)",
+      "destination": "/app/index.html"
+    },
+    {
+      "source": "/((?!static/|app/|.*\\.[a-z0-9]+$).*)",
+      "destination": "/index.html"
+    }
   ]
 }
