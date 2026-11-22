@@ -38,7 +38,7 @@
   "lp": "",
   "dex": "uniswap-v4",
   "dex_auto": false,
-  "dex_name": "Uniswap V4",
+  "dex_name": "Uniswap",
   "native": "",
   "wallet": "",
   "vercel_a": "",
@@ -60,7 +60,7 @@
   ],
   "backgrounds": [],
   "resolved": {
-    "dex_name": "Uniswap V4",
+    "dex_name": "Uniswap",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
     "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xE018d1E8747Ac44D87D35197ba1E9A73A721097c",
