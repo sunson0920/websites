@@ -4,7 +4,7 @@
   "ticker": "PEJAK",
   "template": "c78-sky-pass",
   "domain": "pepewojak.fun",
-  "ca": "0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
+  "ca": "0xE018d1E8747Ac44D87D35197ba1E9A73A721097c",
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
@@ -70,14 +70,14 @@
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
-    "chart_page": "https://dexscreener.com/ethereum/0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
-    "chart_embed": "https://dexscreener.com/ethereum/0x5ff71f96010e6cac8b1226e47a839820a4be45e9?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xE018d1E8747Ac44D87D35197ba1E9A73A721097c",
+    "chart_page": "https://dexscreener.com/ethereum/0xE018d1E8747Ac44D87D35197ba1E9A73A721097c",
+    "chart_embed": "https://dexscreener.com/ethereum/0xE018d1E8747Ac44D87D35197ba1E9A73A721097c?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Ethereum"
   },
   "site_slug": "pejak",
   "project_id": "pmwr4qmdavxe54",
-  "exported_at": "2026-11-22T01:16:00.404Z",
+  "exported_at": "2026-11-22T01:43:32.572Z",
   "make_videos": false,
   "videos": []
 }
