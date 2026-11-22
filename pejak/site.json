@@ -4,13 +4,13 @@
   "ticker": "PEJAK",
   "template": "c78-sky-pass",
   "domain": "pepewojak.fun",
-  "ca": "TBA",
+  "ca": "0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
   "chain": "ethereum",
   "theme_mode": "original",
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "Pepe Wojak ($PEJAK) 🐸\nHe's felt every dump and smiled through every pump.",
-  "x_url": "",
+  "x_url": "https://x.com/pepewojak_X",
   "tg_url": "",
   "ref_x_url": "",
   "socials": [],
@@ -70,14 +70,14 @@
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://app.uniswap.org/",
-    "chart_page": "https://dexscreener.com/ethereum",
-    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
+    "chart_page": "https://dexscreener.com/ethereum/0x5ff71f96010e6cac8b1226e47a839820a4be45e9",
+    "chart_embed": "https://dexscreener.com/ethereum/0x5ff71f96010e6cac8b1226e47a839820a4be45e9?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Ethereum"
   },
   "site_slug": "pejak",
   "project_id": "pmwr4qmdavxe54",
-  "exported_at": "2026-11-22T01:05:11.433Z",
+  "exported_at": "2026-11-22T01:16:00.404Z",
   "make_videos": false,
   "videos": []
 }
