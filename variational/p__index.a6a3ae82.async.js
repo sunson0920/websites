@@ -1324,7 +1324,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://x.com/variational_x");
+                              return window.open("https://x.com/variationalonx");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -1733,7 +1733,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/variationalonx");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -1784,7 +1784,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/variationalonx");
                           },
                           alt: "",
                         }),
@@ -1981,7 +1981,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/variationalonx");
                           },
                           alt: "",
                         }),
@@ -2614,7 +2614,7 @@
                           (0, A.jsxs)("div", {
                             className: "more",
                             onClick: function () {
-                              return window.open("https://x.com/variational_x");
+                              return window.open("https://x.com/variationalonx");
                             },
                             children: [
                               (0, A.jsx)("span", {
@@ -3019,7 +3019,7 @@
                         (0, A.jsxs)("div", {
                           className: "more color-light",
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/variationalonx");
                           },
                           children: [
                             (0, A.jsx)("img", {
@@ -3070,7 +3070,7 @@
                         (0, A.jsx)("img", {
                           src: s0,
                           onClick: function () {
-                            return window.open("https://x.com/variational_x");
+                            return window.open("https://x.com/variationalonx");
                           },
                           alt: "",
                         }),

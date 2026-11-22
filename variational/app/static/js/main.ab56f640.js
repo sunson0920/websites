@@ -1174,7 +1174,7 @@
                     }),
                   }),
                   (0, c.jsx)("a", {
-                    href: "https://x.com/variational_x",
+                    href: "https://x.com/variationalonx",
                     target: "_blank",
                     children: (0, c.jsx)(a.h, {
                       className: "svg-icon",
@@ -1733,7 +1733,7 @@
                 }),
               }),
               (0, R.jsx)("a", {
-                href: "https://x.com/variational_x",
+                href: "https://x.com/variationalonx",
                 target: "_blank",
                 children: (0, R.jsx)(L.h, {
                   className: "svg-icon",
