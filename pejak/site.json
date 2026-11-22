@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Pepe Wojak",
   "ticker": "PEJAK",
-  "template": "ut-hyperinu",
+  "template": "c78-sky-pass",
   "domain": "pepewojak.fun",
   "ca": "TBA",
   "chain": "ethereum",
@@ -59,7 +59,7 @@
   },
   "site_slug": "pejak",
   "project_id": "pmwr4qmdavxe54",
-  "exported_at": "2026-11-22T00:59:52.559Z",
+  "exported_at": "2026-11-22T01:05:11.433Z",
   "make_videos": false,
   "videos": []
 }
