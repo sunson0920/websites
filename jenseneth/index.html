@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>$JENSEN — Jensen is Back | Ethereum</title>
+<meta name="description" content="$JENSEN — Jensen is Back. NVIDIA Board reinstates Jensen Huang as CEO. A fan-made meme token on Ethereum.">
+<meta property="og:title" content="$JENSEN — Jensen is Back">
+<meta property="og:description" content="NVIDIA Board reinstates Jensen Huang as CEO. $JENSEN on Ethereum.">
+<meta property="og:image" content="assets/banner.webp">
+<meta name="theme-color" content="#02070a">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;800;900&family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body class="booting">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></symbol>
+    <clipPath id="pf-clip"><rect x="8" y="31" width="84" height="38" rx="19"/></clipPath>
+    <symbol id="i-pump" viewBox="0 0 100 100">
+      <g transform="rotate(-45 50 50)">
+        <g clip-path="url(#pf-clip)">
+          <rect x="0" y="0" width="50" height="100" fill="#5FCB88"/><rect x="0" y="60" width="50" height="12" fill="#4CB277"/>
+          <rect x="50" y="0" width="50" height="100" fill="#FFFFFF"/><rect x="50" y="59" width="50" height="12" fill="#C0D4D4"/>
+        </g>
+        <line x1="50" y1="31" x2="50" y2="69" stroke="#1D3934" stroke-width="5"/>
+        <rect x="8" y="31" width="84" height="38" rx="19" fill="none" stroke="#1D3934" stroke-width="5.5"/>
+        <path d="M19 52v5M19 61.5v1" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path fill="currentColor" d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></symbol>
+    <symbol id="i-dex" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 17l5-6 4 3 5-8 4 5"/></symbol>
+  </defs>
+</svg>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="fx-vignette" aria-hidden="true"></div>
+<div class="fx-scan" aria-hidden="true"></div>
+<div class="fx-warp" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- boot -->
+<div id="boot" aria-hidden="true">
+  <div class="boot-die"><i></i><i></i><i></i><i></i><b>$JENSEN</b></div>
+  <pre class="boot-log" id="bootLog"></pre>
+  <div class="boot-bar"><i id="bootBar"></i></div>
+</div>
+
+<!-- HUD -->
+<header class="hud-top">
+  <div class="brand"><span class="brand-die"><i></i></span><b>$JENSEN</b><em>IS&nbsp;BACK</em></div>
+  <div class="hud-read"><span>BLOCK <b id="hBlock">CMD</b></span><span class="hide-s">CLK <b id="hClk">2.61</b>GHz</span><span>BW <b id="hBw">0.0</b>TB/s</span></div>
+</header>
+
+<nav class="diemap" id="diemap" aria-label="Chip blocks">
+  <div class="dm-title">FLOORPLAN · <span id="dmName">COMMAND PROC</span></div>
+  <div class="dm-grid">
+    <button class="tile t0" data-go="0" aria-label="Command processor (home)"><span>CMD</span></button>
+    <button class="tile t1" data-go="1" aria-label="Tensor cores (story)"><span>TENSOR</span></button>
+    <button class="tile t2" data-go="2" aria-label="HBM stack (gallery)"><span>HBM</span></button>
+    <button class="tile t3" data-go="3" aria-label="NVLink (how to buy)"><span>NVLINK</span></button>
+    <button class="tile t4" data-go="4" aria-label="L2 cache (token)"><span>L2$</span></button>
+    <button class="tile t5" data-go="5" aria-label="RT cores (RTX on)"><span>RT</span></button>
+    <button class="tile t6" data-go="6" aria-label="I/O pads (socials)"><span>I/O</span></button>
+  </div>
+</nav>
+<button class="next-chev" id="nextBtn" aria-label="Warp to next block"><span>WARP</span><b>›</b></button>
+
+<main id="blocks">
+  <!-- 0 HERO -->
+  <section class="blk b-hero active" data-i="0" aria-label="$JENSEN home">
+    <div class="hx-bg" aria-hidden="true"><img src="assets/diecity.webp" alt=""><div class="hx-rays"></div></div>
+    <figure class="hx-fig depth" data-d="18"><img src="assets/diecity.webp" alt="Jensen is back" fetchpriority="high"><span class="scanbar"></span></figure>
+    <div class="hx-shards" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <p class="hx-vert" aria-hidden="true">JENSEN IS BACK · THE JACKET IS BACK ·</p>
+    <div class="hx-copy">
+      <p class="kicker s" style="--i:0"><span class="dot"></span>ETHEREUM · UNISWAP</p>
+      <h1 class="hx-title s" style="--i:1"><small>JENSEN IS BACK</small><span class="kin" aria-label="$JENSEN"><i style="--i:0">$</i><i style="--i:1">J</i><i style="--i:2">E</i><i style="--i:3">N</i><i style="--i:4">S</i><i style="--i:5">E</i><i style="--i:6">N</i></span></h1>
+      <p class="sub s" style="--i:2">NVIDIA Board reinstates Jensen Huang as CEO. <em>The jacket is back, and so is $JENSEN on Ethereum.</em></p>
+      <div class="ca-row s" style="--i:3">
+        <code class="ca-val" id="caVal">TBA</code>
+        <button class="btn-dimm" data-copy aria-label="Copy contract address"><span class="lbl">COPY CA</span><i class="contacts"></i></button>
+      </div>
+      <div class="cta s" style="--i:4">
+        <a class="btn-gpu js-buy" href="#" target="_blank" rel="noopener" aria-label="Buy $JENSEN on Uniswap"><span class="die"><b>BUY</b><small>$JENSEN</small></span></a>
+        <a class="btn-scope js-chart" href="#" target="_blank" rel="noopener" aria-label="DexScreener chart"><svg viewBox="0 0 60 30" class="wave"><path d="M0 15 Q7.5 0 15 15 T30 15 T45 15 T60 15"/></svg><span>CHART</span></a>
+        <a class="btn-hex js-x" href="#" target="_blank" rel="noopener" aria-label="$JENSEN on X"><svg class="ic"><use href="#i-x"/></svg></a>
+      </div>
+    </div>
+    <div class="chip-badge depth" data-d="-26"><img src="assets/logo.webp" alt="$JENSEN logo art"><i class="pins"></i></div>
+  </section>
+
+  <!-- 1 MAGAZINE COVER -->
+  <section class="blk b-cover" data-i="1" aria-label="Story">
+    <figure class="cv-img depth" data-d="10"><img src="assets/keynote.webp" alt="Jensen Huang" loading="lazy"></figure>
+    <div class="cv-mast s" style="--i:0"><span class="kin mast" aria-label="KEYNOTE"><i style="--i:0">K</i><i style="--i:1">E</i><i style="--i:2">Y</i><i style="--i:3">N</i><i style="--i:4">O</i><i style="--i:5">T</i><i style="--i:6">E</i></span></div>
+    <div class="cv-meta s" style="--i:1"><span>ISSUE Nº01</span><span>THE RETURN EDITION</span><span>BLK.01 · TENSOR CORES</span></div>
+    <div class="cv-lines">
+      <h2 class="cv-h s" style="--i:2">He left.<br>The board voted.<br><em>Jensen is back.</em></h2>
+      <p class="s" style="--i:3">NVIDIA Board reinstates Jensen Huang as CEO. The board voted unanimously to bring him back as CEO, president and director. <b>$JENSEN</b> is that comeback as a meme on Ethereum, trading on Uniswap. No VC round, no roadmap slides. Just the jacket, back where it belongs.</p>
+      <blockquote class="cv-quote s" style="--i:4">“Jensen is Back.”<cite>— NVIDIA Board reinstates Jensen Huang as CEO</cite></blockquote>
+    </div>
+    <div class="cv-sticker s" style="--i:5">
+      <button class="btn-patch" id="jacketBtn" aria-label="Tap the leather jacket"><span>TAP THE<br>JACKET</span></button>
+      <div class="flops"><small>JACKET FLOPS</small><b id="flops">0</b><em>community-rendered</em></div>
+    </div>
+  </section>
+
+  <!-- 2 REEL GALLERY -->
+  <section class="blk b-reel" data-i="2" aria-label="Gallery">
+    <div class="reel" id="reel">
+      <figure class="slide on"><img src="assets/keynote.webp" alt="Jensen Huang"><figcaption><b>THE CEO</b><span>arms crossed, back in charge</span></figcaption></figure>
+      <figure class="slide"><img src="assets/datacenter.webp" alt="Jensen Huang is back"><figcaption><b>THE RETURN</b><span>jensen is back</span></figcaption></figure>
+      <figure class="slide"><img src="assets/nightmarket.webp" alt="Jensen is back"><figcaption><b>THE HEADLINE</b><span>the board reinstates jensen</span></figcaption></figure>
+      <figure class="slide"><img src="assets/diecity.webp" alt="Jensen in green neon"><figcaption><b>THE GLOW</b><span>green light, black leather</span></figcaption></figure>
+      <figure class="slide wide"><img src="assets/banner.webp" alt="Banner: Jensen with green light waves"><figcaption><b>THE BANNER</b><span>green light, black leather</span></figcaption></figure>
+      <figure class="slide"><img src="assets/logo.webp" alt="$JENSEN logo art"><figcaption><b>THE LOGO</b><span>the face of $JENSEN</span></figcaption></figure>
+    </div>
+    <div class="reel-num" aria-hidden="true"><b id="layerN">01</b><span>/06</span></div>
+    <div class="reel-head s" style="--i:0"><span class="code">BLK.02</span> HBM REEL · <span id="layerName">THE CEO</span></div>
+    <div class="reel-thumbs s" style="--i:1" id="thumbs"></div>
+    <button class="btn-fan" id="fanBtn" aria-label="Next image"><i class="blades"></i><span>NEXT</span></button>
+  </section>
+
+  <!-- 3 NVLINK ROUTE -->
+  <section class="blk b-route" data-i="3" aria-label="How to buy">
+    <figure class="rt-bg depth" data-d="8"><img src="assets/datacenter.webp" alt="" loading="lazy"></figure>
+    <div class="route-head s" style="--i:0"><span class="code">BLK.03</span><h2>Route the<br><em>packet.</em></h2><p>Four hops over NVLink to a $JENSEN bag.</p></div>
+    <div class="route">
+      <svg class="wire" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><path id="wp" d="M8 6 C 60 6, 90 20, 70 34 S 10 50, 30 66 S 92 80, 80 96"/><path class="dash" d="M8 6 C 60 6, 90 20, 70 34 S 10 50, 30 66 S 92 80, 80 96"/></svg>
+      <div class="hop h1 s" style="--i:1"><b>01</b><h3>Wallet</h3><p>Install MetaMask or Rabby. Save your seed. Tell no one.</p></div>
+      <div class="hop h2 s" style="--i:2"><b>02</b><h3>Fuel ETH</h3><p>Buy ETH on an exchange, send it to your wallet.</p></div>
+      <div class="hop h3 s" style="--i:3"><b>03</b><h3>Swap</h3><p>Open Uniswap with the $JENSEN CA. Check it matches.</p><a class="btn-plug js-buy" href="#" target="_blank" rel="noopener"><i></i><span>OPEN SWAP</span><i></i></a></div>
+      <div class="hop h4 s" style="--i:4"><b>04</b><h3>Hold</h3><p>Put on the jacket. Never fade the keynote.</p></div>
+    </div>
+  </section>
+
+  <!-- 4 DATASHEET -->
+  <section class="blk b-sheet" data-i="4" aria-label="Token facts">
+    <figure class="sh-band depth" data-d="12"><img src="assets/banner.webp" alt="Jensen with green light waves" loading="lazy"><span class="sh-stamp">DATASHEET<br>REV. 1.0</span></figure>
+    <div class="sheet">
+      <div class="sh-title s" style="--i:0"><span class="code">BLK.04 · L2 CACHE</span><h2>$JENSEN<em> spec sheet</em></h2></div>
+      <dl class="specs">
+        <div class="s" style="--i:1"><dt>Name</dt><dd>Jensen is Back</dd></div>
+        <div class="s" style="--i:2"><dt>Ticker</dt><dd>$JENSEN</dd></div>
+        <div class="s" style="--i:3"><dt>Chain</dt><dd>Ethereum</dd></div>
+        <div class="s" style="--i:4"><dt>DEX</dt><dd>Uniswap</dd></div>
+        <div class="s" style="--i:5"><dt>Supply</dt><dd><span class="count" data-n="1000000000">0</span></dd></div>
+        <div class="s" style="--i:6"><dt>Launch</dt><dd>Fair launch</dd></div>
+        <div class="s ca-spec" style="--i:7"><dt>Contract</dt><dd><code class="ca-mini">TBA</code><button class="btn-chiplet" data-copy aria-label="Copy contract address">COPY</button></dd></div>
+      </dl>
+      <p class="note s" style="--i:8">Verify the contract on-chain before you buy.</p>
+      <div class="barcode" aria-hidden="true"></div>
+    </div>
+  </section>
+
+  <!-- 5 RTX COMPARE -->
+  <section class="blk b-rtx" data-i="5" aria-label="RTX on">
+    <div class="cmp" id="cmp" style="--p:50%">
+      <img class="cmp-off" src="assets/logo.webp" alt="Jensen's jacket, RTX off" loading="lazy">
+      <div class="cmp-on"><img src="assets/logo.webp" alt="Jensen's jacket, RTX on" loading="lazy"><i class="spec"></i><i class="rays"></i></div>
+      <span class="cmp-l">RTX OFF</span><span class="cmp-r">RTX ON</span>
+      <button class="cmp-handle" id="cmpH" aria-label="Drag to compare RTX off and on"><i></i></button>
+    </div>
+    <div class="rtx-copy">
+      <span class="code s" style="--i:0">BLK.05 · RT CORES</span>
+      <h2 class="s" style="--i:1">Ray-traced<br><em>leather.</em></h2>
+      <p class="s" style="--i:2">Drag the diamond across the jacket. Left: 2009 drivers. Right: real-time path-traced drip, powered by pure meme.</p>
+      <button class="btn-toggle s" id="rtxBtn" role="switch" aria-checked="false" style="--i:3"><span class="knob"></span><b class="on">RTX ON</b><b class="off">RTX OFF</b></button>
+      <div class="meters s" style="--i:4"><div><small>RAYS/PX</small><b id="rays">1</b></div><div><small>SHINE</small><b id="shine">12%</b></div><div><small>DRIP</small><b id="drip">LOW</b></div></div>
+    </div>
+  </section>
+
+  <!-- 6 I/O -->
+  <section class="blk b-io" data-i="6" aria-label="Socials">
+    <figure class="io-bg"><img src="assets/nightmarket.webp" alt="Jensen is back" loading="lazy"><span class="blinds" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></figure>
+    <div class="io-copy">
+      <span class="code s" style="--i:0">BLK.06 · I/O PADS</span>
+      <h2 class="s" style="--i:1">Signed.<br>Sealed.<br><em>On-chain.</em></h2>
+      <div class="io-pads">
+        <a class="btn-hex big js-x s" style="--i:2" href="#" target="_blank" rel="noopener" aria-label="$JENSEN on X"><svg class="ic"><use href="#i-x"/></svg><span>@jenseneth_x</span></a>
+        <a class="btn-scope big js-chart s" style="--i:4" href="#" target="_blank" rel="noopener" aria-label="DexScreener chart"><svg viewBox="0 0 60 30" class="wave"><path d="M0 15 Q7.5 0 15 15 T30 15 T45 15 T60 15"/></svg><span>DEX</span></a>
+        <a class="btn-gpu big js-buy s" style="--i:6" href="#" target="_blank" rel="noopener" aria-label="Buy $JENSEN"><span class="die"><b>BUY</b><small>$JENSEN</small></span></a>
+      </div>
+      <p class="disc s" style="--i:7"><b>Fan-made parody.</b> $JENSEN is a community meme token with no intrinsic value or expectation of financial return. Not affiliated with, endorsed by, or connected to NVIDIA Corporation or Jensen Huang. All trademarks belong to their owners; images are AI-generated/fan art. Nothing here is financial advice — crypto is risky, DYOR.</p>
+    </div>
+  </section>
+</main>
+<div id="wipe" aria-hidden="true"></div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
