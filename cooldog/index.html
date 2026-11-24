@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cool Dog ($LOOSY) — LOOSY FM · Vice City's goodest boy on Ethereum</title>
+<meta name="description" content="Cool Dog ($LOOSY) — the jet-ski dog of Vice City, now riding Ethereum. Fan-made meme token site.">
+<meta name="theme-color" content="#ff2fa0">
+<link rel="icon" href="assets/img/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<meta property="og:image" content="assets/img/herodesk.webp">
+<link rel="preload" href="assets/fonts/Pricedown.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="config.js"></script>
+</head>
+<body data-st="0">
+<canvas id="sea" aria-hidden="true"></canvas>
+<div id="fallback-bg" aria-hidden="true"></div>
+<div id="vignette" aria-hidden="true"></div>
+<canvas id="static" aria-hidden="true"></canvas>
+
+<div id="boot" aria-hidden="true">
+  <div class="boot-dial"><i></i></div>
+  <p class="boot-txt">TUNING&nbsp;LOOSY&nbsp;FM&nbsp;<b>101.1</b></p>
+</div>
+
+<header class="hud">
+  <a class="brand" href="#fm" data-go="0" aria-label="Cool Dog home">
+    <img src="assets/img/dog-ride.webp" alt="Cool Dog riding his jet ski" width="1009" height="701">
+    <span class="brand-t">COOL DOG<b><span class="dl">$</span>LOOSY</b></span>
+  </a>
+  <div class="np" aria-live="polite">
+    <span class="eq"><i></i><i></i><i></i><i></i><i></i></span>
+    <span class="np-txt"><em id="np-freq">101.1</em> <strong id="np-name">LOOSY FM</strong></span>
+  </div>
+  <button class="cassette" id="btn-sound" aria-pressed="false" aria-label="Toggle radio sound">
+    <span class="reel"></span><span class="reel"></span><span class="cas-lbl">RADIO OFF</span>
+  </button>
+</header>
+
+<div id="banner" aria-hidden="true"><span id="banner-t">LOOSY FM</span></div>
+
+<main id="stations">
+
+  <!-- 0 HOME -->
+  <section class="st on" data-i="0" id="fm" aria-label="Cool Dog home">
+    <div class="st-in home">
+      <div class="home-top">
+        <p class="kicker"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span> RESPECT · VICE CITY · ETHEREUM</p>
+        <h1 class="title" aria-label="Cool Dog">
+          <span class="row r1" data-wave>COOL</span>
+          <span class="row r2" data-wave>DOG</span>
+        </h1>
+        <p class="tick"><span class="tick-pill"><span class="dl">$</span>LOOSY</span><span class="tick-sub">The goodest boy in Vice City — now riding Ethereum.</span></p>
+      </div>
+      <div class="home-ctrl">
+        <div class="ca-row">
+          <div class="hull" id="ca-plate" title="Contract address">
+            <span class="hull-lbl">HULL&nbsp;#&nbsp;CA</span>
+            <span class="hull-val" id="ca-val">0x279a7d8948a9dfbac72c363150e78321138b33b1</span>
+            <i class="rivet a"></i><i class="rivet b"></i>
+          </div>
+          <button class="fob" id="btn-copy" data-act="copy" aria-label="Copy contract address">
+            <span class="fob-cord"></span><span class="fob-body"><span class="fob-led"></span>COPY</span>
+          </button>
+        </div>
+        <div class="act-row">
+          <a class="throttle" id="btn-buy" data-act="buy" href="#" target="_blank" rel="noopener" aria-label="Buy $LOOSY on Uniswap">
+            <span class="thr-slot"><span class="thr-lever"><i></i></span></span>
+            <span class="thr-txt"><b>BUY</b><small>pull throttle · Uniswap</small></span>
+          </a>
+          <a class="gauge" id="btn-chart" data-act="chart" href="#" target="_blank" rel="noopener" aria-label="Open $LOOSY chart on DexScreener">
+            <span class="g-face"><span class="g-ticks"></span><span class="g-needle" id="needle"></span><span class="g-hub"></span></span>
+            <span class="g-txt"><b id="knots">00</b><small>kn</small><em>CHART</em></span>
+          </a>
+          <button class="buoy" data-act="telegram" aria-label="Telegram">
+            <span class="buoy-top"></span><span class="buoy-body"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.9 4.3 18.7 19.5c-.2 1-.9 1.3-1.7.8l-4.8-3.6-2.3 2.2c-.3.3-.5.5-1 .5l.3-4.9 8.9-8c.4-.3-.1-.5-.6-.2L6.5 13.3l-4.7-1.5c-1-.3-1-1 .2-1.5L20.5 3c.9-.3 1.6.2 1.4 1.3z"/></svg></span><span class="buoy-lbl">TG</span>
+          </button>
+          <button class="lifering" data-act="x" aria-label="X (Twitter)">
+            <span class="ring-o"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.8 2.5h3.1l-6.8 7.8 8 10.6h-6.3l-4.9-6.4-5.6 6.4H2.2l7.3-8.3L1.8 2.5h6.4l4.4 5.9 5.2-5.9zm-1.1 16.5h1.7L7.3 4.2H5.5l11.2 14.8z"/></svg></span><span class="ring-lbl">X</span>
+          </button>
+        </div>
+        <p class="fan">Fan-made tribute site · not affiliated with Rockstar Games · not financial advice</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1 STORY -->
+  <section class="st" data-i="1" id="story" aria-label="The story">
+    <div class="st-in story">
+      <div class="post-stack">
+        <figure class="post p1"><img src="assets/img/herodesk.webp" alt="Cool Dog at sunset on his jet ski" loading="lazy"></figure>
+        <figure class="post p2"><img src="assets/img/hero.jpg" alt="Vice City sunset" loading="lazy"></figure>
+        <img class="story-dog" src="assets/img/abbuu-a.webp" alt="Cool Dog in goggles and life vest gripping the jet ski handlebars" loading="lazy">
+      </div>
+      <div class="talk">
+        <p class="talk-show">VICE PAWS TALK RADIO · 94.7</p>
+        <h2 class="h2" data-wave>THE STORY</h2>
+        <ol class="lines">
+          <li><b>HOST:</b> In a world full of crime and chaos, Vice City got an unexpected hero.</li>
+          <li><b>CALLER:</b> I was stranded in the ocean. Cool Dog pulled up blasting music and took me back to shore.</li>
+          <li><b>HOST:</b> Stay on a little longer and he'll bring you to his secret island, where he lives with his dog friends.</li>
+          <li><b>COOL DOG:</b> No crimes. No missions. Just a good boy living his best life — now on Ethereum. <em><span class="dl">$</span>LOOSY</em></li>
+        </ol>
+        <button class="surfboard" data-go="3"><span>HOP ON · HOW TO RIDE</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 DOGG TV -->
+  <section class="st" data-i="2" id="tv" aria-label="Dogg TV video">
+    <div class="st-in tv">
+      <h2 class="h2" data-wave>DOGG TV</h2>
+      <div class="stage">
+        <img class="spot l" src="assets/img/dec1.webp" alt="" aria-hidden="true">
+        <img class="spot r" src="assets/img/dec2.webp" alt="" aria-hidden="true">
+        <div class="screen">
+          <img class="scr-top" src="assets/img/top.png" alt="" aria-hidden="true">
+          <video id="vid" src="assets/img/dogg.mp4" poster="assets/img/poster.jpg" muted loop playsinline preload="metadata"></video>
+          <button class="playdisc" id="btn-play" aria-label="Play video"><img src="assets/img/play.png" alt=""></button>
+          <img class="scr-bot" src="assets/img/bottom.png" alt="" aria-hidden="true">
+        </div>
+        <button class="megaphone" id="btn-unmute" aria-pressed="false"><span class="mega-cone"></span><span class="mega-txt">SOUND ON</span></button>
+      </div>
+      <p class="tv-cap">Official clip from the original jet-ski dog site · tap the disc to roll it</p>
+    </div>
+  </section>
+
+  <!-- 3 HOW TO RIDE -->
+  <section class="st" data-i="3" id="ride" aria-label="How to buy">
+    <div class="st-in how">
+      <img class="how-title" src="assets/img/howto-title.png" alt="How to Buy?">
+      <div class="radar-wrap">
+        <div class="radar">
+          <img src="assets/img/canal.jpg" alt="" aria-hidden="true">
+          <svg class="route" viewBox="0 0 100 100" aria-hidden="true"><path id="route-p" d="M24 72 C 34 64, 26 48, 40 44 S 64 58, 66 34 S 84 20, 86 18"/></svg>
+          <span class="sweep"></span>
+          <button class="blip on" data-m="0" style="left:24%;top:72%" aria-label="Mission 1"><i>1</i></button>
+          <button class="blip" data-m="1" style="left:40%;top:44%" aria-label="Mission 2"><i>2</i></button>
+          <button class="blip" data-m="2" style="left:66%;top:34%" aria-label="Mission 3"><i>3</i></button>
+          <button class="blip" data-m="3" style="left:86%;top:18%" aria-label="Mission 4"><i>4</i></button>
+          <img class="radar-dog" src="assets/img/dog-ride.webp" alt="" aria-hidden="true">
+        </div>
+        <div class="mission" id="mission" aria-live="polite">
+          <p class="m-num" id="m-num">MISSION 1/4</p>
+          <h3 class="m-h" id="m-h">GET A WALLET</h3>
+          <p class="m-p" id="m-p"></p>
+          <div class="m-nav">
+            <button class="chevron" id="m-next"><span>NEXT MISSION</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 RENTAL BOOTH -->
+  <section class="st" data-i="4" id="rental" aria-label="Token facts">
+    <div class="st-in rental">
+      <div class="booth">
+        <img class="booth-bg" src="assets/img/rental-booth.webp" alt="Neon jet-ski rental booth at sunset" loading="lazy">
+        <img class="booth-title" src="assets/img/toke-title.png" alt="Tokenomics">
+        <img class="heart h1" src="assets/img/decor.png" alt="" aria-hidden="true">
+        <img class="heart h2" src="assets/img/decor.png" alt="" aria-hidden="true">
+      </div>
+      <div class="board">
+        <p class="board-h"><span>JET SKI RENTAL</span><em>today's offer</em></p>
+        <ul class="facts" id="facts"></ul>
+        <p class="board-note">Only confirmed values are shown. Everything marked 0x279a7d8948a9dfbac72c363150e78321138b33b1 gets posted at launch — nothing here is invented.</p>
+        <a class="ticket" data-act="buy" href="#" target="_blank" rel="noopener"><span class="tk-a">RENT A RIDE</span><span class="tk-b">BUY <span class="dl">$</span>LOOSY</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 THE PACK -->
+  <section class="st" data-i="5" id="pack" aria-label="Meme gallery">
+    <div class="st-in pack">
+      <h2 class="h2" data-wave>THE PACK</h2>
+      <p class="pack-sub">17 official artworks floating in the bay · drag to spin · tap one to open</p>
+      <div class="pack-hit" id="pack-hit" aria-hidden="true"></div>
+      <div class="pack-strip" id="pack-strip"></div>
+      <div class="pack-ctl">
+        <button class="oar" id="pk-prev" aria-label="Spin left"><span></span></button>
+        <button class="propeller" id="pk-next" aria-label="Spin right"><span class="blade"></span><span class="blade"></span><span class="blade"></span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 SIGNAL -->
+  <section class="st" data-i="6" id="signal" aria-label="Socials and contact">
+    <div class="st-in signal">
+      <h2 class="h2" data-wave>SEND A SIGNAL</h2>
+      <div class="sig-row">
+        <button class="bottle" data-act="telegram"><span class="b-neck"></span><span class="b-body">TELEGRAM<small>message in a bottle</small></span></button>
+        <button class="flare" data-act="x"><span class="fl-flame"></span><span class="fl-body">X / TWITTER<small>fire a flare</small></span></button>
+        <a class="anchor" data-act="chart" href="#" target="_blank" rel="noopener"><span class="an-ico">⚓</span><span>DEXSCREENER</span></a>
+        <a class="hex" data-act="explorer" href="#" target="_blank" rel="noopener"><span>ETHERSCAN</span></a>
+      </div>
+      <div class="disc">
+        <p><b>Fan-made.</b> Cool Dog ($LOOSY) is a community meme token tribute with no intrinsic value or expectation of financial return. Not affiliated with, endorsed by, or connected to Rockstar Games, Take-Two, or GTA VI. Artwork credit: the original jet-ski dog creators. Crypto is risky — only use what you can afford to lose. Always verify the contract address before swapping.</p>
+        <p class="copy">© 2026 Cool Dog · $LOOSY · Ethereum</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<nav class="dock" aria-label="Stations">
+  <button class="paddle" id="btn-prev" aria-label="Previous station"><span></span></button>
+  <button class="knob" id="btn-wheel" aria-label="Open radio wheel" aria-expanded="false"><span class="knob-g"></span><span class="knob-t">TUNE</span></button>
+  <button class="splash" id="btn-next" aria-label="Next station"><span></span></button>
+</nav>
+
+<div id="wheel" aria-hidden="true">
+  <div class="wheel-ring" id="wheel-ring"></div>
+  <div class="wheel-center"><p id="wc-f">101.1</p><p id="wc-n">LOOSY FM</p><small>pick a station</small></div>
+</div>
+
+<div id="lightbox" aria-hidden="true">
+  <img id="lb-img" alt="">
+  <div class="lb-ctl">
+    <a class="pennant" id="lb-save" href="#" download><span>SAVE</span></a>
+    <button class="bubble" id="lb-close" aria-label="Close">✕</button>
+  </div>
+</div>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
