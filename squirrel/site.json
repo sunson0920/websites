@@ -4,13 +4,13 @@
   "ticker": "Squirrel",
   "template": "c71-helmet-vortex",
   "domain": "spacexsquirrel.com",
-  "ca": "TBA",
+  "ca": "FTRNuefn8YZBeWZccbCUGoBAWqai4tpkKWLJX841pump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -63,14 +63,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/FTRNuefn8YZBeWZccbCUGoBAWqai4tpkKWLJX841pump",
+    "chart_page": "https://dexscreener.com/solana/FTRNuefn8YZBeWZccbCUGoBAWqai4tpkKWLJX841pump",
+    "chart_embed": "https://dexscreener.com/solana/FTRNuefn8YZBeWZccbCUGoBAWqai4tpkKWLJX841pump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "squirrel",
   "project_id": "pmwv6k8blop6mj",
-  "exported_at": "2026-11-24T21:01:58.035Z",
+  "exported_at": "2026-11-24T21:09:47.795Z",
   "make_videos": false,
   "videos": []
 }
