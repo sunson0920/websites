@@ -40,7 +40,7 @@ const links = {
   telegram: C.telegram || '',
   x: C.x || '',
 };
-$('#ca-val').textContent = ca || '0x279a7d8948a9dfbac72c363150e78321138b33b1';
+$('#ca-val').textContent = ca || '0x958130b0e53cb49d96492afe9501e829cd461ec7';
 
 const toastEl = $('#toast');
 let toastT;
@@ -72,7 +72,7 @@ document.addEventListener('click', async (e) => {
   if (act === 'copy') {
     e.preventDefault();
     el.classList.add('hit'); setTimeout(() => el.classList.remove('hit'), 300);
-    if (!ca) return toast('<b>CA 0x279a7d8948a9dfbac72c363150e78321138b33b1</b> — the Ethereum contract drops at launch. Only trust the CA posted here.');
+    if (!ca) return toast('<b>CA 0x958130b0e53cb49d96492afe9501e829cd461ec7</b> — the Ethereum contract drops at launch. Only trust the CA posted here.');
     try { await navigator.clipboard.writeText(ca); } catch (_) {
       const t = document.createElement('textarea'); t.value = ca; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove();
     }
@@ -80,13 +80,13 @@ document.addEventListener('click', async (e) => {
   }
   if (act === 'buy' || act === 'chart') {
     if (!ca) {
-      // keep the exact Dan-provided 0x279a7d8948a9dfbac72c363150e78321138b33b1 URL live, but warn first
-      toast(act === 'buy' ? '<b>CA 0x279a7d8948a9dfbac72c363150e78321138b33b1</b> — opening Uniswap (ETH → 0x279a7d8948a9dfbac72c363150e78321138b33b1). Paste the official CA once it launches.' : '<b>CA 0x279a7d8948a9dfbac72c363150e78321138b33b1</b> — chart goes live at launch. Opening DexScreener.');
+      // keep the exact Dan-provided 0x958130b0e53cb49d96492afe9501e829cd461ec7 URL live, but warn first
+      toast(act === 'buy' ? '<b>CA 0x958130b0e53cb49d96492afe9501e829cd461ec7</b> — opening Uniswap (ETH → 0x958130b0e53cb49d96492afe9501e829cd461ec7). Paste the official CA once it launches.' : '<b>CA 0x958130b0e53cb49d96492afe9501e829cd461ec7</b> — chart goes live at launch. Opening DexScreener.');
     }
     return; // href handles navigation
   }
   if (act === 'explorer') {
-    if (!ca) { e.preventDefault(); return toast('<b>Etherscan</b> — coming soon, CA 0x279a7d8948a9dfbac72c363150e78321138b33b1.'); }
+    if (!ca) { e.preventDefault(); return toast('<b>Etherscan</b> — coming soon, CA 0x958130b0e53cb49d96492afe9501e829cd461ec7.'); }
     return;
   }
   if (act === 'telegram' || act === 'x') {
@@ -112,7 +112,7 @@ const facts = $('#facts');
   const li = document.createElement('li');
   li.style.animationDelay = (i * 0.09) + 's';
   const val = k === 'Contract' && ca ? ca.slice(0, 6) + '…' + ca.slice(-4) : v;
-  li.innerHTML = `<span>${k}</span><b class="${val === '0x279a7d8948a9dfbac72c363150e78321138b33b1' ? 'tba' : ''}">${String(val).replace('$', '<span class="dl">$</span>')}</b>`;
+  li.innerHTML = `<span>${k}</span><b class="${val === '0x958130b0e53cb49d96492afe9501e829cd461ec7' ? 'tba' : ''}">${String(val).replace('$', '<span class="dl">$</span>')}</b>`;
   facts.appendChild(li);
 });
 
@@ -120,7 +120,7 @@ const facts = $('#facts');
 const MISSIONS = [
   ['GET A WALLET', 'Download an Ethereum wallet like <b>MetaMask</b> or <b>Rabby</b> (browser extension or mobile app). Write your recovery phrase down offline — never share it.'],
   ['LOAD SOME ETH', 'Buy ETH on an exchange and send it to your wallet on <b>Ethereum mainnet</b>. Keep a little extra for gas fees.'],
-  ['HIT UNISWAP', 'Open <a href="LINK" target="_blank" rel="noopener">Uniswap</a> with the BUY throttle and connect your wallet. Paste the official $LOOSY contract — <b>CA: 0x279a7d8948a9dfbac72c363150e78321138b33b1</b> until launch.'],
+  ['HIT UNISWAP', 'Open <a href="LINK" target="_blank" rel="noopener">Uniswap</a> with the BUY throttle and connect your wallet. Paste the official $LOOSY contract — <b>CA: 0x958130b0e53cb49d96492afe9501e829cd461ec7</b> until launch.'],
   ['SWAP FOR $LOOSY', 'Check the token name <b>Cool Dog</b>, ticker <b>$LOOSY</b> and the contract, choose your amount, review the quote and confirm. Welcome aboard, goodest boy in Vice City.'],
 ];
 let mi = 0;
