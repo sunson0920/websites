@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Memestonk",
   "ticker": "MEMESTONK",
-  "template": "ut-hyperinu",
+  "template": "c34-eagles",
   "domain": "memestonk.lol",
   "ca": "TBA",
   "chain": "solana",
@@ -10,7 +10,7 @@
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "memestonk",
   "project_id": "pmwvagewwc2ere",
-  "exported_at": "2026-11-24T22:50:58.574Z",
+  "exported_at": "2026-11-24T22:55:09.643Z",
   "make_videos": false,
   "videos": []
 }
