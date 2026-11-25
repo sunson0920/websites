@@ -72,12 +72,7 @@
   "characters": [
     "assets/char1.webp",
     "assets/char2.webp",
-    "assets/char3.webp",
-    "assets/char4.webp",
-    "assets/char5.webp",
-    "assets/char6.webp",
-    "assets/char7.webp",
-    "assets/char8.webp"
+    "assets/char3.webp"
   ],
   "backgrounds": [],
   "resolved": {
