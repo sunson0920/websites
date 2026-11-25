@@ -4,7 +4,7 @@
   "ticker": "Pompompurin",
   "template": "c51-flora-floor",
   "domain": "pompompurin.lol",
-  "ca": "zzcGoABT1C5WPsn5W4fDfxg7J3KB6Sw5HPxyFj9pump",
+  "ca": "H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
@@ -70,14 +70,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/zzcGoABT1C5WPsn5W4fDfxg7J3KB6Sw5HPxyFj9pump",
-    "chart_page": "https://dexscreener.com/solana/zzcGoABT1C5WPsn5W4fDfxg7J3KB6Sw5HPxyFj9pump",
-    "chart_embed": "https://dexscreener.com/solana/zzcGoABT1C5WPsn5W4fDfxg7J3KB6Sw5HPxyFj9pump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump",
+    "chart_page": "https://dexscreener.com/solana/H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump",
+    "chart_embed": "https://dexscreener.com/solana/H2iscCQ4RiZ5ufu3UTBS2VDrVqbNY8gN7eVSSASBpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "pompompurin",
   "project_id": "pmwwjdz0o4v8jf",
-  "exported_at": "2026-11-25T20:00:36.317Z",
+  "exported_at": "2026-11-25T20:20:59.572Z",
   "make_videos": false,
   "videos": []
 }
