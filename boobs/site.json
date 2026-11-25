@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "boobs coin",
   "ticker": "BOOBS",
-  "template": "c66-full-send",
+  "template": "c68-popo-shellboard",
   "domain": "boobscoin.site",
   "ca": "ATXRnUZp65pRQQKZTqWrMKKKcSUvYzibJ7MjFFZFpump",
   "chain": "solana",
@@ -77,7 +77,7 @@
   },
   "site_slug": "boobs",
   "project_id": "pmwvci5xtb7cd7",
-  "exported_at": "2026-11-25T00:03:23.803Z",
+  "exported_at": "2026-11-25T00:13:28.187Z",
   "make_videos": false,
   "videos": []
 }
