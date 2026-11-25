@@ -2,15 +2,15 @@
   "format": "meme-site-studio/site@1",
   "name": "ポムポムプリン",
   "ticker": "Pompompurin",
-  "template": "ut-hyperinu",
+  "template": "c51-flora-floor",
   "domain": "pompompurin.lol",
   "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "original",
-  "theme_preset": "",
+  "theme_mode": "preset",
+  "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "Soft, sweet, and here to stay. 💛",
-  "x_url": "",
+  "x_url": "https://x.com/pompompurinonx",
   "tg_url": "",
   "ref_x_url": "https://x.com/goodcoindeploy/status/2093264103372710386",
   "socials": [],
@@ -59,7 +59,7 @@
   },
   "site_slug": "pompompurin",
   "project_id": "pmwwjdz0o4v8jf",
-  "exported_at": "2026-11-25T19:48:47.312Z",
+  "exported_at": "2026-11-25T19:54:06.029Z",
   "make_videos": false,
   "videos": []
 }
