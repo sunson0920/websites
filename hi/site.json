@@ -1,35 +1,35 @@
 {
   "format": "meme-site-studio/site@1",
-  "name": "Huss Inu",
-  "ticker": "HI",
+  "name": "Pump Cat",
+  "ticker": "PUMPCAT",
   "template": "c40-jupcat",
-  "domain": "hussinumeme.site",
+  "domain": "pumpcatmeme.site",
   "ca": "TBA",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "hussinumeme.site"
+      "host": "pumpcatmeme.site"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.hussinumeme.site"
+      "host": "www.pumpcatmeme.site"
     }
   ],
   "tagline": "",
-  "about": "Raise your arms. Say it with us. HUSS. 💙⭐",
+  "about": "Pumpfun’s Official Cat. Default banner for every pump.fun account ever made. Get paid $PUMP to hold.",
   "x_url": "",
   "tg_url": "",
-  "ref_x_url": "https://x.com/happyoysterai/status/2123296200506200452",
+  "ref_x_url": "",
   "socials": [],
   "buy_url": "",
   "dexs_url": "",
@@ -91,7 +91,7 @@
   },
   "site_slug": "hi",
   "project_id": "pmwwnmn9x5gmn9",
-  "exported_at": "2026-11-25T21:55:17.615Z",
+  "exported_at": "2026-11-25T23:51:01.524Z",
   "make_videos": false,
   "videos": []
 }
