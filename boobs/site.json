@@ -6,8 +6,8 @@
   "domain": "boobscoin.site",
   "ca": "ATXRnUZp65pRQQKZTqWrMKKKcSUvYzibJ7MjFFZFpump",
   "chain": "solana",
-  "theme_mode": "preset",
-  "theme_preset": "solana",
+  "theme_mode": "original",
+  "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
   "domain_status": "live",
@@ -77,7 +77,7 @@
   },
   "site_slug": "boobs",
   "project_id": "pmwvci5xtb7cd7",
-  "exported_at": "2026-11-25T00:17:31.732Z",
+  "exported_at": "2026-11-25T00:23:25.797Z",
   "make_videos": false,
   "videos": []
 }
