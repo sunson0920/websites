@@ -58,11 +58,7 @@
     "assets/char2.webp",
     "assets/char3.webp"
   ],
-  "backgrounds": [
-    "assets/gpt-bg1.webp",
-    "assets/gpt-bg2.webp",
-    "assets/gpt-bg3.webp"
-  ],
+  "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
