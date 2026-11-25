@@ -2,15 +2,15 @@
   "format": "meme-site-studio/site@1",
   "name": "Pompomkitty",
   "ticker": "PPK",
-  "template": "ut-hyperinu",
+  "template": "c67-maya-samoyed",
   "domain": "pompomkitty.lol",
   "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "original",
-  "theme_preset": "",
+  "theme_mode": "preset",
+  "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "ppk",
   "project_id": "pmwwhldp5khaqc",
-  "exported_at": "2026-11-25T18:58:33.666Z",
+  "exported_at": "2026-11-25T19:01:30.036Z",
   "make_videos": false,
   "videos": []
 }
