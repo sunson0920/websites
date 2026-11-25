@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Memes Into Money",
   "ticker": "MIM",
-  "template": "ut-hyperinu",
+  "template": "c57-gatto-editorial",
   "domain": "memeintomoney.fun",
   "ca": "TBA",
   "chain": "solana",
@@ -10,7 +10,7 @@
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "mim",
   "project_id": "pmwwcmu721cf92",
-  "exported_at": "2026-11-25T16:44:38.286Z",
+  "exported_at": "2026-11-25T16:45:34.951Z",
   "make_videos": false,
   "videos": []
 }
