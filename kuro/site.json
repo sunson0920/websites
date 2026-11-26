@@ -26,7 +26,7 @@
     }
   ],
   "tagline": "",
-  "about": "JUST IN: $KURO gains momentum after GROK confirms its Shiba mascot is named Kuro, drawing inspiration from Elon’s iconic\n$DOGE.",
+  "about": "JUST IN: $KURO gains momentum after GROK confirms its Shiba mascot is named Kuro, drawing inspiration from Elon\u2019s iconic\n$DOGE.",
   "x_url": "https://x.com/kurocoin_x",
   "tg_url": "",
   "ref_x_url": "https://x.com/WhaleInsider/status/2125984923387674791",
@@ -45,8 +45,25 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.png",
-  "images": [],
-  "characters": [],
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp",
+    "assets/act1.webp",
+    "assets/act2.webp",
+    "assets/act3.webp",
+    "assets/act4.webp"
+  ],
+  "characters": [
+    "assets/char-hero.webp",
+    "assets/char-star.webp",
+    "assets/char-seat.webp"
+  ],
   "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
