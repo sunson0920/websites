@@ -10,7 +10,7 @@
   "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "Nasa just leaked the SpaceX character they used to spam on X, SpaceX Starhopper \"Hoppy\" 9.5\" Plushie.",
-  "x_url": "",
+  "x_url": "https://x.com/hoppymeme",
   "tg_url": "",
   "ref_x_url": "https://x.com/Polinkaii/status/2126044543288054122",
   "socials": [],
@@ -59,7 +59,7 @@
   },
   "site_slug": "hoppy",
   "project_id": "pmwxzvix5khrcb",
-  "exported_at": "2026-11-26T20:18:06.268Z",
+  "exported_at": "2026-11-26T20:23:47.776Z",
   "make_videos": false,
   "videos": []
 }
