@@ -44,10 +44,24 @@
   "vercel_a": "",
   "vercel_cname": "",
   "logo": "assets/logo.png",
-  "banner": "assets/banner.webp",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "banner": "assets/banner.webp?v=d7e63c8a",
+  "images": [
+    "assets/george-2.webp?v=06267d1f",
+    "assets/george-3.webp?v=5d80c03e",
+    "assets/george-4.webp?v=96ba225c",
+    "assets/george-5.webp?v=93f2ac22",
+    "assets/george-1.webp?v=4d301408"
+  ],
+  "characters": [
+    "assets/george-0.webp?v=02d262e4",
+    "assets/george-6.webp?v=eafb945d",
+    "assets/george-7.webp?v=51cacdda"
+  ],
+  "backgrounds": [
+    "assets/tpl/bg1.webp?v=5ba4d8b8",
+    "assets/tpl/bg2.webp?v=940f06f7",
+    "assets/tpl/bg3.webp?v=ee1a53e1"
+  ],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
