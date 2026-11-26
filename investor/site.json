@@ -2,14 +2,14 @@
   "format": "meme-site-studio/site@1",
   "name": "OUR LITTLE INVESTOR",
   "ticker": "INVESTOR",
-  "template": "ut-hyperinu",
+  "template": "c51-flora-floor",
   "domain": "investoreth.lol",
   "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "original",
-  "theme_preset": "",
-  "theme_primary": "#9945ff",
-  "theme_secondary": "#14f195",
+  "theme_mode": "preset",
+  "theme_preset": "ethereum",
+  "theme_primary": "#627eea",
+  "theme_secondary": "#8fa4f3",
   "domain_status": "live",
   "dns_records": [
     {
@@ -45,30 +45,8 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.webp",
-  "images": [
-    "assets/investor-meme1.webp?v=2f3236b7",
-    "assets/investor-meme2.webp?v=7bf4239b",
-    "assets/investor-meme3.webp?v=b8afc0be",
-    "assets/investor-meme4.webp?v=18abadd9",
-    "assets/investor-meme5.webp?v=768af22e",
-    "assets/investor-meme6.webp?v=22119f59",
-    "assets/investor-meme7.webp?v=c4034f60",
-    "assets/investor-meme8.webp?v=7bcb1e33",
-    "assets/investor-wag.webp?v=3d1b47f1",
-    "assets/investor-racer.webp?v=8a7d2d2c",
-    "assets/investor-runner.webp?v=c5363dce",
-    "assets/investor-loader.webp?v=5ff4e3d1"
-  ],
-  "characters": [
-    "assets/investor-hero.webp?v=987f1677",
-    "assets/investor-gm.webp?v=44e3fbe8",
-    "assets/investor-coin.webp?v=97f6c1ee",
-    "assets/investor-drive1.webp?v=4919444e",
-    "assets/investor-drive2.webp?v=613e2947",
-    "assets/investor-drive3.webp?v=89bc69ba",
-    "assets/investor-fuel.webp?v=56ae42cd",
-    "assets/investor-wave.webp?v=3ea05275"
-  ],
+  "images": [],
+  "characters": [],
   "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
@@ -81,7 +59,7 @@
   },
   "site_slug": "investor",
   "project_id": "pmwxzpuzlvy0rf",
-  "exported_at": "2026-11-26T20:13:41.981Z",
+  "exported_at": "2026-11-26T20:35:47.641Z",
   "make_videos": false,
   "videos": []
 }
