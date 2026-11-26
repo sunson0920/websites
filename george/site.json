@@ -2,15 +2,15 @@
   "format": "meme-site-studio/site@1",
   "name": "ジョージ",
   "ticker": "George",
-  "template": "c26-kokopikoalas",
+  "template": "c67-maya-samoyed",
   "domain": "georgememe.lol",
   "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "original",
-  "theme_preset": "",
+  "theme_mode": "preset",
+  "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -59,7 +59,7 @@
   },
   "site_slug": "george",
   "project_id": "pmwxwaqoiiceok",
-  "exported_at": "2026-11-26T18:37:57.659Z",
+  "exported_at": "2026-11-26T18:38:56.411Z",
   "make_videos": false,
   "videos": []
 }
