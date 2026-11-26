@@ -4,7 +4,7 @@
   "ticker": "George",
   "template": "c67-maya-samoyed",
   "domain": "georgememe.lol",
-  "ca": "FrazpvxVBFwvA1ycX3CKVBLx1Jq8dzExJ7eaYsYSpump",
+  "ca": "8p9orB6AJDoWKYhaD5mmJgL1akKR13dn3nZahgqnpump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
@@ -44,36 +44,22 @@
   "vercel_a": "",
   "vercel_cname": "",
   "logo": "assets/logo.png",
-  "banner": "assets/banner.webp?v=d7e63c8a",
-  "images": [
-    "assets/george-2.webp?v=06267d1f",
-    "assets/george-3.webp?v=5d80c03e",
-    "assets/george-4.webp?v=96ba225c",
-    "assets/george-5.webp?v=93f2ac22",
-    "assets/george-1.webp?v=4d301408"
-  ],
-  "characters": [
-    "assets/george-0.webp?v=02d262e4",
-    "assets/george-6.webp?v=eafb945d",
-    "assets/george-7.webp?v=51cacdda"
-  ],
-  "backgrounds": [
-    "assets/tpl/bg1.webp?v=5ba4d8b8",
-    "assets/tpl/bg2.webp?v=940f06f7",
-    "assets/tpl/bg3.webp?v=ee1a53e1"
-  ],
+  "banner": "assets/banner.webp",
+  "images": [],
+  "characters": [],
+  "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/FrazpvxVBFwvA1ycX3CKVBLx1Jq8dzExJ7eaYsYSpump",
-    "chart_page": "https://dexscreener.com/solana/FrazpvxVBFwvA1ycX3CKVBLx1Jq8dzExJ7eaYsYSpump",
-    "chart_embed": "https://dexscreener.com/solana/FrazpvxVBFwvA1ycX3CKVBLx1Jq8dzExJ7eaYsYSpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/8p9orB6AJDoWKYhaD5mmJgL1akKR13dn3nZahgqnpump",
+    "chart_page": "https://dexscreener.com/solana/8p9orB6AJDoWKYhaD5mmJgL1akKR13dn3nZahgqnpump",
+    "chart_embed": "https://dexscreener.com/solana/8p9orB6AJDoWKYhaD5mmJgL1akKR13dn3nZahgqnpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "george",
   "project_id": "pmwxwaqoiiceok",
-  "exported_at": "2026-11-26T19:02:43.058Z",
+  "exported_at": "2026-11-26T19:25:17.789Z",
   "make_videos": false,
   "videos": []
 }
