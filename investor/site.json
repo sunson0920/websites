@@ -45,9 +45,24 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.webp",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "images": [
+    "assets/investor-meme1.webp?v=2f3236b7",
+    "assets/investor-meme2.webp?v=7bf4239b",
+    "assets/investor-meme3.webp?v=b8afc0be",
+    "assets/investor-meme4.webp?v=18abadd9",
+    "assets/investor-meme5.webp?v=768af22e",
+    "assets/investor-meme6.webp?v=22119f59"
+  ],
+  "characters": [
+    "assets/investor-hero.webp?v=987f1677",
+    "assets/investor-gm.webp?v=44e3fbe8",
+    "assets/investor-wave.webp?v=3ea05275"
+  ],
+  "backgrounds": [
+    "assets/tpl/bg1.webp?v=4b84aa55",
+    "assets/tpl/bg2.webp?v=f9180292",
+    "assets/tpl/bg3.webp?v=173d8171"
+  ],
   "resolved": {
     "dex_name": "Uniswap V4",
     "dex_logo": "assets/dex.png",
