@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Hoppy",
   "ticker": "Hoppy",
-  "template": "ut-hyperinu",
+  "template": "c50-maxbnb",
   "domain": "hoppymeme.lol",
   "ca": "TBA",
   "chain": "solana",
@@ -59,7 +59,7 @@
   },
   "site_slug": "hoppy",
   "project_id": "pmwxzvix5khrcb",
-  "exported_at": "2026-11-26T20:23:47.776Z",
+  "exported_at": "2026-11-26T20:24:44.722Z",
   "make_videos": false,
   "videos": []
 }
