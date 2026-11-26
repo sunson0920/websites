@@ -45,9 +45,23 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.webp?v=5331169d",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "images": [
+    "assets/george-2.webp?v=639ba6cd",
+    "assets/george-3.webp?v=4738d979",
+    "assets/george-4.webp?v=68a444d4",
+    "assets/george-5.webp?v=274887ea",
+    "assets/george-1.webp?v=0caa295a"
+  ],
+  "characters": [
+    "assets/george-0.webp?v=ba1ef5b2",
+    "assets/george-6.webp?v=5f6d7638",
+    "assets/george-7.webp?v=665afde3"
+  ],
+  "backgrounds": [
+    "assets/tpl/bg1.webp?v=0cc18d28",
+    "assets/tpl/bg2.webp?v=b96bb25e",
+    "assets/tpl/bg3.webp?v=df19eb69"
+  ],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
