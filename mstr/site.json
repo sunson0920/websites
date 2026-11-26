@@ -4,13 +4,13 @@
   "ticker": "MSTR",
   "template": "c63-red-directive",
   "domain": "mstrmemesol.site",
-  "ca": "TBA",
+  "ca": "57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
@@ -45,36 +45,21 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.png",
-  "images": [
-    "assets/mstr-brief1.webp",
-    "assets/mstr-brief2.webp",
-    "assets/mstr-brief3.webp",
-    "assets/mstr-brief4.webp",
-    "assets/mstr-poster1.webp",
-    "assets/mstr-poster2.webp"
-  ],
-  "characters": [
-    "assets/mstr-hero.webp",
-    "assets/mstr-origin.webp",
-    "assets/mstr-poster3.webp"
-  ],
-  "backgrounds": [
-    "assets/mstr-bg1.webp",
-    "assets/mstr-bg2.webp",
-    "assets/mstr-bg3.webp"
-  ],
+  "images": [],
+  "characters": [],
+  "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/",
-    "chart_page": "https://dexscreener.com/solana",
-    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/coin/57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump",
+    "chart_page": "https://dexscreener.com/solana/57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump",
+    "chart_embed": "https://dexscreener.com/solana/57sCZ82FwS5Dfs7FN9nshtU5Mkb3w1dqhmPUuCPvpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "mstr",
   "project_id": "pmwxq6bnp2s3ia",
-  "exported_at": "2026-11-26T16:12:29.553Z",
+  "exported_at": "2026-11-26T16:45:35.556Z",
   "make_videos": false,
   "videos": []
 }
