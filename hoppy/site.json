@@ -45,8 +45,26 @@
   "vercel_cname": "",
   "logo": "assets/logo.webp",
   "banner": "",
-  "images": [],
-  "characters": [],
+  "images": [
+    "assets/hoppy-meme1.webp?v=77698755",
+    "assets/hoppy-meme2.webp?v=dcea9054",
+    "assets/hoppy-meme3.webp?v=46eeb036",
+    "assets/hoppy-meme4.webp?v=3f21b74f",
+    "assets/hoppy-meme5.webp?v=0793f26c",
+    "assets/hoppy-meme6.webp?v=ed7ab030",
+    "assets/hoppy-meme7.webp?v=8b8a52ea",
+    "assets/hoppy-meme8.webp?v=427f8afe"
+  ],
+  "characters": [
+    "assets/hoppy-orb.webp?v=7c5834eb",
+    "assets/hoppy-story.webp?v=4c8a825a",
+    "assets/hoppy-mini.webp?v=d67918d1",
+    "assets/hoppy-world1.webp?v=ebde19bc",
+    "assets/hoppy-world2.webp?v=a8c75540",
+    "assets/hoppy-world3.webp?v=0f3969aa",
+    "assets/hoppy-world4.webp?v=7d5c88ea",
+    "assets/hoppy-join.webp?v=35f4b374"
+  ],
   "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
