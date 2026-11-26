@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Meme Stock Treasury Reserve",
   "ticker": "MSTR",
-  "template": "c74-vice-exchange",
+  "template": "c63-red-directive",
   "domain": "mstrmemesol.site",
   "ca": "TBA",
   "chain": "solana",
@@ -27,7 +27,7 @@
   ],
   "tagline": "",
   "about": "The meme treasury is loading.",
-  "x_url": "",
+  "x_url": "https://x.com/mstrmemesol",
   "tg_url": "",
   "ref_x_url": "",
   "socials": [],
@@ -59,7 +59,7 @@
   },
   "site_slug": "mstr",
   "project_id": "pmwxq6bnp2s3ia",
-  "exported_at": "2026-11-26T15:46:33.841Z",
+  "exported_at": "2026-11-26T16:12:29.553Z",
   "make_videos": false,
   "videos": []
 }

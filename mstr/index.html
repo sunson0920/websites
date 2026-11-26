@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- archetype: c74-vice-exchange | placeholders: Meme Stock Treasury Reserve MSTR assets/logo.png?v=ec0ed581 TBA solana   https://pump.fun/ https://dexscreener.com/solana?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=1&amp;chartType=usd&amp;interval=15 (+ optional The most memeable Meme Stock Treasury Reserve on Solana. The meme treasury is loading. 1,000,000,000 0/0 Pump.fun SOL Phantom https://dexscreener.com/solana Solana <img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun">=raw html) -->
+<!-- archetype: c63-red-directive | placeholders: Meme Stock Treasury Reserve MSTR assets/logo.png?v=ec0ed581 TBA solana https://x.com/mstrmemesol  https://pump.fun/ https://dexscreener.com/solana?embed=1&amp;loadChartSettings=0&amp;trades=0&amp;tabs=0&amp;info=0&amp;chartLeftToolbar=0&amp;chartTheme=dark&amp;theme=dark&amp;chartStyle=1&amp;chartType=usd&amp;interval=15 (+ optional The most memeable Meme Stock Treasury Reserve on Solana. The meme treasury is loading. 1,000,000,000 0/0 Pump.fun SOL Phantom https://dexscreener.com/solana Solana <img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun">=raw html) -->
 <title>Meme Stock Treasury Reserve ($MSTR) | The most memeable Meme Stock Treasury Reserve on Solana.</title>
 <meta name="description" content="The meme treasury is loading.">
 <meta property="og:title" content="Meme Stock Treasury Reserve ($MSTR)"><meta property="og:description" content="The most memeable Meme Stock Treasury Reserve on Solana."><meta property="og:image" content="assets/logo.png?v=ec0ed581"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/logo.png?v=ec0ed581">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Outline&family=Chakra+Petch:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&family=VT323&family=Mr+Dafoe&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;500;600&family=Staatliches&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{margin:0;overflow-x:hidden}html{overflow-x:hidden}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
 .ico{width:1.15em!important;height:1.15em!important;max-width:1.15em!important;max-height:1.15em!important;fill:currentColor;flex:none;vertical-align:-.18em}
@@ -501,199 +501,161 @@ html.reduced-motion .mx3d-tilt{transform:none!important}
 .mx-gl-clouds{mix-blend-mode:normal;opacity:1}
 .mx-gl-projector{mix-blend-mode:normal;opacity:1}
 
-/* ===== c74-vice-exchange ===== */
-/* c74-vice-exchange — adapted from https://gtabawsaq.fun/ (layout/type/motion language only; no source branding, art, copy or 3D model).
-   Art direction: a neon stock exchange at dusk. Scrolling ticker tape on top, dark-plum header (logo + ticker, small caps nav,
-   live bell clock, CA chip, pink BUY); full-bleed hero art with a gold Bungee wordmark, pink script overlay, green Chakra
-   subtitle, ticket-shaped BUY ORDER button, framed CA box and a CSS-3D drag-to-spin coin with the mascot on its face;
-   double ticker rails; three stacked "floor" scenes (full-bleed meme art, bell clock chip, huge gradient captions);
-   the Big Board terminal (parody tickers + sparklines, the coin starred on top, candlestick detail chart, wire line);
-   pocket-phone section with a call-the-candle mini game; live quote tiles; four tilted order slips; prospectus tiles;
-   exchange lobby gallery; closing-bell footer. 3D: Canvas2D `candles` (neon grid floor + 3D candle boxes + price line)
-   and `candles:wall`, CSS 3D spinning coin + pointer-tilted cards. */
-:root{--bg1:url(assets/tpl/bg1.webp?v=e56ce532);--bg2:url(assets/tpl/bg2.webp?v=4fabcf41);--bg3:url(assets/tpl/bg3.webp?v=8178367f);--a:#ff3d9a;--a2:#5cffb0;--part:#8fe3ff;--gold:#ffc93d;--gold2:#ff8a2a;--vio:#9a5bff;--bg:#0e0019;--bg-2:#1a0630;--panel:#160629;--ink:#fbeaff;--muted:#c9a9e6;--line:rgba(201,169,230,.22);--on:#1a0012;--glow:color-mix(in srgb,var(--a) 50%,transparent);--disp:'Bungee',Impact,sans-serif;--sub:'Chakra Petch','Space Grotesk',system-ui,sans-serif;--body:'Space Grotesk',system-ui,sans-serif;--mono:'VT323',ui-monospace,monospace;--script:'Mr Dafoe',cursive}
-html{background:var(--bg);scroll-padding-top:110px}html,body{overflow-x:clip!important}body{margin:0;color:var(--ink);background:var(--bg);font:400 16px/1.6 var(--body);-webkit-font-smoothing:antialiased}
-img{display:block;object-fit:cover}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer;background:none;border:0}h1,h2,h3,p,figure,ol,ul{margin:0}ol,ul{padding:0;list-style:none}
-.wrap{width:min(1240px,calc(100% - 80px));margin-inline:auto;position:relative;z-index:3}section{position:relative}.ico{width:16px;height:16px;fill:currentColor}
-.bg-slot{position:absolute;inset:0;background-size:cover;background-position:center;z-index:0}
-.up{color:var(--a2)}.dn{color:var(--a)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:44px;padding:0 20px;border-radius:10px;background:linear-gradient(180deg,#ff6fb5,var(--a));color:#fff;font:700 14px/1 var(--sub);letter-spacing:.06em;text-transform:uppercase;box-shadow:0 0 0 1px rgba(255,255,255,.18) inset,0 6px 24px var(--glow);transition:transform .2s,box-shadow .2s;position:relative;white-space:nowrap}
-.btn:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(255,255,255,.3) inset,0 10px 34px var(--glow)}
-.chip{display:inline-flex;align-items:center;gap:8px;min-height:40px;padding:0 16px;border-radius:9px;background:rgba(40,10,70,.8);border:1px solid var(--line);font:600 13px/1 var(--sub);letter-spacing:.08em;text-transform:uppercase}.chip i{width:7px;height:7px;border-radius:50%;background:var(--a2);box-shadow:0 0 8px var(--a2)}.chip:hover{border-color:var(--a2)}
-.kick{font:400 20px/1 var(--mono);color:var(--a2);letter-spacing:.04em}
-.h2{position:relative;font:400 clamp(40px,6vw,86px)/.95 var(--disp);background:linear-gradient(180deg,#fff 10%,#c7a8ff 55%,var(--vio));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 18px rgba(154,91,255,.45));overflow-wrap:anywhere}
-.ghost{position:absolute;left:-6px;top:-.62em;font:400 clamp(60px,10vw,150px)/1 'Bungee Outline',var(--disp);color:rgba(201,169,230,.16);white-space:nowrap;pointer-events:none;z-index:-1;overflow:hidden;max-width:100%}
-.shead{position:relative;padding-top:60px;margin-bottom:34px}.shead p.d{max-width:620px;margin-top:14px;color:var(--muted)}
-/* tape + header */
-.tape{position:fixed;top:0;left:0;right:0;height:26px;z-index:70;display:flex;align-items:center;background:#07000d;border-bottom:1px solid var(--line);font:400 18px/1 var(--mono)}
-.tape .feed{flex:none;height:100%;display:flex;align-items:center;padding:0 10px;background:var(--a);color:#fff;font:700 11px/1 var(--sub);letter-spacing:.1em}
-.tape .mq{flex:1;--mq-speed:60s}.tape .mq-track span{white-space:nowrap}
-.hdr{position:fixed;top:26px;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 24px;background:linear-gradient(180deg,rgba(14,0,25,.92),rgba(14,0,25,.72));backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:10px;min-width:0}.brand img{width:40px;height:40px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 2px var(--a),0 0 18px var(--glow)}.brand span{display:grid;min-width:0}.brand b{font:400 17px/1 var(--disp);color:var(--gold);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px}.brand small{font:600 10px/1.2 var(--sub);letter-spacing:.2em;color:var(--muted);text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px}
-.links{display:flex;gap:26px;font:600 13px/1 var(--sub);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}.links a:hover{color:var(--ink)}
-.hr{display:flex;align-items:center;gap:10px}.clock{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 12px;border:1px solid var(--line);border-radius:8px;font:400 17px/1 var(--mono);color:var(--a2)}.clock i{width:7px;height:7px;border-radius:50%;background:var(--a2);box-shadow:0 0 8px var(--a2);animation:c74blink 1.4s steps(2) infinite}.clock em{font-style:normal;color:var(--muted)}
-@keyframes c74blink{50%{opacity:.25}}
-.cachip{height:36px;padding:0 12px;border:1px solid var(--a2);border-radius:8px;font:400 17px/1 var(--mono);color:var(--a2);background:rgba(92,255,176,.06)}.cachip.copied{background:var(--a2);color:var(--on)}
-.sq{display:grid;place-items:center;width:36px;height:36px;border-radius:8px;background:#1d0a33;border:1px solid var(--line)}
+/* ===== c63-red-directive ===== */
+/* c63-red-directive — adapted from https://burniesenders.com/ (layout/type/motion language only; no source branding, characters, artwork or copy).
+   Art direction: a classified red-and-black propaganda dossier. Thin black nav with a gold wordmark and a boxed buy button; hero with a
+   giant cream Bebas name stacked over a typewriter tagline on a red bar, a terminal-style CA strip, boxed buy + gold "read the plan";
+   mascot glowing in a blood-red haze in front of constructivist sunburst rays and a ghost star; red directive ticker; "the origin"
+   dossier with a spinning approval seal, typewriter paragraphs, gold italic quote and redaction bars; sticky horizontal "policy
+   briefings" film-strip of bracketed case files with APPROVED stamps; tall propaganda poster triptych with headline bands; a ledger-
+   style five-year plan; numbered orders for new comrades; rally "final transmission" sign-off. 3D: sunburst@mascot (rotating tilted ray
+   disc + tumbling extruded stars in depth) and a stars-only field over the poster wall. */
+:root{--bg1:url(assets/tpl/bg1.webp?v=ca3b2dbb);--bg2:url(assets/tpl/bg2.webp?v=cc456877);--bg3:url(assets/tpl/bg3.webp?v=9d6fef77);--a:#c40d0d;--a2:#c9a84c;--a3:#7a0606;--on:#f2e4c4;--bg:#0a0909;--paper:#14110f;--paper2:#1c1714;--ink:#f2e4c4;--muted:#b3a68c;--line:rgba(242,228,196,.14);--glow:color-mix(in srgb,var(--a) 45%,transparent);--part:var(--a2);--disp:'Bebas Neue',Impact,sans-serif;--type:'Special Elite','Courier New',monospace;--mono:'Courier Prime','Courier New',monospace;--cond:'Oswald',Arial,sans-serif;--stamp:'Staatliches',Impact,sans-serif;--ease:cubic-bezier(.16,1,.3,1)}
+html{background:var(--bg);scroll-padding-top:80px}html,body{overflow-x:clip!important}body{margin:0;color:var(--ink);background:var(--bg);font:16px/1.7 var(--mono);-webkit-font-smoothing:antialiased}
+img{display:block;object-fit:cover}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}h1,h2,h3,p,figure{margin:0}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:90;opacity:.06;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.5) 0 1px,transparent 1px 3px)}
+.wrap{width:min(1180px,calc(100% - 64px));margin-inline:auto;position:relative;z-index:2}
+section{position:relative}
+.ico{width:16px;height:16px;fill:currentColor}
+h2{font:400 clamp(44px,5.6vw,84px)/.95 var(--disp);letter-spacing:.01em;text-transform:uppercase}
+h2.ul::after{content:"";display:block;width:92px;height:4px;background:var(--a);margin-top:18px}
+.kick{font:500 12px var(--cond);letter-spacing:.32em;text-transform:uppercase;color:var(--a2)}
+.sub{font:400 clamp(16px,1.5vw,19px)/1.55 var(--type);color:var(--muted);margin-top:14px;max-width:60ch}
+.paper{background:var(--paper);background-image:repeating-linear-gradient(90deg,rgba(242,228,196,.025) 0 1px,transparent 1px 44px),repeating-linear-gradient(0deg,rgba(242,228,196,.025) 0 1px,transparent 1px 44px)}
+/* nav */
+.nav{position:fixed;z-index:80;inset:0 0 auto;height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 max(24px,calc((100vw - 1180px)/2));background:rgba(10,9,9,.86);backdrop-filter:blur(10px);border-bottom:1px solid color-mix(in srgb,var(--a) 45%,transparent)}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}.brand img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid var(--a)}.brand span{font:400 26px/1 var(--disp);letter-spacing:.06em;color:var(--a2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:240px}
+.links{display:flex;gap:34px}.links a{font:500 11px var(--cond);letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}.links a:hover{color:var(--ink)}
+.box{display:inline-flex;align-items:center;gap:12px;min-height:50px;padding:10px 20px;border:1px solid var(--line);background:rgba(0,0,0,.55);font:600 13px var(--cond);letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:border-color .25s,transform .2s var(--ease);position:relative;overflow:hidden}
+.box small{display:block;font:400 10px var(--mono);letter-spacing:.1em;color:var(--muted);text-transform:none}
+.box:hover{border-color:var(--a2);transform:translateY(-2px)}.box::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(242,228,196,.18) 50%,transparent 70%);transform:translateX(-120%);animation:c63shine 3.6s ease-in-out infinite}
+@keyframes c63shine{0%,62%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+.ghost{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:10px 26px;border:1.5px solid var(--a2);color:var(--a2);font:500 14px var(--cond);letter-spacing:.2em;text-transform:uppercase;transition:background .25s,color .25s}.ghost:hover{background:var(--a2);color:var(--bg)}
+.redbtn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:10px 24px;background:var(--a);color:var(--on);font:500 13px var(--cond);letter-spacing:.2em;text-transform:uppercase;box-shadow:0 0 0 1px color-mix(in srgb,var(--a) 60%,#000),0 10px 30px -10px var(--glow);transition:transform .2s var(--ease)}.redbtn:hover{transform:translateY(-2px)}.redbtn:active{transform:scale(.97)}
 /* hero */
-.hero{min-height:max(100vh,760px);display:flex;align-items:center;padding:140px 0 70px;overflow:hidden}.hero .bg-slot{background-image:var(--bg1)}
-.hero::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,rgba(14,0,25,.88),rgba(14,0,25,.45) 48%,rgba(14,0,25,.1)),linear-gradient(0deg,var(--bg),transparent 30%)}
-.hgrid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:40px;align-items:center}
-.pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border:1px solid var(--line);border-radius:99px;background:rgba(14,0,25,.6);font:600 12px/1 var(--sub);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.pill i{width:7px;height:7px;border-radius:50%;background:var(--a2);box-shadow:0 0 8px var(--a2)}.pill b{color:var(--gold);font-weight:600}
-h1{position:relative;margin:22px 0 4px;font:400 clamp(64px,10.5vw,168px)/.86 var(--disp);letter-spacing:-.01em;overflow-wrap:anywhere}
-h1 .nm{display:block;background:linear-gradient(180deg,#fff3b0 0%,var(--gold) 38%,var(--gold2) 78%,#c2470f);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 0 #5a1240) drop-shadow(0 0 26px rgba(255,160,40,.35))}
-h1 .scr{position:absolute;right:4%;top:-.28em;font:400 .42em/1 var(--script);color:#ff8ccf;transform:rotate(-9deg);text-shadow:0 0 6px #ff3d9a,0 0 22px #ff3d9a;white-space:nowrap;pointer-events:none}
-.sub{font:700 clamp(18px,2.2vw,30px)/1.1 var(--sub);letter-spacing:.18em;text-transform:uppercase;color:var(--a2);text-shadow:0 0 16px rgba(92,255,176,.5);overflow-wrap:anywhere}
-.lead{max-width:540px;margin-top:16px;font-size:17px;line-height:1.55;color:#f2dcff}
-.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;align-items:center}
-.tkt{min-height:58px;padding:0 22px 0 92px;border-radius:12px;background:linear-gradient(90deg,#ff7a59,#ff3d9a 60%,#d4269a);font-size:16px}
-.tkt::before{content:"BUY\AORDER";white-space:pre;position:absolute;left:0;top:0;bottom:0;width:72px;display:grid;place-items:center;font:600 11px/1.15 var(--sub);letter-spacing:.12em;text-align:center;border-right:2px dashed rgba(255,255,255,.45);background:rgba(255,255,255,.12);border-radius:12px 0 0 12px}
-.cabox{max-width:560px;margin-top:22px;padding:14px 16px;border:1px solid rgba(92,255,176,.45);border-radius:14px;background:rgba(14,0,25,.7);box-shadow:0 0 30px rgba(92,255,176,.08)}
-.cah{display:flex;justify-content:space-between;gap:10px;font:600 11px/1 var(--sub);letter-spacing:.16em;text-transform:uppercase;color:var(--a2)}.cah em{font-style:normal;color:var(--gold);letter-spacing:.06em;text-transform:none}
-.car{display:flex;gap:10px;margin-top:10px}.car .ca-text{flex:1;min-width:0;padding:10px 12px;border-radius:8px;background:#07000d;border:1px solid var(--line);font:400 19px/1 var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.car button{padding:0 16px;border-radius:8px;background:var(--a2);color:var(--on);font:700 13px/1 var(--sub);letter-spacing:.1em}.car button.copied{background:#fff}
-.cabox small{display:block;margin-top:8px;font-size:12px;color:var(--muted)}
-.coinwrap{justify-self:center;display:grid;justify-items:center;gap:12px;perspective:1100px}
-.coin{position:relative;width:clamp(220px,26vw,360px);aspect-ratio:1;transform-style:preserve-3d;animation:c74spin 14s linear infinite;cursor:grab;touch-action:pan-y}
-.coin.drag{animation-play-state:paused;cursor:grabbing}
-.coin .face{position:absolute;inset:0;border-radius:50%;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden;box-shadow:0 0 0 10px #ff3d9a,0 0 0 14px #2a0a3f,0 0 0 16px #ff8ccf,0 0 50px rgba(255,61,154,.6)}
-.coin .front img{width:100%;height:100%;object-fit:cover;background:#2a0a3f}
-.coin .back{transform:rotateY(180deg);display:grid;place-content:center;text-align:center;background:radial-gradient(circle at 50% 35%,#ff6fb5,#a3166a 70%);}.coin .back b{font:400 clamp(26px,3vw,40px)/1 var(--disp);color:#fff;overflow-wrap:anywhere;padding:0 20px}.coin .back small{margin-top:10px;font:600 12px/1 var(--sub);letter-spacing:.2em;text-transform:uppercase}
-.coin .rim{position:absolute;inset:-14px;border-radius:50%;transform:translateZ(-6px);background:linear-gradient(90deg,#5a1240,#ff3d9a,#5a1240)}
-@keyframes c74spin{to{transform:rotateY(360deg)}}
-.spin{font:400 17px/1 var(--mono);color:var(--muted)}
-.comp{display:flex;align-items:baseline;gap:12px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:rgba(14,0,25,.72)}.comp span{font:600 11px/1 var(--sub);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}.comp b{font:400 28px/1 var(--mono)}.comp em{font:400 20px/1 var(--mono);font-style:normal}
-.cue{position:absolute;left:0;right:0;bottom:22px;z-index:3;text-align:center;font:600 11px/1 var(--sub);letter-spacing:.3em;text-transform:uppercase;color:var(--muted)}
-/* rails */
-.rails{padding:14px 0;background:#07000d;border-block:1px solid var(--line);display:grid;gap:8px;font:400 24px/1 var(--mono)}.rails .mq{--mq-speed:70s}.rails .mq.rev{--mq-speed:90s}.rails .mq-track span{white-space:nowrap}
-.rails .mq-track b{color:var(--gold);font-weight:400}
-/* floor: stacked scenes */
-.floor{position:relative}
-.scene{position:sticky;top:0;height:100vh;min-height:620px;overflow:hidden;display:flex;align-items:flex-end;background:var(--bg);border-top:1px solid var(--line)}
-.scene>img.gimg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transform:scale(var(--sc,1.04));transform-origin:50% 70%;will-change:transform}
-.scene::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(14,0,25,.92),rgba(14,0,25,.15) 55%,rgba(14,0,25,.35));z-index:1}
-.scene .wrap{padding:0 0 70px}
-.bell{display:inline-flex;align-items:center;gap:10px;padding:6px 12px;border-radius:8px;background:rgba(7,0,13,.8);border:1px solid var(--line);font:400 20px/1 var(--mono);color:var(--a2)}.bell b{font:700 11px/1 var(--sub);letter-spacing:.16em;color:var(--gold)}
-.scene h2{margin-top:16px;font:400 clamp(48px,8vw,124px)/.9 var(--disp);background:linear-gradient(180deg,#fff 20%,#ffd1ef 50%,#ff6fb5);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 0 #3b0a4f);overflow-wrap:anywhere;max-width:1000px}
-.scene p.d{max-width:560px;margin-top:14px;font-size:18px;color:#f2dcff}
-.scene .no{position:absolute;right:40px;bottom:70px;z-index:3;font:400 clamp(70px,10vw,150px)/1 'Bungee Outline',var(--disp);color:rgba(255,255,255,.5)}
-/* board */
-.board{padding:40px 0 100px;overflow:hidden}.board .bg-slot{background-image:var(--bg2);opacity:.55}.board::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,var(--bg),rgba(14,0,25,.55) 30%,rgba(14,0,25,.75) 80%,var(--bg))}
-.term{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);border:1px solid var(--line);border-radius:16px;background:rgba(18,4,33,.88);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5)}
-.tbl{border-right:1px solid var(--line);max-height:560px;overflow:auto;scrollbar-width:thin}
-.tr{display:grid;grid-template-columns:22px minmax(0,1.3fr) 90px 80px 70px 80px;align-items:center;gap:10px;padding:9px 14px;border-bottom:1px solid rgba(201,169,230,.1);cursor:pointer}
-.tr.hd{position:sticky;top:0;z-index:2;background:#1b0833;cursor:default;font:600 10px/1 var(--sub);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.tr:not(.hd):hover,.tr.on{background:rgba(154,91,255,.14)}.tr.on{box-shadow:inset 3px 0 0 var(--gold)}
-.tr .st{color:var(--muted)}.tr.fav .st{color:var(--gold)}
-.tr .co b{display:block;font:400 21px/1 var(--mono)}.tr .co small{display:block;font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.tr canvas{width:90px;height:26px}.tr .px,.tr .mv,.tr .pc{font:400 20px/1 var(--mono);text-align:right}
-.det{padding:20px 22px;display:flex;flex-direction:column;gap:14px;min-width:0}
-.dh{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.dh b{font:400 40px/1 var(--mono);color:var(--part);text-shadow:0 0 14px rgba(143,227,255,.5)}.dh small{display:block;font-size:12px;color:var(--muted)}.dh .pp{text-align:right;font:400 36px/1 var(--mono)}.dh .pp em{display:block;font-size:20px;font-style:normal}
-.tabs{display:flex;gap:8px}.tabs button{padding:6px 12px;border-radius:7px;background:#250b42;font:600 11px/1 var(--sub);letter-spacing:.1em;color:var(--muted)}.tabs button.on{background:var(--part);color:var(--on)}
-.cv{position:relative;height:230px;border-radius:10px;background:#07000d;border:1px solid var(--line);overflow:hidden}.cv canvas{width:100%;height:100%;display:block}.cv small{position:absolute;left:10px;bottom:6px;font:400 15px/1 var(--mono);color:var(--muted)}
-.det p{font-size:14px;color:var(--muted)}.det .ctas{margin-top:0}
-.wire{grid-column:1/-1;display:flex;align-items:center;gap:14px;padding:10px 14px;border-top:1px solid var(--line);font-size:14px;min-width:0}.wire b{flex:none;padding:3px 8px;border-radius:5px;background:#ff8a2a;color:#1a0012;font:700 11px/1 var(--sub);letter-spacing:.12em}.wire span{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-/* phone */
-.phonesec{padding:110px 0}.pgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.8fr);gap:60px;align-items:center}
-.ticks{margin-top:22px;display:grid;gap:10px}.ticks li{display:flex;gap:12px;align-items:center;font-size:16px}.ticks li::before{content:"";flex:none;width:10px;height:10px;border-radius:3px;background:var(--a2);box-shadow:0 0 10px var(--a2)}
-.phone{justify-self:center;width:min(310px,80vw);aspect-ratio:9/18.5;border-radius:44px;padding:12px;background:linear-gradient(160deg,#ff6fb5,#7a2bff);box-shadow:0 40px 90px rgba(122,43,255,.45),0 0 0 2px rgba(255,255,255,.2) inset}
-.scr2{position:relative;height:100%;border-radius:34px;overflow:hidden;background:linear-gradient(180deg,#1b0636,#0b0016);display:flex;flex-direction:column;padding:38px 16px 18px;gap:14px}
-.scr2::before{content:"";position:absolute;top:10px;left:50%;width:90px;height:20px;margin-left:-45px;border-radius:12px;background:#000}
-.scr2 .wall{position:relative;height:42%;border-radius:20px;overflow:hidden}.scr2 .wall img{width:100%;height:100%;object-fit:cover}.scr2 .wall b{position:absolute;left:10px;bottom:8px;font:400 22px/1 var(--disp);color:var(--gold);text-shadow:0 2px 0 #5a1240;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:90%}
-.apps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.apps a{display:grid;justify-items:center;gap:5px;font:600 9px/1 var(--sub);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}.apps i{display:grid;place-items:center;width:46px;height:46px;border-radius:13px;font:400 22px/1 var(--mono);font-style:normal;color:#fff}
-.game{margin-top:auto;padding:12px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid var(--line);text-align:center}.game p{font:600 11px/1.2 var(--sub);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}.game .gr{display:flex;gap:8px;margin-top:10px}.game button{flex:1;padding:9px 0;border-radius:10px;font:700 12px/1 var(--sub);letter-spacing:.1em}.game .gu{background:var(--a2);color:var(--on)}.game .gd{background:var(--a);color:#fff}.game output{display:block;margin-top:8px;font:400 18px/1 var(--mono);color:var(--gold);min-height:18px}
-/* quote */
-.quote{padding:40px 0 100px}.qgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
-.tile{padding:16px;border-radius:12px;border:1px solid var(--line);background:linear-gradient(180deg,#1d0a35,#12042a);box-shadow:0 0 0 1px rgba(0,0,0,.4) inset}.tile small{display:block;font:600 10px/1 var(--sub);letter-spacing:.16em;text-transform:uppercase;color:var(--a2)}.tile b{display:block;margin-top:12px;font:400 30px/1 var(--mono);color:var(--gold);overflow-wrap:anywhere}.tile span{display:block;margin-top:8px;font-size:12px;color:var(--muted)}
-.qnote{margin-top:16px;font-size:13px;color:var(--muted)}.qbtn{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
-/* slips */
-.buy{padding:40px 0 70px}.slips{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px;padding-top:20px}
-.slip{border-radius:14px;overflow:hidden;background:#fdf4e3;color:#2a1240;box-shadow:0 18px 40px rgba(0,0,0,.45);transform:rotate(var(--r,-3deg));transition:transform .3s}.slip:hover{transform:rotate(0) translateY(-6px)}
-.slip:nth-child(2){--r:2deg;--h1:#9a5bff;--h2:#6a2bd9}.slip:nth-child(3){--r:-1.5deg;--h1:#8fe3ff;--h2:#7a8cff}.slip:nth-child(4){--r:3deg;--h1:#5cffb0;--h2:#8fe3ff}
-.slip .sh{display:flex;justify-content:space-between;align-items:flex-end;padding:14px 16px 16px;background:linear-gradient(90deg,var(--h1,#ff7a59),var(--h2,#ff3d9a));color:#fff;border-bottom:3px dotted rgba(0,0,0,.25)}.slip .sh b{font:400 34px/1 var(--disp)}.slip .sh small{font:700 9px/1 var(--sub);letter-spacing:.18em;text-transform:uppercase}
-.slip .sb{padding:16px}.slip h3{font:400 19px/1.1 var(--disp);color:#6a1fd0;text-transform:uppercase}.slip p{margin-top:8px;font-size:14px;line-height:1.45}.slip .sc{display:inline-flex;align-items:center;gap:8px;margin-top:14px;padding:9px 13px;border-radius:9px;background:#2a1240;color:#fff;font:700 11px/1 var(--sub);letter-spacing:.1em;text-transform:uppercase}.slip .sc::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--a2)}.slip .btn{margin-top:14px;min-height:40px;font-size:12px;padding:0 14px}
-.pros{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.pros .tile b{font-size:28px}
-/* lobby */
-.lobby{padding:40px 0 110px}.lgrid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:18px}
-.lg{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#1d0a35;min-height:260px}.lg img{width:100%;height:100%;object-fit:cover;transition:transform .5s}.lg:hover img{transform:scale(1.04)}
-.lg em{position:absolute;left:12px;top:12px;padding:4px 8px;border-radius:5px;background:var(--a);color:#fff;font:700 10px/1 var(--sub);font-style:normal;letter-spacing:.14em}.lg em.g{background:#2a0a3f;color:var(--a2);border:1px solid var(--a2)}
-.lg.wide{aspect-ratio:16/9}.lg.med{display:grid;place-items:center;background:radial-gradient(circle,#2a0a3f,#0e0019)}.lg.med img.gchar{width:78%;height:auto;aspect-ratio:1;border-radius:50%;box-shadow:0 0 0 6px #ff3d9a,0 0 50px rgba(255,61,154,.6)}
-.lgrid .lg.half{aspect-ratio:4/3}.lrow{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:18px}
-/* footer */
-.ftr{position:relative;padding:120px 0 40px;overflow:hidden;text-align:center}.ftr .bg-slot{background-image:var(--bg3)}.ftr::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,var(--bg),rgba(14,0,25,.45) 40%,rgba(14,0,25,.92))}
-.ftr .kick{display:block}.ftr .big{position:relative;display:inline-block;margin-top:14px;font:400 clamp(56px,11vw,180px)/.86 var(--disp);background:linear-gradient(180deg,#fff3b0,var(--gold) 40%,var(--gold2) 80%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 5px 0 #5a1240);overflow-wrap:anywhere;max-width:100%}
-.ftr .sub{margin-top:8px}.fca{display:flex;justify-content:center;gap:10px;max-width:640px;margin:30px auto 0}.fca .ca-text{flex:1;min-width:0;padding:12px;border-radius:9px;background:#07000d;border:1px solid var(--line);font:400 19px/1 var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.fca button{padding:0 16px;border-radius:9px;background:var(--a2);color:var(--on);font:700 12px/1 var(--sub);letter-spacing:.1em}
-.fbtn{display:flex;justify-content:center;flex-wrap:wrap;gap:12px;margin-top:22px}
-.socials{display:flex;justify-content:center;gap:10px;margin-top:26px}.socials a{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;border:1px solid var(--line);background:#1d0a33}.socials a:hover{border-color:var(--a2);color:var(--a2)}
-.legal{max-width:760px;margin:30px auto 0;font-size:12px;color:var(--muted)}
-@media (max-width:1080px){.links,.clock{display:none}.hgrid,.pgrid,.term{grid-template-columns:minmax(0,1fr)}.pill{flex-wrap:wrap;max-width:100%}.tbl{border-right:0;border-bottom:1px solid var(--line);max-height:420px}.qgrid{grid-template-columns:repeat(3,minmax(0,1fr))}.slips,.pros{grid-template-columns:repeat(2,minmax(0,1fr))}.lgrid{grid-template-columns:1fr}}
-@media (max-width:620px){.wrap{width:calc(100% - 32px)}.hdr{padding:8px 12px;gap:8px}.brand b,.brand small{max-width:110px}.cachip,.sq{display:none}.hr .btn{padding:0 12px;min-height:38px;font-size:12px}.hr .btn .dexon{display:none}
- .hero{padding-top:120px}h1{font-size:clamp(48px,17vw,90px)}h1 .scr{right:0;top:-.35em}.tkt{padding-left:84px}.coin{width:200px}
- .scene{min-height:560px}.scene .no{right:16px;bottom:auto;top:40px}.scene .wrap{padding-bottom:50px}
- .tr{grid-template-columns:18px minmax(0,1fr) 64px 62px;gap:8px;padding:9px 10px}.tr canvas,.tr .mv{display:none}
- .qgrid,.pros,.slips{grid-template-columns:1fr}.lrow{grid-template-columns:1fr}.fca{flex-direction:column}.fca button{min-height:42px}.ghost{font-size:17vw}}
-@media (prefers-reduced-motion:reduce){.coin{animation:none!important;transform:rotateY(-18deg)}.clock i{animation:none}.scene{position:relative}.scene>img.gimg{transform:none!important}.slip,.slip:hover{transform:none}.lg img{transition:none}}
+.hero{min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:110px 0 70px;cursor:crosshair}
+.hero>.bg-slot{position:absolute;inset:0;background-image:var(--bg1);background-size:cover;background-position:center;z-index:0}
+.hero::after{content:"";position:absolute;inset:auto 0 0;height:180px;background:linear-gradient(transparent,var(--bg));z-index:1;pointer-events:none}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center}.hero-grid>*{min-width:0}
+.hero h1{font:400 clamp(70px,10.4vw,168px)/.86 var(--disp);letter-spacing:.005em;text-transform:uppercase;color:var(--ink);text-shadow:0 6px 0 rgba(0,0,0,.45);overflow-wrap:anywhere}
+.hero .tl{margin-top:26px;padding-left:16px;border-left:4px solid var(--a);font:400 clamp(17px,1.6vw,21px)/1.5 var(--type);color:var(--ink);max-width:30ch;opacity:.86}
+.ca{margin-top:28px;display:flex;align-items:center;gap:12px;max-width:460px;padding:12px 14px;border:1px solid var(--line);background:rgba(0,0,0,.5);font:400 13px var(--mono);color:var(--muted)}
+.ca i{width:4px;height:18px;background:var(--a);flex:none;animation:c63blink 1.1s steps(2) infinite}@keyframes c63blink{50%{opacity:0}}
+.ca .ca-text{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ca button{flex:none;border:1px solid var(--line);background:none;padding:3px 9px;font:400 10px var(--mono);letter-spacing:.14em;color:var(--muted);cursor:pointer}.ca button:hover{color:var(--ink);border-color:var(--a2)}
+.ctas{display:flex;flex-wrap:wrap;gap:16px;margin-top:28px}
+.stage{position:relative;aspect-ratio:1/1.04;display:grid;place-items:center}
+.stage::before{content:"";position:absolute;inset:6%;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--a) 60%,transparent),transparent 66%);filter:blur(8px)}
+.stage .gchar{position:relative;z-index:2;width:78%;aspect-ratio:1;border-radius:50%;object-fit:cover;box-shadow:0 30px 80px -20px #000,0 0 0 1px color-mix(in srgb,var(--a2) 40%,transparent);animation:c63bob 6s ease-in-out infinite}
+@keyframes c63bob{50%{transform:translateY(-12px)}}
+.stamp{position:absolute;z-index:3;font:400 clamp(20px,2vw,28px)/1 var(--stamp);letter-spacing:.14em;color:var(--a);border:3px solid var(--a);padding:8px 14px;transform:rotate(-12deg);mix-blend-mode:screen;opacity:.9}
+.stage .stamp{right:2%;bottom:12%}.stage .badge{position:absolute;z-index:3;left:0;top:10%;font:400 11px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);background:rgba(0,0,0,.6);border:1px solid var(--line);padding:8px 12px;line-height:1.5}.badge b{display:block;color:var(--a2);font:400 20px var(--disp);letter-spacing:.08em}
+/* ticker */
+.tick{position:relative;z-index:3;overflow:hidden;border-block:2px solid var(--a);background:#050404;padding:9px 0}
+.tick .mq-track{display:flex;width:max-content;gap:0;animation:c63mq 38s linear infinite;font:400 13px var(--cond);letter-spacing:.24em;text-transform:uppercase;color:var(--ink);white-space:nowrap}
+.tick span{padding:0 18px}.tick span::before{content:"★";color:var(--a);margin-right:18px}
+@keyframes c63mq{to{transform:translateX(-50%)}}
+/* origin */
+.origin{padding:130px 0 120px;overflow:hidden}
+.seal{position:absolute;top:60px;right:max(20px,calc((100vw - 1180px)/2 - 40px));width:150px;height:150px;z-index:1;opacity:.55;animation:c63spin 30s linear infinite}
+.seal text{font:400 11px var(--cond);letter-spacing:.28em;fill:var(--a)}@keyframes c63spin{to{transform:rotate(360deg)}}
+.og{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center;margin-top:56px}.og>*{min-width:0}
+.og figure{position:relative}.og figure::before{content:"";position:absolute;inset:8% 4% -4%;background:radial-gradient(circle at 50% 60%,color-mix(in srgb,var(--a) 50%,transparent),transparent 65%)}
+.og .gchar{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;clip-path:polygon(0 0,100% 0,100% 92%,88% 100%,0 100%)}
+.og .doc{font:400 12px var(--mono);letter-spacing:.26em;color:var(--a2);text-transform:uppercase}
+.og p.t{font:400 clamp(16px,1.3vw,18px)/1.75 var(--type);color:var(--ink);opacity:.86;margin-top:20px;max-width:56ch}
+.og blockquote{margin:26px 0 0;padding-left:20px;border-left:3px solid var(--a2);font:italic 400 clamp(18px,1.6vw,22px)/1.5 var(--mono);color:var(--a2);max-width:46ch}
+.redact{margin-top:28px;font:400 11px var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px;align-items:center}.redact i{display:inline-block;height:12px;background:#000;box-shadow:0 0 0 1px rgba(242,228,196,.06)}
+.div{position:relative;z-index:2;text-align:center;padding:26px 0;font:500 13px var(--cond);letter-spacing:.4em;text-transform:uppercase;color:var(--muted);border-block:1px solid var(--line)}.div b{color:var(--a)}
+/* briefings: sticky horizontal film strip */
+.brief{position:relative}.brief .pin{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:center;overflow:hidden;padding-top:60px}
+.brief-h{text-align:center;margin-bottom:46px}.brief-h h2{display:inline-block}
+.track{display:flex;gap:28px;padding:0 max(32px,calc((100vw - 1180px)/2));width:max-content;will-change:transform}
+.file{position:relative;flex:none;width:min(430px,78vw);background:#0d0b0a;border:1px solid var(--line);padding:16px 16px 22px}
+.file .fr{position:relative;aspect-ratio:4/3;overflow:hidden}.file .fr::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,color-mix(in srgb,var(--a) 22%,transparent),rgba(0,0,0,.35));mix-blend-mode:multiply;pointer-events:none}
+.file .gimg{width:100%;height:100%;transition:transform .6s var(--ease)}.file:hover .gimg{transform:scale(1.05)}
+.br{position:absolute;width:18px;height:18px;border-color:var(--ink);border-style:solid;opacity:.6;z-index:2}.br.a{top:8px;left:8px;border-width:2px 0 0 2px}.br.b{top:8px;right:8px;border-width:2px 2px 0 0}.br.c{bottom:8px;left:8px;border-width:0 0 2px 2px}.br.d{bottom:8px;right:8px;border-width:0 2px 2px 0}
+.file .meta{display:flex;justify-content:space-between;align-items:baseline;margin-top:18px}.file h3{font:500 21px var(--cond);letter-spacing:.14em;text-transform:uppercase;color:var(--a2)}.file .no{font:400 11px var(--mono);color:var(--muted)}
+.file p{font:400 14.5px/1.6 var(--type);color:var(--ink);opacity:.78;margin-top:8px}
+.file .ok{display:inline-block;margin-top:16px;font:400 13px var(--stamp);letter-spacing:.18em;color:var(--a);border:2px solid var(--a);padding:3px 10px;transform:rotate(-8deg)}
+.prog{margin:40px auto 0;width:min(420px,70vw);height:2px;background:var(--line);position:relative}.prog i{position:absolute;inset:0 auto 0 0;width:var(--p,0%);background:var(--a)}
+/* propaganda posters */
+.prop{padding:130px 0 120px;overflow:hidden}.prop>.wrap{z-index:3}
+.posters{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:60px}
+.post{background:#0d0b0a;border:1px solid var(--line);box-shadow:0 30px 60px -30px #000}
+.post .art{position:relative;aspect-ratio:3/4;overflow:hidden;border:8px solid color-mix(in srgb,var(--ink) 82%,var(--a))}
+.post .art .gimg,.post .art .bg-slot{position:absolute;inset:0;width:100%;height:100%}
+.post .art .bg-slot{background-image:var(--bg2);background-size:cover;background-position:center}
+.post .art .gchar{position:absolute;left:50%;bottom:0;width:72%;aspect-ratio:1;transform:translateX(-50%);border-radius:50% 50% 0 0;object-fit:cover}
+.post .hl{position:absolute;left:0;right:0;z-index:2;padding:10px 12px;text-align:center;font:400 clamp(20px,2.2vw,30px)/1 var(--stamp);letter-spacing:.04em;color:var(--a2);text-transform:uppercase;background:linear-gradient(color-mix(in srgb,var(--a) 92%,#000),color-mix(in srgb,var(--a) 70%,#000))}
+.post .hl.t{top:0}.post .hl.b{bottom:0;background:color-mix(in srgb,var(--a3) 90%,#000);color:var(--ink);font-size:clamp(15px,1.4vw,19px);letter-spacing:.12em}
+.post .cap{padding:20px 22px 24px;font:italic 400 14.5px/1.6 var(--mono);color:var(--ink);opacity:.82}.post .cap small{display:flex;justify-content:space-between;font:normal 400 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:10px;opacity:1}
+/* plan ledger */
+.plan{padding:120px 0}.ledger{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:56px;border:1px solid var(--line)}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:26px 28px;border-bottom:1px dashed var(--line)}.row:nth-child(odd){border-right:1px dashed var(--line)}
+.row small{font:400 11px var(--mono);letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}.row b{font:400 clamp(32px,3.4vw,52px)/1 var(--disp);letter-spacing:.03em;color:var(--ink);text-align:right;overflow-wrap:anywhere}.row b.g{color:var(--a2)}
+.ledger .big{grid-column:1/-1;border-right:0;padding:30px 28px;background:linear-gradient(90deg,color-mix(in srgb,var(--a) 22%,transparent),transparent)}
+.ledger .big b{font-size:clamp(44px,6vw,92px);color:var(--a2)}
+/* orders */
+.orders{padding:30px 0 130px}.ord{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:50px}
+.o{position:relative;padding:28px 24px 30px;border-top:3px solid var(--a);background:linear-gradient(180deg,rgba(242,228,196,.035),transparent)}
+.o .n{font:400 56px/1 var(--disp);color:transparent;-webkit-text-stroke:1.5px var(--a2)}.o h3{margin-top:14px;font:500 18px var(--cond);letter-spacing:.14em;text-transform:uppercase}.o p{margin-top:10px;font:400 14px/1.6 var(--type);color:var(--muted)}
+.o a,.o button{margin-top:14px;display:inline-block;background:none;border:0;padding:0;font:400 12px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--a2);cursor:pointer}
+/* final transmission */
+.final{padding:150px 0 140px;text-align:center;overflow:hidden}.final>.bg-slot{position:absolute;inset:0;background-image:var(--bg3);background-size:cover;background-position:center bottom;z-index:0;opacity:.85}
+.final::before{content:"";position:absolute;inset:0;background:linear-gradient(var(--bg),transparent 30%,transparent 60%,var(--bg));z-index:1}
+.final .bar{font:500 13px var(--cond);letter-spacing:.4em;color:var(--a);text-transform:uppercase}
+.final h2{margin-top:26px}.final p{max-width:58ch;margin:22px auto 0;font:400 17px/1.7 var(--type);color:var(--ink);opacity:.85}.final .gold{color:var(--a2);font-style:italic;font-family:var(--mono)}
+.final .ctas{justify-content:center}.final .chief{width:120px;height:120px;border-radius:50%;margin:0 auto 30px;object-fit:cover;border:3px solid var(--a);box-shadow:0 0 0 8px rgba(0,0,0,.4),0 0 60px var(--glow)}
+.foot{border-top:1px solid color-mix(in srgb,var(--a) 30%,transparent);padding:40px 0 34px;background:#070606;position:relative;z-index:2}
+.foot .fr{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px}.socials{display:flex;gap:10px}.socials a{width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line)}.socials a:hover{border-color:var(--a2);color:var(--a2)}
+.legal{margin-top:24px;font:400 12px/1.7 var(--mono);color:var(--muted);max-width:90ch}.bot{margin-top:18px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font:400 11px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.ca-mini{font:400 12px var(--mono);color:var(--muted);max-width:100%;overflow-wrap:anywhere}.ca-mini button{background:none;border:1px solid var(--line);color:var(--muted);cursor:pointer;padding:2px 8px}
+@media (max-width:980px){.links{display:none}.hero-grid,.og{grid-template-columns:1fr}.stage{max-width:520px;margin:0 auto;width:100%}.posters{grid-template-columns:1fr 1fr}.posters .post:last-child{grid-column:1/-1}.ord{grid-template-columns:1fr 1fr}}
+@media (max-width:820px){.brief .pin{position:static;height:auto;padding:110px 0 90px}.track{width:auto;flex-direction:column;padding:0 20px;transform:none!important}.file{width:auto}.brief{height:auto!important}.prog{display:none}}
+@media (max-width:620px){.wrap{width:calc(100% - 36px)}.nav{height:62px;padding:0 16px}.brand span{font-size:22px;max-width:120px}.nav .box{min-height:44px;padding:8px 12px}.nav .box small{display:none}.hero{padding-top:96px}.posters,.ord,.ledger{grid-template-columns:1fr}.row:nth-child(odd){border-right:0}.seal{width:96px;height:96px;top:24px;right:10px}.stage .badge{display:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.brief .pin{position:static;height:auto;padding:110px 0 90px}.track{width:auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));padding:0 max(20px,calc((100vw - 1180px)/2));transform:none!important}.file{width:auto}.brief{height:auto!important}.prog{display:none}}
 
 </style>
 <link rel="canonical" href="https://mstrmemesol.site/">
 <meta property="og:url" content="https://mstrmemesol.site/">
 </head>
-<body class="a-c74-vice-exchange" id="top" data-mx-gl="candles@full; #board|candles:wall@full; .ftr|candles@full" data-mx-gl-tone="dark" data-mx-3d="cards mascot rise">
-<div class="tape" aria-hidden="true"><span class="feed">LIVE FEED</span><div class="mq"><div class="mq-track"><span><b>$MSTR</b> <span class="up">▲ ON Solana</span></span><span>PALM 41.22 <span class="up">▲ +7.49%</span></span><span>NEON 119.96 <span class="dn">▼ -0.37%</span></span><span>SURF 86.04 <span class="up">▲ +10.25%</span></span><span>DISC 25.96 <span class="up">▲ +11.31%</span></span><span>GATR 12.02 <span class="up">▲ +11.01%</span></span><span>SUNS 60.58 <span class="dn">▼ -7.63%</span></span><span>TAPE 11.41 <span class="dn">▼ -24.03%</span></span><span>HURR 181.39 <span class="dn">▼ -4.74%</span></span><span>BOAT 165.41 <span class="up">▲ +0.78%</span></span></div></div></div>
-<header class="hdr" data-nav><a class="brand" href="#top"><img src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve logo"><span><b>$MSTR</b><small>Meme Stock Treasury Reserve</small></span></a>
-<nav class="links"><a href="#floor">Floor</a><a href="#board">Board</a><a href="#phone">Phone</a><a href="#lobby">Lobby</a><a href="#buy">Buy</a></nav>
-<div class="hr"><span class="clock"><i></i><span data-clk>09:30:00</span> <em>· bell open</em></span><button class="cachip" type="button" data-copy aria-label="Copy contract address">CA <span data-ca-short>TBA</span></button><a class="sq" href="" aria-label="X"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a class="btn" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a></div></header>
-<main>
-<section class="hero"><div class="bg-slot" data-bg="1" aria-hidden="true"></div><div class="wrap hgrid">
-<div class="rv-l"><p class="pill"><i></i>Solana · Pump.fun · <b>$MSTR never sleeps</b></p>
-<h1 class="rv"><span class="nm">Meme Stock Treasury Reserve</span><span class="scr" aria-hidden="true">Neon City</span></h1>
-<p class="sub">$MSTR Stock Exchange</p>
-<p class="lead">The most memeable Meme Stock Treasury Reserve on Solana. The meme treasury is loading. Ring the bell, ride the candles, and buy the only ticker on the board that's real: <b class="up">$MSTR</b>.</p>
-<div class="ctas"><a class="btn tkt" href="https://pump.fun/" data-buy data-magnetic><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a><a class="chip" href="https://dexscreener.com/solana"><i></i>Chart</a><a class="chip" href=""><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> Official</a></div>
-<div class="cabox"><div class="cah"><span>Official CA</span><em>verified on this page</em></div><div class="car"><span class="ca-text">TBA</span><button type="button" data-copy aria-label="Copy contract address">Copy</button></div><small>Only the address shown here is official. We will never DM you.</small></div></div>
-<div class="coinwrap rv-r"><div class="coin" data-coin><div class="face front"><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve coin"></div><div class="face back"><b>$MSTR</b><small>In memes we trust</small></div></div><p class="spin">↻ drag to spin</p>
-<div class="comp"><span>$MSTR composite</span><b data-comp>991.11</b><em class="up" data-compc>+2.50%</em></div></div></div>
-<p class="cue">Scroll to ring the bell</p></section>
-<section class="rails" aria-hidden="true"><div class="mq"><div class="mq-track"><span>PALM 41.22 <span class="up">▲ +7.49%</span></span><span>NEON 119.96 <span class="dn">▼ -0.37%</span></span><span><b>$MSTR</b> <span class="up">▲ TO THE MOON</span></span><span>SURF 86.04 <span class="up">▲ +10.25%</span></span><span>DISC 25.96 <span class="up">▲ +11.31%</span></span><span>SUNS 60.58 <span class="dn">▼ -7.63%</span></span><span>TAPE 11.41 <span class="dn">▼ -24.03%</span></span><span>MULL 30.76 <span class="dn">▼ -14.85%</span></span></div></div>
-<div class="mq rev"><div class="mq-track"><span>BOAT 165.41 <span class="up">▲ +0.78%</span></span><span>SYNT 45.46 <span class="dn">▼ -7.73%</span></span><span><b>$MSTR</b> <span class="up">▲ BELL OPEN</span></span><span>HURR 181.39 <span class="dn">▼ -4.74%</span></span><span>GATR 12.02 <span class="up">▲ +11.01%</span></span><span>PADS 29.43 <span class="up">▲ +2.66%</span></span><span>ARCD 61.76 <span class="dn">▼ -16.24%</span></span><span>FRSH 36.25 <span class="dn">▼ -1.34%</span></span></div></div></section>
-<div id="floor" class="floor">
-<section class="scene"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve opening bell" loading="lazy"><div class="wrap"><span class="bell">09:30:00 <b>OPENING BELL</b></span><h2>Ding. Ding. Ding.</h2><p class="d">Solana opens. The bell wakes the floor, the board lights up and $MSTR is first on the tape.</p></div><span class="no" aria-hidden="true">01</span></section>
-<section class="scene"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve bulls on the boulevard" loading="lazy"><div class="wrap"><span class="bell">12:00:00 <b>MIDDAY RUSH</b></span><h2>Bulls on the boulevard.</h2><p class="d">A chrome bull takes the green candles for a drive. The bears hold the chairs down.</p></div><span class="no" aria-hidden="true">02</span></section>
-<section class="scene"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve crash or moon" loading="lazy"><div class="wrap"><span class="bell">15:59:59 <b>CLOSING BELL</b></span><h2>Crash or moon?</h2><p class="d">Red boards on one side, a candle rocket on the other. $MSTR picks the moon.</p></div><span class="no" aria-hidden="true">03</span></section>
-</div>
-<section id="board" class="board"><div class="bg-slot" data-bg="2" aria-hidden="true"></div><div class="wrap">
-<div class="shead rv"><span class="ghost" aria-hidden="true">BIG BOARD</span><p class="kick">// F3 · F4 · F6 — parody market, simulated ticks</p><h2 class="h2">The Big Board</h2><p class="d">Made-up neon companies next to the one real ticker. Every other price here is simulated in your browser; only $MSTR trades on Solana.</p></div>
-<div class="term rv mx-card" data-term><div class="tbl" data-rows><div class="tr hd"><span>★</span><span>Company</span><span>Trend</span><span style="text-align:right">Price</span><span style="text-align:right">Move</span><span style="text-align:right">% Chg</span></div></div>
-<div class="det"><div class="dh"><div><b data-dt>$MSTR</b><small data-dn>Meme Stock Treasury Reserve · the real one</small></div><div class="pp"><span data-dp>1.000</span><em class="up" data-dc>+0.00%</em></div></div>
-<div class="tabs" data-tabs><button type="button" class="on">1D</button><button type="button">1W</button><button type="button">1M</button></div>
-<div class="cv"><canvas data-chart aria-hidden="true"></canvas><small data-dl>$MSTR · 1D · simulated board view</small></div>
-<p data-dd>The most memeable Meme Stock Treasury Reserve on Solana. The only ticker on this board you can actually buy.</p>
-<div class="ctas"><a class="btn" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a><a class="chip" href="https://dexscreener.com/solana"><i></i>Live chart</a></div></div>
-<div class="wire"><b>WIRE</b><span data-wire>$MSTR rings the opening bell on Solana. Floor traders cheer.</span><em class="up" style="font:400 20px/1 var(--mono);font-style:normal">$MSTR ▲</em></div></div></div></section>
-<section id="phone" class="phonesec"><div class="wrap pgrid"><div class="rv-l"><p class="kick">// F12 · F13 — the exchange in your pocket</p><h2 class="h2" style="margin-top:12px">Pocket Phone</h2><p style="margin-top:16px;max-width:520px;color:var(--muted)">Every hustler on the boulevard keeps the exchange one thumb away. Tap the apps: the board, the chart, the wire, and Pump or Dump — call the next candle before the timer runs out.</p>
-<ul class="ticks"><li>The board in one tap</li><li>Live $MSTR chart on Pump.fun</li><li>Call the next candle for bragging rights</li></ul></div>
-<div class="phone rv-r mx-card"><div class="scr2"><div class="wall"><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve on the phone" loading="lazy"><b>$MSTR</b></div>
-<div class="apps"><a href="#board"><i style="background:linear-gradient(135deg,#ff6fb5,#ff3d9a)">▤</i>Board</a><a href="https://dexscreener.com/solana"><i style="background:linear-gradient(135deg,#5cffb0,#1fae74)">↗</i>Chart</a><a href=""><i style="background:linear-gradient(135deg,#8fe3ff,#4f6dff)">✉</i>Wire</a><a href=""><i style="background:linear-gradient(135deg,#ffc93d,#ff8a2a)">☎</i>Floor</a></div>
-<div class="game" data-game><p>Pump or dump? Call the next candle</p><div class="gr"><button type="button" class="gu" data-call="1">▲ Pump</button><button type="button" class="gd" data-call="0">▼ Dump</button></div><output data-out>Streak 0</output></div></div></div></div></section>
-<section id="quote" class="quote"><div class="wrap"><div class="shead rv"><span class="ghost" aria-hidden="true">REAL ONE</span><p class="kick">// F9 — the only real ticker on this site</p><h2 class="h2">$MSTR Live Quote</h2></div>
-<div class="qgrid rv-stagger" data-dexs-live data-chain="solana"><div class="tile mx-card"><small>Price</small><b data-price>—</b><span>USD</span></div><div class="tile mx-card"><small>Change 24h</small><b data-chg>—</b><span>since yesterday's bell</span></div><div class="tile mx-card"><small>Volume 24h</small><b data-vol>—</b><span>traded on the floor</span></div><div class="tile mx-card"><small>Liquidity</small><b data-liq>—</b><span>Burned</span></div><div class="tile mx-card"><small>Market cap</small><b data-mcap>—</b><span>1,000,000,000 supply</span></div></div>
-<p class="qnote">Source: Dexscreener, fetched live in your browser. Shows dashes until the pair is indexed.</p><div class="qbtn"><a class="btn" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a><a class="chip" href="https://dexscreener.com/solana"><i></i>Open chart</a></div></div></section>
-<section id="buy" class="buy"><div class="wrap"><div class="shead rv"><span class="ghost" aria-hidden="true">ORDER</span><p class="kick">// F8 — four slips to the floor</p><h2 class="h2">How to buy $MSTR</h2></div>
-<div class="slips rv-stagger"><div class="slip mx-card"><div class="sh"><b>01</b><small>Order slip</small></div><div class="sb"><h3>Get a wallet</h3><p>Install Phantom. Write the seed phrase on paper — never type it into a website.</p><span class="sc">Phantom</span></div></div>
-<div class="slip mx-card"><div class="sh"><b>02</b><small>Order slip</small></div><div class="sb"><h3>Load SOL</h3><p>Buy SOL on an exchange or in your wallet and send it to your Solana address.</p><a class="sc" href="https://dexscreener.com/solana">About SOL</a></div></div>
-<div class="slip mx-card"><div class="sh"><b>03</b><small>Order slip</small></div><div class="sb"><h3>Open Pump.fun</h3><p>$MSTR trades on Pump.fun. Use only the CA posted here — copycat tokens exist.</p><a class="sc" href="https://dexscreener.com/solana">Pump.fun</a></div></div>
-<div class="slip mx-card"><div class="sh"><b>04</b><small>Order slip</small></div><div class="sb"><h3>Paste the CA, swap</h3><p>Paste the official CA, set your amount, confirm. Welcome to the floor.</p><a class="btn" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a></div></div></div>
-<div class="shead rv" style="padding-top:90px"><span class="ghost" aria-hidden="true">PROSPECTUS</span><p class="kick">// F16 — the numbers on the slip</p><h2 class="h2">The Prospectus</h2></div>
-<div class="pros rv-stagger"><div class="tile mx-card"><small>Supply</small><b>1,000,000,000</b><span>all of it, on chain</span></div><div class="tile mx-card"><small>Buy / sell tax</small><b>0/0</b><span>no hidden fees</span></div><div class="tile mx-card"><small>Liquidity</small><b>Burned</b><span>the floor holds</span></div><div class="tile mx-card"><small>Chain</small><b>Solana</b><span>CA <span data-ca-short style="display:inline;margin:0">TBA</span></span></div></div></div></section>
-<section id="lobby" class="lobby"><div class="wrap"><div class="shead rv"><span class="ghost" aria-hidden="true">LOBBY ART</span><p class="kick">// official uploads + floor posters</p><h2 class="h2">Exchange Lobby</h2></div>
-<div class="lgrid rv-stagger"><figure class="lg wide mx-card"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve lobby poster 1" loading="lazy"><em>OFFICIAL</em></figure><figure class="lg med mx-card"><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve medallion" loading="lazy"><em>OFFICIAL</em></figure>
-<div class="lrow"><figure class="lg half mx-card"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve lobby poster 2" loading="lazy"><em class="g">FLOOR</em></figure><figure class="lg half mx-card"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve lobby poster 3" loading="lazy"><em class="g">FLOOR</em></figure></div></div></div></section>
-</main>
-<div class="xlinks" data-xlinks></div>
-<footer class="ftr"><div class="bg-slot" data-bg="3" aria-hidden="true"></div><div class="wrap"><span class="kick">// 16:00:00 — closing bell</span><b class="big">Meme Stock Treasury Reserve</b><p class="sub">$MSTR Stock Exchange</p>
-<div class="fca"><span class="ca-text">TBA</span><button type="button" data-copy aria-label="Copy contract address">Copy CA</button></div>
-<div class="fbtn"><a class="btn" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <span class="dexon">on Pump.fun</span></a><a class="chip" href="https://dexscreener.com/solana"><i></i>Chart</a><a class="chip" href=""><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> Official</a></div>
-<div class="socials"><a data-s href="" aria-label="X / Twitter"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a data-s href="" aria-label="Telegram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></a><a data-s href="https://dexscreener.com/solana" aria-label="Dexscreener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2v16h16v2H3zm4 11l4-4 3 3 5-6 1.5 1.3L14 16l-3-3-2.6 2.6z"/></svg></a></div><p class="legal"><b>Meme Stock Treasury Reserve ($MSTR)</b> is a community meme coin on Solana with no intrinsic value or expectation of financial return. Every other ticker on this page is fictional and simulated. Not financial advice. © <span data-year></span></p></div></footer>
+<body class="a-c63-red-directive" id="top" data-mx-gl="sunburst@right; #propaganda|sunburst:stars@full" data-mx-gl-tone="dark" data-mx-3d="cards rise">
+<header class="nav"><a class="brand" href="#top"><img src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve logo"><span>Meme Stock Treasury Reserve</span></a><nav class="links"><a href="#plan">The plan</a><a href="#briefings">Briefings</a><a href="#propaganda">Propaganda</a></nav><a class="btn box" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy <small>$MSTR</small> <span class="dexon">on Pump.fun</span></a></header><main>
+<section class="hero"><div class="bg-slot" data-bg="1" aria-hidden="true"></div><div class="wrap hero-grid"><div class="rv"><p class="kick">★ Directive no. 0001 / Solana / eyes only</p><h1>Meme Stock Treasury Reserve</h1><p class="tl">The most memeable Meme Stock Treasury Reserve on Solana. The plan is perfect.</p>
+<div class="ca"><i aria-hidden="true"></i><span class="ca-text">TBA</span><button type="button" data-copy aria-label="Copy contract address">Copy</button></div>
+<div class="ctas"><a class="btn box" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy on Pump.fun <small>$MSTR</small></a><a class="ghost" href="#plan">Read the plan</a></div></div>
+<div class="stage" data-c63-stage><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve mascot, the agent"><span class="stamp" aria-hidden="true">Classified</span><span class="badge" aria-hidden="true">Agent file<b>$MSTR</b>clearance: top secret</span></div></div></section>
+<div class="tick" aria-hidden="true"><div class="mq-track"><span>Directive no. 0001</span><span>Approved by the central committee of memes</span><span>Intercept received</span><span>Clearance: top secret</span><span>$MSTR on Solana</span><span>The plan is working</span><span>Eyes only</span><span>All fudders reported</span><span>Five-year plan on schedule</span><span>Directive no. 0001</span><span>Approved by the central committee of memes</span><span>Intercept received</span><span>Clearance: top secret</span><span>$MSTR on Solana</span><span>The plan is working</span><span>Eyes only</span><span>All fudders reported</span><span>Five-year plan on schedule</span></div></div>
+<section id="plan" class="origin paper"><svg class="seal" viewBox="0 0 160 160" aria-hidden="true"><defs><path id="c63c" d="M80,80 m-62,0 a62,62 0 1,1 124,0 a62,62 0 1,1 -124,0"/></defs><circle cx="80" cy="80" r="74" fill="none" stroke="currentColor" style="color:var(--a)" stroke-width="2"/><circle cx="80" cy="80" r="48" fill="none" stroke="currentColor" style="color:var(--a)" stroke-width="1"/><text><textPath href="#c63c">APPROVED ★ CENTRAL COMMITTEE OF MEME AFFAIRS ★</textPath></text><text x="80" y="88" text-anchor="middle" style="font-size:22px;letter-spacing:.1em">★</text></svg>
+<div class="wrap"><p class="kick rv">★ Document no. 0001 / declassified</p><h2 class="ul rv">The origin</h2>
+<div class="og"><figure class="rv-l"><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve mascot holding the plan" loading="lazy"></figure><div class="rv-r"><p class="doc">Subject: $MSTR / sector: Solana</p><p class="t">The meme treasury is loading.</p><p class="t">Every time the chart dips, the committee calls an emergency meeting, reads the plan out loud and decides — unanimously — that everything is going exactly according to plan.</p>
+<blockquote>"the plan is perfect. the execution? comrade, do not ask questions."</blockquote><p class="t">A living cultural experiment in meme discipline. Shared memes. Shared bags. One ticker for the people.</p>
+<p class="redact">/ asset disposition: <i style="width:150px"></i> / handler: <i style="width:70px"></i> /</p></div></div></div></section>
+<div class="div paper" aria-hidden="true">· — · <b>★</b> Policy briefings <b>★</b> · — ·</div>
+<section id="briefings" class="brief" data-c63-brief><div class="pin"><div class="wrap brief-h rv"><h2>Policy briefings</h2><p class="sub" style="margin-inline:auto">the people's guide to why everything is going according to plan</p></div>
+<div class="track" data-c63-track>
+<article class="file mx-card"><div class="fr"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve meme 1" loading="lazy"><i class="br a"></i><i class="br b"></i><i class="br c"></i><i class="br d"></i></div><div class="meta"><h3>Central committee</h3><span class="no">No. 001</span></div><p>war room. the stamp says APPROVED. the map says $MSTR. everything is going according to plan.</p><span class="ok">Approved</span></article>
+<article class="file mx-card"><div class="fr"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve meme 2" loading="lazy"><i class="br a"></i><i class="br b"></i><i class="br c"></i><i class="br d"></i></div><div class="meta"><h3>Seize the memes</h3><span class="no">No. 002</span></div><p>every meme belongs to the people now. post it twice. the committee is watching the timeline.</p><span class="ok">Approved</span></article>
+<article class="file mx-card"><div class="fr"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve meme 3" loading="lazy"><i class="br a"></i><i class="br b"></i><i class="br c"></i><i class="br d"></i></div><div class="meta"><h3>Fud re-education</h3><span class="no">No. 003</span></div><p>fudders say "rug", "scam", "going to zero". they are sent to the meme camp. silence achieved.</p><span class="ok">Approved</span></article>
+<article class="file mx-card"><div class="fr"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve meme 4" loading="lazy"><i class="br a"></i><i class="br b"></i><i class="br c"></i><i class="br d"></i></div><div class="meta"><h3>Equality upgrade</h3><span class="no">No. 004</span></div><p>everyone gets the same bag, the same chart and the same group chat. red candles are distributed equally.</p><span class="ok">Approved</span></article>
+</div><div class="prog" aria-hidden="true"><i data-c63-prog></i></div></div></section>
+<div class="div paper" aria-hidden="true">· — · <b>★</b> Intercept feed <b>★</b> · — ·</div>
+<section id="propaganda" class="prop"><div class="wrap"><div class="rv"><h2 class="ul">State propaganda</h2><p class="sub">the top transmissions from the $MSTR ministry of memes. ranked by the people.</p></div>
+<div class="posters rv-stagger">
+<figure class="post"><div class="art"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve propaganda poster 1" loading="lazy"><span class="hl t">Hold the line</span><span class="hl b">The bag belongs to the people</span></div><figcaption class="cap"><small><span>File no. 001</span><span>ministry of memes</span></small>"selling is a capitalist illusion. under the plan, $MSTR is held by everyone, forever, equally."</figcaption></figure>
+<figure class="post"><div class="art"><img class="gimg" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve propaganda poster 2" loading="lazy"><span class="hl t">Report for duty</span><span class="hl b">Post memes. Daily. Mandatory.</span></div><figcaption class="cap"><small><span>File no. 002</span><span>ministry of memes</span></small>"the timeline will be full of $MSTR. this is not a request. it is a five-year plan."</figcaption></figure>
+<figure class="post"><div class="art"><div class="bg-slot" data-bg="2" aria-hidden="true"></div><img class="gchar" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve mascot on the poster" loading="lazy"><span class="hl t">For the people</span><span class="hl b">One chain. One coin. One plan.</span></div><figcaption class="cap"><small><span>File no. 003</span><span>ministry of memes</span></small>"comrades of Solana, unite. we have nothing to lose but our paper hands."</figcaption></figure>
+</div></div></section>
+<section class="plan paper"><div class="wrap"><p class="kick rv">★ Form 88-b / state economics</p><h2 class="ul rv">The five-year plan</h2><p class="sub rv">Simple numbers, approved in advance by the committee.</p>
+<div class="ledger rv"><div class="row big"><small>Total supply</small><b>1,000,000,000</b></div><div class="row"><small>Tax</small><b class="g">0/0</b></div><div class="row"><small>Liquidity</small><b>Burned</b></div><div class="row"><small>Sector</small><b>Solana</b></div><div class="row"><small>Comrades equal</small><b class="g"><span data-count="100" data-suf="%">0%</span></b></div></div></div></section>
+<section class="orders paper"><div class="wrap"><p class="kick rv">★ Orders for new comrades</p><h2 class="ul rv">How to join the plan</h2>
+<div class="ord rv-stagger"><div class="o mx-card"><div class="n">01</div><h3>Get a wallet</h3><p>Install Phantom. Guard the seed phrase like state secrets.</p></div><div class="o mx-card"><div class="n">02</div><h3>Load SOL</h3><p>Buy SOL and send it to your wallet. Keep a little for fees.</p></div><div class="o mx-card"><div class="n">03</div><h3>Verify the CA</h3><p>Only the contract on this page is official. Everything else is enemy propaganda.</p><button type="button" data-copy>Copy CA ⧉</button></div><div class="o mx-card"><div class="n">04</div><h3>Swap on Pump.fun</h3><p>Swap SOL for $MSTR. Report to the group chat for duty.</p><a href="https://pump.fun/" data-buy>Buy $MSTR ↗</a></div></div></div></section>
+<section class="final"><div class="bg-slot" data-bg="3" aria-hidden="true"></div><div class="wrap rv"><img class="chief" src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve official seal"><p class="bar">━━━ Final transmission ━━━</p><h2>The people are<br>still holding</h2><p>the plan was followed exactly. memes for everyone. one ticker. one chain. everyone equal. and yet the committee keeps asking for more.</p><p class="gold">maybe the plan needs one more $MSTR.</p>
+<div class="ctas"><a class="redbtn" href="https://x.com/mstrmemesol"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> Watch all transmissions</a><a class="btn box" href="https://pump.fun/" data-buy><img class="dexic" src="assets/dex.png?v=111fa3a9" alt="Pump.fun"> Buy $MSTR <small>on Pump.fun</small></a></div></div></section></main>
+<div class="xlinks" data-xlinks><a href="https://x.com/mstrmemesol" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg><span>X</span></a></div>
+<footer class="foot"><div class="wrap"><div class="fr"><a class="brand" href="#top"><img src="assets/logo.png?v=ec0ed581" alt="Meme Stock Treasury Reserve logo"><span>Meme Stock Treasury Reserve</span></a><div class="socials"><a data-s href="https://x.com/mstrmemesol" aria-label="X / Twitter"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a><a data-s href="" aria-label="Telegram"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></a><a data-s href="https://dexscreener.com/solana" aria-label="Dexscreener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2v16h16v2H3zm4 11l4-4 3 3 5-6 1.5 1.3L14 16l-3-3-2.6 2.6z"/></svg></a></div><div class="ca-mini">CA: <span class="ca-text" style="display:inline;white-space:normal">TBA</span> <button type="button" data-copy aria-label="Copy contract address">⧉</button></div></div>
+<p class="legal">Pure satire. $MSTR is a community meme coin on Solana with no intrinsic value or expectation of financial return. Nothing here is financial advice. Do not invest what you cannot afford to lose.</p><div class="bot"><span>© <span data-year></span> Meme Stock Treasury Reserve / ministry of memes</span><a href="#top">Back to the top ↑</a><span>The plan is perfect.</span></div></div></footer>
 <div id="toast" role="status" aria-live="polite"></div>
 <script>
 (function(){
@@ -2199,38 +2161,14 @@ setTimeout(function(){
 
 </script>
 <script>
-/* c74: bell clock, drag-to-spin coin, scene push-back, simulated Big Board + candle chart, pump-or-dump game. Floor via shared `candles` mode. */
-(function(){var D=document,RM=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches||D.documentElement.classList.contains('reduced-motion');
-var TK=(D.querySelector('.brand b')||{}).textContent||'$COIN',NM=(D.querySelector('.brand small')||{}).textContent||'';
-var clk=D.querySelector('[data-clk]');function tick(){if(!clk)return;var d=new Date();clk.textContent=[d.getHours(),d.getMinutes(),d.getSeconds()].map(function(n){return(n<10?'0':'')+n}).join(':')}tick();if(!RM)setInterval(tick,1000);
-/* coin drag */
-var coin=D.querySelector('[data-coin]');if(coin&&!RM){var sx=0,ang=0,down=false;coin.addEventListener('pointerdown',function(e){down=true;sx=e.clientX;var m=getComputedStyle(coin).transform;coin.classList.add('drag');try{var M=new DOMMatrix(m);ang=Math.atan2(-M.m13,M.m11)*180/Math.PI}catch(_){ang=0}});
- addEventListener('pointermove',function(e){if(!down)return;coin.style.transform='rotateY('+(ang+(e.clientX-sx)*.8)+'deg)'});addEventListener('pointerup',function(){if(!down)return;down=false;setTimeout(function(){coin.classList.remove('drag');coin.style.transform=''},900)})}
-/* scenes push back as the next one slides over */
-var sc=[].slice.call(D.querySelectorAll('.scene'));if(!RM&&sc.length){var f=function(){sc.forEach(function(s){var r=s.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/innerHeight));var im=s.querySelector('img');if(im)im.style.setProperty('--sc',(1.04+p*.12).toFixed(3))})};addEventListener('scroll',f,{passive:true});f()}
-/* board */
-var rows=D.querySelector('[data-rows]');if(!rows)return;
-var CO=[[TK,NM+' · the real one',1,1],['PALM','Palm Tree Holdings',41.22],['NEON','Neon Sign Works',119.96],['SURF','Surf Shack Inc.',86.04],['DISC','Disco Ball Co.',25.96],['GATR','Gator Bail Bonds',12.02],['SUNS','Sunset Cellular',60.58],['TAPE','Mixtape Kingdom',11.41],['HURR','Hurricane Mutual',181.39],['MULL','Mullet Salons Intl.',30.76],['BOAT','Speedboat Capital',165.41],['ARCD','Arcade Row',61.76]];
-var seed=11;function rn(){seed=(seed*9301+49297)%233280;return seed/233280}
-var S=CO.map(function(c,i){var p=c[2],h=[];for(var k=0;k<60;k++){p=Math.max(.2,p*(1+(rn()-.47)*.04));h.push(p)}if(i===0){h=h.map(function(v,k){return 1+k*.012+Math.sin(k*.4)*.03})}return{t:c[0],n:c[1],h:h,o:h[0],fav:i===0}});
-var NEWS=[TK+' rings the opening bell. Floor traders cheer.','Speedboat Capital unveils a boat with no roof and no brakes. (parody)','Disco Ball Co. reports record glitter output. (parody)','Mixtape Kingdom rewinds the quarter. (parody)','Hurricane Mutual raises its umbrella budget. (parody)',TK+' holders refuse to sell the sunset.'];
-var sel=0,tf=0;function fmt(v){return v>=100?v.toFixed(2):v.toFixed(3)}
-function spark(cv,h){var w=90,hh=26,x=cv.getContext('2d');if(!x)return;var d=Math.min(2,devicePixelRatio||1);cv.width=w*d;cv.height=hh*d;x.setTransform(d,0,0,d,0,0);var a=h.slice(-30),mn=Math.min.apply(0,a),mx=Math.max.apply(0,a),up=a[a.length-1]>=a[0];x.strokeStyle=up?'#5cffb0':'#ff3d9a';x.lineWidth=1.5;x.beginPath();a.forEach(function(v,i){var X=i/(a.length-1)*w,Y=hh-2-(v-mn)/(mx-mn||1)*(hh-4);i?x.lineTo(X,Y):x.moveTo(X,Y)});x.stroke()}
-S.forEach(function(s,i){var r=D.createElement('div');r.className='tr'+(s.fav?' fav on':'');r.innerHTML='<span class="st">★</span><span class="co"><b></b><small></small></span><canvas aria-hidden="true"></canvas><span class="px"></span><span class="mv"></span><span class="pc"></span>';r.querySelector('b').textContent=s.t;r.querySelector('small').textContent=s.n;r.addEventListener('click',function(){sel=i;[].forEach.call(rows.querySelectorAll('.tr'),function(z){z.classList.remove('on')});r.classList.add('on');detail()});s.el=r;rows.appendChild(r)});
-function paint(s){var l=s.h[s.h.length-1],mv=l-s.o,pc=mv/s.o*100,up=mv>=0;s.el.querySelector('.px').textContent=fmt(l);var m=s.el.querySelector('.mv');m.textContent=(up?'+':'')+fmt(mv);m.className='mv '+(up?'up':'dn');var p=s.el.querySelector('.pc');p.textContent=(up?'▲ +':'▼ ')+pc.toFixed(2)+'%';p.className='pc '+(up?'up':'dn');spark(s.el.querySelector('canvas'),s.h)}
-var cv=D.querySelector('[data-chart]');
-function chart(){if(!cv)return;var x=cv.getContext('2d');if(!x)return;var w=cv.clientWidth||400,hh=cv.clientHeight||230,d=Math.min(2,devicePixelRatio||1);cv.width=w*d;cv.height=hh*d;x.setTransform(d,0,0,d,0,0);x.clearRect(0,0,w,hh);
- var s=S[sel],a=s.h.slice(tf===0?-30:tf===1?-45:0),n=a.length,mn=Math.min.apply(0,a)*.985,mx=Math.max.apply(0,a)*1.015,cw=w/n;function Y(v){return hh-18-(v-mn)/(mx-mn)*(hh-36)}
- x.strokeStyle='rgba(201,169,230,.1)';x.lineWidth=1;for(var g=1;g<5;g++){x.beginPath();x.moveTo(0,g*hh/5);x.lineTo(w,g*hh/5);x.stroke()}
- for(var i=1;i<n;i++){var o=a[i-1],c=a[i],hi=Math.max(o,c)*(1+rn()*.004),lo=Math.min(o,c)*(1-rn()*.004),up=c>=o,X=i*cw;x.strokeStyle=x.fillStyle=up?'#5cffb0':'#ff3d9a';x.beginPath();x.moveTo(X,Y(hi));x.lineTo(X,Y(lo));x.stroke();x.fillRect(X-cw*.3,Math.min(Y(o),Y(c)),cw*.6,Math.max(1.5,Math.abs(Y(o)-Y(c))))}
- var L=a[n-1];x.setLineDash([3,3]);x.strokeStyle='#ffc93d';x.beginPath();x.moveTo(0,Y(L));x.lineTo(w,Y(L));x.stroke();x.setLineDash([])}
-function detail(){var s=S[sel],l=s.h[s.h.length-1],pc=(l-s.o)/s.o*100;D.querySelector('[data-dt]').textContent=s.t;D.querySelector('[data-dn]').textContent=s.n;D.querySelector('[data-dp]').textContent=fmt(l);var c=D.querySelector('[data-dc]');c.textContent=(pc>=0?'+':'')+pc.toFixed(2)+'%';c.className=pc>=0?'up':'dn';D.querySelector('[data-dl]').textContent=s.t+' · '+['1D','1W','1M'][tf]+(sel?' · simulated parody data':' · simulated board view');chart()}
-[].forEach.call(D.querySelectorAll('[data-tabs] button'),function(b,i){b.addEventListener('click',function(){tf=i;[].forEach.call(D.querySelectorAll('[data-tabs] button'),function(z){z.classList.toggle('on',z===b)});detail()})});
-S.forEach(paint);detail();addEventListener('resize',chart);
-var wi=0,wire=D.querySelector('[data-wire]'),comp=D.querySelector('[data-comp]'),cc=D.querySelector('[data-compc]'),cv0=991.11;
-if(!RM)setInterval(function(){S.forEach(function(s,i){var l=s.h[s.h.length-1];s.h.push(Math.max(.2,l*(1+(rn()-(i?.48:.4))*.02)));s.h.shift();paint(s)});detail();wi=(wi+1)%NEWS.length;if(wire)wire.textContent=NEWS[wi];cv0*=1+(rn()-.45)*.004;if(comp)comp.textContent=cv0.toFixed(2);if(cc){var p=(cv0/967-1)*100;cc.textContent=(p>=0?'+':'')+p.toFixed(2)+'%';cc.className=p>=0?'up':'dn'}},2200);
-/* pump or dump */
-var st=0,out=D.querySelector('[data-out]');[].forEach.call(D.querySelectorAll('[data-call]'),function(b){b.addEventListener('click',function(){var up=rn()>.4,win=(b.getAttribute('data-call')==='1')===up;st=win?st+1:0;if(out)out.textContent=(up?'▲ green candle':'▼ red candle')+' · '+(win?'called it! ':'missed. ')+'Streak '+st})});
+/* c63: sticky horizontal briefing strip (scroll-driven translateX + progress), pointer parallax on the hero stage.
+   Sunburst rays + tumbling stars via the shared sunburst mode. */
+(function(){var R=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+var sec=document.querySelector('[data-c63-brief]'),tr=document.querySelector('[data-c63-track]'),pg=document.querySelector('[data-c63-prog]');
+if(sec&&tr&&!R){var on=false,dist=0;var size=function(){on=innerWidth>820;if(!on){sec.style.height='';tr.style.transform='';return}dist=Math.max(0,tr.scrollWidth-innerWidth);sec.style.height=(innerHeight+dist)+'px';u()};
+var u=function(){if(!on)return;var r=sec.getBoundingClientRect(),p=Math.max(0,Math.min(1,-r.top/Math.max(1,sec.offsetHeight-innerHeight)));tr.style.transform='translate3d('+(-p*dist)+'px,0,0)';if(pg)pg.style.setProperty('--p',(p*100).toFixed(1)+'%');pg&&(pg.style.width=(p*100).toFixed(1)+'%')};
+addEventListener('scroll',u,{passive:true});addEventListener('resize',size);addEventListener('load',size);size()}
+var st=document.querySelector('[data-c63-stage]');if(st&&!R&&matchMedia('(pointer:fine)').matches){var sp=st.querySelector('.stamp');st.addEventListener('pointermove',function(e){var b=st.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;if(sp)sp.style.transform='translate('+(x*-22)+'px,'+(y*-16)+'px) rotate(-12deg)'});st.addEventListener('pointerleave',function(){if(sp)sp.style.transform=''})}
 })();
 
 
