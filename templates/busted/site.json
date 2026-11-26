@@ -1,0 +1,91 @@
+{
+  "format": "meme-site-studio/site@1",
+  "name": "Busted",
+  "ticker": "BUSTED",
+  "template": "c41-gmegreatest",
+  "domain": "bustedeth.lol",
+  "ca": "TBA",
+  "chain": "ethereum",
+  "theme_mode": "original",
+  "theme_preset": "",
+  "theme_primary": "#9945ff",
+  "theme_secondary": "#14f195",
+  "domain_status": "not_connected",
+  "dns_records": [
+    {
+      "type": "A",
+      "name": "@",
+      "value": "76.76.21.21",
+      "host": "bustedeth.lol"
+    },
+    {
+      "type": "CNAME",
+      "name": "www",
+      "value": "cname.vercel-dns.com",
+      "host": "www.bustedeth.lol"
+    }
+  ],
+  "tagline": "",
+  "about": "New GTA is super realistic they caught me on camera stealing a bag of chips",
+  "x_url": "",
+  "tg_url": "",
+  "ref_x_url": "",
+  "socials": [],
+  "buy_url": "",
+  "dexs_url": "",
+  "supply": "",
+  "tax": "",
+  "lp": "",
+  "dex": "uniswap-v4",
+  "dex_auto": false,
+  "dex_name": "Uniswap V4",
+  "native": "",
+  "wallet": "",
+  "vercel_a": "",
+  "vercel_cname": "",
+  "logo": "assets/logo.png",
+  "banner": "assets/banner.webp",
+  "images": [
+    "assets/meme1.webp",
+    "assets/meme2.webp",
+    "assets/meme3.webp",
+    "assets/meme4.webp",
+    "assets/meme5.webp",
+    "assets/meme6.webp",
+    "assets/meme7.webp",
+    "assets/meme8.webp",
+    "assets/meme9.webp",
+    "assets/meme10.webp",
+    "assets/meme11.webp",
+    "assets/meme12.webp"
+  ],
+  "characters": [
+    "assets/char1.webp",
+    "assets/char2.webp",
+    "assets/char3.webp",
+    "assets/char4.webp",
+    "assets/char5.webp",
+    "assets/char6.webp",
+    "assets/char7.webp",
+    "assets/char8.webp"
+  ],
+  "backgrounds": [
+    "assets/gpt-bg1.webp",
+    "assets/gpt-bg2.webp",
+    "assets/gpt-bg3.webp"
+  ],
+  "resolved": {
+    "dex_name": "Uniswap V4",
+    "dex_logo": "assets/dex.png",
+    "buy_url_source": "dex",
+    "buy_url": "https://app.uniswap.org/",
+    "chart_page": "https://dexscreener.com/ethereum",
+    "chart_embed": "https://dexscreener.com/ethereum?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "chain_name": "Ethereum"
+  },
+  "site_slug": "busted",
+  "project_id": "pmwj9ufwefrllb",
+  "exported_at": "2026-11-16T13:00:46.779Z",
+  "make_videos": false,
+  "videos": []
+}
