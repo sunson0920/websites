@@ -2,7 +2,7 @@
   "format": "meme-site-studio/site@1",
   "name": "Pump Dog",
   "ticker": "PUMPDOG",
-  "template": "ut-hyperinu",
+  "template": "c06-itsafwog",
   "domain": "pumpdogmeme.site",
   "ca": "TBA",
   "chain": "solana",
@@ -59,7 +59,7 @@
   },
   "site_slug": "pumpdog",
   "project_id": "pmwwsok2pcbd7h",
-  "exported_at": "2026-11-26T00:08:57.720Z",
+  "exported_at": "2026-11-26T00:11:00.241Z",
   "make_videos": false,
   "videos": []
 }
