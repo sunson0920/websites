@@ -45,9 +45,24 @@
   "vercel_cname": "",
   "logo": "assets/logo.png",
   "banner": "assets/banner.webp",
-  "images": [],
-  "characters": [],
-  "backgrounds": [],
+  "images": [
+    "assets/memes/meme1.webp",
+    "assets/memes/meme2.webp",
+    "assets/memes/meme3.webp",
+    "assets/memes/meme4.webp",
+    "assets/memes/meme5.webp",
+    "assets/memes/meme6.webp"
+  ],
+  "characters": [
+    "assets/memes/char1.webp",
+    "assets/memes/char2.webp",
+    "assets/memes/char3.webp"
+  ],
+  "backgrounds": [
+    "assets/tpl/bg1.webp",
+    "assets/tpl/bg2.webp",
+    "assets/tpl/bg3.webp"
+  ],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
