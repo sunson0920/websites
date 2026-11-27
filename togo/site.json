@@ -2,32 +2,32 @@
   "format": "meme-site-studio/site@1",
   "name": "Togo",
   "ticker": "TOGO",
-  "template": "c51-flora-floor",
-  "domain": "togosol.lol",
-  "ca": "HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump",
+  "template": "ut-hyperinu",
+  "domain": "togomeme.site",
+  "ca": "TBA",
   "chain": "solana",
-  "theme_mode": "preset",
-  "theme_preset": "solana",
+  "theme_mode": "original",
+  "theme_preset": "",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "live",
+  "domain_status": "not_connected",
   "dns_records": [
     {
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "togosol.lol"
+      "host": "togomeme.site"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.togosol.lol"
+      "host": "www.togomeme.site"
     }
   ],
   "tagline": "",
   "about": "the legendary sled dog Togo's heroic 1925 serum run across Alaska's frozen wilderness.",
-  "x_url": "https://x.com/togosol_x",
+  "x_url": "",
   "tg_url": "",
   "ref_x_url": "",
   "socials": [],
@@ -67,15 +67,15 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump",
-    "chart_page": "https://dexscreener.com/solana/HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump",
-    "chart_embed": "https://dexscreener.com/solana/HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/",
+    "chart_page": "https://dexscreener.com/solana",
+    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "togo",
-  "project_id": "pmwfelitf18bl7",
-  "exported_at": "2026-11-13T20:05:53.314Z",
-  "make_videos": true,
+  "project_id": "pmwyalyt7ol7lh",
+  "exported_at": "2026-11-27T01:18:44.106Z",
+  "make_videos": false,
   "videos": [
     {
       "slot": "selector",
@@ -85,11 +85,13 @@
     },
     {
       "slot": "gallery",
+      "selector": "",
       "src": "assets/vid-2.mp4",
       "poster": "assets/vid-2.webp"
     },
     {
       "slot": "gallery",
+      "selector": "",
       "src": "assets/vid-3.mp4",
       "poster": "assets/vid-3.webp"
     }
