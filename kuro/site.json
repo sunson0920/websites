@@ -1,10 +1,10 @@
 {
   "format": "meme-site-studio/site@1",
-  "name": "KuroCoin",
+  "name": "Kuro",
   "ticker": "Kuro",
   "template": "c14-thegme",
   "domain": "kurocoinsol.lol",
-  "ca": "8TG9KGHbLYdArfk4mBRnbJNGKNXYkLFXDpNLbSeHpump",
+  "ca": "TBA",
   "chain": "solana",
   "theme_mode": "original",
   "theme_preset": "",
@@ -26,7 +26,7 @@
     }
   ],
   "tagline": "",
-  "about": "JUST IN: $KURO gains momentum after GROK confirms its Shiba mascot is named Kuro, drawing inspiration from Elon\u2019s iconic\n$DOGE.",
+  "about": "JUST IN: $Kuro gains momentum after GROK confirms its Shiba mascot is named Kuro, drawing inspiration from Elon’s iconic\n$DOGE.",
   "x_url": "https://x.com/kurocoin_x",
   "tg_url": "",
   "ref_x_url": "https://x.com/WhaleInsider/status/2125984923387674791",
@@ -53,30 +53,22 @@
     "assets/meme5.webp",
     "assets/meme6.webp",
     "assets/meme7.webp",
-    "assets/meme8.webp",
-    "assets/act1.webp",
-    "assets/act2.webp",
-    "assets/act3.webp",
-    "assets/act4.webp"
+    "assets/meme8.webp"
   ],
-  "characters": [
-    "assets/char-hero.webp",
-    "assets/char-star.webp",
-    "assets/char-seat.webp"
-  ],
+  "characters": [],
   "backgrounds": [],
   "resolved": {
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/8TG9KGHbLYdArfk4mBRnbJNGKNXYkLFXDpNLbSeHpump",
-    "chart_page": "https://dexscreener.com/solana/8TG9KGHbLYdArfk4mBRnbJNGKNXYkLFXDpNLbSeHpump",
-    "chart_embed": "https://dexscreener.com/solana/8TG9KGHbLYdArfk4mBRnbJNGKNXYkLFXDpNLbSeHpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/",
+    "chart_page": "https://dexscreener.com/solana",
+    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "kuro",
   "project_id": "pmwxugow1nov7h",
-  "exported_at": "2026-11-26T17:50:33.864Z",
+  "exported_at": "2026-11-27T00:23:09.224Z",
   "make_videos": false,
   "videos": []
 }
