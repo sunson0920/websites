@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Snow Pepe</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <style>
+      body {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.2s ease 0.2s, visibility 0.2s ease 0.2s;
+      }
+
+      .loaded body {
+        opacity: 1;
+        visibility: visible;
+      }
+    </style>
+    <link rel="stylesheet" href="css/style.min.css?_v=20241209203441" />
+    <link rel="shortcut icon" href="logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="menu-open-bg"></div>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__body">
+            <a href="#" class="header__logo"
+              ><img src="img/logo.png" alt="Logo" style="width: 60px"
+            /></a>
+            <div class="header__right">
+              <div class="header__menu menu">
+                <button type="button" class="menu__icon icon-menu">
+                  <span></span>
+                </button>
+                <nav class="menu__body">
+                  <ul class="menu__list">
+                    <li class="menu__item">
+                      <a
+                        href="https://t.me/#"
+                        target="_blank"
+                        data-goto=".about"
+                        data-goto-top="100"
+                        class="menu__link"
+                        >About</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a
+                        href="https://x.com/#"
+                        target="_blank"
+                        data-goto=".how"
+                        class="menu__link"
+                        >How To Buy</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a
+                        href="https://app.uniswap.org/swap?outputCurrency=0xcomingsoon"
+                        target="_blank"
+                        data-goto=".tokenomics"
+                        data-goto-top="100"
+                        class="menu__link"
+                        >Tokenomics</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__actions" data-da=".menu__body, 767.98">
+                <div class="header__social">
+                  <a
+                    href="https://t.me/#"
+                    target="_blank"
+                    class="header__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M19.7767 4.42997C20.0238 4.32596 20.2943 4.29008 20.5599 4.32608C20.8256 4.36208 21.0768 4.46863 21.2873 4.63465C21.4979 4.80067 21.6601 5.02008 21.757 5.27005C21.854 5.52002 21.8822 5.79141 21.8387 6.05597L19.5707 19.813C19.3507 21.14 17.8947 21.901 16.6777 21.24C15.6597 20.687 14.1477 19.835 12.7877 18.946C12.1077 18.501 10.0247 17.076 10.2807 16.062C10.5007 15.195 14.0007 11.937 16.0007 9.99997C16.7857 9.23897 16.4277 8.79997 15.5007 9.49997C13.1987 11.238 9.50265 13.881 8.28065 14.625C7.20265 15.281 6.64065 15.393 5.96865 15.281C4.74265 15.077 3.60565 14.761 2.67765 14.376C1.42365 13.856 1.48465 12.132 2.67665 11.63L19.7767 4.42997Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="https://x.com/#"
+                    target="_blank"
+                    class="header__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_724_5659)">
+                        <path
+                          d="M18.901 2.15332H22.581L14.541 11.3433L24 23.8463H16.594L10.794 16.2623L4.156 23.8463H0.474L9.074 14.0163L0 2.15432H7.594L12.837 9.08632L18.901 2.15332ZM17.61 21.6443H19.649L6.486 4.24032H4.298L17.61 21.6443Z"
+                          fill="black"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_724_5659">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+                <a
+                  href="https://app.uniswap.org/swap?outputCurrency=0xcomingsoon"
+                  target="_blank"
+                  class="header__button"
+                >
+                  BUY NOW
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="page__hero hero">
+          <div class="hero__helicopter">
+            <img src="img/hero/dec1.png" alt="helicopter" />
+          </div>
+          <div class="hero__sky">
+            <img src="img/hero/sky.jpg" alt="Sky" />
+          </div>
+          <div class="hero__mountain">
+            <img src="img/hero/Mountain.png" alt="Mountain" />
+            <img src="img/hero/Flags.png" alt="Flag" />
+            <img src="img/hero/AboutBG.png" alt="Snow" />
+          </div>
+          <div class="hero__container">
+            <h1 class="hero__title">
+              <img src="img/hero/hero-title.png" alt="Snow Pepe" />
+            </h1>
+            <div class="hero__content">
+              <div class="hero__text">
+                $SNOWPEPE is the white pepe memecoin like snow, literally.
+              </div>
+              <div class="hero__actions">
+                <a
+                  href="https://app.uniswap.org/swap?outputCurrency=0xcomingsoon"
+                  target="_blank"
+                  class="hero__buy"
+                  >BUY NOW</a
+                >
+                <div class="hero__social">
+                  <a
+                    href="https://x.com/#"
+                    target="_blank"
+                    class="hero__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_724_5659)">
+                        <path
+                          d="M18.901 2.15332H22.581L14.541 11.3433L24 23.8463H16.594L10.794 16.2623L4.156 23.8463H0.474L9.074 14.0163L0 2.15432H7.594L12.837 9.08632L18.901 2.15332ZM17.61 21.6443H19.649L6.486 4.24032H4.298L17.61 21.6443Z"
+                          fill="#fff"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_724_5659">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://t.me/#"
+                    target="_blank"
+                    class="hero__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="25"
+                      height="24"
+                      viewBox="0 0 25 24"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M20.2767 4.42997C20.5238 4.32596 20.7943 4.29008 21.0599 4.32608C21.3256 4.36208 21.5768 4.46863 21.7873 4.63465C21.9979 4.80067 22.1601 5.02008 22.257 5.27005C22.354 5.52002 22.3822 5.79141 22.3387 6.05597L20.0707 19.813C19.8507 21.14 18.3947 21.901 17.1777 21.24C16.1597 20.687 14.6477 19.835 13.2877 18.946C12.6077 18.501 10.5247 17.076 10.7807 16.062C11.0007 15.195 14.5007 11.937 16.5007 9.99997C17.2857 9.23897 16.9277 8.79997 16.0007 9.49997C13.6987 11.238 10.0027 13.881 8.78065 14.625C7.70265 15.281 7.14065 15.393 6.46865 15.281C5.24265 15.077 4.10565 14.761 3.17765 14.376C1.92365 13.856 1.98465 12.132 3.17665 11.63L20.2767 4.42997Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__about about">
+              <h2
+                class="about__title"
+                data-watch-threshold="0.6"
+                data-watch-once
+                data-watch
+              >
+                <img src="img/hero/about-title.png" alt="About Snow Pepe" />
+              </h2>
+              <div class="about__body">
+                <div class="about__image">
+                  <img src="img/hero/about.png" alt="Image" />
+                </div>
+                <div
+                  class="about__text"
+                  data-watch-threshold="0.7"
+                  data-watch-once
+                  data-watch
+                >
+                  We flew with Snow Pepe and launched a coin at the top. Why?
+                  Because starting at the peak just makes sense.
+                  <br />
+                  <br />
+                  <span>$SNOWPEPE</span> is all about climbing higher—new
+                  launches, tall buildings, iconic landmarks. With every move,
+                  we’re helping Solana grow, little by little, reaching new
+                  heights together.
+                  <br />
+                  <br />
+                  This is just the start. We’re climbing, and you’re coming with
+                  us.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__how how">
+          <div class="how__sky">
+            <img src="img/how/Sky.png" alt="Sky" />
+          </div>
+          <div class="how__helicopter">
+            <img src="img/how/helicopter.png" alt="helicopter" />
+          </div>
+          <div
+            class="how__title"
+            data-watch-threshold="0.4"
+            data-watch-once
+            data-watch
+          >
+            <img src="img/how/Title.png" alt="How To buy" />
+          </div>
+          <div class="how__body">
+            <div class="how__mountains">
+              <img src="img/how/Mountains.png" alt="Mountains" />
+            </div>
+            <div class="how__items">
+              <div
+                class="how__item how__item--1"
+                data-watch-threshold="0.5"
+                data-watch-once
+                data-watch
+              >
+                <img src="img/how/Step1.png" alt="Step1" />
+                <p>
+                  Download Metamask or your favorite crypto wallet from the app
+                  store or Google Play for free. If you're on desktop, grab the
+                  browser extension from Metamask’s official site. Get ready to
+                  climb!
+                </p>
+              </div>
+              <div
+                class="how__item how__item--2"
+                data-watch-threshold="0.5"
+                data-watch-once
+                data-watch
+              >
+                <img src="img/how/Step2.png" alt="Step2" />
+                <p>
+                  Make sure you’ve got ETH in your wallet to trade for
+                  $SNOWPEPE. If you don’t have any, you can buy ETH on an
+                  exchange or use a cross-chain swap service to load up.
+                </p>
+              </div>
+              <div
+                class="how__item how__item--3"
+                data-watch-threshold="0.5"
+                data-watch-once
+                data-watch
+              >
+                <img src="img/how/Step3.png" alt="Step3" />
+                <p>
+                  Head over to Uniswap in your browser or use it directly in the
+                  Metamask app. Connect your wallet, paste the $SNOWPEPE token
+                  address, and confirm the swap when prompted.
+                </p>
+              </div>
+              <div
+                class="how__item how__item--4"
+                data-watch-threshold="0.5"
+                data-watch-once
+                data-watch
+              >
+                <img src="img/how/Step4.png" alt="Step4" />
+                <p>
+                  Swap your ETH for $SNOWPEPE and officially join the climb!
+                  Don’t forget to smile—you’re on your way to Snow Pepe crypto
+                  vibes! 🚀❄️
+                </p>
+              </div>
+            </div>
+            <div class="how__tokenomics tokenomics">
+              <div class="tokenomics__flags">
+                <img src="img/how/Flags.png" alt="Flags" />
+              </div>
+              <div class="tokenomics__body">
+                <img src="img/how/tokenomics.png" alt="Tokenomics" />
+                <div class="tokenomics__body-hero">
+                  <img src="img/how/CHaracter.png" alt="Tokenomics" />
+                </div>
+                <div class="tokenomics__body-content">
+                  <div class="tokenomics__body-row">
+                    <span>TOTAL SUPPLY</span>
+                    <span>1B</span>
+                  </div>
+                  <div class="tokenomics__body-row">
+                    <span>BUY/ SELL TAX</span>
+                    <span>0%</span>
+                  </div>
+                  <div class="tokenomics__body-row">
+                    <span>LP</span>
+                    <span>BURTN</span>
+                  </div>
+                  <div class="tokenomics__body-ca">
+                    <span>CA:</span>
+                    <span>0xcomingsoon</span>
+                    <button type="button" class="copy-ca-btn">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="37"
+                        height="37"
+                        viewBox="0 0 37 37"
+                        fill="none"
+                      >
+                        <path
+                          d="M27.1328 24.0215L30.3147 24.2104L31.3222 7.24028L14.3521 6.23279L14.1632 9.41469M6.60299 29.1889L23.5731 30.1964L24.5806 13.2263L7.61047 12.2188L6.60299 29.1889Z"
+                          stroke="#E3C504"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__join join">
+          <div class="join__bg">
+            <img src="img/join/MountainBack.png" alt="BG" />
+          </div>
+          <div class="join__front">
+            <img src="img/join/Mountein Front.png" alt="Join Us" />
+            <div class="join__container">
+              <div class="join__image">
+                <img src="img/join/Character.png" alt="Snow Pepe" />
+              </div>
+              <div
+                class="join__actions"
+                data-watch-threshold="0.4"
+                data-watch-once
+                data-watch
+              >
+                <a
+                  href="https://app.uniswap.org/swap?outputCurrency=0xcomingsoon"
+                  target="_blank"
+                  class="join__buy"
+                  >BUY NOW</a
+                >
+                <div class="join__social">
+                  <a
+                    href="https://x.com/#"
+                    target="_blank"
+                    class="join__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                    >
+                      <g clip-path="url(#clip0_724_5659)">
+                        <path
+                          d="M18.901 2.15332H22.581L14.541 11.3433L24 23.8463H16.594L10.794 16.2623L4.156 23.8463H0.474L9.074 14.0163L0 2.15432H7.594L12.837 9.08632L18.901 2.15332ZM17.61 21.6443H19.649L6.486 4.24032H4.298L17.61 21.6443Z"
+                          fill="#fff"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_724_5659">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a
+                    href="https://t.me/#"
+                    target="_blank"
+                    class="join__social-item"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="44"
+                      viewBox="0 0 43 44"
+                      fill="none"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M35.2959 8.76019C35.7323 8.5765 36.21 8.51315 36.6792 8.57672C37.1484 8.6403 37.592 8.82848 37.9639 9.12168C38.3357 9.41488 38.6221 9.80238 38.7934 10.2438C38.9646 10.6853 39.0144 11.1646 38.9375 11.6318L34.932 35.9278C34.5435 38.2714 31.9721 39.6154 29.8228 38.448C28.0249 37.4714 25.3546 35.9667 22.9527 34.3966C21.7518 33.6107 18.073 31.0941 18.5251 29.3033C18.9137 27.7721 25.095 22.0182 28.6271 18.5973C30.0135 17.2533 29.3813 16.478 27.7441 17.7142C23.6786 20.7837 17.1511 25.4514 14.993 26.7654C13.0891 27.9239 12.0966 28.1217 10.9098 27.9239C8.74459 27.5637 6.73655 27.0056 5.09763 26.3256C2.88296 25.4073 2.99069 22.3625 5.09586 21.476L35.2959 8.76019Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__container">
+            <div class="footer__top-body">
+              <div class="footer__top-menu">
+                <div class="footer__top-column">
+                  <a
+                    href="#"
+                    data-goto=".about"
+                    data-goto-top="100"
+                    class="footer__top-menu-item"
+                  >
+                    About
+                  </a>
+                  <a href="#" data-goto=".how" class="footer__top-menu-item">
+                    How To Buy
+                  </a>
+                </div>
+                <div class="footer__top-column">
+                  <a
+                    href="#"
+                    data-goto=".tokenomics"
+                    data-goto-top="100"
+                    class="footer__top-menu-item"
+                  >
+                    Tokenomics
+                  </a>
+                  <div class="footer__top-social">
+                    <a
+                      href="https://t.me/#"
+                      target="_blank"
+                      class="footer__top-social-item"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M25.8974 6.36532C26.2119 6.23295 26.5561 6.18729 26.8943 6.23311C27.2324 6.27892 27.5521 6.41454 27.8201 6.62583C28.088 6.83712 28.2944 7.11637 28.4179 7.43452C28.5413 7.75266 28.5771 8.09806 28.5217 8.43478L25.6352 25.9437C25.3552 27.6326 23.5021 28.6011 21.9532 27.7599C20.6576 27.056 18.7332 25.9717 17.0023 24.8402C16.1368 24.2739 13.4857 22.4602 13.8116 21.1697C14.0916 20.0662 18.5461 15.9197 21.0916 13.4544C22.0907 12.4859 21.635 11.9271 20.4552 12.818C17.5254 15.03 12.8214 18.3939 11.2661 19.3408C9.89411 20.1757 9.17884 20.3182 8.32356 20.1757C6.7632 19.916 5.31611 19.5139 4.13502 19.0239C2.53902 18.362 2.61665 16.1679 4.13375 15.529L25.8974 6.36532Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://x.com/#"
+                      target="_blank"
+                      class="footer__top-social-item"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_724_5659)">
+                          <path
+                            d="M18.901 2.15332H22.581L14.541 11.3433L24 23.8463H16.594L10.794 16.2623L4.156 23.8463H0.474L9.074 14.0163L0 2.15432H7.594L12.837 9.08632L18.901 2.15332ZM17.61 21.6443H19.649L6.486 4.24032H4.298L17.61 21.6443Z"
+                            fill="#fff"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_724_5659">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                    <a
+                      href="https://dextools.io/app/en/ether/pair-explorer/0xcomingsoon"
+                      target="_blank"
+                      class="footer__top-social-item"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M13.5073 4.53441C11.9827 5.33408 10.7354 6.01084 10.7357 6.0384C10.7365 6.10939 14.3947 7.97508 14.5246 7.97054C14.5836 7.96858 15.0121 7.76993 15.4767 7.52927L16.3216 7.09172L17.2442 7.56931L18.1668 8.04701L19.6778 7.36333C21.9545 6.33312 22.1909 6.22023 22.1539 6.18235C22.1047 6.13199 21.2882 5.69031 19.0726 4.51573C18.0019 3.94805 16.9627 3.39151 16.7631 3.27882C16.5635 3.16603 16.3731 3.07542 16.3398 3.07717C16.3065 3.07893 15.0318 3.73464 13.5072 4.53431L13.5073 4.53441ZM6.82056 8.02111L5.23354 8.84668V12.4696C5.23354 14.4622 5.25435 16.0925 5.27997 16.0925C5.30559 16.0925 6.08629 15.7517 7.01507 15.3351L8.70385 14.5776V10.7588L9.52913 11.2115C10.165 11.5601 10.8014 11.9079 11.438 12.2551L12.5217 12.8459L13.0038 12.6262C13.3063 12.4883 13.6081 12.3491 13.9093 12.2084C14.142 12.0992 14.7133 11.8401 15.1789 11.6325C15.6445 11.4247 16.0754 11.2158 16.1365 11.1682C16.2176 11.1049 15.2279 10.5542 12.4756 9.13088C10.4009 8.05805 8.63693 7.18367 8.55556 7.1879C8.47419 7.19213 7.69349 7.56694 6.82056 8.02101V8.02111ZM22.4398 8.25289C21.3589 8.74421 20.4738 9.16587 20.4727 9.18991C20.4718 9.21396 21.0609 9.56668 21.7819 9.97369C22.5029 10.3808 23.0929 10.7356 23.0929 10.7623C23.0929 10.789 22.4548 11.1003 21.6751 11.4542C20.8953 11.8081 18.9243 12.7045 17.2949 13.4461L11.8355 15.9311C10.4621 16.5563 9.22425 17.1197 9.08457 17.1834C6.27946 18.4621 5.5085 18.8169 5.40264 18.8778C5.29616 18.9391 5.27208 19.2953 5.25312 21.0833L5.23047 23.2159L6.64972 23.944L8.06888 24.6722L10.0368 23.7779C11.1192 23.286 12.0048 22.8579 12.0048 22.8263C12.0048 22.7947 11.8047 22.6637 11.5604 22.5346C11.316 22.4055 10.8113 22.1198 10.4388 21.8995C10.0664 21.6792 9.69515 21.4771 9.61357 21.4503C9.5321 21.4235 9.46661 21.3768 9.46795 21.3462C9.46928 21.3158 10.3359 20.9014 11.3936 20.4251C13.4479 19.5002 15.02 18.7873 18.3953 17.2504C19.9045 16.5632 21.414 15.8767 22.9236 15.1903C24.2503 14.5872 25.7929 13.883 26.3516 13.6252L27.3672 13.1566L27.3898 10.9998L27.4124 8.84307L25.973 8.09913C25.1812 7.68995 24.5045 7.35621 24.4691 7.35745C24.4336 7.35859 23.5203 7.76157 22.4396 8.25299L22.4398 8.25289ZM26.9817 16.0338C26.7696 16.1381 26.3506 16.3335 26.0507 16.4678C25.7507 16.6022 25.1815 16.8608 24.7857 17.0426L24.0663 17.3731L24.0499 19.2665C24.0409 20.3079 24.0028 21.1553 23.9653 21.1499C23.8801 21.1371 22.5317 20.4407 21.1763 19.7093C20.198 19.1815 20.1365 19.1605 19.9066 19.2752C19.7737 19.3416 18.9794 19.7003 18.1414 20.0725C17.3034 20.4447 16.5906 20.7736 16.557 20.8033C16.5235 20.833 18.21 21.7535 20.3048 22.8489L24.1134 24.8405L25.7404 23.9929C26.6351 23.5269 27.3959 23.1017 27.431 23.0483C27.5099 22.928 27.5031 15.8275 27.4241 15.8371C27.3929 15.8409 27.1937 15.9294 26.9816 16.0337L26.9817 16.0338ZM17.9721 24.368C17.6899 24.4902 17.4077 24.6126 17.1257 24.7351C16.274 25.1062 16.4408 25.1185 15.4275 24.6106C14.7526 24.2723 14.4616 24.1678 14.3354 24.2185C14.2407 24.2565 13.4254 24.6258 12.5237 25.0392C11.622 25.4526 10.853 25.7908 10.8147 25.7908C10.4364 25.7908 11.0654 26.1692 13.4924 27.402L16.3387 28.8477L17.5363 28.2524C18.1949 27.9249 19.5235 27.2691 20.4886 26.7952C21.4537 26.3211 22.2314 25.9209 22.2169 25.9059C22.2022 25.8908 21.3935 25.4727 20.4198 24.9767L18.6492 24.075L17.9721 24.3682V24.368Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </a>
+                    <a
+                      href="https://dexscreener.com/ethereum/0xcomingsoon"
+                      target="_blank"
+                      class="footer__top-social-item"
+                    >
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="28"
+                        viewBox="0 0 24 28"
+                        fill="none"
+                      >
+                        <g clip-path="url(#clip0_1295_3498)">
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M14.4147 10.0022C15.2732 9.57611 16.3651 8.94872 17.4587 8.089C17.6891 8.56581 17.7146 8.98183 17.5956 9.31765C17.5114 9.55437 17.3527 9.76031 17.1443 9.92408C16.9185 10.101 16.6364 10.2301 16.3246 10.2997C15.733 10.4325 15.0422 10.3548 14.4147 10.002M14.5636 14.3688L15.6998 15.0224C13.3799 16.3173 12.7491 18.7215 11.9998 21.0632C11.2508 18.7215 10.62 16.317 8.30015 15.0224L9.4363 14.3688C9.66181 14.284 9.80678 14.0643 9.79535 13.8245C9.69117 11.6314 10.2859 10.6614 11.0882 10.0527C11.3758 9.83457 11.6899 9.72513 11.9998 9.72513C12.3098 9.72513 12.6239 9.83457 12.9115 10.0527C13.7135 10.6617 14.3082 11.6314 14.2043 13.8245C14.1929 14.0643 14.3381 14.284 14.5634 14.3688H14.5636ZM12.0001 0.0488281C13.3134 0.0840137 14.6301 0.337816 15.7728 0.831708C16.5641 1.17425 17.3023 1.62649 17.971 2.16747C18.2729 2.4117 18.5215 2.64765 18.7954 2.9193C19.534 2.94465 20.6135 2.12762 21.1147 1.36311C20.2521 4.17874 16.3165 7.50352 13.5919 8.77589C13.5909 8.77537 13.5901 8.77486 13.5893 8.77434C13.1004 8.40256 12.5504 8.21654 12.0003 8.21654C11.4503 8.21654 10.9003 8.40256 10.4114 8.77434C10.4106 8.77486 10.4098 8.77563 10.4088 8.77589C7.68363 7.50352 3.74831 4.17848 2.88574 1.36311C3.38691 2.12762 4.46616 2.94491 5.20479 2.9193C5.47863 2.64791 5.72727 2.4117 6.02917 2.16747C6.69765 1.62649 7.43603 1.17425 8.22741 0.831708C9.3703 0.337816 10.6868 0.0840137 12.0001 0.0488281ZM9.58542 10.0022C8.72728 9.57611 7.63504 8.94872 6.54151 8.089C6.31106 8.56581 6.2856 8.98183 6.40433 9.31765C6.48851 9.55437 6.64725 9.76031 6.85562 9.92408C7.08165 10.101 7.3638 10.2301 7.67557 10.2997C8.26716 10.4325 8.95799 10.3548 9.58517 10.002"
+                            fill="white"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M18.657 7.03614C19.259 6.43126 19.7895 5.7617 20.2159 5.16406L20.4326 5.56999C21.1299 6.9593 21.4923 8.34319 21.4923 9.90041L21.4908 12.3717L21.5038 13.6526C21.5542 16.7976 22.2377 19.9793 23.7857 22.8911L20.5469 20.2905L18.2554 23.9935L15.848 21.7367L12.0007 27.9537L8.15349 21.737L5.7461 23.9938L3.45459 20.2908L0.21582 22.8914C1.76376 19.9795 2.44706 16.7976 2.49772 13.6528L2.51071 12.3719L2.50915 9.90067C2.50915 8.34319 2.87132 6.95956 3.56891 5.57025L3.78533 5.16432C4.21194 5.7617 4.7422 6.43126 5.34418 7.0364L5.15608 7.42526C4.79079 8.18045 4.66998 9.02491 4.95447 9.82823C5.13789 10.3454 5.47253 10.7891 5.90407 11.1278C6.32314 11.4566 6.81911 11.6783 7.33821 11.7947C7.67648 11.8705 8.02099 11.9018 8.36342 11.8912C8.28365 12.3422 8.24858 12.8097 8.2465 13.2862L5.19141 15.0435L7.54892 16.3593C7.73728 16.4646 7.91681 16.5849 8.08516 16.7197C10.0288 18.4575 11.1974 23.5985 12.0005 26.1096C12.8035 23.5985 13.9722 18.4575 15.9158 16.7197C16.0841 16.5852 16.2637 16.4646 16.452 16.3593L18.8095 15.0435L15.7544 13.2862C15.7521 12.8097 15.7173 12.3422 15.6375 11.8912C15.98 11.9018 16.3245 11.8705 16.6627 11.7947C17.1818 11.6783 17.6778 11.4566 18.0969 11.1278C18.5284 10.7891 18.8631 10.3454 19.0465 9.82823C19.331 9.02517 19.2102 8.18071 18.8449 7.42526L18.6568 7.0364L18.657 7.03614Z"
+                            fill="white"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1295_3498">
+                            <rect
+                              width="23.5698"
+                              height="27.9045"
+                              fill="white"
+                              transform="translate(0.214844 0.0478516)"
+                            />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="footer__container">
+            <div class="footer__bottom-body">
+              <span>2025 © ALL RIGHTS RESERVED </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/app.min.js?_v=20241209203441"></script>
+    <script src="js/demo.js"></script>
+  </body>
+</html>
