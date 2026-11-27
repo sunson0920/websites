@@ -3,26 +3,26 @@
   "name": "Togo",
   "ticker": "TOGO",
   "template": "c53-typix-arcade",
-  "domain": "togomeme.site",
-  "ca": "2QChKk7EvS3K9ezWu7Qs7981Qd2aJz4FEPce1HBZpump",
+  "domain": "togomeme.lol",
+  "ca": "TBA",
   "chain": "solana",
   "theme_mode": "preset",
   "theme_preset": "solana",
   "theme_primary": "#9945ff",
   "theme_secondary": "#14f195",
-  "domain_status": "not_connected",
+  "domain_status": "live",
   "dns_records": [
     {
       "type": "A",
       "name": "@",
       "value": "76.76.21.21",
-      "host": "togomeme.site"
+      "host": "togomeme.lol"
     },
     {
       "type": "CNAME",
       "name": "www",
       "value": "cname.vercel-dns.com",
-      "host": "www.togomeme.site"
+      "host": "www.togomeme.lol"
     }
   ],
   "tagline": "",
@@ -67,14 +67,14 @@
     "dex_name": "Pump.fun",
     "dex_logo": "assets/dex.png",
     "buy_url_source": "dex",
-    "buy_url": "https://pump.fun/coin/2QChKk7EvS3K9ezWu7Qs7981Qd2aJz4FEPce1HBZpump",
-    "chart_page": "https://dexscreener.com/solana/2QChKk7EvS3K9ezWu7Qs7981Qd2aJz4FEPce1HBZpump",
-    "chart_embed": "https://dexscreener.com/solana/2QChKk7EvS3K9ezWu7Qs7981Qd2aJz4FEPce1HBZpump?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
+    "buy_url": "https://pump.fun/",
+    "chart_page": "https://dexscreener.com/solana",
+    "chart_embed": "https://dexscreener.com/solana?embed=1&loadChartSettings=0&trades=0&tabs=0&info=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=1&chartType=usd&interval=15",
     "chain_name": "Solana"
   },
   "site_slug": "togo",
   "project_id": "pmwyalyt7ol7lh",
-  "exported_at": "2026-11-27T01:28:47.392Z",
+  "exported_at": "2026-11-27T17:09:33.844Z",
   "make_videos": false,
   "videos": [
     {
