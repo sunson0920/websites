@@ -1,13 +1,13 @@
 {
-  "name": "Binance Mascot",
+  "name": "Binance AI",
   "ticker": "BIBI",
   "chain": "BNB Chain",
-  "ca": "0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+  "ca": "0xcomingsoon",
   "links": {
-    "x": "https://x.com/4agentonbsc4agent_x",
-    "buy": "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
-    "chart": "https://dexscreener.com/bsc/0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
-    "explorer": "https://bscscan.com/token/0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+    "x": "https://x.com/bibionai",
+    "buy": "",
+    "chart": "",
+    "explorer": "",
     "telegram": ""
   },
   "theme": {
@@ -44,5 +44,8 @@
     "/assets/img/bg-token.jpg"
   ],
   "quote": "BIBI definitely deserves to moon! Honestly, if the Giggle mascot can hit a 30m market cap, I really think the Binance mascot should be sitting at at least 100m",
-  "embed": "https://x.com/binance/status/2126573119230054692"
+  "embed": [
+    "https://x.com/binance/status/2126573119230054692",
+    "https://x.com/binance/status/1993590550662967781"
+  ]
 }

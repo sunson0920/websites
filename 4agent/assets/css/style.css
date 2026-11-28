@@ -829,7 +829,7 @@ picture{display:contents}
   50%{filter:drop-shadow(0 16px 34px rgba(255,220,120,.65)) brightness(1.16)}
 }
 
-/* ── Binance Mascot refresh: gold #F0B90B on black, 3D backgrounds ── */
+/* ── Binance AI refresh: gold #F0B90B on black, 3D backgrounds ── */
 :root{--violet:#F0B90B;--magenta:#FCD535;--void:#000}
 .hero,.lore,.token,.buy{position:relative;isolation:isolate}
 .hero::before,.lore::before,.token::before,.buy::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background-size:cover;background-position:center}
@@ -851,8 +851,11 @@ picture{display:contents}
 .quote-card{position:relative;margin:0 auto 28px;max-width:860px;padding:44px 40px 36px;text-align:center;border-radius:calc(var(--r) + 6px);border:1px solid rgba(240,185,11,.55);background:linear-gradient(160deg,rgba(240,185,11,.14),rgba(0,0,0,.72) 55%);box-shadow:0 0 0 1px rgba(240,185,11,.12),0 30px 80px -30px rgba(240,185,11,.55),inset 0 1px 0 rgba(255,236,170,.25);transform-style:preserve-3d}
 .quote-mark{position:absolute;left:24px;top:-6px;font:700 120px/1 var(--display);color:#F0B90B;opacity:.55;text-shadow:0 0 30px rgba(240,185,11,.6)}
 .quote-text{margin:0;font-family:var(--display);font-size:clamp(20px,2.7vw,32px);line-height:1.4;color:#fffaf0;letter-spacing:.01em;text-wrap:balance}
-.embed-card{margin:0 auto;max-width:620px;padding:26px 22px 22px;border-radius:calc(var(--r) + 6px);border:1px solid rgba(240,185,11,.55);background:rgba(0,0,0,.6);box-shadow:0 30px 70px -30px rgba(240,185,11,.5)}
+.embed-row{display:grid;grid-template-columns:1fr;gap:22px;margin:0 auto;align-items:start}
+@media (min-width:1000px){.embed-row{grid-template-columns:1fr 1fr}}
+.embed-card{margin:0 auto;max-width:550px;width:100%;padding:26px 22px 22px;border-radius:calc(var(--r) + 6px);border:1px solid rgba(240,185,11,.55);background:rgba(0,0,0,.6);box-shadow:0 30px 70px -30px rgba(240,185,11,.5)}
 .embed-in{max-width:550px;margin:0 auto;display:flex;justify-content:center;min-height:120px}
 .embed-in .twitter-tweet{margin:0 auto!important}
 .embed-cta{text-align:center;margin-top:16px}
+a.is-soon, .btn.is-soon, .social.is-soon{opacity:.55;pointer-events:none;cursor:not-allowed;filter:none;transform:none!important;box-shadow:none!important}
 @media (max-width:560px){.quote-card{padding:40px 22px 28px}.quote-mark{font-size:84px}}

@@ -1,10 +1,11 @@
-/* Binance Mascot — BIBI on BNB Chain.
+/* Binance AI — BIBI on BNB Chain.
    One rAF loop drives the field; everything else is event-driven. */
 (() => {
   'use strict';
 
-  // BEP-20 contract. Posted on this page and on https://x.com/4agentonbsc4agent_x.
-  const CONTRACT = '0xe0e3d251f3f66880e0dfb60a5f129381b225022f';
+  // BEP-20 contract. Posted on this page and on https://x.com/bibionai.
+  const CONTRACT = '0xcomingsoon';
+  const LIVE_CA = /^0x[a-fA-F0-9]{40}$/.test(CONTRACT);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const coarse = matchMedia('(pointer: coarse)').matches;
   const $  = (s, r = document) => r.querySelector(s);
@@ -205,8 +206,8 @@
 
   async function loadStats() {
     const note = $('#stats-note');
-    if (!CONTRACT) {
-      if (note) note.textContent = 'Quotes show up here once the contract is posted.';
+    if (!LIVE_CA) {
+      if (note) note.textContent = 'Coming soon';
       return;
     }
     try {
@@ -328,7 +329,7 @@
         const url = typeof item === 'string' ? '' : (item.url || '');
         const src = (file.startsWith('data:') || file.startsWith('/') || file.startsWith('http'))
           ? file : '/assets/img/community/' + file;
-        const alt = author ? `Binance Mascot art · ${author}` : 'Binance Mascot art';
+        const alt = author ? `Binance AI art · ${author}` : 'Binance AI art';
         const idx = lbItems.length;
         lbItems.push({ src, alt, author, url });
 
