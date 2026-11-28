@@ -1,0 +1,46 @@
+{
+  "name": "Binance AI",
+  "ticker": "4AGENT",
+  "chain": "BNB Chain",
+  "ca": "0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+  "links": {
+    "x": "https://x.com/4agentonbsc4agent_x",
+    "buy": "https://pancakeswap.finance/swap?chain=bsc&outputCurrency=0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+    "chart": "https://dexscreener.com/bsc/0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+    "explorer": "https://bscscan.com/token/0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
+    "telegram": ""
+  },
+  "theme": {
+    "primary": "#F0B90B",
+    "background": "#000000"
+  },
+  "logo": "/assets/img/logo.png",
+  "banner": "/assets/img/banner.png",
+  "images": [
+    "/assets/img/hero.jpg",
+    "/assets/img/stage.jpg",
+    "/assets/img/lore-land.jpg",
+    "/assets/img/lore-jar.jpg",
+    "/assets/img/lore-run.jpg",
+    "/assets/img/lore-pack.jpg",
+    "/assets/img/join.jpg",
+    "/assets/img/gen/meme1.jpg",
+    "/assets/img/gen/meme2.jpg",
+    "/assets/img/gen/meme3.jpg",
+    "/assets/img/gen/meme4.jpg",
+    "/assets/img/gen/meme5.jpg",
+    "/assets/img/gen/meme6.jpg",
+    "/assets/img/gen/meme7.jpg",
+    "/assets/img/gen/meme8.jpg"
+  ],
+  "characters": [
+    "/assets/img/gen/char1.jpg",
+    "/assets/img/gen/char2.jpg",
+    "/assets/img/gen/char3.jpg"
+  ],
+  "backgrounds": [
+    "/assets/img/bg-hero.jpg",
+    "/assets/img/bg-lore.jpg",
+    "/assets/img/bg-token.jpg"
+  ]
+}
