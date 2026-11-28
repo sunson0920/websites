@@ -1,7 +1,7 @@
 {
-  "name": "Binance AI \u2014 4AGENT",
-  "short_name": "4AGENT",
-  "description": "Binance AI, ticker 4AGENT. A yellow diamond and its gold AI robot agents on BNB Chain. A meme coin, not Binance.",
+  "name": "Binance Mascot \u2014 BIBI",
+  "short_name": "BIBI",
+  "description": "Binance Mascot, ticker BIBI. A smiling yellow diamond mascot on BNB Chain. A meme coin, not Binance.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -9,7 +9,7 @@
   "icons": [
     {
       "src": "/assets/img/logo.png",
-      "sizes": "500x500",
+      "sizes": "400x400",
       "type": "image/png",
       "purpose": "any"
     }

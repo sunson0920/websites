@@ -1,6 +1,6 @@
 {
-  "name": "Binance AI",
-  "ticker": "4AGENT",
+  "name": "Binance Mascot",
+  "ticker": "BIBI",
   "chain": "BNB Chain",
   "ca": "0xe0e3d251f3f66880e0dfb60a5f129381b225022f",
   "links": {
@@ -17,21 +17,21 @@
   "logo": "/assets/img/logo.png",
   "banner": "/assets/img/banner.png",
   "images": [
-    "/assets/img/hero.jpg",
-    "/assets/img/stage.jpg",
-    "/assets/img/lore-land.jpg",
-    "/assets/img/lore-jar.jpg",
-    "/assets/img/lore-run.jpg",
-    "/assets/img/lore-pack.jpg",
-    "/assets/img/join.jpg",
-    "/assets/img/gen/meme1.jpg",
-    "/assets/img/gen/meme2.jpg",
-    "/assets/img/gen/meme3.jpg",
-    "/assets/img/gen/meme4.jpg",
-    "/assets/img/gen/meme5.jpg",
-    "/assets/img/gen/meme6.jpg",
-    "/assets/img/gen/meme7.jpg",
-    "/assets/img/gen/meme8.jpg"
+    "assets/img/hero.jpg",
+    "assets/img/stage.jpg",
+    "assets/img/lore-land.jpg",
+    "assets/img/lore-jar.jpg",
+    "assets/img/lore-run.jpg",
+    "assets/img/lore-pack.jpg",
+    "assets/img/join.jpg",
+    "assets/img/gen/meme1.jpg",
+    "assets/img/gen/meme2.jpg",
+    "assets/img/gen/meme3.jpg",
+    "assets/img/gen/meme4.jpg",
+    "assets/img/gen/meme5.jpg",
+    "assets/img/gen/meme6.jpg",
+    "assets/img/gen/meme7.jpg",
+    "assets/img/gen/meme8.jpg"
   ],
   "characters": [
     "/assets/img/gen/char1.jpg",
@@ -42,5 +42,7 @@
     "/assets/img/bg-hero.jpg",
     "/assets/img/bg-lore.jpg",
     "/assets/img/bg-token.jpg"
-  ]
+  ],
+  "quote": "BIBI definitely deserves to moon! Honestly, if the Giggle mascot can hit a 30m market cap, I really think the Binance mascot should be sitting at at least 100m",
+  "embed": "https://x.com/binance/status/2126573119230054692"
 }

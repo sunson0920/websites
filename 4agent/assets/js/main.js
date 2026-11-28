@@ -1,4 +1,4 @@
-/* Binance AI — 4AGENT on BNB Chain.
+/* Binance Mascot — BIBI on BNB Chain.
    One rAF loop drives the field; everything else is event-driven. */
 (() => {
   'use strict';
@@ -304,7 +304,7 @@
       for (let i = 0; i < 6; i++) {
         const d = document.createElement('div');
         d.className = 'tile empty';
-        d.innerHTML = '<div><span>✦</span>4AGENT art<br>lands here</div>';
+        d.innerHTML = '<div><span>✦</span>BIBI art<br>lands here</div>';
         grid.appendChild(d);
       }
     };
@@ -328,7 +328,7 @@
         const url = typeof item === 'string' ? '' : (item.url || '');
         const src = (file.startsWith('data:') || file.startsWith('/') || file.startsWith('http'))
           ? file : '/assets/img/community/' + file;
-        const alt = author ? `Binance AI art · ${author}` : 'Binance AI art';
+        const alt = author ? `Binance Mascot art · ${author}` : 'Binance Mascot art';
         const idx = lbItems.length;
         lbItems.push({ src, alt, author, url });
 
